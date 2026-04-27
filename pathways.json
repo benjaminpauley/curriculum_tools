@@ -60865,7 +60865,7 @@
       "program_name": "Philosophy",
       "program_name_from_sheet": "Philosophy Major",
       "degree_type": "BA",
-      "banner_major_code": null,
+      "banner_major_code": "PHIL",
       "banner_concentration_code": null,
       "banner_code_note": "Banner mapping unknown — requires manual lookup or Banner export.",
       "source_file": "philosophy.xlsx",
