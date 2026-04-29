@@ -1,0 +1,111 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "VART": {
+      "programName": "Concentration in Visual Arts",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000052",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Issues in Contemporary Art"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 334",
+                  "ART 335"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Art Exhibitions or Graphic Design III"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 325",
+                  "ART 332",
+                  "ART 342",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 490"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436",
+                  "ART 487"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Capstone Course"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

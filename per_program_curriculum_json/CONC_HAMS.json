@@ -1,0 +1,912 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "HAMS": {
+      "programName": "Concentration in American Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000034",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Early American Experience or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "AMS 251",
+                      "HIS 251"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Introduction to American Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Historical Research And Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 201:499"
+                ],
+                "except": [
+                  "{HIDE HIS 400, 420} MinClasses 3 in HIS @ (With ATTRIBUTE=HUS) HighPriority MinClasses 3 in HIS 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "History Electives"
+              },
+              "minClasses": 5,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 365",
+                  "ART 360",
+                  "ART 369",
+                  "COM 321",
+                  "ECO 200",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 377",
+                  "EDU 210",
+                  "EDU 357",
+                  "EES 106",
+                  "EES 428",
+                  "ENG 212",
+                  "ENG 213",
+                  "ENG 223",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 321",
+                  "ENG 329",
+                  "ENG 342",
+                  "ENG 345",
+                  "ENG 347",
+                  "ENG 350",
+                  "ENG 373",
+                  "ENG 374",
+                  "FLM 321",
+                  "GEO 228",
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 221",
+                  "HIS 241",
+                  "HIS 243",
+                  "HIS 244",
+                  "HIS 245",
+                  "HIS 250",
+                  "HIS 251",
+                  "HIS 253",
+                  "HIS 302",
+                  "HIS 303",
+                  "HIS 305",
+                  "HIS 307",
+                  "HIS 313",
+                  "HIS 315",
+                  "HIS 316",
+                  "HIS 318",
+                  "HIS 320",
+                  "HIS 321",
+                  "HIS 322",
+                  "HIS 325",
+                  "HIS 327",
+                  "HIS 340",
+                  "HIS 352",
+                  "HIS 365",
+                  "HIS 380",
+                  "HIS 381",
+                  "HIS 383",
+                  "HIS 384",
+                  "HIS 385",
+                  "HIS 480",
+                  "HIS 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "American Studies Electives"
+              },
+              "minClasses": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AMS 420",
+                  "HIS 400",
+                  "HIS 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Seminar"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "HISTORY ELECTIVES: A minimum of 5 courses at the 200-level or above;",
+            "at least 3 of which must be US history (with course attribute of HUS)",
+            "and at least 3 of which must be at the 300-400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "CONC_ARHI": 6,
+            "CONC_VART": 6,
+            "CONC_SPMG": 3,
+            "CONC_EESC": 4,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGL": 15,
+            "CONC_H/SS": 18,
+            "CONC_NSCI": 3,
+            "CONC_MATH": 3,
+            "CONC_PERM": 6,
+            "CONC_MUSP": 6,
+            "CONC_MUSM": 6,
+            "OTHER_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001747",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Early American Experience or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "AMS 251",
+                      "HIS 251"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Introduction to American Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Historical Research And Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 201:499"
+                ],
+                "except": [
+                  "{HIDE HIS 400, 420} MinClasses 3 in HIS @ (With ATTRIBUTE=HUS) HighPriority MinClasses 3 in HIS 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "History Electives"
+              },
+              "minClasses": 5,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 365",
+                  "ART 360",
+                  "ART 369",
+                  "COM 321",
+                  "ECO 200",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 377",
+                  "EDU 210",
+                  "EDU 357",
+                  "EES 106",
+                  "EES 428",
+                  "ENG 223",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 259",
+                  "ENG 321",
+                  "ENG 329",
+                  "ENG 342",
+                  "ENG 347",
+                  "ENG 350",
+                  "ENG 373",
+                  "ENG 374",
+                  "FLM 321",
+                  "GEO 228",
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 221",
+                  "HIS 241",
+                  "HIS 243",
+                  "HIS 244",
+                  "HIS 245",
+                  "HIS 250",
+                  "HIS 251",
+                  "HIS 253",
+                  "HIS 302",
+                  "HIS 303",
+                  "HIS 305",
+                  "HIS 307",
+                  "HIS 313",
+                  "HIS 315",
+                  "HIS 316",
+                  "HIS 318",
+                  "HIS 320",
+                  "HIS 321",
+                  "HIS 322",
+                  "HIS 325",
+                  "HIS 327",
+                  "HIS 340",
+                  "HIS 352",
+                  "HIS 365",
+                  "HIS 380",
+                  "HIS 381",
+                  "HIS 383",
+                  "HIS 384",
+                  "HIS 385",
+                  "HIS 480",
+                  "HIS 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "American Studies Electives"
+              },
+              "minClasses": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AMS 420",
+                  "HIS 400",
+                  "HIS 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Seminar"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "HISTORY ELECTIVES: A minimum of 5 courses at the 200-level or above;",
+            "at least 3 of which must be US history (with course attribute of HUS)",
+            "and at least 3 of which must be at the 300-400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "CONC_ARHI": 6,
+            "CONC_VART": 6,
+            "CONC_SPMG": 3,
+            "CONC_EESC": 4,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGL": 15,
+            "CONC_H/SS": 18,
+            "CONC_NSCI": 3,
+            "CONC_MATH": 3,
+            "CONC_PERM": 6,
+            "CONC_MUSP": 6,
+            "CONC_MUSM": 6,
+            "OTHER_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002202",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 101"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1.1",
+                    "text": "History Professionalism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Early American Experience or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "AMS 251",
+                      "HIS 251"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Introduction to American Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Historical Research And Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 201:499"
+                ],
+                "except": [
+                  "{HIDE HIS 400, 420} MinClasses 3 in HIS @ (With ATTRIBUTE=HUS) HighPriority MinClasses 3 in HIS 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "History Electives"
+              },
+              "minClasses": 5,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 365",
+                  "ART 360",
+                  "ART 369",
+                  "COM 321",
+                  "ECO 200",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 377",
+                  "EDU 210",
+                  "EDU 357",
+                  "EES 106",
+                  "EES 428",
+                  "ENG 223",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 259",
+                  "ENG 321",
+                  "ENG 329",
+                  "ENG 342",
+                  "ENG 347",
+                  "ENG 350",
+                  "ENG 373",
+                  "ENG 374",
+                  "FLM 321",
+                  "GEO 228",
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 221",
+                  "HIS 241",
+                  "HIS 243",
+                  "HIS 244",
+                  "HIS 245",
+                  "HIS 250",
+                  "HIS 251",
+                  "HIS 253",
+                  "HIS 302",
+                  "HIS 303",
+                  "HIS 305",
+                  "HIS 307",
+                  "HIS 313",
+                  "HIS 315",
+                  "HIS 316",
+                  "HIS 318",
+                  "HIS 320",
+                  "HIS 321",
+                  "HIS 322",
+                  "HIS 325",
+                  "HIS 327",
+                  "HIS 340",
+                  "HIS 352",
+                  "HIS 365",
+                  "HIS 380",
+                  "HIS 381",
+                  "HIS 383",
+                  "HIS 384",
+                  "HIS 385",
+                  "HIS 480",
+                  "HIS 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "American Studies Electives"
+              },
+              "minClasses": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AMS 420",
+                  "HIS 400",
+                  "HIS 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Seminar"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "HISTORY ELECTIVES: A minimum of 5 courses at the 200-level or above;",
+            "at least 3 of which must be US history (with course attribute of HUS)",
+            "and at least 3 of which must be at the 300-400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "CONC_ARHI": 6,
+            "CONC_VART": 6,
+            "CONC_SPMG": 3,
+            "CONC_EESC": 4,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGL": 15,
+            "CONC_H/SS": 18,
+            "CONC_NSCI": 3,
+            "CONC_MATH": 3,
+            "CONC_PERM": 6,
+            "CONC_MUSP": 6,
+            "CONC_MUSM": 6,
+            "OTHER_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002445",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 101"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1.1",
+                    "text": "History Professionalism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "American Origins or Making Modern America"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "AMS 251",
+                      "HIS 251"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Introduction to American Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Historical Research And Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 401"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3.1",
+                    "text": "History as a Career"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 201:499"
+                ],
+                "except": [
+                  "{HIDE HIS 400, 420} MinClasses 3 in HIS @ (With ATTRIBUTE=HUS) HighPriority MinClasses 3 in HIS 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "History Electives"
+              },
+              "minClasses": 5,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 365",
+                  "ART 360",
+                  "ART 369",
+                  "COM 321",
+                  "ECO 200",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 377",
+                  "EDU 210",
+                  "EDU 357",
+                  "EES 106",
+                  "EES 428",
+                  "ENG 223",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 259",
+                  "ENG 321",
+                  "ENG 329",
+                  "ENG 342",
+                  "ENG 347",
+                  "ENG 350",
+                  "ENG 373",
+                  "ENG 374",
+                  "FLM 321",
+                  "GEO 228",
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 221",
+                  "HIS 241",
+                  "HIS 243",
+                  "HIS 244",
+                  "HIS 245",
+                  "HIS 250",
+                  "HIS 251",
+                  "HIS 253",
+                  "HIS 302",
+                  "HIS 303",
+                  "HIS 305",
+                  "HIS 307",
+                  "HIS 313",
+                  "HIS 315",
+                  "HIS 316",
+                  "HIS 318",
+                  "HIS 320",
+                  "HIS 321",
+                  "HIS 322",
+                  "HIS 325",
+                  "HIS 327",
+                  "HIS 340",
+                  "HIS 352",
+                  "HIS 365",
+                  "HIS 380",
+                  "HIS 381",
+                  "HIS 383",
+                  "HIS 384",
+                  "HIS 385",
+                  "HIS 480",
+                  "HIS 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "American Studies Electives"
+              },
+              "minClasses": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AMS 420",
+                  "HIS 400",
+                  "HIS 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Seminar"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "HISTORY ELECTIVES: A minimum of 5 courses at the 200-level or above;",
+            "at least 3 of which must be US history (with course attribute of HUS)",
+            "and at least 3 of which must be at the 300-400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "CONC_ARHI": 6,
+            "CONC_VART": 6,
+            "CONC_SPMG": 3,
+            "CONC_EESC": 4,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGL": 15,
+            "CONC_H/SS": 18,
+            "CONC_NSCI": 3,
+            "CONC_MATH": 3,
+            "CONC_PERM": 6,
+            "CONC_MUSP": 6,
+            "CONC_MUSM": 6,
+            "OTHER_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

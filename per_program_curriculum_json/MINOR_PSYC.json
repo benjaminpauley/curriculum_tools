@@ -1,0 +1,92 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PSYC": {
+      "programName": "Minor in Psychology",
+      "versions": [
+        {
+          "startTerm": "200910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000328",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 300:499"
+                ],
+                "hidden": [
+                  "PSY 3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "300/400 Level Psychology Electives"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 101:499"
+                ],
+                "hidden": [
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ],
+                "except": [
+                  "PSY 100 Low-Priority"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Psychology Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Psychology Minor requires 18 credits, a minimum of 12 credits must be",
+            "completed in residence at Eastern CT State University.",
+            "PSY 100 does not count toward the minor. ",
+            "You are limited to three (3) credits",
+            "from PSY 480-498. A minimum of nine (9) unique credits is required",
+            "to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

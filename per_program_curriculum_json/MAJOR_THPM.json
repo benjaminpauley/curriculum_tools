@@ -1,0 +1,614 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "THPM": {
+      "programName": "Major in Theatre & Performance Media",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202350",
+          "requirementAuthority": "RA002234",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=PERM",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 180"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "1p",
+                        "text": "Performance in Context: New Media"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 176"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2p",
+                        "text": "Fundamentals of Theatre Design"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 220"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3p",
+                        "text": "Visualizing for Visual Thinking"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 268"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "4p",
+                        "text": "World Performance History II"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 270"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "5p",
+                        "text": "Directing I"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 275"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "6p",
+                        "text": "Technical Theatre"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 364",
+                          "THE 351"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "7p",
+                        "text": "Performance - Writing Intensive"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 227"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "8p",
+                        "text": "Design/Technical Practicum"
+                      },
+                      "minCredits": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 227",
+                          "THE 228",
+                          "THE 392"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9p",
+                        "text": "Design/Technical, Performance or Theatre Practicum"
+                      },
+                      "minCredits": 2
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 474",
+                          "NMS 440",
+                          "FLM 440",
+                          "COM 440"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10p",
+                        "text": "Theatre Elective - Chosen with advice and approval of Advisor"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 172"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Acting I for Majors"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 176"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "Fundamentals of Theatre Design"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 267"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "World Performance History I"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 268"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "World Performance History II"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 270"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Directing I"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 275"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Technical Theatre"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 364"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Performance in America"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 227"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Design/Technical Practicum"
+                      },
+                      "minCredits": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 227",
+                          "THE 228",
+                          "THE 392"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Design/Technical, Performance or Theatre Practicum"
+                      },
+                      "minCredits": 2
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 472",
+                          "THE 473",
+                          "THE 474",
+                          "THE 481"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Theatre Elective - Chosen with advice and approval of Advisor"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=TDAN OR CONC=TDIR OR CONC=TDTM OR CONC=PERM OR CONC=THAC",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "THEAMAJ13",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "THPM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must select a concentration from: Acting; Directing;",
+            "Dance & World Performances; Performance Media; and Design, Technology and Management.",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002403",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 101",
+                  "CFT 101"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Entertainment Industry Employability"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 171",
+                  "THE 172",
+                  "DNC 253"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Core Elective"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 176"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Fundamentals of Theatre Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 265"
+                ],
+                "hidden": [
+                  "THE 480 ( With DWTitle = \"@ THE 265\")"
+                ]
+              },
+              "label": {
+                "tag": "2.2",
+                "text": "World Performance and Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 275",
+                  "THE 278"
+                ]
+              },
+              "label": {
+                "tag": "3.1",
+                "text": "Technical Theatre/Intro to Costume Tech"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 364"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Performance in America"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CFT 401"
+                ],
+                "hidden": [
+                  "THE 482"
+                ]
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Career Preparation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 227"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Design/Technical Practicum"
+              },
+              "minCredits": 1,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 227",
+                  "THE 228",
+                  "THE 392"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Practicum"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 472",
+                  "THE 473",
+                  "THE 474",
+                  "THE 481",
+                  "FLM 440",
+                  "COM 440"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Major Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=TPER OR CONC=TDTP OR CONC=TFAD",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "THEAMAJ13",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "THPM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must complete a concentration in one of the following:",
+            "Design, Technology & Performance Media, Filmmaking & Directing or Performance",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

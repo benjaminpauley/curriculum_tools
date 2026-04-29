@@ -1,0 +1,130 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ASTR": {
+      "programName": "Minor in Astronomy Outreach & Public Presentation",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000270",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 214"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Descriptive Astronomy with  Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Stars and Galaxies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Intro to the Solar System"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Planetarium Workshop"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 495"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Planetarium Internship"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 360",
+                  "AST 375",
+                  "AST 380",
+                  "AST 480",
+                  "PHY 205",
+                  "PHY 209"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Astronomy/Physics Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the minor. ",
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

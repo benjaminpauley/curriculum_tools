@@ -1,0 +1,2036 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "EESC": {
+      "programName": "Major in Environmental Earth Science",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000205",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 104"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Dynamic Earth With Laboratory"
+                          },
+                          "minCredits": 4,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "priority": "high"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "1",
+                        "text": "Dynamic Earth With Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 104",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1.1",
+                            "text": "Dynamic Earth and Earth Science Laboratory"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "1.1",
+                        "text": "Dynamic Earth and Earth Science Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 106",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Geology of National Parks & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2",
+                        "text": "Geology of National Parks & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 110",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Introduction to Geology & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "3",
+                        "text": "Introduction to Geology & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 112",
+                              "EES 125"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Geology of Natural Parks & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of Natural Parks & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 112",
+                              "EES 202"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Geological Setting of Connecticut & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "5",
+                        "text": "Geological Setting of Connecticut & Earth Science Lab"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "EARTH SCIENCE & LAB"
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Ancient Environments With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 224"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Landform Analysis With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 322"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Hydrology With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geographic Information Systems With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 344"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Sedimentology and Stratigraphy With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 356"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Struct Geol/Envron App w/Lab"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "General Chemistry I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "General Chemistry II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "General Chemistry I Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 213"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "General Chemistry II Laboratory"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "MAJOR CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=EESC OR CONC=EESG OR CONC=SUST",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "18",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 330",
+                              "EES 356"
+                            ],
+                            "hidden": [
+                              "{HIDE EES 480 (With DWTitle = \"@ EES 356\")"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Mineralogy/Rock Analysis w/Lab OR Struct Geol/Envron App w/Lab"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 350"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Field Methods in Earth Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 243"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Calculus I with Technology"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 320",
+                              "EES 326",
+                              "EES 336",
+                              "EES 342",
+                              "EES 402",
+                              "EES 405",
+                              "EES 422",
+                              "EES 424",
+                              "EES 428",
+                              "EES 436",
+                              "EES 440",
+                              "EES 441",
+                              "EES 444",
+                              "EES 456",
+                              "EES 460",
+                              "EES 461",
+                              "471 #462"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Environmental Earth Science Electives"
+                          },
+                          "minCredits": 9
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 204",
+                                      "PHY 205"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "General Physic I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "25",
+                                "text": "General Physic I & II With Laboratory"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 208",
+                                      "PHY 209"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Physics With Calculus I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Physics With Calculus I & II With Laboratory"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "27",
+                            "text": "PHYSICS"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "40",
+                        "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "EESC",
+          "minimumCredits": {
+            "min": 64
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Environmental Earth Science major requires a combined cumulative",
+            "GPA of 2.0 in courses for the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 8,
+            "MAJOR_ELED": 8,
+            "MAJOR_LBST": 4,
+            "MAJOR_POLI": 6,
+            "CONC_7_12": 24,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001344",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 104"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Dynamic Earth With Laboratory"
+                          },
+                          "minCredits": 4,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "priority": "high"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "1",
+                        "text": "Dynamic Earth With Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 104",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1.1",
+                            "text": "Dynamic Earth and Earth Science Laboratory"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "1.1",
+                        "text": "Dynamic Earth and Earth Science Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 106",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Geology of National Parks & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2",
+                        "text": "Geology of National Parks & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 110",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Introduction to Geology & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "3",
+                        "text": "Introduction to Geology & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 112",
+                              "EES 125"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Geology of Natural Parks & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of Natural Parks & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 112",
+                              "EES 202"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Geological Setting of Connecticut & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "5",
+                        "text": "Geological Setting of Connecticut & Earth Science Lab"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "EARTH SCIENCE & LAB"
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Ancient Environments With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 224"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Landform Analysis With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 322"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Hydrology With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geographic Information Systems With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 344"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Sedimentology and Stratigraphy With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "General Chemistry I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "General Chemistry II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "General Chemistry I Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 213"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "General Chemistry II Laboratory"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "MAJOR CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=EESC OR CONC=EESG OR CONC=SUST",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "18",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 330",
+                              "EES 356"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Mineralogy/Rock Analysis w/Lab AND Struct Geol/Envron App w/Lab"
+                          },
+                          "minClasses": 2
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 350"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Field Methods in Earth Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 243"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Calculus I with Technology"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 320",
+                              "EES 326",
+                              "EES 336",
+                              "EES 342",
+                              "EES 402",
+                              "EES 405",
+                              "EES 422",
+                              "EES 424",
+                              "EES 428",
+                              "EES 436",
+                              "EES 440",
+                              "EES 441",
+                              "EES 444",
+                              "EES 456",
+                              "EES 460",
+                              "EES 461",
+                              "471 #462"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Environmental Earth Science Electives"
+                          },
+                          "minCredits": 9
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 204",
+                                      "PHY 205"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "General Physic I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "25",
+                                "text": "General Physic I & II With Laboratory"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 208",
+                                      "PHY 209"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Physics With Calculus I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Physics With Calculus I & II With Laboratory"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "27",
+                            "text": "PHYSICS"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "40",
+                        "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "EESC",
+          "minimumCredits": {
+            "min": 64
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Environmental Earth Science major requires a combined cumulative",
+            "GPA of 2.0 in courses for the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 8,
+            "MAJOR_ELED": 8,
+            "MAJOR_LBST": 4,
+            "MAJOR_POLI": 6,
+            "CONC_7_12": 24,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001772",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Ancient Environments With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 224"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Landform Analysis With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 322"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Hydrology With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geographic Information Systems With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "General Chemistry I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "General Chemistry II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "General Chemistry I Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 213"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "General Chemistry II Laboratory"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "MAJOR CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=EESC OR CONC=EESG OR CONC=EVSC OR CONC=SUST",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "18",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "EES 104"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "1",
+                                    "text": "Dynamic Earth With Laboratory"
+                                  },
+                                  "minCredits": 4,
+                                  "minClasses": 1,
+                                  "combinationOperator": "and",
+                                  "qualifiers": {
+                                    "priority": "high"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "1",
+                                "text": "Dynamic Earth With Laboratory"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 104",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "1.1",
+                                    "text": "Dynamic Earth and Earth Science Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "1.1",
+                                "text": "Dynamic Earth and Earth Science Laboratory"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 106",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "2",
+                                    "text": "Geology of National Parks & Earth Science Lab"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "2",
+                                "text": "Geology of National Parks & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 110",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "3",
+                                    "text": "Introduction to Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "3",
+                                "text": "Introduction to Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "5",
+                                    "text": "Environmental Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "5",
+                                "text": "Environmental Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 221"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "5.1",
+                                    "text": "Environmental Geology & Environmental Geology Lab"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "5.1",
+                                "text": "Environmental Geology & Environmental Geology Lab"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "6",
+                            "text": "EARTH SCIENCE & LAB"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Mineralogy/Rock Analysis w/Lab"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 344"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21.1",
+                            "text": "Sedimentology And Stratigraphy With Laboratory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 350"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Field Methods in Earth Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 356"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22.2",
+                            "text": "Structural Geology And Environmental Applications w/Lab"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 243"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Calculus I with Technology"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 342",
+                              "EES 402",
+                              "EES 405",
+                              "EES 424",
+                              "EES 440"
+                            ]
+                          },
+                          "label": {
+                            "tag": "23.1",
+                            "text": "Writing Intensive Course"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 306",
+                              "EES 342",
+                              "EES 402",
+                              "EES 405",
+                              "EES 424",
+                              "EES 440",
+                              "EES 441",
+                              "EES 444",
+                              "EES 450",
+                              "EES 456",
+                              "EES 460",
+                              "EES 471"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Environmental Earth Science Electives"
+                          },
+                          "minCredits": 6
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 204",
+                                      "PHY 205"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "General Physic I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "25",
+                                "text": "General Physic I & II With Laboratory"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "PHY 208",
+                                      "PHY 209"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Physics With Calculus I & II With Laboratory"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Physics With Calculus I & II With Laboratory"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "27",
+                            "text": "PHYSICS"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "40",
+                        "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "EESC",
+          "minimumCredits": {
+            "min": 64
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Environmental Earth Science major requires a combined cumulative",
+            "GPA of 2.0 in courses for the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 8,
+            "MAJOR_ELED": 8,
+            "MAJOR_LBST": 4,
+            "MAJOR_POLI": 6,
+            "CONC_7_12": 24,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002439",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 104",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Dynamic Earth With Laboratory"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "1",
+                        "text": "Dynamic Earth With Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 106",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Geology of National Parks & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2",
+                        "text": "Geology of National Parks & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 110",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Introduction to Geology & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "3",
+                        "text": "Introduction to Geology & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 220",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Environmental Geology & Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "5",
+                        "text": "Environmental Geology & Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 220",
+                              "EES 221"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5.1",
+                            "text": "Environmental Geology & Environmental Geology Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "5.1",
+                        "text": "Environmental Geology & Environmental Geology Lab"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "EARTH SCIENCE & LAB"
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Ancient Environments With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 224"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Landform Analysis With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8.1",
+                    "text": "Introduction to Geographic Information Systems"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8.2",
+                    "text": "Introduction to Geographic Information Systems Lab"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 322"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Hydrology With Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 333"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "EES Student Employability"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 362"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Climate and Weather"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "General Chemistry I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "General Chemistry II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "General Chemistry I Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 213"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "General Chemistry II Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Statistical Data Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHY 204",
+                      "PHY 208"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Physics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "19",
+                "text": "MAJOR CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=EESC OR CONC=ESAS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "20",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1.1",
+                            "text": "Mineralogy/Rock Analysis w/Lab"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 344"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "2.1",
+                            "text": "Sedimentology And Stratigraphy With Laboratory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 356"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "3.1",
+                            "text": "Structural Geology And Environmental Applications w/Lab"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 342",
+                              "EES 350",
+                              "EES 424",
+                              "EES 440",
+                              "EES 441",
+                              "EES 444",
+                              "EES 456",
+                              "EES 460",
+                              "PHY 205",
+                              "PHY 209",
+                              "MAT 243"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Environmental Earth Science Electives"
+                          },
+                          "minClasses": 2
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 402"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4.1",
+                            "text": "Capstone:Sustainability Issues in Geosciences"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "40",
+                        "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "EESC",
+          "minimumCredits": {
+            "min": 59,
+            "max": 63
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Majors must",
+            "choose a concentration from: Environmental Earth Science or",
+            "Environmental Science and Sustainability.",
+            "The Environmental Earth Science major requires a combined cumulative",
+            "GPA of 2.0 in courses for the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 8,
+            "MAJOR_ELED": 8,
+            "MAJOR_LBST": 4,
+            "MAJOR_POLI": 6,
+            "CONC_7_12": 24,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8
+          }
+        }
+      ]
+    }
+  }
+}

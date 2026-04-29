@@ -1,0 +1,661 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "HSCI": {
+      "programName": "Major in Health Sciences",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000211",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Biology for Health Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Medical Terminology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Lifespan Development"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 304"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Genetics and Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 314"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Genetics and Society Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 362"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Healthcare Informatics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 302"
+                    ],
+                    "hidden": [
+                      "HSC 400"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Research Methods in Health Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 438"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Issues Health Sciences Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 430",
+                      "HSC 430",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=PNUR OR CONC=HEXS OR CONC=ALHL OR CONC=PPTH OR CONC=PUBH",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "11",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "12",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HSCI",
+          "minimumCredits": {
+            "min": 46,
+            "max": 61
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Health Sciences majors must select a concentration from: Public",
+            "Health, Excercise and Sport Science, or Allied Health."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001363",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Biology for Health Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Medical Terminology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Lifespan Development"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 430",
+                      "HSC 430",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 304"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Genetics and Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 314"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Genetics and Society Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 362"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Healthcare Informatics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 302",
+                      "ANT 302",
+                      "HSC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Research Methods in Health Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 438"
+                    ],
+                    "hidden": [
+                      "HPE 438"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Current Topics in Health Sciences Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=PNUR OR CONC=PPTH OR CONC=ALHL OR CONC=PUBH",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "11",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "12",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HSCI",
+          "minimumCredits": {
+            "min": 51,
+            "max": 58
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Health Sciences majors must select a concentration from: Public",
+            "Health or Allied Health."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002158",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Biology for Health Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Medical Terminology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Lifespan Development"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Statistical Data Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 304"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Genetics and Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 314"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Genetics and Society Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 362"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Healthcare Informatics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 302",
+                      "ANT 302",
+                      "HSC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Research Methods in Health Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 438"
+                    ],
+                    "hidden": [
+                      "HPE 438"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Current Topics in Health Sciences Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HEXS OR CONC=ALHL OR CONC=PUBH",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "11",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "12",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HSCI",
+          "minimumCredits": {
+            "min": 51,
+            "max": 58
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Health Sciences majors must select a concentration from: Public",
+            "Health, Allied Health, or Exercise and Sport Science."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        }
+      ]
+    }
+  }
+}

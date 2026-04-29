@@ -1,0 +1,70 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "FNCE": {
+      "programName": "Concentration in Finance",
+      "versions": [
+        {
+          "startTerm": "201210",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000023",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 345",
+                  "FIN #345",
+                  "BUS 346",
+                  "BUS 347",
+                  "BUS 348",
+                  "BUS 349",
+                  "BUS 437",
+                  "BUS 438",
+                  "BUS 445",
+                  "BUS 446",
+                  "BUS 462"
+                ],
+                "hidden": [
+                  "BUS 345",
+                  "BUS 346",
+                  "BUS 347",
+                  "BUS 348",
+                  "BUS 349",
+                  "BUS 437",
+                  "BUS 438",
+                  "BUS 445",
+                  "BUS 446",
+                  "BUS 462",
+                  "BUS 480 (With DWTitle = \"@ BUS 462\") High-Priority"
+                ]
+              },
+              "label": {
+                "tag": "FNCEConc1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "high"
+              }
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

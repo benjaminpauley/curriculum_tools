@@ -1,0 +1,205 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TDTM": {
+      "programName": "Concentration in Design, Technology and Management",
+      "versions": [
+        {
+          "startTerm": "201610",
+          "endTerm": "201710",
+          "requirementAuthority": "RA000066",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 261",
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 285",
+                  "THE 325",
+                  "THE 366",
+                  "THE 378",
+                  "THE 379",
+                  "THE 380"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000401",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 261",
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 283",
+                  "THE 285",
+                  "THE 325",
+                  "THE 345",
+                  "THE 366",
+                  "THE 378",
+                  "THE 379",
+                  "THE 380",
+                  "THE 385"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001528",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 261",
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 285",
+                  "THE 288",
+                  "THE 325",
+                  "THE 355",
+                  "THE 366",
+                  "THE 368",
+                  "THE 378",
+                  "THE 379",
+                  "THE 380",
+                  "FLM 355"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002241",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 261",
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 285",
+                  "THE 288",
+                  "THE 325",
+                  "THE 355",
+                  "THE 366",
+                  "THE 368",
+                  "THE 378",
+                  "THE 379",
+                  "THE 380",
+                  "FLM 355"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

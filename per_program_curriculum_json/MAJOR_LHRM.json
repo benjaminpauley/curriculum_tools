@@ -1,0 +1,436 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "LHRM": {
+      "programName": "Major in Labor Relations & HR Management",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000215",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intermediate Microeconomics Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 329",
+                      "ECO 429"
+                    ],
+                    "hidden": [
+                      "{HIDE ECO 480 (With DWTitle = \"@ ECO 429\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Political Economy of Labor Relations"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 330"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Labor Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "ECONOMICS COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 234",
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 366",
+                  "BUS 433"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Administration Courses"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 303",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Psychology Courses"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ANT 345",
+                  "# 330",
+                  "BIS 361",
+                  "COM 312",
+                  "COM 330",
+                  "COM 331",
+                  "GEO 228",
+                  "GEO 337",
+                  "HIS 313",
+                  "HIS 315",
+                  "PHI 314",
+                  "PHI 320",
+                  "PHI 360",
+                  "PHI 370",
+                  "PSC 225",
+                  "PSC 314",
+                  "PSC 323",
+                  "PSC 325",
+                  "PSC 370",
+                  "PSY 325",
+                  "SOC 275",
+                  "SOC 325",
+                  "SOC 358",
+                  "SOC 373",
+                  "SWK 311",
+                  "SWK 325"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Other Disciplines"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ANT 345",
+                  "#330",
+                  "BIS 361",
+                  "BUS 234",
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 366",
+                  "BUS 433",
+                  "COM 312",
+                  "COM 330",
+                  "COM 331",
+                  "GEO 228",
+                  "GEO 337",
+                  "HIS 313",
+                  "HIS 315",
+                  "PHI 314",
+                  "PHI 320",
+                  "PHI 360",
+                  "PHI 370",
+                  "PSC 225",
+                  "PSC 314",
+                  "PSC 323",
+                  "PSC 325",
+                  "PSC 370",
+                  "PSY 303",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 325",
+                  "PSY 403",
+                  "PSY 404",
+                  "SOC 275",
+                  "SOC 325",
+                  "SOC 358",
+                  "SOC 373",
+                  "SWK 311",
+                  "SWK 325"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Elective Courses"
+              },
+              "minClasses": 2,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LHR 490"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Internship Labor Relations & Human Resource Management"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "LHRM",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Pre-requisites for Labor Relations & Human Resource Management",
+            "courses are: ECO 200, ECO 201, PSY 100, ECO 215, and BUS 201."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_PHIL": 9,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 9,
+            "MAJOR_SOCO": 15,
+            "MAJOR_WGST": 16,
+            "CONC_7_12": 12,
+            "CONC_ECOB": 9,
+            "CONC_ECOG": 9,
+            "CONC_HAMS": 15,
+            "CONC_H/SS": 9,
+            "CONC_PSYW": 18,
+            "CONC_PBHV": 18,
+            "CONC_PC&Y": 18,
+            "CONC_PSTD": 18
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000502",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intermediate Microeconomics Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 330"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Labor Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 429",
+                      "; EndSub; 3 Classes in BUS 234",
+                      "ECO 310",
+                      "ECO 330",
+                      "ECO 331",
+                      "ECO 333",
+                      "ECO 366",
+                      "433; 3 Classes in PSY 303",
+                      "ECO 304",
+                      "ECO 305",
+                      "ECO 403",
+                      "404; 3 Classes in ANT 300",
+                      "ECO 345",
+                      "BIS 361",
+                      "COM 312",
+                      "COM 330",
+                      "COM 331",
+                      "GEO 228",
+                      "GEO 337",
+                      "HIS 313",
+                      "HIS 315",
+                      "PHI 314",
+                      "PHI 320",
+                      "PHI 360",
+                      "PHI 370",
+                      "PSC 225",
+                      "PSC 314",
+                      "PSC 323",
+                      "PSC 325",
+                      "PSC 370",
+                      "PSY 325",
+                      "SOC 275",
+                      "SOC 325",
+                      "SOC 358",
+                      "SOC 373",
+                      "SWK 311",
+                      "325 2 Classes in ANT 300",
+                      "SWK 345",
+                      "#330",
+                      "BIS 361",
+                      "BUS 234",
+                      "BUS 310",
+                      "BUS 330",
+                      "BUS 331",
+                      "BUS 333",
+                      "BUS 366",
+                      "BUS 433",
+                      "COM 312",
+                      "COM 330",
+                      "COM 331",
+                      "GEO 228",
+                      "GEO 337",
+                      "HIS 313",
+                      "HIS 317",
+                      "PHI 314",
+                      "PHI 320",
+                      "PHI 360",
+                      "PHI 370",
+                      "PSC 225",
+                      "PSC 314",
+                      "PSC 323",
+                      "PSC 325",
+                      "PSC 370",
+                      "PSY 303",
+                      "PSY 304",
+                      "PSY 305",
+                      "PSY 325",
+                      "PSY 403",
+                      "PSY 404",
+                      "SOC 275",
+                      "SOC 325",
+                      "SOC 358",
+                      "SOC 373",
+                      "SWK 311",
+                      "SWK 325"
+                    ],
+                    "hidden": [
+                      "ECO 329",
+                      "{HIDE ECO 480 (With DWTitle = \"@ ECO 329\"), {HIDE ECO 480 (With DWTitle = \"@ ECO 429\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Political Economy of Labor Relations"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "priority": "lowest"
+                  }
+                }
+              ],
+              "label": {
+                "tag": null,
+                "text": "Requirements"
+              }
+            }
+          ],
+          "declaredMajor": "LHRM",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Pre-requisites for Labor Relations & Human Resource Management",
+            "courses are: ECO 200, ECO 201, PSY 100, ECO 215, and BUS 201."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_PHIL": 9,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 9,
+            "MAJOR_SOCO": 15,
+            "MAJOR_WGST": 16,
+            "CONC_7_12": 12,
+            "CONC_ECOB": 9,
+            "CONC_ECOG": 9,
+            "CONC_HAMS": 15,
+            "CONC_H/SS": 9,
+            "CONC_PSYW": 18,
+            "CONC_PBHV": 18,
+            "CONC_PC&Y": 18,
+            "CONC_PSTD": 18
+          }
+        }
+      ]
+    }
+  }
+}

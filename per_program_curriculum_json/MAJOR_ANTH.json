@@ -1,0 +1,449 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ANTH": {
+      "programName": "Major in Anthropology",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001695",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 106"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Cultural Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 107"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Biological Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 125"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to Archaeology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Anthropological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 390"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Anthropological Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Anthropology Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 380",
+                  "ANT 381",
+                  "ANT 479",
+                  "ANT 492"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Field School or Internship"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 201",
+                  "CAS 201",
+                  "ANT 221",
+                  "ANT 222",
+                  "CAS 222",
+                  "ANT 225",
+                  "LAS 225",
+                  "ANT 240",
+                  "LAS 240",
+                  "ANT 340",
+                  "CAS 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "World Areas"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=CANT OR CONC=ARCH",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "100",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "110",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 42
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must declare a concentration in either Cultural Anthropology",
+            "or Archaeology. Students must complete a minor program of study in one of the following",
+            "areas: Art History, Biology, Environmental Earth Science, Women's Studies,",
+            "Geography, History, Latin American and Caribbean Studies,",
+            "Modern Languages, Geographic Information Systems or Public Health."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001907",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 106"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Cultural Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 107"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Biological Anthropology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 125"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to Archaeology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Anthropological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 390"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Anthropological Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Anthropology Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 380",
+                  "ANT 381",
+                  "ANT 479",
+                  "ANT 492"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Field School or Internship"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 201",
+                  "CAS 201",
+                  "ANT 221",
+                  "ANT 222",
+                  "CAS 222",
+                  "ANT 225",
+                  "LAS 225",
+                  "ANT 240",
+                  "LAS 240",
+                  "ANT 340",
+                  "CAS 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "World Areas"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=CANT OR CONC=ARCH",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "100",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "110",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 42
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must declare a concentration in either Cultural Anthropology",
+            "or Archaeology. Students must complete a minor program of study in one of the following",
+            "areas: Art History, Biology, Criminology, Environmental Earth Science,",
+            "Geographic Information Systems, Geography, History, Latin American and",
+            "Caribbean Studies, Modern Languages, Philosophy, Political Science,",
+            "Psychology, Public Health, Sociology, or Women's Studies"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

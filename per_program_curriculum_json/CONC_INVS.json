@@ -1,0 +1,44 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "INVS": {
+      "programName": "Concentration in Investment",
+      "versions": [
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002013",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 348",
+                  "FIN 435",
+                  "FIN 446",
+                  "FIN 447"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

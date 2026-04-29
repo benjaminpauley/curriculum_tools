@@ -1,0 +1,69 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "SPAN": {
+      "programName": "Minor in Spanish",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000335",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 112:499"
+                ],
+                "hidden": [
+                  "SPA 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "LAS 318",
+                  "LAS 319",
+                  "LAS 320",
+                  "LAS 321",
+                  "LAS 323",
+                  "SOC 355",
+                  "FRE 430"
+                ],
+                "except": [
+                  "SPA 100:111"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Spanish Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "PLEASE NOTE: It is expected that students will enroll at the intermediate level of",
+            "Spanish for six credits and choose nine other credits according to their interests."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

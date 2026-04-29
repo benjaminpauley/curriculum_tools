@@ -1,0 +1,1194 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ARHI": {
+      "programName": "Concentration in Art History",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000391",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111",
+                      "ART 207",
+                      "ART 208"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "3-D Foundation Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Art History I: Pre-History-1600"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Art History II: 1600-Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Asian Art and Culture"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 313"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Renaissance Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Modern Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 345"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Museums and Exhibitions"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 360"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "American Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 402"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Issues In Contemporary Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 486"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Senior Project In Art History"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 233",
+                  "ART 250",
+                  "ART 316",
+                  "ART 336",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=VHIS)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_PRNT": 17,
+            "CONC_DIGI": 17
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000392",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111",
+                      "ART 207",
+                      "ART 217"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "3-D Foundation Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Art History I: Pre-History-1600"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Art History II: 1600-Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Asian Art and Culture"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 313"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Renaissance Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Modern Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 345"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Museums and Exhibitions"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 360"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "American Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 402"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Issues In Contemporary Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 486"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Senior Project In Art History"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 233",
+                  "ART 250",
+                  "ART 316",
+                  "ART 336",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=VHIS)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001267",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 217"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Digital Imaging and Online Media"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Drawing I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Art History I: Pre-History-1400"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Art History II: 1400-Present"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 340",
+                  "ART 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Art History Topics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 345"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Museums and Exhibitions"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10.1",
+                "text": "Contemporary Art"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 486"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12.1",
+                "text": "Senior Project In Art History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 229",
+                  "ART 225",
+                  "ART 313"
+                ]
+              },
+              "label": {
+                "tag": "13.1",
+                "text": "Art Before 1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 233",
+                  "ART 250",
+                  "ART 360"
+                ]
+              },
+              "label": {
+                "tag": "14.1",
+                "text": "Art After 1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 316",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371"
+                ]
+              },
+              "label": {
+                "tag": "15.1",
+                "text": "Cultural and Social Perspectives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 229",
+                  "ART 225",
+                  "ART 313",
+                  "ART 233",
+                  "ART 250",
+                  "ART 360",
+                  "ART 224",
+                  "ART 316",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371"
+                ]
+              },
+              "label": {
+                "tag": "17.1",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_PRNT": 17,
+            "CONC_SART": 17
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002199",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 217"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Digital Imaging and Online Media"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Drawing I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Art History I: Pre-History-1400"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Art History II: 1400-Present"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 340",
+                  "ART 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Art History Topics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 345"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Museums and Exhibitions"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10.1",
+                "text": "Contemporary Art"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 486"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12.1",
+                "text": "Senior Project In Art History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 229",
+                  "ART 225",
+                  "ART 313"
+                ]
+              },
+              "label": {
+                "tag": "13.1",
+                "text": "Premodern and Early Modern Art"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 233",
+                  "ART 250",
+                  "ART 360"
+                ]
+              },
+              "label": {
+                "tag": "14.1",
+                "text": "Art in the Modern Age"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 316",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371"
+                ]
+              },
+              "label": {
+                "tag": "15.1",
+                "text": "Cultural and Social Perspectives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 229",
+                  "ART 225",
+                  "ART 313",
+                  "ART 233",
+                  "ART 250",
+                  "ART 360",
+                  "ART 224",
+                  "ART 316",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371"
+                ]
+              },
+              "label": {
+                "tag": "17.1",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_PRNT": 17,
+            "CONC_SART": 17
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002596",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Three-Dimensional Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Intro to Art History:Prehistory to 1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Art History:1400 to the Present"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "Required Foundation Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Museums and Exhibitions"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 401",
+                      "ART 402"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Art History Topics or Issues in Contemporary Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10.1",
+                "text": "Required Writing Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 225",
+                  "ART 229",
+                  "ART 313"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Art Before 1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 233",
+                  "ART 250",
+                  "ART 360"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Art Since 1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 316",
+                  "ART 355",
+                  "ART 369",
+                  "ART 371",
+                  "LAS 224",
+                  "WST 355"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Cultural and Social Perspectives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 486"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Senior Project in Art History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 225",
+                  "ART 229",
+                  "ART 233",
+                  "ART 250",
+                  "ART 313",
+                  "ART 316",
+                  "ART 355",
+                  "ART 360",
+                  "ART 369",
+                  "ART 371",
+                  "ART 401",
+                  "ART 402",
+                  "LAS 224",
+                  "WST 355",
+                  "ANT 101",
+                  "ANT 125",
+                  "PHI 367",
+                  "HIS 200:499",
+                  "Mincredits 3 in ART @"
+                ],
+                "hidden": [
+                  "HIS 2@",
+                  "3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_PRNT": 15,
+            "CONC_SART": 15
+          }
+        }
+      ]
+    }
+  }
+}

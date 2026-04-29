@@ -1,0 +1,3886 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ECED": {
+      "programName": "Major in Early Childhood Education",
+      "versions": [
+        {
+          "startTerm": "201310",
+          "endTerm": "201820",
+          "requirementAuthority": "RA000203",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "4",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 215"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Foundations of Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "6",
+                        "text": "CARE PRE-REQUISITE"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 315"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Play and Social Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Language and Literacy I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Mathematics Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "10",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 355"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Reading and Writing in the Primary Years"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 400"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Social Studies Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ECE 460"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Science Pedagogy in ECE"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "13",
+                                "text": "Science Pedagogy in ECE"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ECE 401",
+                                      "ECE 455"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "Field Experience and Science Pedagogy in ECE"
+                                  },
+                                  "minClasses": 2
+                                }
+                              ],
+                              "label": {
+                                "tag": "14",
+                                "text": "Field Experience and Science Pedagogy in ECE"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "15",
+                            "text": "Science Pedagogy in ECE"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "16",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 420"
+                            ],
+                            "hidden": [
+                              "ECE 305"
+                            ]
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Development of Children with Special Needs"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 410"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Families, Culture, and Child Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 425"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "19",
+                            "text": "Practicum in Early Childhood Special Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "20",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 405"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Adapting Early Childhood Curriculum for the Inclusive Classroom"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 445"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Student Teaching: Grades 1-3"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "23",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ENG 100P",
+                              "ENG 100:499"
+                            ],
+                            "hidden": [
+                              "ENG 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 125",
+                              "CAS 217",
+                              "AMS 251",
+                              "AMS 420",
+                              "GEO 260",
+                              "WST 228",
+                              "WST 260",
+                              "WST 266",
+                              "WST 307",
+                              "WST 351",
+                              "WST 352",
+                              "WST 356",
+                              "WST 357",
+                              "THE 308",
+                              "WLC 324",
+                              "NES 342",
+                              "NES 343",
+                              "FLM 359",
+                              "MCL 375"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "English"
+                          },
+                          "minCredits": 6,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 139"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Number Systems"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "26",
+                            "text": "Psychology of Childhood"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "@ (With ATTRIBUTE=LAB)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Any Course with a LAB Attribute"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "27",
+                                "text": "Any Course with a LAB Attribute"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 200",
+                                      "BIO 201"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Ecology and the Environment & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "28",
+                                "text": "Ecology and the Environment & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 202",
+                                      "BIO 203"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Human Biology Lecture & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "29",
+                                "text": "Human Biology Lecture & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "AST 214",
+                                      "BIO 205",
+                                      "CHE 200",
+                                      "CHE 205",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "Science Courses with included Lab"
+                                  },
+                                  "minClasses": 1,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "30",
+                                "text": "Science Courses with included Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 106",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "Geology of National Parks & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "31",
+                                "text": "Geology of National Parks & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 110",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Introduction to Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "32",
+                                "text": "Introduction to Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 125"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "ECEDMAJ25",
+                                    "text": "Earth Science Lab & Geology of Natural Resources"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "ECEDMAJ25",
+                                "text": "Earth Science Lab & Geology of Natural Resources"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 202"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Earth Science Lab & Geological Settings-Connecticut"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33",
+                                "text": "Earth Science Lab & Geological Settings-Connecticut"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 304",
+                                      "BIO 314"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Genetics and Society & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "34",
+                                "text": "Genetics and Society & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 205",
+                                      "EES 207"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "35",
+                                    "text": "Sustainable Energy & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "35",
+                                "text": "Sustainable Energy & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 221"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "36",
+                                    "text": "Environmental Geology & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "36",
+                                "text": "Environmental Geology & Lab"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "37",
+                            "text": "SCIENCE WITH A LAB"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "BIO 100:499",
+                              "CHE 100:499",
+                              "PBH 228",
+                              "EES 100:499",
+                              "PHS 100:499",
+                              "PHY 100:499"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301",
+                              "CHE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PHR 222",
+                              "PBH 323",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "38",
+                            "text": "Science without a lab"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "priority": "low",
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HIS 120",
+                              "HIS 121",
+                              "HIS 241",
+                              "HIS 245",
+                              "HIS 251",
+                              "HIS 302",
+                              "HIS 303",
+                              "HIS 310",
+                              "HIS 316",
+                              "HIS 318",
+                              "HIS 321",
+                              "HIS 322"
+                            ]
+                          },
+                          "label": {
+                            "tag": "39",
+                            "text": "US History"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 100:499",
+                              "FLM 100:499",
+                              "MUS 100:499",
+                              "THE 100:499"
+                            ],
+                            "hidden": [
+                              "ART 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ANT 336",
+                              "LAS 224",
+                              "WST 355",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 359",
+                              "FRE 223",
+                              "MUS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "THE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 308"
+                            ]
+                          },
+                          "label": {
+                            "tag": "40",
+                            "text": "Arts"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ANT 100:499",
+                              "ECO 100:499",
+                              "GEO 100:499",
+                              "PSC 100:499",
+                              "PSY 100:499",
+                              "SOC 100:499"
+                            ],
+                            "hidden": [
+                              "ANT 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 201",
+                              "CAS 222",
+                              "CAS 340",
+                              "LAS 225",
+                              "LAS 240",
+                              "WST 300",
+                              "WST 370",
+                              "HSC 302",
+                              "ART 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 329",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 210",
+                              "ENG 260",
+                              "WST 306",
+                              "PSC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 227",
+                              "WST 326",
+                              "CAS 305",
+                              "PHI 314",
+                              "PHI 370",
+                              "PHI 316",
+                              "LAS 328",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PSY 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 315",
+                              "PBH 325",
+                              "ORG 671",
+                              "SOC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 208",
+                              "WST 212",
+                              "WST 240",
+                              "WST 260",
+                              "WST 310",
+                              "WST 347",
+                              "WST 465",
+                              "SWK 344",
+                              "SPA 356"
+                            ]
+                          },
+                          "label": {
+                            "tag": "41",
+                            "text": "Social Science"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "42",
+                            "text": "Health"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "ECEDMAJCERT",
+                        "text": "EARLY CHILDHOOD EDUCATION - CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECED",
+          "minimumCredits": {
+            "min": 68
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A Grade of C or higher is required in all of the courses required for certification."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 8,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "CONC_DEVL": 6,
+            "MAJOR_SOCO": 6,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "201840",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000530",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "4",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 215"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Foundations of Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "6",
+                        "text": "CARE PRE-REQUISITE"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 315"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Play and Social Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Language and Literacy I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Mathematics Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "10",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 355"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Reading and Writing in the Primary Years"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 400"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Social Studies Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 401"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Field Experience in Early Childhood"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 455"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Science Pedagogy in Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "15",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 420"
+                            ],
+                            "hidden": [
+                              "ECE 305"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Development of Children with Special Needs"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 410"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Families, Culture, and Child Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 425"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Practicum in Early Childhood Special Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 405"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Adapting Early Childhood Curriculum for the Inclusive Classroom"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 445"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Student Teaching: Grades 1-3"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "22",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ENG 100",
+                              "ENG 101:499"
+                            ],
+                            "hidden": [
+                              "ENG 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "English"
+                          },
+                          "minCredits": 6,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 139"
+                            ],
+                            "hidden": [
+                              "MAT 139P"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Number Systems"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Psychology of Childhood"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "@ (With ATTRIBUTE=LAB)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Any Course with a LAB Attribute"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Any Course with a LAB Attribute"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 200",
+                                      "BIO 201"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Ecology and the Environment & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "27",
+                                "text": "Ecology and the Environment & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 202",
+                                      "BIO 203"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Human Biology Lecture & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "28",
+                                "text": "Human Biology Lecture & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "AST 214",
+                                      "BIO 120",
+                                      "BIO 205",
+                                      "CHE 200",
+                                      "CHE 205",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Science Courses with included Lab"
+                                  },
+                                  "minCredits": 4,
+                                  "minClasses": 1,
+                                  "combinationOperator": "and",
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "29",
+                                "text": "Science Courses with included Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 106",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "Geology of National Parks & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "30",
+                                "text": "Geology of National Parks & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 110",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "Introduction to Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "31",
+                                "text": "Introduction to Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 125"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Earth Science Lab & Geology of Natural Resources"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "32",
+                                "text": "Earth Science Lab & Geology of Natural Resources"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32.1",
+                                    "text": "Earth Science Lab & Dynamic Earth"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "32.1",
+                                "text": "Earth Science Lab & Dynamic Earth"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 202"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Earth Science Lab & Geological Settings-Connecticut"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33",
+                                "text": "Earth Science Lab & Geological Settings-Connecticut"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 304",
+                                      "BIO 314"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Genetics and Society & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "34",
+                                "text": "Genetics and Society & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 205",
+                                      "EES 207"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "35",
+                                    "text": "Sustainable Energy & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "35",
+                                "text": "Sustainable Energy & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 221"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "36",
+                                    "text": "Environmental Geology & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "36",
+                                "text": "Environmental Geology & Lab"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "37",
+                            "text": "SCIENCE WITH A LAB"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "BIO 100:499",
+                              "CHE 100:499",
+                              "PBH 228",
+                              "EES 100:499",
+                              "PHS 100:499",
+                              "PHY 100:499",
+                              "@ (With Attribute = T1NS)",
+                              "@ (With Attribute = T2NS)"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301",
+                              "CHE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "38",
+                            "text": "Science without a lab"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "priority": "low",
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HIS 120",
+                              "HIS 121",
+                              "HIS 221",
+                              "HIS 241",
+                              "HIS 245",
+                              "HIS 251",
+                              "HIS 302",
+                              "HIS 303",
+                              "HIS 310",
+                              "HIS 316",
+                              "HIS 318",
+                              "HIS 321",
+                              "HIS 322",
+                              "ANT 221"
+                            ]
+                          },
+                          "label": {
+                            "tag": "39",
+                            "text": "US History"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 100:499",
+                              "FLM 100:499",
+                              "MUS 100:499",
+                              "THE 100:499"
+                            ],
+                            "hidden": [
+                              "ART 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ANT 336",
+                              "LAS 224",
+                              "WST 355",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 359",
+                              "FRE 223",
+                              "MUS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "THE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 308"
+                            ]
+                          },
+                          "label": {
+                            "tag": "40",
+                            "text": "Arts"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ANT 100:499",
+                              "ECO 100:499",
+                              "GEO 100:499",
+                              "PSC 100:499",
+                              "PSY 100:499",
+                              "SOC 100:499"
+                            ],
+                            "hidden": [
+                              "ANT 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 201",
+                              "CAS 222",
+                              "CAS 340",
+                              "LAS 225",
+                              "LAS 240",
+                              "WST 300",
+                              "WST 370",
+                              "HSC 302",
+                              "ART 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 329",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 210",
+                              "ENG 260",
+                              "WST 306",
+                              "PSC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 227",
+                              "WST 326",
+                              "CAS 305",
+                              "PHI 314",
+                              "PHI 370",
+                              "PHI 316",
+                              "LAS 328",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PSY 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 315",
+                              "PBH 325",
+                              "ORG 671",
+                              "SOC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 208",
+                              "WST 212",
+                              "WST 240",
+                              "WST 260",
+                              "WST 310",
+                              "WST 347",
+                              "WST 465",
+                              "SWK 344",
+                              "SPA 356"
+                            ]
+                          },
+                          "label": {
+                            "tag": "41",
+                            "text": "Social Science"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "42",
+                            "text": "Health"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "43",
+                        "text": "EARLY CHILDHOOD EDUCATION - CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECED",
+          "minimumCredits": {
+            "min": 68
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A Grade of C or higher is required in all of the courses required for certification."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 9,
+            "CONC_ENGE": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 8,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "CONC_DEVL": 3,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002340",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "4",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 215"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Foundations of Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "6",
+                        "text": "CARE PRE-REQUISITE"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 315"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Play and Social Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Language and Literacy I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 455"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Science Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "10",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 355"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Reading and Writing in the Primary Years"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 400"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Social Studies Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 401"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Field Experience in Early Childhood"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Math Pedagogy in Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "15",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 420"
+                            ],
+                            "hidden": [
+                              "ECE 305"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Development of Children with Special Needs"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 410"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Families, Culture, and Child Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 425"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Practicum in Early Childhood Special Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 405"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Adapting Early Childhood Curriculum for the Inclusive Classroom"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 445"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Student Teaching: Grades 1-3"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "22",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ENG 100",
+                              "ENG 101:499"
+                            ],
+                            "hidden": [
+                              "ENG 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "English"
+                          },
+                          "minCredits": 6,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 139"
+                            ],
+                            "hidden": [
+                              "MAT 139P"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Number Systems"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Psychology of Childhood"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "@ (With ATTRIBUTE=LAB)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Any Course with a LAB Attribute"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Any Course with a LAB Attribute"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 200",
+                                      "BIO 201"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Ecology and the Environment & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "27",
+                                "text": "Ecology and the Environment & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 202",
+                                      "BIO 203"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Human Biology Lecture & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "28",
+                                "text": "Human Biology Lecture & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "AST 214",
+                                      "BIO 120",
+                                      "BIO 205",
+                                      "CHE 200",
+                                      "CHE 205",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Science Courses with included Lab"
+                                  },
+                                  "minCredits": 4,
+                                  "minClasses": 1,
+                                  "combinationOperator": "and",
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "29",
+                                "text": "Science Courses with included Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 106",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "Geology of National Parks & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "30",
+                                "text": "Geology of National Parks & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 110",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "Introduction to Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "31",
+                                "text": "Introduction to Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 125"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Earth Science Lab & Geology of Natural Resources"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "32",
+                                "text": "Earth Science Lab & Geology of Natural Resources"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 202"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Earth Science Lab & Geological Settings-Connecticut"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33",
+                                "text": "Earth Science Lab & Geological Settings-Connecticut"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33.1",
+                                    "text": "Earth Science Lab & Dynamic Earth"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33.1",
+                                "text": "Earth Science Lab & Dynamic Earth"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 304",
+                                      "BIO 314"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Genetics and Society & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "34",
+                                "text": "Genetics and Society & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 205",
+                                      "EES 207"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "35",
+                                    "text": "Sustainable Energy & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "35",
+                                "text": "Sustainable Energy & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 221"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "36",
+                                    "text": "Environmental Geology & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "36",
+                                "text": "Environmental Geology & Lab"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "37",
+                            "text": "SCIENCE WITH A LAB"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "BIO 100:499",
+                              "CHE 100:499",
+                              "PBH 228",
+                              "EES 100:499",
+                              "PHS 100:499",
+                              "PHY 100:499",
+                              "@ (With Attribute = T1NS)",
+                              "@ (With Attribute = T2NS)"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301",
+                              "CHE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "38",
+                            "text": "Science without a lab"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "priority": "low",
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HIS 120",
+                              "HIS 121",
+                              "HIS 221",
+                              "HIS 241",
+                              "HIS 245",
+                              "HIS 251",
+                              "HIS 302",
+                              "HIS 303",
+                              "HIS 310",
+                              "HIS 316",
+                              "HIS 318",
+                              "HIS 321",
+                              "HIS 322",
+                              "ANT 221"
+                            ]
+                          },
+                          "label": {
+                            "tag": "39",
+                            "text": "US History"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 100:499",
+                              "FLM 100:499",
+                              "MUS 100:499",
+                              "THE 100:499"
+                            ],
+                            "hidden": [
+                              "ART 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ANT 336",
+                              "LAS 224",
+                              "WST 355",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 359",
+                              "FRE 223",
+                              "MUS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "THE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 308"
+                            ]
+                          },
+                          "label": {
+                            "tag": "40",
+                            "text": "Arts"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ANT 100:499",
+                              "ECO 100:499",
+                              "GEO 100:499",
+                              "PSC 100:499",
+                              "PSY 100:499",
+                              "SOC 100:499"
+                            ],
+                            "hidden": [
+                              "ANT 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 201",
+                              "CAS 222",
+                              "CAS 340",
+                              "LAS 225",
+                              "LAS 240",
+                              "WST 300",
+                              "WST 370",
+                              "HSC 302",
+                              "ART 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 329",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 210",
+                              "ENG 260",
+                              "WST 306",
+                              "PSC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 227",
+                              "WST 326",
+                              "CAS 305",
+                              "PHI 314",
+                              "PHI 370",
+                              "PHI 316",
+                              "LAS 328",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PSY 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 315",
+                              "PBH 325",
+                              "ORG 671",
+                              "SOC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 208",
+                              "WST 212",
+                              "WST 240",
+                              "WST 260",
+                              "WST 310",
+                              "WST 347",
+                              "WST 465",
+                              "SWK 344",
+                              "SPA 356"
+                            ]
+                          },
+                          "label": {
+                            "tag": "41",
+                            "text": "Social Science"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "42",
+                            "text": "Health"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "43",
+                        "text": "EARLY CHILDHOOD EDUCATION - CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECED",
+          "minimumCredits": {
+            "min": 68
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A Grade of C or higher is required in all of the courses required for certification."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_EES": 3,
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGE": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 8,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002621",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "4",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 215"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Foundations of Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "6",
+                        "text": "CARE PRE-REQUISITE"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 315"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Play and Social Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Language and Literacy I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 455"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Science Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "10",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 355"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Reading and Writing in the Primary Years"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 400"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Social Studies Pedagogy in ECE"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 401"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Field Experience in Early Childhood"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Math Pedagogy in Early Childhood Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "15",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 420"
+                            ],
+                            "hidden": [
+                              "ECE 305"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Development of Children with Special Needs"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 410"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Families, Culture, and Child Development"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 425"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Practicum in Early Childhood Special Education"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 405"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Adapting Early Childhood Curriculum for the Inclusive Classroom"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECE 445"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Student Teaching: Grades 1-3"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "22",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ENG 100",
+                              "ENG 101:499"
+                            ],
+                            "hidden": [
+                              "ENG 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "English"
+                          },
+                          "minCredits": 6,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MAT 139"
+                            ],
+                            "hidden": [
+                              "MAT 139P"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Number Systems"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Psychology of Childhood"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 1,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "@ (With ATTRIBUTE=LAB)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "Any Course with a LAB Attribute"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "26",
+                                "text": "Any Course with a LAB Attribute"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 200",
+                                      "BIO 201"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Ecology and the Environment & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "27",
+                                "text": "Ecology and the Environment & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 202",
+                                      "BIO 203"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Human Biology Lecture & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "28",
+                                "text": "Human Biology Lecture & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "AST 214",
+                                      "BIO 120",
+                                      "BIO 205",
+                                      "CHE 200",
+                                      "CHE 205"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Science Courses with included Lab"
+                                  },
+                                  "minCredits": 4,
+                                  "minClasses": 1,
+                                  "combinationOperator": "and",
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "29",
+                                "text": "Science Courses with included Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 106",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "Geology of National Parks & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "30",
+                                "text": "Geology of National Parks & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 110",
+                                      "EES 112"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "Introduction to Geology & Earth Science Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "31",
+                                "text": "Introduction to Geology & Earth Science Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 125"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Earth Science Lab & Geology of Natural Resources"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "32",
+                                "text": "Earth Science Lab & Geology of Natural Resources"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 202"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Earth Science Lab & Geological Settings-Connecticut"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33",
+                                "text": "Earth Science Lab & Geological Settings-Connecticut"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 112",
+                                      "EES 104"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33.1",
+                                    "text": "Earth Science Lab & Dynamic Earth"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "33.1",
+                                "text": "Earth Science Lab & Dynamic Earth"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "BIO 304",
+                                      "BIO 314"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Genetics and Society & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "34",
+                                "text": "Genetics and Society & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 205",
+                                      "EES 207"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "35",
+                                    "text": "Sustainable Energy & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "35",
+                                "text": "Sustainable Energy & Lab"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "and",
+                                    "courses": [
+                                      "EES 220",
+                                      "EES 221"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "36",
+                                    "text": "Environmental Geology & Lab"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "36",
+                                "text": "Environmental Geology & Lab"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "37",
+                            "text": "SCIENCE WITH A LAB"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "BIO 100:499",
+                              "CHE 100:499",
+                              "PBH 228",
+                              "EES 100:499",
+                              "PHS 100:499",
+                              "PHY 100:499",
+                              "@ (With Attribute = T1NS)",
+                              "@ (With Attribute = T2NS)"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301",
+                              "CHE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "38",
+                            "text": "Science without a lab"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "priority": "low",
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HIS 120",
+                              "HIS 121",
+                              "HIS 221",
+                              "HIS 241",
+                              "HIS 245",
+                              "HIS 251",
+                              "HIS 302",
+                              "HIS 303",
+                              "HIS 310",
+                              "HIS 316",
+                              "HIS 318",
+                              "HIS 321",
+                              "HIS 322",
+                              "ANT 221"
+                            ]
+                          },
+                          "label": {
+                            "tag": "39",
+                            "text": "US History"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 100:499",
+                              "FLM 100:499",
+                              "MUS 100:499",
+                              "THE 100:499"
+                            ],
+                            "hidden": [
+                              "ART 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ANT 336",
+                              "LAS 224",
+                              "WST 355",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 359",
+                              "FRE 223",
+                              "MUS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "THE 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "ENG 308"
+                            ]
+                          },
+                          "label": {
+                            "tag": "40",
+                            "text": "Arts"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ANT 100:499",
+                              "ECO 100:499",
+                              "GEO 100:499",
+                              "PSC 100:499",
+                              "PSY 100:499",
+                              "SOC 100:499"
+                            ],
+                            "hidden": [
+                              "ANT 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 201",
+                              "CAS 222",
+                              "CAS 340",
+                              "LAS 225",
+                              "LAS 240",
+                              "WST 300",
+                              "WST 370",
+                              "HSC 302",
+                              "ART 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 329",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 210",
+                              "ENG 260",
+                              "WST 306",
+                              "PSC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 227",
+                              "WST 326",
+                              "CAS 305",
+                              "PHI 314",
+                              "PHI 370",
+                              "PHI 316",
+                              "LAS 328",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PSY 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 315",
+                              "PBH 325",
+                              "ORG 671",
+                              "SOC 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "WST 208",
+                              "WST 212",
+                              "WST 240",
+                              "WST 260",
+                              "WST 310",
+                              "WST 347",
+                              "WST 465",
+                              "SWK 344",
+                              "SPA 356"
+                            ]
+                          },
+                          "label": {
+                            "tag": "41",
+                            "text": "Social Science"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and",
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "42",
+                            "text": "Health"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "43",
+                        "text": "EARLY CHILDHOOD EDUCATION - CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECED",
+          "minimumCredits": {
+            "min": 68
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A Grade of C or higher is required in all of the courses required for certification."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ENGE": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 8,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "OTHER_ANY": 60
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "MATH": {
+      "programName": "Minor in Mathematics",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000312",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Calculus II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 300:499"
+                ],
+                "hidden": [
+                  "MAT 3@",
+                  "4@",
+                  "CSC 350",
+                  "CSC 353",
+                  "AST 375",
+                  "EDU 491"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Mathematics Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": {
+            "min": 20
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 11
+          }
+        }
+      ]
+    }
+  }
+}

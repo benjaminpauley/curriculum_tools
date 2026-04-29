@@ -1,0 +1,306 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "COMM": {
+      "programName": "Minor in Communication",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000279",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 100"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intro Mass Communications"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CMAS)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Mass Communications"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Mass Communications"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CCPR)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Public Relations"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Public Relations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CRAD)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Radio"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Radio"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CTEL)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Television"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Television"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CWRM)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Writing for Media"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Writing for Media"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "COMMUNICATION AREA ELECTIVES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "HSC 255",
+                  "SWK 310"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Communication Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001741",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 2@",
+                  "3@",
+                  "4@"
+                ],
+                "except": [
+                  "COM 2XX",
+                  "3XX",
+                  "4XX",
+                  "290",
+                  "291",
+                  "292",
+                  "490",
+                  "491"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "200+ Level Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 1@",
+                  "2@",
+                  "3@",
+                  "4@"
+                ],
+                "except": [
+                  "COM 1XX",
+                  "2XX",
+                  "3XX",
+                  "4XX",
+                  "190",
+                  "191",
+                  "290",
+                  "291",
+                  "292",
+                  "490",
+                  "491"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Minor Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

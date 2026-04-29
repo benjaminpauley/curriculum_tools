@@ -1,0 +1,200 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PPTH": {
+      "programName": "Concentration in Pre-Physical Therapy",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000213",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Anatomy & Physiology I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Anatomy & Physiology II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 334",
+                  "HSC 425"
+                ],
+                "hidden": [
+                  "{HIDE HSC 480 (With DWTitle = \"@ HSC 425\")"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "General Microbiology With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Organic Chemistry I With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 204"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "General Physic I With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Physics II With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 352"
+                ],
+                "hidden": [
+                  "SLM 375"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Exercise for Persons with Chronic Diseases and Disabilities"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_SPMG": 3
+          }
+        }
+      ]
+    }
+  }
+}

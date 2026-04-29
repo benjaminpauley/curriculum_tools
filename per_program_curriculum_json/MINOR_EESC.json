@@ -1,0 +1,627 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "EESC": {
+      "programName": "Minor in Environmental Earth Science",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000296",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 104"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Dynamic Earth with Laboratory"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Dynamic Earth with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 106",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of National Parks and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Geology of National Parks and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Introduction to Geology and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Geology and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 125",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Geology of Natural Resources and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Geology of Natural Resources and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 202",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ancient Environments w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Landform Analysis w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CHE 336",
+                  "PBH 222",
+                  "PBH 323",
+                  "EES 222",
+                  "PHR 222"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000527",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 104"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Dynamic Earth with Laboratory"
+                      },
+                      "minCredits": 4
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Dynamic Earth with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 106",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of National Parks and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Geology of National Parks and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Introduction to Geology and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Geology and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 125",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Geology of Natural Resources and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Geology of Natural Resources and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 202",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ancient Environments w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Landform Analysis w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 300:499",
+                  "EES 251",
+                  "EES 271",
+                  "EES 471"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CHE 336",
+                  "PBH 222",
+                  "PBH 323"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002583",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 104",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Dynamic Earth and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Dynamic Earth and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 106",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of National Parks and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Geology of National Parks and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Introduction to Geology and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Geology and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Environmental Geology and Earth Science Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Environmental Geology and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 221"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Environmental Geology and Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Environmental Geology and Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ancient Environments w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Landform Analysis w/Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 300:499",
+                  "EES 251",
+                  "EES 271",
+                  "EES 471"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CHE 336",
+                  "PBH 222",
+                  "PBH 323"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

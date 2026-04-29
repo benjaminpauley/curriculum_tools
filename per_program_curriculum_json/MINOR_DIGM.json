@@ -1,0 +1,249 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "DIGM": {
+      "programName": "Minor in Digital Art & Media Design",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002219",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 233",
+                  "ART 310",
+                  "ART 323",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 332",
+                  "ART 335",
+                  "ART 337",
+                  "ART 342",
+                  "ART 343",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 421",
+                  "ART 422",
+                  "ART 432"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Media Design Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002617",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 233",
+                  "ART 310",
+                  "ART 323",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 332",
+                  "ART 335",
+                  "ART 337",
+                  "ART 342",
+                  "ART 343",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 421",
+                  "ART 432"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Media Design Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

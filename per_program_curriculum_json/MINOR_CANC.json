@@ -1,0 +1,359 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CANC": {
+      "programName": "Minor in Cannabis Cultivation & Chemistry",
+      "versions": [
+        {
+          "startTerm": "202240",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002131",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 300"
+                ],
+                "hidden": [
+                  "BIO 222"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Cannabis Cultivation Practicum"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 302"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Chemical Analysis of Cannabis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 324",
+                          "BIO 332",
+                          "BIO 344",
+                          "BIO 438",
+                          "BIO 442",
+                          "CHE 216",
+                          "CHE 320",
+                          "HSC 440",
+                          "PBH 441"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 205",
+                          "EES 207"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Sustainable Energy"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Sustainable Energy"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230",
+                          "BIO 378",
+                          "BIO 450",
+                          "EES 222",
+                          "EES 306",
+                          "HSC 215",
+                          "HSC 306",
+                          "HSC 408",
+                          "MAT 216",
+                          "PBH 228"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "CHE 316",
+                          "CHE 317"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Biochemistry I"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Biochemistry I"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Choose One"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002547",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 222"
+                ],
+                "hidden": [
+                  "BIO 300"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Sustainable Cannabis Cultivation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 302"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Chemical Analysis of Cannabis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 324",
+                          "BIO 332",
+                          "BIO 344",
+                          "BIO 438",
+                          "BIO 442",
+                          "CHE 216",
+                          "CHE 320",
+                          "PBH 441"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 205",
+                          "EES 207"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Sustainable Energy"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Sustainable Energy"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230",
+                          "BIO 378",
+                          "BIO 450",
+                          "EES 222",
+                          "EES 306",
+                          "HSC 215",
+                          "HSC 306",
+                          "HSC 408",
+                          "MAT 216",
+                          "PBH 228"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "CHE 316",
+                          "CHE 317"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Biochemistry I"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Biochemistry I"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Choose One"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MWFA": {
+      "programName": "Concentration in Multimedia Writing,Form&Analysis",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000445",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Capstone Course"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 207",
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 362",
+                  "ENG 363",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000446",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499",
+                  "NMS 440"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Capstone Course"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 207",
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 360",
+                  "ENG 362",
+                  "ENG 363",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000447",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499",
+                  "NMS 440"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Capstone Course"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 207",
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 360",
+                  "ENG 362",
+                  "ENG 363",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

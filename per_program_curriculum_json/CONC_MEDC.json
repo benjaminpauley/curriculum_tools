@@ -1,0 +1,150 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MEDC": {
+      "programName": "Concentration in Media Computation",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000050",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "CSC 251",
+                  "CSC 305",
+                  "CSC 311",
+                  "CSC 330",
+                  "CSC 335",
+                  "CSC 341"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201840",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000444",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450",
+                  "NMS 440"
+                ],
+                "hidden": [
+                  "{HIDE CSC 480 (with DWTitle = \"@ NMS 440\")"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "CSC 270",
+                  "CSC 305",
+                  "CSC 311",
+                  "CSC 335",
+                  "CSC 341"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

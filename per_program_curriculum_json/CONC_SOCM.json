@@ -1,0 +1,104 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "SOCM": {
+      "programName": "Concentration in Social Media",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002195",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 242"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Introducatin to Social Media"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 262"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Social Media Content Creation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 362"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Social Media Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 382"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Social Media Analytics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 478"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Integrated Marketing Communication"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_PBRE": 3
+          }
+        }
+      ]
+    }
+  }
+}

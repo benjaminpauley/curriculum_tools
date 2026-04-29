@@ -1,0 +1,1676 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "FNCE": {
+      "programName": "Major in Finance",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000210",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Principles Of Accounting I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles Of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Business Law I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Operations Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Principles Of Macroeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Principles Of Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Statistics For Business And Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Principles Managerial Accounting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Business Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 325"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Money And Banking"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 245"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Business Finance"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 346"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Investment Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 347"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "15",
+                "text": "Financial Institutions and Markets"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 437"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "International Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17",
+                "text": "Case Studies Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "18",
+                "text": "Internship in Finance"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 438",
+                  "FIN 446",
+                  "FIN 462"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "19",
+                "text": "Finance Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 66
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001439",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Principles Of Accounting I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles Of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Business Law I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Operations Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Principles Of Macroeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Principles Of Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Statistics For Business And Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Principles Managerial Accounting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Business Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 325"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Money And Banking"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 245"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Business Finance"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13.a",
+                "text": "Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 346"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Investment Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 347"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "15",
+                "text": "Financial Institutions and Markets"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 437"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "International Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17",
+                "text": "Case Studies Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 447"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17.a",
+                "text": "Wealth Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "18",
+                "text": "Internship in Finance"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 300",
+                  "FIN 302",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 438",
+                  "FIN 446",
+                  "FIN 462"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "19",
+                "text": "Finance Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 66
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001639",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Principles Of Accounting I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles Of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Business Law I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Operations Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Principles Of Macroeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Principles Of Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Statistics For Business And Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Principles Managerial Accounting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Business Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 325"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Money And Banking"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 245"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Business Finance"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13.a",
+                "text": "Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 346"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Investment Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 347"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "15",
+                "text": "Financial Institutions and Markets"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 437"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "International Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17",
+                "text": "Case Studies Financial Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 447"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17.a",
+                "text": "Wealth Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "18",
+                "text": "Internship in Finance"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 300",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 438",
+                  "FIN 446",
+                  "FIN 462"
+                ],
+                "hidden": [
+                  "FIN 302",
+                  "BUS 302"
+                ]
+              },
+              "label": {
+                "tag": "19",
+                "text": "Finance Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 66
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202350",
+          "requirementAuthority": "RA002006",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Principles Of Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles Of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Statistics For Business And Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "2",
+                "text": "Related Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Principles Managerial Accounting"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 250"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Business Law I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 325"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Money And Banking"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 346"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Investment Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 347"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Financial Institutions and Markets"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 437"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "International Financial Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 445"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Case Studies Financial Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 462"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Seminar in Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Internship in Finance"
+                  },
+                  "minCredits": 3
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "Required Core"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=BKRL OR CONC=INVS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "39",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "40",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002411",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Introductory Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introductory Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Statistics For Business And Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "2",
+                "text": "Related Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Principles Managerial Accounting"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 250"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Business Law I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.1",
+                    "text": "Research Methods"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 325"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Money And Banking"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 346"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Investment Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 437"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "International Financial Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 445"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Case Studies Financial Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 462"
+                    ],
+                    "hidden": [
+                      "ECO 479"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Seminar in Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 490"
+                    ],
+                    "hidden": [
+                      "ECO 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Internship in Finance"
+                  },
+                  "minCredits": 3
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "Required Core"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=BKRL OR CONC=INVS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "39",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "40",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        }
+      ]
+    }
+  }
+}

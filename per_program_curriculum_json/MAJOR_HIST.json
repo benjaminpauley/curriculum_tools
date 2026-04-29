@@ -1,0 +1,778 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "HIST": {
+      "programName": "Major in History",
+      "versions": [
+        {
+          "startTerm": "201040",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000033",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HAMS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "American Studies Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 120"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "The Early American Experience 1607 To 1877"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 121"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "The Recent American Experience 1877 To Present"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Historical Research And Writing"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 230"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Western Civilization Before 1500"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 231"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Western Civilization Since 1500"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 400",
+                          "HIS 406",
+                          "HIS 407",
+                          "HIS 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Seminar Course"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 300:499"
+                        ],
+                        "hidden": [
+                          "HIS 3@",
+                          "4@",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 420",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "PHR 391",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 HighPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "300/400 Level Major Electives"
+                      },
+                      "minCredits": 12,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200:499"
+                        ],
+                        "hidden": [
+                          "HIS 2@",
+                          "3@",
+                          "4@",
+                          "AAT 201",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 251",
+                          "AMS 420",
+                          "CAS 271",
+                          "LAS 255",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "NES 250",
+                          "PHR 391",
+                          "WST 244",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 LowestPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "15",
+                        "text": "Major Electives"
+                      },
+                      "minCredits": 6,
+                      "qualifiers": {
+                        "priority": "lowest"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HIST",
+          "minimumCredits": {
+            "min": 38
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history",
+            "major. Transfer students must take a minimum of 15 credits",
+            "of history courses at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 3,
+            "MAJOR_ECED": 3,
+            "MAJOR_H/SS": 23,
+            "MAJOR_LHRM": 6,
+            "MAJOR_LBST": 3,
+            "MAJOR_WGST": 15,
+            "CONC_7_12": 23,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 23,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002201",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HAMS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "American Studies Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 101"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7.5",
+                        "text": "History Professionalism"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 120"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "The Early American Experience 1607 To 1877"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 121"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "The Recent American Experience 1877 To Present"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Historical Research And Writing"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 230"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Western Civilization Before 1500"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 231"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Western Civilization Since 1500"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 400",
+                          "HIS 406",
+                          "HIS 407",
+                          "HIS 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Seminar Course"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 300:499"
+                        ],
+                        "hidden": [
+                          "HIS 3@",
+                          "4@",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 420",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "PHR 391",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 HighPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "300/400 Level Major Electives"
+                      },
+                      "minCredits": 12,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200:499"
+                        ],
+                        "hidden": [
+                          "HIS 2@",
+                          "3@",
+                          "4@",
+                          "AAT 201",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 251",
+                          "AMS 420",
+                          "CAS 271",
+                          "LAS 255",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "NES 250",
+                          "PHR 391",
+                          "WST 244",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 LowestPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "15",
+                        "text": "Major Electives"
+                      },
+                      "minCredits": 6,
+                      "qualifiers": {
+                        "priority": "lowest"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HIST",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history",
+            "major. Transfer students must take a minimum of 15 credits",
+            "of history courses at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 3,
+            "MAJOR_ECED": 3,
+            "MAJOR_H/SS": 23,
+            "MAJOR_LHRM": 6,
+            "MAJOR_LBST": 3,
+            "MAJOR_WGST": 15,
+            "CONC_7_12": 23,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 23,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002444",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HAMS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "American Studies Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 101"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7.5",
+                        "text": "History Professionalism"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 120"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "American Origins"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 121"
+                        ],
+                        "hidden": [
+                          "HIS 310"
+                        ],
+                        "except": [
+                          "HIS 310"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Making Modern America"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Historical Research And Writing"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 230"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "The Birth of Europe"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 231"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "The Making and Breaking of Europe"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 401"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12.1",
+                        "text": "History as a Career"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 400",
+                          "HIS 406",
+                          "HIS 407",
+                          "HIS 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Seminar Course"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 300:499"
+                        ],
+                        "hidden": [
+                          "HIS 3@",
+                          "4@",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 420",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "PHR 391",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 HighPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "300/400 Level Major Electives"
+                      },
+                      "minCredits": 12,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 200:499"
+                        ],
+                        "hidden": [
+                          "HIS 2@",
+                          "3@",
+                          "4@",
+                          "AAT 201",
+                          "AAT 380",
+                          "AAT 381",
+                          "AMS 251",
+                          "AMS 420",
+                          "CAS 271",
+                          "LAS 255",
+                          "LAS 342",
+                          "LAS 345",
+                          "LAS 346",
+                          "LAS 347",
+                          "NES 250",
+                          "PHR 391",
+                          "WST 244",
+                          "WST 317",
+                          "WST 363"
+                        ],
+                        "except": [
+                          "HIS 310 LowestPriority"
+                        ]
+                      },
+                      "label": {
+                        "tag": "15",
+                        "text": "Major Electives"
+                      },
+                      "minCredits": 6,
+                      "qualifiers": {
+                        "priority": "lowest"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "HIST",
+          "minimumCredits": {
+            "min": 40
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history",
+            "major. Transfer students must take a minimum of 15 credits",
+            "of history courses at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 3,
+            "MAJOR_ECED": 3,
+            "MAJOR_H/SS": 23,
+            "MAJOR_LHRM": 6,
+            "MAJOR_LBST": 3,
+            "MAJOR_WGST": 15,
+            "CONC_7_12": 23,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 23,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "GEOG": {
+      "programName": "Minor in Geography",
+      "versions": [
+        {
+          "startTerm": "200710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000102",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "GEO 300:499"
+                ],
+                "hidden": [
+                  "GEO 3@",
+                  "4@",
+                  "WST 336",
+                  "PSC 336"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "300/400 Level Geography Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "GEO 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 210",
+                  "ENG 260",
+                  "PSC 336",
+                  "WST 336"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Geography Electives"
+              },
+              "minClasses": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "At least 6 credits in the minor must be at the 300+ level, and 9",
+            "credits must be completed at Eastern CT University.",
+            "A minimum of nine (9) unique credits is required to complete",
+            "a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

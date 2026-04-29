@@ -1,0 +1,49 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "GNLT": {
+      "programName": "Concentration in Communication Generalist",
+      "versions": [
+        {
+          "startTerm": "200510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001479",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 1@",
+                  "2@",
+                  "3@",
+                  "4@"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=MELT)"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Requirements"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Choose 5 courses, 15 credits from Communication Electives"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

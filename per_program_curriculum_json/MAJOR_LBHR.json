@@ -1,0 +1,135 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "LBHR": {
+      "programName": "Major in Labor and Human Resources",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002230",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 330"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Labor Economics and Inequality"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 333"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Health Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 429",
+                      "; 1 Class in BUS 330",
+                      "; 1 Class in BUS 333",
+                      "; 1 Class in PSY 303",
+                      "; EndSub; 1 Class in BUS 331",
+                      "ECO 332",
+                      "ECO 433",
+                      "436; 2 Classes in PSY 304",
+                      "ECO 305",
+                      "ECO 403",
+                      "404; 3 Classes in ANT 300",
+                      "COM 230",
+                      "COM 330",
+                      "COM 331",
+                      "PHI 314",
+                      "PHI 320",
+                      "PHI 360",
+                      "PSC 225",
+                      "PSC 314",
+                      "PSC 323",
+                      "PSC 325",
+                      "PSY 325",
+                      "SOC 325",
+                      "SOC 358",
+                      "373 1 Class in LHR 490"
+                    ],
+                    "hidden": [
+                      "ECO 329",
+                      "{HIDE ECO 480 (With DWTitle = \"@ ECO 329\"), {HIDE ECO 480 (With DWTitle = \"@ ECO 429\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Political Economy of Labor Relations"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": null,
+                "text": "Requirements"
+              }
+            }
+          ],
+          "declaredMajor": "LBHR",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Pre-requisites for Labor & Human Resources",
+            "courses are: ECO 200, ECO 201, PSY 100, ECO 215, and BUS 201."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_PHIL": 9,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 9,
+            "MAJOR_SOCO": 15,
+            "MAJOR_WGST": 16,
+            "CONC_7_12": 12,
+            "CONC_ECOB": 9,
+            "CONC_ECOG": 9,
+            "CONC_HAMS": 15,
+            "CONC_H/SS": 9,
+            "CONC_PSYW": 18,
+            "CONC_PBHV": 18,
+            "CONC_PC&Y": 18,
+            "CONC_PSTD": 18
+          }
+        }
+      ]
+    }
+  }
+}

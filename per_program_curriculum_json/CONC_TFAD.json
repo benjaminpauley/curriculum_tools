@@ -1,0 +1,104 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TFAD": {
+      "programName": "Conc in Filmmaking and Directing",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002406",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 220",
+                  "FLM 220"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Video & Film Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 357"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Scriptwriting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 270",
+                  "COM 380",
+                  "FLM 380"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Directing I/Dramatic Video & Film Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FLM 101",
+                  "FLM 223",
+                  "FLM 321",
+                  "FLM 322",
+                  "FLM 441",
+                  "FRE 223",
+                  "COM 435",
+                  "THE 271",
+                  "THE 355",
+                  "THE 366",
+                  "THE 374",
+                  "THE 475",
+                  "THE 476",
+                  "THE 480"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Filmmaking and Directing Elective"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3,
+            "MINOR_ANY": 3
+          }
+        }
+      ]
+    }
+  }
+}

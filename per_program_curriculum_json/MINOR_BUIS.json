@@ -1,0 +1,643 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BUIS": {
+      "programName": "Minor in Business Information Systems",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "201350",
+          "requirementAuthority": "RA000084",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Information Systems & Web Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 230",
+                  "BUS 245",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 430",
+                  "BIS 440",
+                  "BIS 442",
+                  "BIS 450",
+                  "BIS 462",
+                  "BUS 445",
+                  "BUS 469"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Business Information Systems Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201410",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000275",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Information Systems & Web Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 230",
+                  "FIN 245",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 245",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 378",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BIS 450",
+                  "BUS 445",
+                  "BUS 469"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Business Information Systems Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000276",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Information Systems & Web Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 230",
+                  "FIN 245",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 245",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 378",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BIS 450",
+                  "BUS 445",
+                  "BUS 469"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Business Information Systems Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202320",
+          "requirementAuthority": "RA000525",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Information Systems & Web Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "FIN 245",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 230",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 245",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 378",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BIS 450",
+                  "BUS 445",
+                  "BUS 469"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Business Information Systems Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202340",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002214",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Information Systems & Web Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "FIN 245",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 230",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 245",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 378",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BIS 450",
+                  "BUS 469",
+                  "FIN 445"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Business Information Systems Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

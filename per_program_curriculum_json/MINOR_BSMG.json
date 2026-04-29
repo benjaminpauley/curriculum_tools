@@ -1,0 +1,214 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BSMG": {
+      "programName": "Minor in Sport Management",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002154",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Principles of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 240"
+                ],
+                "hidden": [
+                  "SLM 250"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Introduction to Sport Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 340",
+                  "BUS 341",
+                  "BUS 342",
+                  "BUS 410",
+                  "BUS 411",
+                  "ECO 331"
+                ],
+                "hidden": [
+                  "SLM 330",
+                  "SLM 345",
+                  "HPE 411",
+                  "SLM 331",
+                  "SLM 460"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Sport Management Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the minor.",
+            "A minimum of nine (9) unique credits is",
+            "required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002497",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Principles of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 240"
+                ],
+                "hidden": [
+                  "SLM 250"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Introduction to Sport Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250",
+                  "BUS 340",
+                  "BUS 342",
+                  "BUS 410",
+                  "BUS 411",
+                  "ECO 331"
+                ],
+                "hidden": [
+                  "SLM 330",
+                  "SLM 345",
+                  "HPE 411",
+                  "SLM 331",
+                  "SLM 460"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Sport Management Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the minor.",
+            "A minimum of nine (9) unique credits is",
+            "required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "HCMG": {
+      "programName": "Concentration in Healthcare Management",
+      "versions": [
+        {
+          "startTerm": "202010",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000381",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 350",
+                  "BUS 380",
+                  "BUS 381"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

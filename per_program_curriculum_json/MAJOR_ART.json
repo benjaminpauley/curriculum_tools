@@ -1,0 +1,266 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ART": {
+      "programName": "Major in Art",
+      "versions": [
+        {
+          "startTerm": "201310",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000483",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ARHI OR CONC=DIGI OR CONC=ILLU OR CONC=DRAW OR CONC=PRNT OR CONC=SCUL OR CONC=SART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "8",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "9",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 47,
+            "max": 50
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Art majors must select a concentration.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000484",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ARHI OR CONC=DIGI OR CONC=ILLU OR CONC=SART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "8",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "9",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 47,
+            "max": 50
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Art majors must select a concentration.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002224",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ARHI OR CONC=DIGM OR CONC=ILLU OR CONC=SART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "8",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "9",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 47,
+            "max": 50
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Art majors must select a concentration.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002625",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ARHI OR CONC=DIGM OR CONC=ILLU OR CONC=SART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "8",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "9",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 44,
+            "max": 55
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Art majors must select a concentration.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

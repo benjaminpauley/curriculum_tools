@@ -1,0 +1,194 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PSEC": {
+      "programName": "Major in Pre-Secondary Education",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000244",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "2.1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 200"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Child and Adolescent Development and Exceptionalities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 210",
+                  "EDU 357"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Foundations of U.S. Education or International Cross Cultural Education"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "PSEC",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must complete the following courses prior to CARE admission:",
+            "A grade of C or better is required for each course below."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001254",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "2.1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 200"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Child and Adolescent Development and Exceptionalities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 210",
+                  "EDU 357"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Foundations of U.S. Education or International Cross Cultural Education"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "PSEC",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must complete the following courses prior to CARE admission:",
+            "A grade of C or better is required for each course below."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002638",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "2.1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 200"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Child and Adolescent Development and Exceptionalities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 210",
+                  "EDU 357",
+                  "EDU 457"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Foundations of U.S. Edu. or Intl. Cross Cultural Edu. or Global Field Study"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "PSEC",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must complete the following courses prior to CARE admission:",
+            "A grade of C or better is required for each course below."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "LDSP": {
+      "programName": "Leadership Communication Minor",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001744",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 101",
+                  "COM 201",
+                  "COM 230",
+                  "COM 301",
+                  "COM 312",
+                  "COM 330",
+                  "COM 331"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Communication Skills for Leadership"
+              },
+              "minClasses": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 331",
+                  "BUS 342",
+                  "COM 375",
+                  "COM 401",
+                  "COM 464",
+                  "MUS 361"
+                ],
+                "hidden": [
+                  "SLM 345"
+                ]
+              },
+              "label": {
+                "tag": "20",
+                "text": "Leadership in Context"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. No classes",
+            "may count for both the Communication Major and the Leadership Communication Minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002139",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 101",
+                  "COM 201",
+                  "COM 230",
+                  "COM 301",
+                  "COM 312",
+                  "COM 330",
+                  "COM 331"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Communication Skills for Leadership"
+              },
+              "minClasses": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 331",
+                  "BUS 342",
+                  "COM 375",
+                  "COM 401",
+                  "COM 464",
+                  "MUS 361"
+                ],
+                "hidden": [
+                  "SLM 345"
+                ]
+              },
+              "label": {
+                "tag": "20",
+                "text": "Leadership in Context"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. No classes",
+            "may count for both the Communication Major and the Leadership Communication Minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

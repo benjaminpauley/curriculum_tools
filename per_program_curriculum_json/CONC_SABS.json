@@ -1,0 +1,539 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "SABS": {
+      "programName": "Concentration in Mathematical Structures & Apps",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000440",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Abstract Algebra"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 371",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Elective - Catgory A"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 373",
+                  "MAT 374"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Elective - Catgory B"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001821",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Abstract Algebra"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 371",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Elective - Catgory A"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 373",
+                  "MAT 374"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Elective - Catgory B"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 343",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001996",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Abstract Algebra"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 202",
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "CSC Programming"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 371",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Elective - Catgory A"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 343",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 373",
+                  "MAT 374"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Elective - Catgory B"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 342",
+                  "MAT 343",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 390",
+                  "MAT 422",
+                  "MAT 440",
+                  "MAT 450"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

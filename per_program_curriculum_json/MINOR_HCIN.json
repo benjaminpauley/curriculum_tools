@@ -1,0 +1,327 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "HCIN": {
+      "programName": "Minor in Healthcare Informatics",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000106",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 462"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Seminar Health Care Information"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205",
+                  "CSC 110",
+                  "CSC 210"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management, Computer Science or Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIS 370",
+                          "BUS 363"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Systems Analysis & Design and Introduction to Six Sigma"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Systems Analysis & Design and Introduction to Six Sigma"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 215",
+                          "CSC 305"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Intro to Web Development and Data Mining & Applications"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Web Development and Data Mining & Applications"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "ELECTIVE COMBINATION"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 373",
+                  "BIS 377",
+                  "CSC 249",
+                  "CSC 360"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Healthcare Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 228",
+                  "HSC 209",
+                  "PBH 228",
+                  "PSY 325"
+                ],
+                "hidden": [
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Public Health/Health Psychology Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000304",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 462"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Seminar Health Care Information"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205",
+                  "CSC 110",
+                  "CSC 210"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management, Computer Science or Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIS 370",
+                          "OSC 363"
+                        ],
+                        "hidden": [
+                          "BUS 363"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Systems Analysis & Design and Introduction to Six Sigma"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Systems Analysis & Design and Introduction to Six Sigma"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 215",
+                          "CSC 305"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Intro to Webpage Design & Development and Data Mining & Machine Learning"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Webpage Design & Development and Data Mining & Machine Learning"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "ELECTIVE COMBINATION"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 373",
+                  "BIS 377",
+                  "CSC 249",
+                  "CSC 360"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Healthcare Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 228",
+                  "HSC 209",
+                  "PBH 228",
+                  "PSY 325"
+                ],
+                "hidden": [
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Public Health/Health Psychology Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MUSM": {
+      "programName": "Concentration in Musicology",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000045",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 12
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 320",
+                  "MUS 356",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000450",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 12
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 320",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000451",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 12
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 320",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001243",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 318",
+                  "MUS 301",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 12
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 320",
+                  "MUS 456",
+                  "MUS 301",
+                  "MUS 361",
+                  "MUS 395",
+                  "MUS 495"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Electives from Another Concentration"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001994",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301",
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 318",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

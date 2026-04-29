@@ -1,0 +1,121 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ESAS": {
+      "programName": "Environmental Science and Sustainability",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002443",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 240"
+                ],
+                "hidden": [
+                  "BIO 130"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Ecology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Energy Resources and Conservation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 310",
+                  "EES 306",
+                  "EES 330",
+                  "EES 342",
+                  "EES 344",
+                  "EES 350",
+                  "EES 356",
+                  "EES 424",
+                  "EES 440",
+                  "EES 441",
+                  "EES 444",
+                  "EES 456",
+                  "EES 460"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Environmental Science and Sustainability Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 301",
+                  "ECO 322",
+                  "EES 315",
+                  "EES 323",
+                  "PSC 351"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Concentration Elective"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 402"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Capstone:Sustainability Issues in Geosciences"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_HAMS": 4,
+            "CONC_PPTH": 8
+          }
+        }
+      ]
+    }
+  }
+}

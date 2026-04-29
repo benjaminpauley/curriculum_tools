@@ -1,0 +1,726 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MHCC": {
+      "programName": "Concentration in Mental Health Counseling",
+      "versions": [
+        {
+          "startTerm": "201410",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000264",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Learning & Congition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 450",
+                      "PSY 455"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Clinical/Counseling"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Test & Measures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "Clinical/Internship"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 230",
+                  "PSY 345",
+                  "PSY 309",
+                  "PSY 315",
+                  "PSY 316",
+                  "PSY 319",
+                  "PSY 320",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 421",
+                  "PSY 435",
+                  "PSY 460",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Course/Indep Study/TA/RA/Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001429",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Learning & Congition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 450",
+                      "PSY 455"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Clinical/Counseling"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Test & Measures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "Clinical/Internship"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 230",
+                  "PSY 345",
+                  "PSY 246",
+                  "PSY 309",
+                  "PSY 315",
+                  "PSY 316",
+                  "PSY 319",
+                  "PSY 320",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 407",
+                  "PSY 421",
+                  "PSY 435",
+                  "PSY 460",
+                  "PSY 471",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Course/Indep Study/TA/RA/Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002165",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Learning & Congition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 430"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 450",
+                      "PSY 455"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Clinical/Counseling"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Test & Measures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "Clinical/Internship"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 230",
+                  "PSY 345",
+                  "PSY 246",
+                  "PSY 309",
+                  "PSY 315",
+                  "PSY 316",
+                  "PSY 319",
+                  "PSY 320",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 407",
+                  "PSY 415",
+                  "PSY 421",
+                  "PSY 435",
+                  "PSY 460",
+                  "PSY 471",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Course/Indep Study/TA/RA/Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002580",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Learning & Congition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 430",
+                  "PSY 432",
+                  "PSY 434"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 450",
+                      "PSY 455"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Clinical/Counseling"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Test & Measures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "Clinical/Internship"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 230",
+                  "PSY 345",
+                  "PSY 246",
+                  "PSY 309",
+                  "PSY 315",
+                  "PSY 316",
+                  "PSY 319",
+                  "PSY 320",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 407",
+                  "PSY 415",
+                  "PSY 421",
+                  "PSY 435",
+                  "PSY 460",
+                  "PSY 471",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Course/Indep Study/TA/RA/Research"
+              },
+              "minCredits": 6,
+              "minClasses": 2,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

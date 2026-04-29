@@ -1,0 +1,44 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "BKRL": {
+      "programName": "Concentration in Banking and Real Estate",
+      "versions": [
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002012",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 335",
+                  "FIN 349",
+                  "FIN 438",
+                  "FIN 446"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

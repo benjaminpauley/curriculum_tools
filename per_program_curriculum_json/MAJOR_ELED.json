@@ -1,0 +1,3019 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ELED": {
+      "programName": "Major in Elementary Education",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000204",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "ELEDMAJ1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Foundations of US Ed or International Cross Cultural Ed"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "PRE-ADMISSION COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Health"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 370",
+                              "EDU 222",
+                              "HPE 360",
+                              "MUS 370"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Professional Course Elective"
+                          },
+                          "minCredits": 3
+                        }
+                      ],
+                      "label": {
+                        "tag": "8",
+                        "text": "OTHER PROFESSIONAL COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Clinical Experience - CORE I "
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 304"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Learning and Teaching in Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 307"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Inclusive Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 316"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Foundations of Literacy"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "13",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 401"
+                            ]
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Clinical Experience - CORE II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 404"
+                            ]
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Educational Assessment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 405"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Second Language Acquisition & Strategies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 412"
+                            ]
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Methods in Elementary Social Studies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 417"
+                            ]
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Applications of Literacy and Language Arts"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 411"
+                            ]
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Methods in Elementary Mathematics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 413"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Methods in Elementary Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 450"
+                            ]
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Pre-Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "23",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Classroom Management and Assessment in the Elementary School"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 470"
+                            ]
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "26",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "CHE 100:499",
+                              "EES 100: 499",
+                              "PHY 100:499"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "27",
+                            "text": "Physical or Earth Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "BIO 100:499"
+                            ],
+                            "hidden": [
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "28",
+                            "text": "Biological Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "MAJOR<>MATH",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "MAT 139",
+                                      "139P",
+                                      "MAT 140"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Mathematics"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ENG 125:499"
+                                    ],
+                                    "hidden": [
+                                      "ENG 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 125",
+                                      "CAS 217",
+                                      "AMS 251",
+                                      "AMS 420",
+                                      "GEO 260",
+                                      "WST 228",
+                                      "WST 266",
+                                      "WST 307",
+                                      "WST 351",
+                                      "WST 352",
+                                      "WST 356",
+                                      "WST 357",
+                                      "THE 308",
+                                      "WLC 324",
+                                      "NES 342",
+                                      "NES 343",
+                                      "FLM 359",
+                                      "MCL 375"
+                                    ],
+                                    "except": [
+                                      "ENG 100",
+                                      "ENG 100P MinGrade 2.0"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "English"
+                                  },
+                                  "minCredits": 6,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 221",
+                                      "HIS 120",
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 241",
+                                      "HIS 245",
+                                      "HIS 251",
+                                      "HIS 302",
+                                      "HIS 303",
+                                      "HIS 310",
+                                      "HIS 316",
+                                      "HIS 318",
+                                      "HIS 321",
+                                      "HIS 322"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "US History"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ART 100:499",
+                                      "DNC 130",
+                                      "FLM 100:499",
+                                      "MUS 100:499",
+                                      "THE 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ART 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ANT 336",
+                                      "LAS 224",
+                                      "WST 355",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 359",
+                                      "FRE 223",
+                                      "MUS 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 308"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Arts"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 100:499",
+                                      "ECO 100:499",
+                                      "GEO 100:499",
+                                      "PSC 100:499",
+                                      "PSY 100:499",
+                                      "SOC 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ANT 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 201",
+                                      "CAS 222",
+                                      "CAS 340",
+                                      "LAS 225",
+                                      "LAS 240",
+                                      "WST 300",
+                                      "WST 370",
+                                      "HSC 302",
+                                      "ART 336",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 329",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 210",
+                                      "ENG 260",
+                                      "WST 306",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 227",
+                                      "WST 326",
+                                      "CAS 305",
+                                      "PHI 314",
+                                      "PHI 370",
+                                      "PHI 316",
+                                      "LAS 328",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 208",
+                                      "WST 212",
+                                      "WST 240",
+                                      "WST 260",
+                                      "WST 310",
+                                      "WST 347",
+                                      "WST 465",
+                                      "SWK 344",
+                                      "SPA 356"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Social Science"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HPE 201",
+                                      "HPE 210"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Health"
+                                  },
+                                  "minClasses": 1,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "conditionType": "ethos"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "35",
+                        "text": "ELEMENTARY EDUCATION CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ELED",
+          "minimumCredits": {
+            "min": 78,
+            "max": 86
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Requires a major in an academic subject other than Physical Education,",
+            "Psychology or Sociology.",
+            "All pre-admission courses must be passed with grades of C or higher.",
+            "Each of the following courses must be completed with a grade of C or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 9,
+            "CONC_ENGE": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 9,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "MAJOR_H/SS": 6,
+            "MAJOR_LBST": 6,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202020",
+          "requirementAuthority": "RA001308",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "ELEDMAJ1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Foundations of US Ed or International Cross Cultural Ed"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "PRE-ADMISSION COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Health"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 370",
+                              "EDU 222",
+                              "HPE 360",
+                              "MUS 370"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Professional Course Elective"
+                          },
+                          "minCredits": 3
+                        }
+                      ],
+                      "label": {
+                        "tag": "8",
+                        "text": "OTHER PROFESSIONAL COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Clinical Experience - CORE I "
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 304"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Learning and Teaching in Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 307"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Inclusive Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 316"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Foundations of Literacy"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "13",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 401"
+                            ]
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Clinical Experience - CORE II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 404"
+                            ]
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Educational Assessment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 405"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Second Language Acquisition & Strategies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 412"
+                            ]
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Methods in Elementary Social Studies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 417"
+                            ]
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Applications of Literacy and Language Arts"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 411"
+                            ]
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Methods in Elementary Mathematics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 413"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Methods in Elementary Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 450"
+                            ]
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Pre-Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "23",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Classroom Management and Assessment in the Elementary School"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 470"
+                            ]
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "26",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "CHE 100:499",
+                              "EES 100: 499",
+                              "PHY 100:499"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "27",
+                            "text": "Physical or Earth Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "BIO 100:499"
+                            ],
+                            "hidden": [
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "28",
+                            "text": "Biological Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "MAJOR<>MATH",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "MAT 139P",
+                                      "140"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Mathematics"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ENG 125:499"
+                                    ],
+                                    "hidden": [
+                                      "ENG 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 125",
+                                      "CAS 217",
+                                      "AMS 251",
+                                      "AMS 420",
+                                      "GEO 260",
+                                      "WST 228",
+                                      "WST 266",
+                                      "WST 307",
+                                      "WST 351",
+                                      "WST 352",
+                                      "WST 356",
+                                      "WST 357",
+                                      "THE 308",
+                                      "WLC 324",
+                                      "NES 342",
+                                      "NES 343",
+                                      "FLM 359",
+                                      "MCL 375"
+                                    ],
+                                    "except": [
+                                      "ENG 100",
+                                      "ENG 100P MinGrade 2.0"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "English"
+                                  },
+                                  "minCredits": 6,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 221",
+                                      "HIS 120",
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 241",
+                                      "HIS 245",
+                                      "HIS 251",
+                                      "HIS 302",
+                                      "HIS 303",
+                                      "HIS 310",
+                                      "HIS 316",
+                                      "HIS 318",
+                                      "HIS 321",
+                                      "HIS 322"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "US History"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ART 100:499",
+                                      "DNC 130",
+                                      "FLM 100:499",
+                                      "MUS 100:499",
+                                      "THE 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ART 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ANT 336",
+                                      "LAS 224",
+                                      "WST 355",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 359",
+                                      "FRE 223",
+                                      "MUS 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 308"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Arts"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 100:499",
+                                      "ECO 100:499",
+                                      "GEO 100:499",
+                                      "PSC 100:499",
+                                      "PSY 100:499",
+                                      "SOC 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ANT 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 201",
+                                      "CAS 222",
+                                      "CAS 340",
+                                      "LAS 225",
+                                      "LAS 240",
+                                      "WST 300",
+                                      "WST 370",
+                                      "HSC 302",
+                                      "ART 336",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 329",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 210",
+                                      "ENG 260",
+                                      "WST 306",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 227",
+                                      "WST 326",
+                                      "CAS 305",
+                                      "PHI 314",
+                                      "PHI 370",
+                                      "PHI 316",
+                                      "LAS 328",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 208",
+                                      "WST 212",
+                                      "WST 240",
+                                      "WST 260",
+                                      "WST 310",
+                                      "WST 347",
+                                      "WST 465",
+                                      "SWK 344",
+                                      "SPA 356"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Social Science"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HPE 201",
+                                      "HPE 210"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Health"
+                                  },
+                                  "minClasses": 1,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "conditionType": "ethos"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "35",
+                        "text": "ELEMENTARY EDUCATION CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ELED",
+          "minimumCredits": {
+            "min": 78,
+            "max": 86
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Requires a major in an academic subject other than Physical Education,",
+            "Psychology or Sociology.",
+            "All pre-admission courses must be passed with grades of C or higher.",
+            "Each of the following courses must be completed with a grade of C or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_EEED": 6,
+            "CONC_ELIT": 6,
+            "CONC_ENGE": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 8,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "MAJOR_H/SS": 6,
+            "MAJOR_LBST": 6,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "202040",
+          "endTerm": "202550",
+          "requirementAuthority": "RA001570",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "ELEDMAJ1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Foundations of US Ed or International Cross Cultural Ed"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "PRE-ADMISSION COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Health"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 370",
+                              "EDU 222",
+                              "HPE 360",
+                              "MUS 370"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Professional Course Elective"
+                          },
+                          "minCredits": 3
+                        }
+                      ],
+                      "label": {
+                        "tag": "8",
+                        "text": "OTHER PROFESSIONAL COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Clinical Experience - CORE I "
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 304"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Learning and Teaching in Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 307"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Inclusive Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 316"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Foundations of Literacy"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "13",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 401"
+                            ]
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Clinical Experience - CORE II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 404"
+                            ]
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Educational Assessment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 405"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Second Language Acquisition & Strategies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 412"
+                            ]
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Methods in Elementary Social Studies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 417"
+                            ]
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Applications of Literacy and Language Arts"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 411"
+                            ]
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Methods in Elementary Mathematics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 413"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Methods in Elementary Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 450"
+                            ]
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Pre-Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "23",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Student Teaching Seminar:Elementary Schools"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 470"
+                            ]
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "26",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "CHE 100:499",
+                              "EES 100: 499",
+                              "PHY 100:499"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "27",
+                            "text": "Physical or Earth Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "BIO 100:499"
+                            ],
+                            "hidden": [
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "28",
+                            "text": "Biological Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "MAJOR<>MATH",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "MAT 139P",
+                                      "140"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Mathematics"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ENG 125:499"
+                                    ],
+                                    "hidden": [
+                                      "ENG 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 125",
+                                      "CAS 217",
+                                      "AMS 251",
+                                      "AMS 420",
+                                      "GEO 260",
+                                      "WST 228",
+                                      "WST 266",
+                                      "WST 307",
+                                      "WST 351",
+                                      "WST 352",
+                                      "WST 356",
+                                      "WST 357",
+                                      "THE 308",
+                                      "WLC 324",
+                                      "NES 342",
+                                      "NES 343",
+                                      "FLM 359",
+                                      "MCL 375"
+                                    ],
+                                    "except": [
+                                      "ENG 100",
+                                      "ENG 100P MinGrade 2.0"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "English"
+                                  },
+                                  "minCredits": 6,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 221",
+                                      "HIS 120",
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 241",
+                                      "HIS 245",
+                                      "HIS 251",
+                                      "HIS 302",
+                                      "HIS 303",
+                                      "HIS 310",
+                                      "HIS 316",
+                                      "HIS 318",
+                                      "HIS 321",
+                                      "HIS 322"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "US History"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ART 100:499",
+                                      "FLM 100:499",
+                                      "MUS 100:499",
+                                      "THE 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ART 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ANT 336",
+                                      "LAS 224",
+                                      "WST 355",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 359",
+                                      "FRE 223",
+                                      "MUS 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 308"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Arts"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 100:499",
+                                      "ECO 100:499",
+                                      "GEO 100:499",
+                                      "PSC 100:499",
+                                      "PSY 100:499",
+                                      "SOC 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ANT 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 201",
+                                      "CAS 222",
+                                      "CAS 340",
+                                      "LAS 225",
+                                      "LAS 240",
+                                      "WST 300",
+                                      "WST 370",
+                                      "HSC 302",
+                                      "ART 336",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 329",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 210",
+                                      "ENG 260",
+                                      "WST 306",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 227",
+                                      "WST 326",
+                                      "CAS 305",
+                                      "PHI 314",
+                                      "PHI 370",
+                                      "PHI 316",
+                                      "LAS 328",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 208",
+                                      "WST 212",
+                                      "WST 240",
+                                      "WST 260",
+                                      "WST 310",
+                                      "WST 347",
+                                      "WST 465",
+                                      "SWK 344",
+                                      "SPA 356"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Social Science"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HPE 201",
+                                      "HPE 210"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Health"
+                                  },
+                                  "minClasses": 1,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "conditionType": "ethos"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "35",
+                        "text": "ELEMENTARY EDUCATION CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ELED",
+          "minimumCredits": {
+            "min": 78,
+            "max": 86
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Requires a major in an academic subject other than Physical Education,",
+            "Psychology or Sociology.",
+            "All pre-admission courses must be passed with grades of C or higher.",
+            "Each of the following courses must be completed with a grade of C or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_ENGE": 6,
+            "CONC_EEED": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 9,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "MAJOR_H/SS": 6,
+            "MAJOR_LBST": 6,
+            "OTHER_ANY": 60
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002774",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "ELEDMAJ1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ]
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357",
+                              "EDU 457"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Foundations of US Edu. or Intl. Cross Cultural Edu. or Global Field Study"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "PRE-ADMISSION COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "HPE 201",
+                              "HPE 210"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Health"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ART 370",
+                              "EDU 222",
+                              "HPE 360",
+                              "MUS 370"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Professional Course Elective"
+                          },
+                          "minCredits": 3
+                        }
+                      ],
+                      "label": {
+                        "tag": "8",
+                        "text": "OTHER PROFESSIONAL COURSES"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Clinical Experience - CORE I "
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 304"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Learning and Teaching in Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 307"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Inclusive Elementary Classrooms"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 316"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Foundations of Literacy"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "13",
+                        "text": "CORE I"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 401"
+                            ]
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Clinical Experience - CORE II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 404"
+                            ]
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Educational Assessment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 405"
+                            ]
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Second Language Acquisition & Strategies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 412"
+                            ]
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Methods in Elementary Social Studies"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 417"
+                            ]
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Applications of Literacy and Language Arts"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "19",
+                        "text": "CORE II"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 411"
+                            ]
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Methods in Elementary Mathematics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 413"
+                            ]
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Methods in Elementary Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 450"
+                            ]
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Pre-Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "23",
+                        "text": "CORE III"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "24",
+                            "text": "Student Teaching Seminar:Elementary Schools"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 470"
+                            ]
+                          },
+                          "label": {
+                            "tag": "25",
+                            "text": "Student Teaching"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "26",
+                        "text": "CORE IV"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "AST 100:499",
+                              "CHE 100:499",
+                              "EES 100: 499",
+                              "PHY 100:499"
+                            ],
+                            "hidden": [
+                              "AST 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "MAT 375",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CAS 310",
+                              "EES 336",
+                              "1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "CHE 336",
+                              "PBH 222",
+                              "PBH 323",
+                              "PHR 222",
+                              "PHS 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PHY 1@",
+                              "2@",
+                              "3@",
+                              "4@"
+                            ]
+                          },
+                          "label": {
+                            "tag": "27",
+                            "text": "Physical or Earth Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "BIO 100:499"
+                            ],
+                            "hidden": [
+                              "BIO 1@",
+                              "2@",
+                              "3@",
+                              "4@",
+                              "PBH 301"
+                            ]
+                          },
+                          "label": {
+                            "tag": "28",
+                            "text": "Biological Science"
+                          },
+                          "minCredits": 3,
+                          "qualifiers": {
+                            "minGrade": 2
+                          }
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "MAJOR<>MATH",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "MAT 139P",
+                                      "140"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Mathematics"
+                                  },
+                                  "minClasses": 2,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ENG 125:499"
+                                    ],
+                                    "hidden": [
+                                      "ENG 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 125",
+                                      "CAS 217",
+                                      "AMS 251",
+                                      "AMS 420",
+                                      "GEO 260",
+                                      "WST 228",
+                                      "WST 266",
+                                      "WST 307",
+                                      "WST 351",
+                                      "WST 352",
+                                      "WST 356",
+                                      "WST 357",
+                                      "THE 308",
+                                      "WLC 324",
+                                      "NES 342",
+                                      "NES 343",
+                                      "FLM 359",
+                                      "MCL 375"
+                                    ],
+                                    "except": [
+                                      "ENG 100",
+                                      "ENG 100P MinGrade 2.0"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "30",
+                                    "text": "English"
+                                  },
+                                  "minCredits": 6,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 221",
+                                      "HIS 120",
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 241",
+                                      "HIS 245",
+                                      "HIS 251",
+                                      "HIS 302",
+                                      "HIS 303",
+                                      "HIS 310",
+                                      "HIS 316",
+                                      "HIS 318",
+                                      "HIS 321",
+                                      "HIS 322"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "31",
+                                    "text": "US History"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ART 100:499",
+                                      "FLM 100:499",
+                                      "MUS 100:499",
+                                      "THE 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ART 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ANT 336",
+                                      "LAS 224",
+                                      "WST 355",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 359",
+                                      "FRE 223",
+                                      "MUS 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "ENG 308"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "32",
+                                    "text": "Arts"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 100:499",
+                                      "ECO 100:499",
+                                      "GEO 100:499",
+                                      "PSC 100:499",
+                                      "PSY 100:499",
+                                      "SOC 100:499"
+                                    ],
+                                    "hidden": [
+                                      "ANT 1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 201",
+                                      "CAS 222",
+                                      "CAS 340",
+                                      "LAS 225",
+                                      "LAS 240",
+                                      "WST 300",
+                                      "WST 370",
+                                      "HSC 302",
+                                      "ART 336",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 329",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "CAS 210",
+                                      "ENG 260",
+                                      "WST 306",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 227",
+                                      "WST 326",
+                                      "CAS 305",
+                                      "PHI 314",
+                                      "PHI 370",
+                                      "PHI 316",
+                                      "LAS 328",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671",
+                                      "1@",
+                                      "2@",
+                                      "3@",
+                                      "4@",
+                                      "WST 208",
+                                      "WST 212",
+                                      "WST 240",
+                                      "WST 260",
+                                      "WST 310",
+                                      "WST 347",
+                                      "WST 465",
+                                      "SWK 344",
+                                      "SPA 356"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "33",
+                                    "text": "Social Science"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HPE 201",
+                                      "HPE 210"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "34",
+                                    "text": "Health"
+                                  },
+                                  "minClasses": 1,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                }
+                              ],
+                              "conditionType": "ethos"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "35",
+                        "text": "ELEMENTARY EDUCATION CERTIFICATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ELED",
+          "minimumCredits": {
+            "min": 78,
+            "max": 86
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Requires a major in an academic subject other than Physical Education,",
+            "Psychology or Sociology.",
+            "All pre-admission courses must be passed with grades of C or higher.",
+            "Each of the following courses must be completed with a grade of C or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_ECOB": 3,
+            "CONC_ECOG": 3,
+            "CONC_ECRW": 6,
+            "CONC_ECUL": 6,
+            "CONC_ENGE": 6,
+            "CONC_EEED": 6,
+            "CONC_ELIT": 6,
+            "CONC_ERTC": 6,
+            "CONC_ESED": 6,
+            "CONC_PSTD": 3,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_EESC": 4,
+            "CONC_SUST": 4,
+            "CONC_EESG": 4,
+            "CONC_PUBH": 8,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 9,
+            "CONC_H/SS": 9,
+            "CONC_ENGL": 9,
+            "CONC_MATH": 9,
+            "CONC_MUSP": 3,
+            "CONC_MUSM": 3,
+            "CONC_PERM": 3,
+            "CONC_VART": 3,
+            "CONC_SPMG": 3,
+            "CONC_THAC": 3,
+            "CONC_TDIR": 3,
+            "CONC_TDAN": 3,
+            "CONC_TDTM": 3,
+            "CONC_PRNT": 3,
+            "CONC_DRAW": 3,
+            "CONC_SCUL": 3,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 3,
+            "MAJOR_H/SS": 6,
+            "MAJOR_LBST": 6,
+            "OTHER_ANY": 60
+          }
+        }
+      ]
+    }
+  }
+}

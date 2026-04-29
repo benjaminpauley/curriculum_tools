@@ -1,0 +1,233 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "OPSC": {
+      "programName": "Minor in Operations & Supply Chain Management",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202550",
+          "requirementAuthority": "RA002209",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215",
+                  "MAT 216"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 260",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Operations Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 360",
+                  "BUS 360"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Supply Chain Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 305",
+                  "BIS 375",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BUS 327",
+                  "BUS 362",
+                  "BUS 363",
+                  "BUS 366",
+                  "OSC 362",
+                  "OSC 363",
+                  "OSC 366"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Minor Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002736",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215",
+                  "MAT 216"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 260",
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Operations Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "OSC 360",
+                  "BUS 360"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Supply Chain Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 305",
+                  "BIS 375",
+                  "BIS 430",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 449",
+                  "BUS 362",
+                  "BUS 363",
+                  "BUS 366",
+                  "OSC 362",
+                  "OSC 363",
+                  "OSC 366"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Minor Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

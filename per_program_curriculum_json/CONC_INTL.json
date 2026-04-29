@@ -1,0 +1,125 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "INTL": {
+      "programName": "Concentration in International Business",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000025",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 307",
+                  "BUS 329",
+                  "BUS 362",
+                  "BUS 370",
+                  "BUS 437",
+                  "BUS 450",
+                  "BUS 463",
+                  "CAS 370"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 329\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 362\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 370\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 437\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 450\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 463\"), {HIDE @ (With ATTRIBUTE=BINT)"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001980",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 307"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Globalization: Evolution and Impact"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "International Business"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 329",
+                  "BUS 342",
+                  "BUS 410",
+                  "BUS 436",
+                  "BUS 463",
+                  "FIN 437",
+                  "OSC 362"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 362\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 437\"), {HIDE FIN 480 (With DWTitle = \"@ FIN 437\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 463\")"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_MNGT": 0
+          }
+        }
+      ]
+    }
+  }
+}

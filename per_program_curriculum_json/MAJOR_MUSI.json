@@ -1,0 +1,1397 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "MUSI": {
+      "programName": "Major in Music",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000044",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 309"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Theory of Music III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "MUSIC THEORY"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 303",
+                  "MUS 345"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Writing Intensive"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 106",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Applied Experience"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "14",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSG OR CONC=MUST OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "16",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "17",
+                                "text": "A Concentration is Required"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000506",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 309"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Theory of Music III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "MUSIC THEORY"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 303",
+                  "MUS 345"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Writing Intensive"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Applied Experience"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Senior Project in Music"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "14",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSM OR CONC=MINL OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "16",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "17",
+                                "text": "A Concentration is Required"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000507",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 309"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Theory of Music III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "MUSIC THEORY"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 303",
+                  "MUS 345"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Writing Intensive"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "107 #106"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Applied Experience"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Senior Project in Music"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "14",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSM OR CONC=MINL OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "16",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "17",
+                                "text": "A Concentration is Required"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202350",
+          "requirementAuthority": "RA001991",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 309"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Theory of Music III"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 319"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Sight Singing and Ear Training Lab III"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 490"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9.1",
+                    "text": "Senior Project in Music"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 312",
+                  "MUS 355"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10.1",
+                "text": "MUSIC THEORY & ANALYSIS"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 303",
+                  "MUS 345"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "MUSIC HISTORY & CRITICISM"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "LARGE ENSEMBLE"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "14",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSM OR CONC=MINL OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "16",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "17",
+                                "text": "A Concentration is Required"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002341",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1.1",
+                    "text": "Fundamentals of Music Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 303",
+                  "MUS 307",
+                  "MUS 490"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "MUSIC HISTORY & CRITICISM"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 107",
+                  "MUS 113"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "ENSEMBLE PERFORMANCE"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "14",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSM OR CONC=MINL OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "16",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "17",
+                                "text": "A Concentration is Required"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 37
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        }
+      ]
+    }
+  }
+}

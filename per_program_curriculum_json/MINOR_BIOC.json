@@ -1,0 +1,129 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BIOC": {
+      "programName": "Minor in Biochemistry",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000271",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Organic Chemistry I with Laboratory"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Organic Chemistry II with Laboratory"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 316"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Biochemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 317"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Biochemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Biochemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 334",
+                  "BIO 442",
+                  "BIO 450",
+                  "CHE 323"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biochemistry Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

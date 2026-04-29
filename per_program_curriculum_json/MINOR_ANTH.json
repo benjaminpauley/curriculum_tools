@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ANTH": {
+      "programName": "Minor in Anthropology",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000265",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 106"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Cultural Anthropology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Anthropology Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

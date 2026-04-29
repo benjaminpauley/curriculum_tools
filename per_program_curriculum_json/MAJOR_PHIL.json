@@ -1,0 +1,944 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PHIL": {
+      "programName": "Major in Philosophy",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000053",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 250"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Critical Thinking and Complex Reasoning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 215",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 235",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 312",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 365",
+                  "PHI 371",
+                  "PHI 400",
+                  "PHI 420",
+                  "PHI 480",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 8
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001461",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Logical Inquiry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 235",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 312",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 360",
+                  "PHI 365",
+                  "PHI 371",
+                  "PHI 400",
+                  "PHI 420",
+                  "PHI 480",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 8
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001759",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Logical Inquiry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 232",
+                  "PHI 235",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 311",
+                  "PHI 312",
+                  "PHI 313",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 322",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 360",
+                  "PHI 361",
+                  "PHI 365",
+                  "PHI 371",
+                  "PHI 400",
+                  "PHI 480",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316"
+                ],
+                "hidden": [
+                  "PHI 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 6
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 33
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001940",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Logical Inquiry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 232",
+                  "PHI 235",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 311",
+                  "PHI 312",
+                  "PHI 313",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 322",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 360",
+                  "PHI 361",
+                  "PHI 365",
+                  "PHI 371",
+                  "PHI 400",
+                  "PHI 480",
+                  "PHI 498",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316"
+                ],
+                "hidden": [
+                  "PHI 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 8
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202350",
+          "requirementAuthority": "RA002167",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Logical Inquiry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 232",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 311",
+                  "PHI 313",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 320",
+                  "PHI 322",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 341",
+                  "PHI 360",
+                  "PHI 361",
+                  "PHI 362",
+                  "PHI 365",
+                  "PHI 366",
+                  "PHI 367",
+                  "PHI 370",
+                  "PHI 400",
+                  "PHI 480",
+                  "PHI 498",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316",
+                  "WST 361"
+                ],
+                "hidden": [
+                  "PHI 420"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 8
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "MAJOR_poli": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002368",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 120"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Perspectives in Philosophy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Asian Philosophies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Logical Inquiry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 220"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHI 460"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Seminar in Philosophical Research and Reflection"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 232",
+                  "PHI 265",
+                  "PHI 310",
+                  "PHI 311",
+                  "PHI 313",
+                  "PHI 314",
+                  "PHI 316",
+                  "PHI 318",
+                  "PHI 320",
+                  "PHI 322",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 341",
+                  "PHI 360",
+                  "PHI 361",
+                  "PHI 362",
+                  "PHI 365",
+                  "PHI 366",
+                  "PHI 367",
+                  "PHI 370",
+                  "PHI 400",
+                  "PHI 480",
+                  "PHI 498",
+                  "PHR 200",
+                  "PSC 314",
+                  "PSC 316",
+                  "PSC 318",
+                  "WST 361"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minClasses": 5
+            }
+          ],
+          "declaredMajor": "PHIL",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Philosophy majors must complete a second major or a minor program of study.",
+            "No more than 2 grades counting toward the",
+            "major can be below a C."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "CONC_HAMS": 3
+          }
+        }
+      ]
+    }
+  }
+}

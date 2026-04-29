@@ -1,0 +1,723 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ALHL": {
+      "programName": "Concentration in Allied Health",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001362",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 301",
+                          "BIO 302"
+                        ],
+                        "hidden": [
+                          "PBH 301",
+                          "PBH 302"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Microbes and Your Health & Lab"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "1",
+                    "text": "Microbes and Your Health & Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 334"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "General Microbiology with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "General Microbiology with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 425"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Microbiology for Health Science"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Microbiology for Health Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "MICROBIOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Anatomy & Physiology I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy & Physiology II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 204",
+                  "PHY 205",
+                  "MAT 243",
+                  "CHE 216",
+                  "CHE 217",
+                  "CHE 316",
+                  "HSC 352",
+                  "HSC 400",
+                  "HSC 308",
+                  "HSC 404",
+                  "HSC 408",
+                  "PSY 301",
+                  "PSY 325",
+                  "SOC 307",
+                  "SOC 311",
+                  "SOC 312",
+                  "BUS 201",
+                  "BUS 255",
+                  "BUS 350",
+                  "COM 255"
+                ],
+                "hidden": [
+                  "SLM 375"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Allied Health Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002159",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 301",
+                          "BIO 302"
+                        ],
+                        "hidden": [
+                          "PBH 301",
+                          "PBH 302"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Microbes and Your Health & Lab"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "1",
+                    "text": "Microbes and Your Health & Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 334"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "General Microbiology with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "General Microbiology with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 425"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Microbiology for Health Science"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Microbiology for Health Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "MICROBIOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Anatomy & Physiology I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy & Physiology II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201",
+                  "BUS 255",
+                  "BUS 350",
+                  "CHE 216",
+                  "CHE 217",
+                  "CHE 316",
+                  "COM 255",
+                  "HSC 210",
+                  "HSC 255",
+                  "HSC 235",
+                  "HSC 306",
+                  "HSC 308",
+                  "HSC 356",
+                  "HSC 357",
+                  "HSC 360",
+                  "HSC 400",
+                  "HSC 404",
+                  "HSC 408",
+                  "HSC 415",
+                  "HSC 420",
+                  "HSC 440",
+                  "HSC 450",
+                  "MAT 243",
+                  "PBH 345",
+                  "PBH 441",
+                  "PHY 204",
+                  "PHY 205",
+                  "PSY 301",
+                  "PSY 325",
+                  "SOC 307",
+                  "SOC 311",
+                  "SOC 312",
+                  "SPA 415"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Allied Health Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002535",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 301",
+                          "BIO 302"
+                        ],
+                        "hidden": [
+                          "PBH 301",
+                          "PBH 302"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Microbes and Your Health & Lab"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "1",
+                    "text": "Microbes and Your Health & Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 334"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "General Microbiology with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "General Microbiology with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 425"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Microbiology for Health Science"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Microbiology for Health Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "MICROBIOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Anatomy & Physiology I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy & Physiology II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201",
+                  "BUS 255",
+                  "BUS 350",
+                  "CHE 216",
+                  "CHE 217",
+                  "CHE 316",
+                  "HSC 210",
+                  "HSC 255",
+                  "HSC 308",
+                  "HSC 356",
+                  "HSC 360",
+                  "HSC 400",
+                  "HSC 404",
+                  "HSC 408",
+                  "HSC 420",
+                  "HSC 450",
+                  "MAT 243",
+                  "PBH 345",
+                  "PHY 204",
+                  "PHY 205",
+                  "PSY 301",
+                  "PSY 325",
+                  "SOC 307",
+                  "SOC 311",
+                  "SOC 312"
+                ],
+                "hidden": [
+                  "COM 255",
+                  "HSC 357"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Allied Health Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

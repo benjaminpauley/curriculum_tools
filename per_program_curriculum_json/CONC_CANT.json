@@ -1,0 +1,57 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "CANT": {
+      "programName": "Concentration in Cultural Anthropology",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001764",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 250",
+                      "ANT 300",
+                      "ANT 337",
+                      "ANT 345",
+                      "ANT 358",
+                      "ANT 364",
+                      "ANT 365"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Choose 15 Credits of Concentration Electives"
+                  },
+                  "minCredits": 15
+                }
+              ],
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

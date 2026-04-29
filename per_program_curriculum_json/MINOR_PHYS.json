@@ -1,0 +1,127 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PHYS": {
+      "programName": "Minor in Physics",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000325",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Differential Equations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "General Physic I and II w/Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "General Physic I and II w/Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Physics with Calculus I and II w/Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Physics with Calculus I and II w/Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "PHYSICS I & II"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 355",
+                  "PHY 300:499"
+                ],
+                "hidden": [
+                  "PHY 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Logic Lecture / Physics Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        }
+      ]
+    }
+  }
+}

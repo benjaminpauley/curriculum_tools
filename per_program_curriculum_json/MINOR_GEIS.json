@@ -1,0 +1,242 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "GEIS": {
+      "programName": "Minor in Geographic Information Systems",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000300",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Geographic Information Systems with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 342"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Advanced Geographic Information Systems With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 444",
+                  "EES 480"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Geospatial Applications or Independent Study"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "You must have two additional courses for the GIS minor. Please submit",
+            "a Declaration/Add/Drop a Minor form listing these 2 course approved by",
+            "the GIS Coordinator. The approved courses must be entered on your record to",
+            "be reflected on this unofficial degree evaluation.",
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        },
+        {
+          "startTerm": "201440",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000301",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 340"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Geographic Information Systems with Laboratory"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Geographic Information Systems with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 300",
+                          "EES 301"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Intro to Geographic Info Systems and Intro to GIS Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Intro to Geographic Info Systems and Intro to GIS Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "GEOGRAPHIC INFORMATION SYSTEMS & LABORATORY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 342"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Advanced Geographic Information Systems With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 444",
+                  "EES 480"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Geospatial Applications or Independent Study"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "EES 480 IS TAKEN",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 480"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Independent Study - 3 Credits Required."
+                      },
+                      "minCredits": 3
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 300:499"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Advisor Approved Electives"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "You must have two additional courses for the GIS minor. Please submit",
+            "a Declaration/Add/Drop a Minor form listing these 2 course approved by",
+            "the GIS Coordinator. The approved courses must be entered on your record to",
+            "be reflected on this unofficial degree evaluation.",
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        }
+      ]
+    }
+  }
+}

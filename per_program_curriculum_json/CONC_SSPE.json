@@ -1,0 +1,426 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "SSPE": {
+      "programName": "Concentration in Sport Science and Performance",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001661",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 307"
+                    ],
+                    "hidden": [
+                      "HPE 303"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Strength and Conditioning"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "The Physiological Basis Of Movement"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 413"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Physiology Of Exercise"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 324"
+                    ],
+                    "hidden": [
+                      "SLM 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Exercise Testing And Prescription-Typical & Special Population"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 320"
+                    ],
+                    "hidden": [
+                      "HPE 320"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Sports Nutrition"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 342"
+                    ],
+                    "hidden": [
+                      "SLM 346"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Sport Psychology"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 334"
+                    ],
+                    "hidden": [
+                      "SLM 355"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.2",
+                    "text": "Motor Learning"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 332",
+                  "HSC 352"
+                ],
+                "hidden": [
+                  "SLM 375",
+                  "HPE 403",
+                  "@ (With ATTRIBUTE=SMEL)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Elective Courses"
+              },
+              "minClasses": 2,
+              "qualifiers": {
+                "minGrade": 2
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "All students must complete the 7 required courses for the concentration.",
+            "Students with a GPA under 2.7 must complete SLM 375, HPE 403 or other approved electives (2).",
+            "Students with a GPA of 2.7 or higher must complete SLM 476 and",
+            "either SLM 495 or 496 in lieu of the 2 electives."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001737",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 307"
+                    ],
+                    "hidden": [
+                      "HPE 303"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Strength and Conditioning"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "The Physiological Basis Of Movement"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 413"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Physiology Of Exercise"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 324"
+                    ],
+                    "hidden": [
+                      "SLM 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Exercise Testing And Prescription-Typical & Special Population"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 320"
+                    ],
+                    "hidden": [
+                      "HPE 320"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Sports Nutrition"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 342"
+                    ],
+                    "hidden": [
+                      "SLM 346"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Sport Psychology"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HSC 334"
+                    ],
+                    "hidden": [
+                      "SLM 355"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.2",
+                    "text": "Motor Learning"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "BannerGPA >= 2.7",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SLM 495",
+                          "SLM 496"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Internship"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 332",
+                          "HSC 352"
+                        ],
+                        "hidden": [
+                          "SLM 375",
+                          "HPE 403",
+                          "@ (With ATTRIBUTE=SMEL)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Elective Courses"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "All students must complete the 7 required courses for the concentration.",
+            "Students with a GPA under 2.7 must complete SLM 375, HPE 403 or other approved electives (2).",
+            "Students with a GPA of 2.7 or higher must complete SLM 476 and",
+            "either SLM 495 or 496 in lieu of the 2 electives."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

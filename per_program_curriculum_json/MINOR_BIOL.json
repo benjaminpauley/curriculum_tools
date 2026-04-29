@@ -1,0 +1,604 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BIOL": {
+      "programName": "Minor in Biology",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201820",
+          "requirementAuthority": "RA000274",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Organismal Biology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Ecology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 220"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Cell Structure & Function with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Genetics with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 324",
+                          "BIO 330",
+                          "BIO 332",
+                          "BIO 334",
+                          "BIO 336",
+                          "BIO 338",
+                          "BIO 340",
+                          "BIO 342",
+                          "BIO 346",
+                          "BIO 348",
+                          "BIO 350",
+                          "BIO 358",
+                          "BIO 422",
+                          "BIO 424",
+                          "BIO 426",
+                          "BIO 428",
+                          "BIO 430",
+                          "BIO 432",
+                          "BIO 434",
+                          "BIO 436",
+                          "BIO 438",
+                          "BIO 440",
+                          "BIO 442",
+                          "BIO 444",
+                          "BIO 446",
+                          "BIO 448",
+                          "BIO 450",
+                          "BIO 452",
+                          "BIO 454",
+                          "BIO 456",
+                          "BIO 458",
+                          "BIO 465"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Advanced Biology Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Advanced Biology Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 320",
+                          "BIO 360"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Tropical Biology and Tropical Ecosystems"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Tropical Biology and Tropical Ecosystems"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 319",
+                          "BIO 320"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Oceanic Island Ecology and Tropical Biology"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Oceanic Island Ecology and Tropical Biology"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Electives"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 20
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 11
+          }
+        },
+        {
+          "startTerm": "201840",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000523",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Organismal Biology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Ecology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 220"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Cell Structure & Function with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Genetics with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 324",
+                          "BIO 330",
+                          "BIO 332",
+                          "BIO 334",
+                          "BIO 336",
+                          "BIO 338",
+                          "BIO 340",
+                          "BIO 342",
+                          "BIO 344",
+                          "BIO 346",
+                          "BIO 348",
+                          "BIO 350",
+                          "BIO 358",
+                          "BIO 422",
+                          "BIO 424",
+                          "BIO 426",
+                          "BIO 428",
+                          "BIO 430",
+                          "BIO 432",
+                          "BIO 434",
+                          "BIO 436",
+                          "BIO 438",
+                          "BIO 440",
+                          "BIO 442",
+                          "BIO 444",
+                          "BIO 448",
+                          "BIO 450",
+                          "BIO 452",
+                          "BIO 454",
+                          "BIO 456",
+                          "BIO 458",
+                          "BIO 460",
+                          "BIO 462"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Advanced Biology Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Advanced Biology Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 320",
+                          "BIO 360"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Tropical Biology and Tropical Ecosystems"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Tropical Biology and Tropical Ecosystems"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 319",
+                          "BIO 320"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Oceanic Island Ecology and Tropical Biology"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Oceanic Island Ecology and Tropical Biology"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Electives"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 20
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 11
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000524",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Organismal Biology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 240"
+                ],
+                "hidden": [
+                  "BIO 130"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Ecology with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 140"
+                ],
+                "hidden": [
+                  "BIO 220"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Cell Structure & Function with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Genetics with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 324",
+                          "BIO 330",
+                          "BIO 332",
+                          "BIO 334",
+                          "BIO 336",
+                          "BIO 338",
+                          "BIO 340",
+                          "BIO 342",
+                          "BIO 344",
+                          "BIO 346",
+                          "BIO 348",
+                          "BIO 350",
+                          "BIO 358",
+                          "BIO 422",
+                          "BIO 424",
+                          "BIO 426",
+                          "BIO 428",
+                          "BIO 430",
+                          "BIO 432",
+                          "BIO 434",
+                          "BIO 436",
+                          "BIO 438",
+                          "BIO 440",
+                          "BIO 442",
+                          "BIO 444",
+                          "BIO 448",
+                          "BIO 450",
+                          "BIO 452",
+                          "BIO 454",
+                          "BIO 456",
+                          "BIO 458",
+                          "BIO 460",
+                          "BIO 462"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Advanced Biology Elective"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Advanced Biology Elective"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 320",
+                          "BIO 360"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Tropical Biology and Tropical Ecosystems"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Tropical Biology and Tropical Ecosystems"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 319",
+                          "BIO 320"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Oceanic Island Ecology and Tropical Biology"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Oceanic Island Ecology and Tropical Biology"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Electives"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 20
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 11
+          }
+        }
+      ]
+    }
+  }
+}

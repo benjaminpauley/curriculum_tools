@@ -1,0 +1,752 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "NSCI": {
+      "programName": "Concentration in Natural Science",
+      "versions": [
+        {
+          "startTerm": "201610",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000042",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Reading and Writing Argument"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 102"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Energy & Scientific Method"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000371",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 250"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Science Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 102"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Energy & Scientific Method"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000372",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 250"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Science Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MAJOR_ELED": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000452",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 250"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Science Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002630",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 250"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Science Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 214",
+                  "EES 204",
+                  "EES 205",
+                  "BIO 301",
+                  "CHE 200",
+                  "CHE 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

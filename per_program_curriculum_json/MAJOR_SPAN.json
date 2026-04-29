@@ -1,0 +1,737 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SPAN": {
+      "programName": "Major in Spanish",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000062",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intermediate Spanish I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intermediate Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 310"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Advanced Spanish I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 311"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Spanish Civilization"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 318"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Latin American Civilization"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Spanish Literature I"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 324",
+                  "MCL 324",
+                  "WST 324",
+                  "SPA 321",
+                  "SPA 323"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Literature Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 312",
+                  "SPA 313"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Conversation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 200:499"
+                ],
+                "hidden": [
+                  "SPA 2@",
+                  "3@",
+                  "4@",
+                  "LAS 318",
+                  "LAS 319",
+                  "LAS 320",
+                  "LAS 321",
+                  "LAS 323",
+                  "SOC 355",
+                  "FRE 430"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Major Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "declaredMajor": "SPAN",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "SOC 355"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_WGST": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001758",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intermediate Spanish I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intermediate Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 310"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Advanced Spanish I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 311"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Spanish Civilization"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 318"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Latin American Civilization"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Spanish Literature I"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 321",
+                  "SPA 323"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Literature Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 312",
+                  "SPA 313"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Conversation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 200:499"
+                ],
+                "hidden": [
+                  "SPA 2@",
+                  "3@",
+                  "4@",
+                  "LAS 219",
+                  "LAS 318",
+                  "LAS 319",
+                  "LAS 320",
+                  "LAS 321",
+                  "LAS 323",
+                  "SOC 355",
+                  "FRE 430",
+                  "FLM 219"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Major Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "declaredMajor": "SPAN",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "SOC 355"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_WGST": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002667",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intermediate Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 222"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Spanish In & Through Social Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 310"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Spanish I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 311"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Advanced Spanish II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 314"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Latino/a Conversations"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 317"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Hispanic Cultures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SPA 404"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Spanish Translation & Interpretation"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "SPA 470",
+                          "SPA 471"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Study Abroad Program"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Study Abroad Program"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SPA 490"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Internship"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Internship"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SPA 493"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Community Field Experience"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Community Field Experience"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SPA 495"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Field Experience"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "13",
+                    "text": "Field Experience"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "Experiential Learning Experience"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 231",
+                  "SPA 232",
+                  "SPA 233",
+                  "SPA 415",
+                  "SPA 430"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Pre-Professional Preparation course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 219",
+                  "SPA 231",
+                  "SPA 232",
+                  "SPA 233",
+                  "SPA 315",
+                  "SPA 335",
+                  "SPA 356",
+                  "SPA 365",
+                  "SPA 415",
+                  "SPA 430",
+                  "SPA 480",
+                  "SPA 490",
+                  "SPA 493",
+                  "SPA 495",
+                  "SPA 492",
+                  "BUS 201",
+                  "BUS 225",
+                  "BUS 329",
+                  "BUS 450",
+                  "HSC 225",
+                  "HSC 235",
+                  "PBH 209",
+                  "PBH 311",
+                  "PBH 330",
+                  "PBH 345",
+                  "PBH 350",
+                  "PBH 414",
+                  "SWK 200"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Major Electives"
+              },
+              "minCredits": 6,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "declaredMajor": "SPAN",
+          "minimumCredits": {
+            "min": 33
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "SOC 355"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_WGST": 6
+          }
+        }
+      ]
+    }
+  }
+}

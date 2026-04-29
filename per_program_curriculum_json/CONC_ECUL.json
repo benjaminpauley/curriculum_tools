@@ -1,0 +1,474 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ECUL": {
+      "programName": "Concentration in Cultural Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000014",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 203",
+                  "ENG 204"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Gateway Courses"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Requirement I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 360",
+                  "ENG 369",
+                  "ENG 369",
+                  "ENG 393"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration 300 level Requirement II"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 216",
+                  "ENG 218",
+                  "ENG 220",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 260",
+                  "ENG 292",
+                  "ENG 293",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 369",
+                  "ENG 373",
+                  "ENG 393"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 125",
+                  "CAS 217",
+                  "AMS 251",
+                  "AMS 420",
+                  "GEO 260",
+                  "WST 228",
+                  "WST 266",
+                  "WST 307",
+                  "WST 351",
+                  "WST 352",
+                  "WST 356",
+                  "WST 357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P",
+                  "ENG 461",
+                  "ENG 462",
+                  "499 LowestPriority"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "CONC_ESED": 12
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001251",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 203",
+                  "ENG 204"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Gateway Courses"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Requirement I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 360",
+                  "ENG 369",
+                  "ENG 393"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration 300 level Requirement II"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 216",
+                  "ENG 218",
+                  "ENG 220",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 260",
+                  "ENG 292",
+                  "ENG 293",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 360",
+                  "ENG 393",
+                  "ENG 369",
+                  "ENG 373"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 125",
+                  "CAS 217",
+                  "AMS 251",
+                  "AMS 420",
+                  "GEO 260",
+                  "WST 228",
+                  "WST 266",
+                  "WST 307",
+                  "WST 351",
+                  "WST 352",
+                  "WST 356",
+                  "WST 357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P",
+                  "ENG 461",
+                  "ENG 462",
+                  "499 LowestPriority"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001751",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 203",
+                  "ENG 204"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Gateway Courses"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242",
+                  "ENG 371"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Requirement I"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 360",
+                  "ENG 369",
+                  "ENG 393"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration 300 level Requirement II"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 216",
+                  "ENG 218",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 260",
+                  "ENG 292",
+                  "ENG 293",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 350",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 360",
+                  "ENG 393",
+                  "ENG 369",
+                  "ENG 373"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 125",
+                  "CAS 217",
+                  "AMS 251",
+                  "AMS 420",
+                  "GEO 260",
+                  "WST 228",
+                  "WST 266",
+                  "WST 307",
+                  "WST 351",
+                  "WST 352",
+                  "WST 356",
+                  "WST 357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P",
+                  "ENG 461",
+                  "ENG 462",
+                  "ENG 499",
+                  "{HIDE ENG 202} LowestPriority"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

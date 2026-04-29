@@ -1,0 +1,192 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CPSC": {
+      "programName": "Minor in Computer Science",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000282",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science & Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Computer Science & Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Data Structures and Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 201:499"
+                ],
+                "hidden": [
+                  "CSC 2@",
+                  "3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Science Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002000",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science & Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Computer Science & Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Data Structures and Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 201:499"
+                ],
+                "hidden": [
+                  "CSC 2@",
+                  "3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Science Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

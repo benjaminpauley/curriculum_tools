@@ -1,0 +1,161 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "EHSC": {
+      "programName": "Minor in Environmental Health Science",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000097",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EHS 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Environmental Health Science"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EHS 324"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Environmental Toxicology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 206",
+                  "PBH 206"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Epidemiology for Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 300",
+                          "EES 301"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Intro to Geographic Info Syst. & Intro to GIS Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Geographic Info Syst. & Intro to GIS Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 340"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Geographic Info Sys w/Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Geographic Info Sys w/Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "GEOGRAPHIC INFO SYST AND LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 323",
+                  "EES 423",
+                  "EHS 410",
+                  "EHS 420",
+                  "EHS 480",
+                  "EHS 494",
+                  "PBH 323",
+                  "PSC 350"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Environmental Health Science Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 16
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a",
+            "minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 7
+          }
+        }
+      ]
+    }
+  }
+}

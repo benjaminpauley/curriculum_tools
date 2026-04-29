@@ -1,0 +1,275 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "EVSC": {
+      "programName": "Concentration in Environmental Science",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001776",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 104"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Dynamic Earth With Laboratory"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "1",
+                    "text": "Dynamic Earth With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Introduction to Geology & Earth Science Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Geology & Earth Science Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Environmental Geology & Earth Science Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Environmental Geology & Earth Science Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 221"
+                        ]
+                      },
+                      "label": {
+                        "tag": "55.1",
+                        "text": "Environmental Geology & Environmental Geology Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "55.1",
+                    "text": "Environmental Geology & Environmental Geology Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "6.7",
+                "text": "EARTH SCIENCE & LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "BIO 200",
+                  "BIO 201"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Ecology and the Environment with Lab"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 205"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Global Climate Change or Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EHS 210"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Environmental Health Science"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216",
+                  "MAT 243"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Statistics or Calculus"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 204",
+                  "PHY 205"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Physics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216",
+                  "CHE 310",
+                  "BIO 301",
+                  "EES 315",
+                  "EES 321",
+                  "EES 323",
+                  "EHS 324",
+                  "EHS 410",
+                  "ECO 322",
+                  "GEO 306",
+                  "GEO 331",
+                  "PSC 351"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Choose 3 Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305",
+                  "EES 330",
+                  "EES 342",
+                  "EES 344",
+                  "EES 356",
+                  "EES 402",
+                  "EES 424",
+                  "EES 440",
+                  "EES 441",
+                  "EES 444",
+                  "EES 456"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "EES Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 320",
+                  "EES 350",
+                  "EES 450"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Capstone"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_HAMS": 4,
+            "CONC_PPTH": 8,
+            "MAJOR_ECON": 3,
+            "CONC_SUST": 12
+          }
+        }
+      ]
+    }
+  }
+}

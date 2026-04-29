@@ -1,0 +1,92 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "SOCO": {
+      "programName": "Minor in Sociology",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000334",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "300/400 Level Sociology Electives"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Additional Sociology Electives - Max 3 credits at the 100 Level"
+              },
+              "minCredits": 6,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ECOB": {
+      "programName": "Concentration in Business Economics",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000031",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1A",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 322"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Environmental Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 333",
+                  "ECO 340",
+                  "ECO 350"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Economics Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 100:499",
+                  "BUS 100:499"
+                ],
+                "hidden": [
+                  "ACC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BIS 420",
+                  "BUS 3@",
+                  "4@",
+                  "BIS 361",
+                  "BIS 442",
+                  "CAS 370",
+                  "FIN 346",
+                  "FIN 347",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 437",
+                  "FIN 438",
+                  "FIN 445",
+                  "FIN 446",
+                  "FIN 462",
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Accounting and Business Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000395",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 322"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Environmental Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 340",
+                  "ECO 350"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Economics Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 100:499",
+                  "BUS 100:499"
+                ],
+                "hidden": [
+                  "ACC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BIS 420",
+                  "BUS 3@",
+                  "4@",
+                  "BIS 361",
+                  "BIS 442",
+                  "CAS 370",
+                  "FIN 346",
+                  "FIN 347",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 437",
+                  "FIN 438",
+                  "FIN 445",
+                  "FIN 446",
+                  "FIN 462",
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Accounting and Business Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001465",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 322",
+                  "ECO 333",
+                  "ECO 345"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Environmental/Health/Indust Org & Devmt"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 340",
+                  "ECO 343",
+                  "ECO 350"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Economics Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 100:499",
+                  "BUS 100:499",
+                  "BIS 100:499",
+                  "FIN 100:499"
+                ],
+                "hidden": [
+                  "ACC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BUS 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BIS 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "FIN 1@",
+                  "2@",
+                  "3@",
+                  "4@"
+                ],
+                "except": [
+                  "ACC 480",
+                  "ACC 490",
+                  "ACC 492",
+                  "BUS 480",
+                  "BUS 490",
+                  "BUS 492",
+                  "BIS 480",
+                  "BIS 490",
+                  "FIN 480",
+                  "FIN 490",
+                  "FIN 492"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Accounting, Business, Finance and/or BIS Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "MAJOR_FNCE": 0
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202350",
+          "requirementAuthority": "RA002168",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 322",
+                  "ECO 333",
+                  "ECO 345"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Environmental/Health/Indust Org & Devmt"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 325",
+                  "ECO 331",
+                  "ECO 343",
+                  "ECO 350"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Economics Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 100:499",
+                  "BUS 100:499",
+                  "BIS 100:499",
+                  "FIN 100:499"
+                ],
+                "hidden": [
+                  "ACC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BUS 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "BIS 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "FIN 1@",
+                  "2@",
+                  "3@",
+                  "4@"
+                ],
+                "except": [
+                  "ACC 480",
+                  "ACC 490",
+                  "ACC 492",
+                  "BUS 480",
+                  "BUS 490",
+                  "BUS 492",
+                  "BIS 480",
+                  "BIS 490",
+                  "FIN 480",
+                  "FIN 490",
+                  "FIN 492"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Accounting, Business, Finance and/or BIS Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "MAJOR_FNCE": 3
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002402",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 343",
+                  "ECO 465"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Economic Policy and Analysis Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ACC 300:499"
+                        ],
+                        "hidden": [
+                          "ACC 3@",
+                          "4@"
+                        ],
+                        "except": [
+                          "ACC 480",
+                          "ACC 490",
+                          "ACC 492"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Accounting Electives"
+                      },
+                      "minCredits": 9
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Accounting Electives"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BUS 300:499"
+                        ],
+                        "hidden": [
+                          "BUS 3@",
+                          "4@"
+                        ],
+                        "except": [
+                          "BUS 480",
+                          "BUS 490",
+                          "BUS 492"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Business Administration Electives"
+                      },
+                      "minCredits": 9
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Business Administration Electives"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIS 300:499"
+                        ],
+                        "hidden": [
+                          "BIS 3@",
+                          "4@"
+                        ],
+                        "except": [
+                          "BIS 480",
+                          "BIS 490"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Business Information Systems"
+                      },
+                      "minCredits": 9
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Business Information Systems"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "FIN 300:499"
+                        ],
+                        "hidden": [
+                          "FIN 3@",
+                          "4@"
+                        ],
+                        "except": [
+                          "FIN 480",
+                          "FIN 490",
+                          "FIN 492"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Finance Electives"
+                      },
+                      "minCredits": 9
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Finance Electives"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "Upper Level Concentration Electives"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "MAJOR_FNCE": 6
+          }
+        }
+      ]
+    }
+  }
+}

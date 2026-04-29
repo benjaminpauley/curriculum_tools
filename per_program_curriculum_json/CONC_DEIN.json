@@ -1,0 +1,95 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DEIN": {
+      "programName": "Concentration in Diversity, Equity, and Inclusion",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002397",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 250"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Social Inequality"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 208",
+                  "SOC 240",
+                  "SOC 260",
+                  "SOC 265",
+                  "SOC 307",
+                  "SOC 310",
+                  "SOC 311",
+                  "SOC 314",
+                  "SOC 318",
+                  "SOC 321",
+                  "SOC 346",
+                  "SOC 373",
+                  "SOC 480",
+                  "SOC 490",
+                  "SOC 491",
+                  "SOC 492",
+                  "SOC 493",
+                  "SOC 495",
+                  "ANT 201",
+                  "ANT 221",
+                  "ANT 222",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 345",
+                  "ANT 358",
+                  "ANT 480",
+                  "ANT 390",
+                  "LAS 225",
+                  "LAS 240",
+                  "CRM 101",
+                  "CRM 317",
+                  "CRM 480",
+                  "SWK 365 (with attribute= SDEI) MinCredits 9 in SOC @"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "DEI Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Choose 15 credits of DEI Electives, up to six of which may be",
+            "ANT, CRM, and SWK courses that appear in the list below; the remainder",
+            "must be SOC courses."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CRIM": 3,
+            "CONC_GIST": 6,
+            "CONC_MHSS": 6
+          }
+        }
+      ]
+    }
+  }
+}

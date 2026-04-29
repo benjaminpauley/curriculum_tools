@@ -1,0 +1,1292 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PBHV": {
+      "programName": "Concentration in Behavior Analysis",
+      "versions": [
+        {
+          "startTerm": "201410",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000223",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 416"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Sustainable Behavior"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 325",
+                      "PSY 319",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "SPECIALIZED COURSES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 316, 407 and 416 must be taken at Eastern CT State",
+            "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000393",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 246"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Single-Subject Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 417"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Topics in Behavior Analysis"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 325",
+                      "PSY 319",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "SPECIALIZED COURSES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 316, 407 and 416 must be taken at Eastern CT State",
+            "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001432",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2.a",
+                    "text": "Supervision & Perf Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 246"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Single-Subject Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 417"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Topics in Behavior Analysis"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 314",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 471"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 325",
+                      "PSY 319",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 471",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "SPECIALIZED COURSES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 225, 246, 316, 407 and 417 must be taken at Eastern CT State",
+            "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002164",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2.a",
+                    "text": "Supervision & Perf Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 246"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Single-Subject Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 415"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Behavioral Pharmacology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 417"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Topics in Behavior Analysis"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 318",
+                  "PSY 430"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 314",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 471"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 325",
+                      "PSY 319",
+                      "PSY 330",
+                      "PSY 435",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 471",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "SPECIALIZED COURSES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 225, 246, 316, 407 and 417 must be taken at Eastern CT State",
+            "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002577",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2.a",
+                    "text": "Supervision & Perf Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 246"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Single-Subject Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 415"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Behavioral Pharmacology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 417"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Topics in Behavior Analysis"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 318",
+                  "PSY 430",
+                  "PSY 434"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 314",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Developmental"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 435",
+                      "PSY 450",
+                      "PSY 455",
+                      "PSY 460",
+                      "PSY 471"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 325",
+                      "PSY 319",
+                      "PSY 330",
+                      "PSY 435",
+                      "PSY 450",
+                      "PSY 455",
+                      "PSY 460",
+                      "PSY 471",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "SPECIALIZED COURSES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 225, 246, 316, 407 and 417 must be taken at Eastern CT State",
+            "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

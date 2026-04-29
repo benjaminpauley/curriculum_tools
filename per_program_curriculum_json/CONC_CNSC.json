@@ -1,0 +1,525 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "CNSC": {
+      "programName": "Concentration in Cognitive Neuroscience",
+      "versions": [
+        {
+          "startTerm": "202210",
+          "endTerm": "202250",
+          "requirementAuthority": "RA002014",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212",
+                  "PSY 314"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 306",
+                  "PSY 432"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Cognition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Groups"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 345",
+                  "PSY 410",
+                  "PSY 450",
+                  "PSY 460",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 496",
+                  "PSY 497",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "4.2",
+                "text": "Specialized"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ],
+                "except": [
+                  "PSY 100 LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Elective"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002163",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212",
+                  "PSY 314"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 306",
+                  "PSY 432"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Cognition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 318",
+                  "PSY 430"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Groups"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 345",
+                  "PSY 410",
+                  "PSY 415",
+                  "PSY 450",
+                  "PSY 460",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 496",
+                  "PSY 497",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "4.2",
+                "text": "Specialized"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ],
+                "except": [
+                  "PSY 100",
+                  "PSY 101",
+                  "PSY 227",
+                  "PSY 247",
+                  "PSY 327",
+                  "PSY 390",
+                  "419 LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Elective"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002578",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212",
+                  "PSY 314"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 306",
+                  "PSY 432"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Cognition"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 318",
+                  "PSY 430",
+                  "PSY 434"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Bases of Behavior"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Groups"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "PSY 325",
+                  "PSY 330",
+                  "PSY 345",
+                  "PSY 410",
+                  "PSY 415",
+                  "PSY 450",
+                  "PSY 455",
+                  "PSY 460",
+                  "PSY 471",
+                  "PSY 480",
+                  "PSY 490",
+                  "PSY 491",
+                  "PSY 496",
+                  "PSY 497",
+                  "PSY 498"
+                ]
+              },
+              "label": {
+                "tag": "4.2",
+                "text": "Specialized"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ],
+                "except": [
+                  "PSY 100",
+                  "PSY 101",
+                  "PSY 227",
+                  "PSY 247",
+                  "PSY 327",
+                  "PSY 390",
+                  "419 LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Elective"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

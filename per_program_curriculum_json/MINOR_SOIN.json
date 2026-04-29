@@ -1,0 +1,561 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "SOIN": {
+      "programName": "Minor in Social Informatics",
+      "versions": [
+        {
+          "startTerm": "201440",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000332",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 364"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Social Informatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 343",
+                  "BUS 344",
+                  "COM 300",
+                  "ECO 210",
+                  "ECO 315",
+                  "ECO 322",
+                  "ECO 330",
+                  "ECO 335",
+                  "EES 205",
+                  "EES 320",
+                  "ENG 203",
+                  "ENG 300",
+                  "HIS 200",
+                  "HIS 318",
+                  "HPE 325",
+                  "HSC 209",
+                  "PSC 205",
+                  "PSC 305",
+                  "PSY 325",
+                  "PSY 419",
+                  "SOC 200",
+                  "SOC 325",
+                  "SWK 311"
+                ],
+                "hidden": [
+                  "SLM 320",
+                  "SLM 341",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Social Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361",
+                  "BIS 362",
+                  "BIS 365",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 430",
+                  "BIS 440"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000333",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 364"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Social Informatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 343",
+                  "BUS 344",
+                  "COM 300",
+                  "ECO 210",
+                  "ECO 315",
+                  "ECO 322",
+                  "ECO 330",
+                  "ECO 335",
+                  "EES 205",
+                  "EES 320",
+                  "ENG 203",
+                  "ENG 300",
+                  "HIS 200",
+                  "HIS 318",
+                  "HPE 325",
+                  "HSC 209",
+                  "PSC 205",
+                  "PSC 305",
+                  "PSY 325",
+                  "PSY 419",
+                  "SOC 200",
+                  "SOC 325",
+                  "SWK 311",
+                  "SWK 312"
+                ],
+                "hidden": [
+                  "SLM 320",
+                  "SLM 341",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Social Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 340",
+                  "BIS 361",
+                  "BIS 362",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 430",
+                  "BIS 440"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002141",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 364"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Social Informatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 343",
+                  "BUS 344",
+                  "COM 300",
+                  "ECO 210",
+                  "ECO 322",
+                  "ECO 330",
+                  "ECO 333",
+                  "ECO 335",
+                  "EES 205",
+                  "EES 320",
+                  "ENG 203",
+                  "ENG 300",
+                  "HIS 200",
+                  "HIS 318",
+                  "HPE 325",
+                  "HSC 209",
+                  "PSC 205",
+                  "PSC 305",
+                  "PSY 325",
+                  "PSY 419",
+                  "SOC 200",
+                  "SOC 325",
+                  "SWK 311",
+                  "SWK 312"
+                ],
+                "hidden": [
+                  "SLM 320",
+                  "SLM 341",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Social Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 340",
+                  "BIS 361",
+                  "BIS 362",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 430",
+                  "BIS 440"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002492",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Systems Analysis and Design"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 364"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Social Informatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 343",
+                  "COM 300",
+                  "ECO 210",
+                  "ECO 322",
+                  "ECO 330",
+                  "ECO 333",
+                  "ECO 335",
+                  "EES 205",
+                  "EES 320",
+                  "ENG 203",
+                  "ENG 300",
+                  "HIS 200",
+                  "HIS 318",
+                  "HPE 325",
+                  "HSC 209",
+                  "PSC 205",
+                  "PSC 305",
+                  "PSY 325",
+                  "PSY 419",
+                  "SOC 200",
+                  "SOC 325",
+                  "SWK 311",
+                  "SWK 312"
+                ],
+                "hidden": [
+                  "SLM 320",
+                  "SLM 341",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Social Informatics Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 340",
+                  "BIS 361",
+                  "BIS 362",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 373",
+                  "BIS 375",
+                  "BIS 377",
+                  "BIS 430",
+                  "BIS 440"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Information Systems Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

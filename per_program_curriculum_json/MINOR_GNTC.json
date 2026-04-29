@@ -1,0 +1,413 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "GNTC": {
+      "programName": "Minor in Genetic Counseling",
+      "versions": [
+        {
+          "startTerm": "201810",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000528",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 220"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 304",
+                          "BIO 314"
+                        ]
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "Genetics and Society with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "Genetics and Society with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Genetics with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Genetics with Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "Genetics"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 314",
+                  "PSY 207",
+                  "PSY 325",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Psychology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 378",
+                  "MAT 216",
+                  "MAT 315",
+                  "CSC 314",
+                  "PSY 227"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Bioinformatics/Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 202"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Human Biology"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Human Biology"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CHE 200",
+                          "CHE 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Intro Chemistry"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Intro Chemistry"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "CHE 210",
+                          "CHE 212"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "General Chemistry with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "General Chemistry with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CHE 316"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Biochemistry I"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Biochemistry I"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "PSY 204",
+                          "PSY 314",
+                          "PSY 207",
+                          "PSY 325",
+                          "PSY 430",
+                          "PSY 450"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Psychology"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Psychology"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "Minor Elective"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 16
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002185",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 210"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Genetic Counseling"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 304",
+                          "BIO 314"
+                        ]
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "Genetics and Society with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "Genetics and Society with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Genetics with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Genetics with Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "Genetics"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 220",
+                  "PHI 362"
+                ]
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 314",
+                  "PSY 325",
+                  "PSY 430",
+                  "PSY 450"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Psychology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 378",
+                  "MAT 216",
+                  "MAT 315",
+                  "CSC 314",
+                  "PSY 227"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Bioinformatics/Statistics"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 16
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

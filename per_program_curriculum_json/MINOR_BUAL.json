@@ -1,0 +1,275 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BUAL": {
+      "programName": "Minor in Business Analytics",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202320",
+          "requirementAuthority": "RA001974",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Analytics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 373"
+                ],
+                "hidden": [
+                  "BIS 373"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Business Database Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215",
+                  "MAT 216",
+                  "SOC 351"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Statistics Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 447",
+                  "BIS 449"
+                ]
+              },
+              "label": {
+                "tag": "9.5",
+                "text": "Business Intelligence or Data Visualization"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 363",
+                  "BUS 380",
+                  "BUS 428",
+                  "BUS 433",
+                  "ECO 305",
+                  "FIN 346",
+                  "OSC 360"
+                ],
+                "hidden": [
+                  "BUS 360",
+                  "OSC 363"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202340",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002213",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205"
+                ],
+                "hidden": [
+                  "BUS 205"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business Analytics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 373"
+                ],
+                "hidden": [
+                  "BIS 373"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Business Database Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215",
+                  "MAT 216",
+                  "SOC 351"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Statistics Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 379",
+                  "BIS 447",
+                  "BIS 449"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9.5",
+                "text": "Data Wrangling, Bus. Intelligence or Data Visualization"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 380",
+                  "BUS 427",
+                  "BUS 428",
+                  "BUS 433",
+                  "ECO 305",
+                  "FIN 346",
+                  "OSC 360",
+                  "OSC 363"
+                ],
+                "hidden": [
+                  "BUS 360",
+                  "BUS 363"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Upper Level Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

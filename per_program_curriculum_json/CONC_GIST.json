@@ -1,0 +1,84 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "GIST": {
+      "programName": "Concentration in Generalist",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002396",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "CRM 100:499",
+                  "SOC 100:499",
+                  "MinCredits 12 in SOC @"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "CRM 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Sociology Generalist Concentration Requirements"
+              },
+              "minCredits": 18
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "18 credits of electives, up to six of which may be from ANT and CRM, the",
+            "remainder must be SOC courses."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CRIM": 3,
+            "CONC_DEIN": 6,
+            "CONC_MHSS": 6,
+            "OTHER_LAC-BT2": 6
+          }
+        }
+      ]
+    }
+  }
+}

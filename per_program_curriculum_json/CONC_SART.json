@@ -1,0 +1,741 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "SART": {
+      "programName": "Concentration in Studio Art",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000485",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111",
+                      "ART 207",
+                      "ART 217"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "3-D Foundation Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 112"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Color Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Relief Printmaking"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Art History I: Pre-History-1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Art History II: 1400 - Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Sculpture I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Painting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 306"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Wood Sculpture"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 318"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Intaglio Printmaking I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Water Based Screen Printing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 352"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Intermediate Drawing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 485"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Senior Seminar in Studio Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "16",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 307",
+                          "ART 308",
+                          "ART 309",
+                          "ART 314",
+                          "ART 322",
+                          "ART 470"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "17",
+                        "text": "Painting and Drawing Electives"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "17",
+                    "text": "Painting and Drawing Electives"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 230",
+                          "ART 311",
+                          "ART 317",
+                          "ART 328",
+                          "ART 420",
+                          "ART 470"
+                        ]
+                      },
+                      "label": {
+                        "tag": "18",
+                        "text": "Printmaking Electives"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "18",
+                    "text": "Printmaking Electives"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 207",
+                          "ART 304",
+                          "ART 315",
+                          "ART 324",
+                          "ART 353",
+                          "ART 470"
+                        ],
+                        "hidden": [
+                          "406"
+                        ]
+                      },
+                      "label": {
+                        "tag": "19",
+                        "text": "Sculpture Electives"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "19",
+                    "text": "Sculpture Electives"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "20",
+                "text": "CONCENTRATION ELECTIVES"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "MINOR_ARHI": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002599",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Three-Dimensional Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Intro to Art History:Prehistory to 1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Art History:1400 to the Present"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "Required Foundation Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 233",
+                      "ART 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Writing About Art Stage 2"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 401",
+                      "ART 402"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Writing About Art Stage 3"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9.1",
+                "text": "Required Writing Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 470"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Advanced Topics in Art "
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 475"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Senior Seminar in Studio Art I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 485"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Capstone: Senior Seminar II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 205",
+                  "ART 215",
+                  "ART 308",
+                  "ART 309",
+                  "ART 339",
+                  "ART 352"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Painting and Drawing Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 201",
+                  "ART 230",
+                  "ART 311",
+                  "ART 317",
+                  "ART 318",
+                  "ART 320"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Printmaking"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 206",
+                  "ART 207",
+                  "ART 217",
+                  "ART 304",
+                  "ART 315",
+                  "ART 353"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Sculpture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 205",
+                          "ART 215",
+                          "ART 308",
+                          "ART 309",
+                          "ART 339",
+                          "ART 352"
+                        ]
+                      },
+                      "label": {
+                        "tag": "16",
+                        "text": "Painting and Drawing Focus Area"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "16",
+                    "text": "Painting and Drawing Focus Area"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 201",
+                          "ART 230",
+                          "ART 311",
+                          "ART 317",
+                          "ART 318",
+                          "ART 320"
+                        ]
+                      },
+                      "label": {
+                        "tag": "17",
+                        "text": "Printmaking Focus Area"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "17",
+                    "text": "Printmaking Focus Area"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 206",
+                          "ART 207",
+                          "ART 217",
+                          "ART 304",
+                          "ART 315",
+                          "ART 353"
+                        ]
+                      },
+                      "label": {
+                        "tag": "18",
+                        "text": "Sculpture Focus Area"
+                      },
+                      "minCredits": 6
+                    }
+                  ],
+                  "label": {
+                    "tag": "18",
+                    "text": "Sculpture Focus Area"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "19",
+                "text": "Focus Area"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 205",
+                  "ART 215",
+                  "ART 308",
+                  "ART 309",
+                  "ART 339",
+                  "ART 352",
+                  "ART 201",
+                  "ART 230",
+                  "ART 311",
+                  "ART 317",
+                  "ART 318",
+                  "ART 320",
+                  "ART 206",
+                  "ART 207",
+                  "ART 217",
+                  "ART 304",
+                  "ART 315",
+                  "ART 353"
+                ]
+              },
+              "label": {
+                "tag": "20",
+                "text": "Additional Elective"
+              },
+              "minCredits": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "MINOR_ARHI": 6
+          }
+        }
+      ]
+    }
+  }
+}

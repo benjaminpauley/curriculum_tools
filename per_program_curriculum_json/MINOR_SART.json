@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "SART": {
+      "programName": "Minor in Studio Art",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000337",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 300:499 (With ATTRIBUTE=STU)"
+                ],
+                "hidden": [
+                  "ART 3@ (With ATTRIBUTE=STU)",
+                  "4@ (With ATTRIBUTE=STU)"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "300/400 Level Studio Art Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 100:499 (With ATTRIBUTE=STU)"
+                ],
+                "hidden": [
+                  "ART 1@ (With ATTRIBUTE=STU)",
+                  "2@ (With ATTRIBUTE=STU)",
+                  "3@ (With ATTRIBUTE=STU)",
+                  "4@ (With ATTRIBUTE=STU)"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Studio Art Electives"
+              },
+              "minCredits": 12,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "It is recommended that students seek advisement with a Studio",
+            "Art faculty member.  A minimum of nine (9) unique credits is",
+            "required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

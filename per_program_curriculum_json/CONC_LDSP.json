@@ -1,0 +1,173 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "LDSP": {
+      "programName": "Concentration in Leadership Communication",
+      "versions": [
+        {
+          "startTerm": "200510",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001476",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Public Speaking"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Organizational Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Advanced Interpersonal Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 201",
+                  "COM 252",
+                  "COM 255",
+                  "COM 301",
+                  "COM 312",
+                  "COM 331",
+                  "BUS 255"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Two Additional Courses"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001913",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 312"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Public Presentations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Organizational Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Advanced Interpersonal Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 201",
+                  "COM 252",
+                  "COM 255",
+                  "COM 301",
+                  "COM 331",
+                  "BUS 255"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Two Additional Courses"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1666 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PSYC": {
+      "programName": "Major in Psychology",
+      "versions": [
+        {
+          "startTerm": "200710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000221",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to the Psychology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 227"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Behavioral Science Statistics"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 247"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Research Methods I"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 327"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Research Methods II"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 419"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History And Systems of Psychology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "PSYCHOLOGY CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "PSYC >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "7",
+                        "text": "Psychology Exit Examination Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "8",
+                        "text": "Psychology Exit Examination Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=PBHV OR CONC=CNSC OR CONC=MHCC OR CONC=PC&Y OR CONC=DEVL OR CONC=PSTD OR CONC=PSYW",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "9",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "subset",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 402",
+                                      "PSY 409"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Research"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 204",
+                                      "PSY 314",
+                                      "PSY 206",
+                                      "PSY 208",
+                                      "PSY 210",
+                                      "PSY 212"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Developmental"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 205",
+                                      "PSY 306"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "Learning and Cognition"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 318",
+                                      "PSY 418",
+                                      "PSY 430"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Biological Basis of Behavior"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 301",
+                                      "PSY 302",
+                                      "PSY 315",
+                                      "PSY 320"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "Individual Differences"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 202",
+                                      "PSY 303"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Groups"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "16",
+                                    "text": "Specialized Course"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460",
+                                      "PSY 480",
+                                      "PSY 490",
+                                      "PSY 491",
+                                      "PSY 496",
+                                      "PSY 497",
+                                      "498 LOW PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "17",
+                                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:479"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX LOWEST PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "18",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:499"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "19",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                }
+                              ],
+                              "label": {
+                                "tag": "20",
+                                "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PSYC",
+          "minimumCredits": {
+            "min": 46
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 18 credits in psychology must be taken at",
+            "Eastern CT State University.",
+            "PSY 227, 247 and 327 must be successfully completed with",
+            "a grade of C or better.",
+            "All Psychology majors must take the Psychology comprehensive",
+            "exam and exit survey  prior to graduation. Students who did not",
+            "achieve a satisfactory grade on the comprehensive exam (as",
+            "determined by the Department of Psychological Science) must",
+            "successfully complete a remedial component before graduation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SOCO": 6,
+            "MAJOR_CRIM": 6,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001431",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to the Psychology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 227"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Behavioral Science Statistics"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 247"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Research Methods I"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 327"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Research Methods II"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 419"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History And Systems of Psychology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "PSYCHOLOGY CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "PSYC >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "7",
+                        "text": "Psychology Exit Examination Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "8",
+                        "text": "Psychology Exit Examination Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=PBHV OR CONC=CNSC OR CONC=MHCC OR CONC=PC&Y OR CONC=DEVL OR CONC=PSTD OR CONC=PSYW",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "9",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "subset",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 402",
+                                      "PSY 409"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Research"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 314",
+                                      "PSY 206",
+                                      "PSY 208",
+                                      "PSY 210",
+                                      "PSY 212"
+                                    ],
+                                    "hidden": [
+                                      "PSY 204"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Developmental"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 205",
+                                      "PSY 306"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "Learning and Cognition"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 318",
+                                      "PSY 418",
+                                      "PSY 430"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Biological Basis of Behavior"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 301",
+                                      "PSY 302",
+                                      "PSY 315",
+                                      "PSY 320"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "Individual Differences"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 202",
+                                      "PSY 303"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Groups"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460",
+                                      "PSY 471"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "16",
+                                    "text": "Specialized Course"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460",
+                                      "PSY 471",
+                                      "PSY 480",
+                                      "PSY 490",
+                                      "PSY 491",
+                                      "PSY 496",
+                                      "PSY 497",
+                                      "498 LOW PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "17",
+                                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:479"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX LOWEST PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "18",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:499"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "19",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                }
+                              ],
+                              "label": {
+                                "tag": "20",
+                                "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PSYC",
+          "minimumCredits": {
+            "min": 46
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 18 credits in psychology must be taken at",
+            "Eastern CT State University.",
+            "PSY 227, 247 and 327 must be successfully completed with",
+            "a grade of C or better.",
+            "All Psychology majors must take the Psychology comprehensive",
+            "exam and exit survey  prior to graduation. Students who did not",
+            "achieve a satisfactory grade on the comprehensive exam (as",
+            "determined by the Department of Psychological Science) must",
+            "successfully complete a remedial component before graduation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SOCO": 6,
+            "MAJOR_CRIM": 6,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001941",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to the Psychology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 227"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Behavioral Science Statistics"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 247"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Research Methods I"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 327"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Research Methods II"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 390"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4.1",
+                    "text": "Professional Development"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 419"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History And Systems of Psychology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "PSYCHOLOGY CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "PSYC >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "7",
+                        "text": "Psychology Exit Examination Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "8",
+                        "text": "Psychology Exit Examination Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=PBHV OR CONC=CNSC OR CONC=MHCC OR CONC=DEVL OR CONC=PSTD OR CONC=PSYW",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "9",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "subset",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 402",
+                                      "PSY 409"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Research"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 314",
+                                      "PSY 206",
+                                      "PSY 208",
+                                      "PSY 210",
+                                      "PSY 212"
+                                    ],
+                                    "hidden": [
+                                      "PSY 204"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Developmental"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 205",
+                                      "PSY 306"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "Learning and Cognition"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 218",
+                                      "PSY 318",
+                                      "PSY 430"
+                                    ],
+                                    "hidden": [
+                                      "PSY 418"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Biological Basis of Behavior"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 301",
+                                      "PSY 302",
+                                      "PSY 315",
+                                      "PSY 320"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "Individual Differences"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 202",
+                                      "PSY 303"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Groups"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460",
+                                      "PSY 471"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "16",
+                                    "text": "Specialized Course"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 345",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 450",
+                                      "PSY 460",
+                                      "PSY 471",
+                                      "PSY 480",
+                                      "PSY 490",
+                                      "PSY 491",
+                                      "PSY 496",
+                                      "PSY 497",
+                                      "498 LOW PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "17",
+                                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:479"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX LOWEST PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "18",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:499"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "19",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                }
+                              ],
+                              "label": {
+                                "tag": "20",
+                                "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PSYC",
+          "minimumCredits": {
+            "min": 47
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 18 credits in psychology must be taken at",
+            "Eastern CT State University.",
+            "PSY 227, 247 and 327 must be successfully completed with",
+            "a grade of C or better.",
+            "All Psychology majors must take the Psychology comprehensive",
+            "exam and exit survey  prior to graduation. Students who did not",
+            "achieve a satisfactory grade on the comprehensive exam (as",
+            "determined by the Department of Psychological Science) must",
+            "successfully complete a remedial component before graduation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SOCO": 6,
+            "MAJOR_CRIM": 6,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002572",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1.1",
+                    "text": "General Psychology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to the Psychology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 227"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Behavioral Science Statistics"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 247"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Research Methods I"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 327"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Research Methods II"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 390"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4.1",
+                    "text": "Professional Development"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 409"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4.2",
+                    "text": "Current Research in Psychology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 419"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History And Systems of Psychology"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "PSYCHOLOGY CORE COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "PSYC >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "7",
+                        "text": "Psychology Exit Examination Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "8",
+                        "text": "Psychology Exit Examination Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=PBHV OR CONC=CNSC OR CONC=MHCC OR CONC=DEVL OR CONC=PSTD OR CONC=PSIO",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "9",
+                                "text": "Concentration Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "subset",
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 314",
+                                      "PSY 206",
+                                      "PSY 208",
+                                      "PSY 210",
+                                      "PSY 212"
+                                    ],
+                                    "hidden": [
+                                      "PSY 204"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Developmental"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 205",
+                                      "PSY 306"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "Learning and Cognition"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 318",
+                                      "PSY 218",
+                                      "PSY 430",
+                                      "PSY 432",
+                                      "PSY 434"
+                                    ],
+                                    "hidden": [
+                                      "PSY 418"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Biological Basis of Behavior"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 301",
+                                      "PSY 302",
+                                      "PSY 315",
+                                      "PSY 320"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "Individual Differences"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 202",
+                                      "PSY 303"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Groups"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 345",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 415",
+                                      "PSY 450",
+                                      "PSY 455",
+                                      "PSY 460",
+                                      "PSY 471"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "16",
+                                    "text": "Specialized Course"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 309",
+                                      "PSY 316",
+                                      "PSY 319",
+                                      "PSY 325",
+                                      "PSY 330",
+                                      "PSY 345",
+                                      "PSY 407",
+                                      "PSY 410",
+                                      "PSY 415",
+                                      "PSY 450",
+                                      "PSY 455",
+                                      "PSY 460",
+                                      "PSY 471",
+                                      "PSY 480",
+                                      "PSY 490",
+                                      "PSY 491",
+                                      "PSY 496",
+                                      "PSY 497",
+                                      "498 LOW PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "17",
+                                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:479"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315",
+                                      "PBH 325",
+                                      "ORG 671"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX LOWEST PRIORITY"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "18",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 102:499"
+                                    ],
+                                    "hidden": [
+                                      "PSY 1@@",
+                                      "2@@",
+                                      "3@@",
+                                      "WST 315"
+                                    ],
+                                    "except": [
+                                      "PSY 100",
+                                      "1XX"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "19",
+                                    "text": "Elective"
+                                  },
+                                  "minCredits": 3
+                                }
+                              ],
+                              "label": {
+                                "tag": "20",
+                                "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PSYC",
+          "minimumCredits": {
+            "min": 50
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 18 credits in psychology must be taken at",
+            "Eastern CT State University.",
+            "PSY 227, 247 and 327 must be successfully completed with",
+            "a grade of C or better.",
+            "All Psychology majors must take the Psychology comprehensive",
+            "exam and exit survey  prior to graduation. Students who did not",
+            "achieve a satisfactory grade on the comprehensive exam (as",
+            "determined by the Department of Psychological Science) must",
+            "successfully complete a remedial component before graduation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SOCO": 6,
+            "MAJOR_CRIM": 6,
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1206 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "BUAD": {
+      "programName": "Major in Business Administration",
+      "versions": [
+        {
+          "startTerm": "201210",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000022",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=SDAB",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "7",
+                        "text": "International Perspectives: Complete With Semester Abroad"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "MINOR=FREN or MINOR=SPAN or MINOR=CNST or MINOR=LACS",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "8",
+                                "text": "International Perspectives: Complete With International Minor"
+                              }
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "BIPW >=1",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "9",
+                                        "text": "International Perspectives: Complete/Waived"
+                                      }
+                                    },
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "(MCL >=4) or (MCLF >=4) or (MCLI >=4) or (MCLS >=4)",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "10",
+                                                "text": "International Perspectives: 4 Years Foreign Language in High School"
+                                              }
+                                            },
+                                            {
+                                              "type": "if_else",
+                                              "branches": [
+                                                {
+                                                  "condition": "(MCL >=3) or (MCLF >=3) or (MCLI >=3) or (MCLS >=3)",
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "BUS 307",
+                                                          "BUS 329",
+                                                          "BUS 362",
+                                                          "BUS 370",
+                                                          "BUS 436",
+                                                          "BUS 437",
+                                                          "BUS 450",
+                                                          "BUS 463"
+                                                        ],
+                                                        "hidden": [
+                                                          "@ (With ATTRIBUTE=INTL)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "11",
+                                                        "text": "International Perspectives: 3 Years Foreign Language in High School & 1 International Business Course"
+                                                      },
+                                                      "minClasses": 1,
+                                                      "qualifiers": {
+                                                        "priority": "high"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "conditionType": "ethos"
+                                                },
+                                                {
+                                                  "condition": null,
+                                                  "rules": [
+                                                    {
+                                                      "type": "group",
+                                                      "minGroups": 1,
+                                                      "options": [
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "or",
+                                                                "courses": [
+                                                                  "BUS 307",
+                                                                  "BUS 329",
+                                                                  "BUS 362",
+                                                                  "BUS 370",
+                                                                  "BUS 436",
+                                                                  "BUS 437",
+                                                                  "BUS 450",
+                                                                  "BUS 463"
+                                                                ],
+                                                                "hidden": [
+                                                                  "@ (With ATTRIBUTE=INTL)",
+                                                                  "2@ (With ATTRIBUTE=LANG)",
+                                                                  "3@ (With ATTRIBUTE=LANG)",
+                                                                  "4@ (With ATTRIBUTE=LANG)"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "12",
+                                                                "text": "International Business Courses"
+                                                              },
+                                                              "minCredits": 6
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "12",
+                                                            "text": "International Business Courses"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_incomplete",
+                                                              "label": {
+                                                                "tag": null,
+                                                                "text": "Rule Incomplete"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "13",
+                                                            "text": "Semester Abroad"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_incomplete",
+                                                              "label": {
+                                                                "tag": null,
+                                                                "text": "Rule Incomplete"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "14",
+                                                            "text": "Minor in an International Field"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_incomplete",
+                                                              "label": {
+                                                                "tag": null,
+                                                                "text": "Rule Incomplete"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "15",
+                                                            "text": "4 Years of Foreign Language in High School"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_incomplete",
+                                                              "label": {
+                                                                "tag": null,
+                                                                "text": "Rule Incomplete"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "16",
+                                                            "text": "3 Years Foreign Lang in High School and 1 International Business Course"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "17",
+                                                        "text": "INTERNATIONAL PERSPECTIVES"
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "subset",
+                                                      "rules": [
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "ECO 200"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "18",
+                                                            "text": "Principles of Macroeconomics"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "ECO 201"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "19",
+                                                            "text": "Principles of Microeconomics"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BIS 205"
+                                                            ],
+                                                            "hidden": [
+                                                              "BUS 205"
+                                                            ]
+                                                          },
+                                                          "label": {
+                                                            "tag": "20",
+                                                            "text": "Information Management"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "ECO 215",
+                                                              "MAT 216"
+                                                            ]
+                                                          },
+                                                          "label": {
+                                                            "tag": "21",
+                                                            "text": "Statistics"
+                                                          },
+                                                          "minClasses": 1
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "22",
+                                                        "text": "RELATED BUSINESS COURSE REQUIREMENTS"
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "subset",
+                                                      "rules": [
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "ACC 201"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "23",
+                                                            "text": "Principles of Accounting I"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "ACC 202"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "24",
+                                                            "text": "Principles Managerial Accounting"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 201"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "25",
+                                                            "text": "Principles of Management"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 225"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "26",
+                                                            "text": "Principles of Marketing"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "FIN 245"
+                                                            ],
+                                                            "hidden": [
+                                                              "BUS 245"
+                                                            ]
+                                                          },
+                                                          "label": {
+                                                            "tag": "27",
+                                                            "text": "Business Finance"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 250"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "28",
+                                                            "text": "Business Law I"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "OSC 260"
+                                                            ],
+                                                            "hidden": [
+                                                              "BUS 260"
+                                                            ]
+                                                          },
+                                                          "label": {
+                                                            "tag": "29",
+                                                            "text": "Operations Management"
+                                                          },
+                                                          "minClasses": 1
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "30",
+                                                        "text": "COMMON BUSINESS CORE REQUIREMENTS"
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "subset",
+                                                      "rules": [
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 301"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "31",
+                                                            "text": "Business Ethics"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 351"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "32",
+                                                            "text": "Advanced Business Concepts and Entrepreneurship"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 431"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "33",
+                                                            "text": "Management Policy and Strategy"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 490"
+                                                            ],
+                                                            "hidden": []
+                                                          },
+                                                          "label": {
+                                                            "tag": "34",
+                                                            "text": "Internship in Business Admin"
+                                                          },
+                                                          "minClasses": 1
+                                                        },
+                                                        {
+                                                          "type": "course",
+                                                          "courses": {
+                                                            "connector": "or",
+                                                            "courses": [
+                                                              "BUS 300:499",
+                                                              "OSC 300:499"
+                                                            ],
+                                                            "hidden": [
+                                                              "BUS 3@",
+                                                              "4@",
+                                                              "BIS 361",
+                                                              "BIS 442",
+                                                              "CAS 370",
+                                                              "FIN 346",
+                                                              "FIN 347",
+                                                              "FIN 348",
+                                                              "FIN 349",
+                                                              "FIN 437",
+                                                              "FIN 438",
+                                                              "FIN 445",
+                                                              "FIN 446",
+                                                              "FIN 462",
+                                                              "FIN 490"
+                                                            ]
+                                                          },
+                                                          "label": {
+                                                            "tag": "35",
+                                                            "text": "Upper-Level Business Elective"
+                                                          },
+                                                          "minClasses": 1
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "36",
+                                                        "text": "ADVANCED BUSINESS COURSE REQUIREMENTS"
+                                                      }
+                                                    },
+                                                    {
+                                                      "type": "if_else",
+                                                      "branches": [
+                                                        {
+                                                          "condition": "CONC=FNCE OR CONC=HRMG OR CONC=INTL OR CONC=MNGT OR CONC=MKTG OR CONC=HCMG OR CONC=OPMG",
+                                                          "rules": [
+                                                            {
+                                                              "type": "blocktype_ref",
+                                                              "blockType": "CONC",
+                                                              "count": 1,
+                                                              "label": {
+                                                                "tag": "39",
+                                                                "text": "Concentration Requirements"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "conditionType": "static"
+                                                        },
+                                                        {
+                                                          "condition": null,
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "or",
+                                                                "courses": [
+                                                                  "BUS 300:499",
+                                                                  "OSC 300:499",
+                                                                  "MinCredits 6 in BUS @",
+                                                                  "OSC @ (With DWResident=Y)"
+                                                                ],
+                                                                "hidden": [
+                                                                  "BUS 3@",
+                                                                  "4@",
+                                                                  "BIS 361",
+                                                                  "BIS 442",
+                                                                  "CAS 370",
+                                                                  "FIN 346",
+                                                                  "FIN 347",
+                                                                  "FIN 348",
+                                                                  "FIN 349",
+                                                                  "FIN 437",
+                                                                  "FIN 438",
+                                                                  "FIN 445",
+                                                                  "FIN 446",
+                                                                  "FIN 462",
+                                                                  "FIN 490"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "40",
+                                                                "text": "General Business, No Concentration Selected"
+                                                              },
+                                                              "minCredits": 9
+                                                            }
+                                                          ],
+                                                          "conditionType": "static"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ],
+                                                  "conditionType": "static"
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "conditionType": "ethos"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "conditionType": "ethos"
+                                }
+                              ]
+                            }
+                          ],
+                          "conditionType": "unknown"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "BUAD",
+          "minimumCredits": {
+            "min": 57
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 24 credits in the Business Administration major must be",
+            "taken at Eastern CT State University. ",
+            "Courses used to satisfy the International Perspectives requirement",
+            "may not be reused in an International Business Minor or",
+            "Concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BUIS": 27,
+            "MAJOR_ECED": 9,
+            "MAJOR_ELED": 9,
+            "MAJOR_ECON": 9,
+            "MAJOR_FNCE": 43,
+            "MAJOR_H/SS": 9,
+            "MAJOR_LHRM": 3,
+            "CONC_7_12": 9,
+            "CONC_ECOB": 9,
+            "CONC_HAMS": 3,
+            "CONC_SPMG": 12
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001977",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introductory Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Introductory Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": [
+                      "BUS 245"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "OSC 260"
+                    ],
+                    "hidden": [
+                      "BUS 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Operations Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED FOUNDATIONAL COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Principles of Marketing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Business Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Advanced Business Concepts and Entrepreneurship"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 431"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Management Policy and Strategy"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 490"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "18",
+                "text": "REQUIRED ADVANCED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=INTL OR CONC=BSMG OR CONC=MNGT OR CONC=MKTG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "39",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "40",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "BUAD",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 24 credits in the Business Administration major must be",
+            "taken at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BUIS": 27,
+            "MAJOR_ECED": 9,
+            "MAJOR_ELED": 9,
+            "MAJOR_ECON": 9,
+            "MAJOR_FNCE": 39,
+            "MAJOR_H/SS": 9,
+            "MAJOR_LHRM": 3,
+            "MAJOR_HSCI": 3,
+            "CONC_7_12": 9,
+            "CONC_ECOB": 9,
+            "CONC_HAMS": 3,
+            "CONC_SPMG": 12,
+            "CONC_ALHL": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002489",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introductory Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Introductory Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": [
+                      "BUS 245"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "OSC 260"
+                    ],
+                    "hidden": [
+                      "BUS 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Operations Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Statistical Data Analysis"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED FOUNDATIONAL COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Principles of Marketing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Business Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Entrepreneurship"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 431"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Strategic Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 490"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "18",
+                "text": "REQUIRED ADVANCED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=INTL OR CONC=BSMG OR CONC=MNGT OR CONC=MKTG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "39",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "40",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "BUAD",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 24 credits in the Business Administration major must be",
+            "taken at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BUIS": 27,
+            "MAJOR_ECED": 9,
+            "MAJOR_ELED": 9,
+            "MAJOR_ECON": 9,
+            "MAJOR_FNCE": 39,
+            "MAJOR_H/SS": 9,
+            "MAJOR_LHRM": 3,
+            "CONC_7_12": 9,
+            "CONC_ECOB": 9,
+            "CONC_HAMS": 3,
+            "CONC_SPMG": 12
+          }
+        }
+      ]
+    }
+  }
+}

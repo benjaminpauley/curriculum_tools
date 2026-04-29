@@ -1,0 +1,777 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "NTRA": {
+      "programName": "4 -Year Traditional Nursing",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002387",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Fundamentals of Nurs Practice & Health Assessment w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 205",
+                      "NUR 209"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Nutrition for Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 224"
+                    ],
+                    "hidden": [
+                      "NUR 424"
+                    ]
+                  },
+                  "label": {
+                    "tag": "21",
+                    "text": "Geriatric Nursing w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 237"
+                    ],
+                    "hidden": [
+                      "NUR 437"
+                    ]
+                  },
+                  "label": {
+                    "tag": "23",
+                    "text": "Evidence- Based Nursing Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 272"
+                    ],
+                    "hidden": [
+                      "NUR 372"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Pathophysiology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 310"
+                    ],
+                    "hidden": [
+                      "NUR 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "20",
+                    "text": "Community Nursing & Public Health w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 311"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Adult Care Nursing I w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 312"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Adult Care Nursing II w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 332"
+                    ],
+                    "hidden": [
+                      "NUR 432"
+                    ]
+                  },
+                  "label": {
+                    "tag": "22",
+                    "text": "Psychiatric Nursing w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 440"
+                    ],
+                    "hidden": [
+                      "NUR 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Maternal & Newborn Nursing with Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 445"
+                    ],
+                    "hidden": [
+                      "NUR 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Family & Child Care Nursing with Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 448"
+                    ]
+                  },
+                  "label": {
+                    "tag": "24",
+                    "text": "Leadership & Management in Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 449"
+                    ]
+                  },
+                  "label": {
+                    "tag": "25",
+                    "text": "Clinical Judgement Complex Illnesses"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 451"
+                    ]
+                  },
+                  "label": {
+                    "tag": "26",
+                    "text": "Integrated Clinical Nursing Practice"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "202550",
+          "requirementAuthority": "RA002648",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Fundamentals of Nurs Practice & Health Assessment w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 203"
+                    ],
+                    "hidden": [
+                      "NUR 403"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19.1",
+                    "text": "Pharmatherapeut & Pharmacology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 205"
+                    ],
+                    "hidden": [
+                      "NUR 209"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Nutrition for Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 224"
+                    ],
+                    "hidden": [
+                      "NUR 424"
+                    ]
+                  },
+                  "label": {
+                    "tag": "21",
+                    "text": "Geriatric Nursing w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 237"
+                    ],
+                    "hidden": [
+                      "NUR 437"
+                    ]
+                  },
+                  "label": {
+                    "tag": "23",
+                    "text": "Evidence- Based Nursing Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 272"
+                    ],
+                    "hidden": [
+                      "NUR 372"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Pathophysiology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 310"
+                    ],
+                    "hidden": [
+                      "NUR 410"
+                    ]
+                  },
+                  "label": {
+                    "tag": "20",
+                    "text": "Community Nursing & Public Health w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 311"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Adult Care Nursing I w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 312"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Adult Care Nursing II w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 332"
+                    ],
+                    "hidden": [
+                      "NUR 432"
+                    ]
+                  },
+                  "label": {
+                    "tag": "22",
+                    "text": "Psychiatric Nursing w. Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 440"
+                    ],
+                    "hidden": [
+                      "NUR 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Maternal & Newborn Nursing with Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 445"
+                    ],
+                    "hidden": [
+                      "NUR 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Family & Child Care Nursing with Clinical Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 448"
+                    ]
+                  },
+                  "label": {
+                    "tag": "24",
+                    "text": "Leadership & Management in Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 449"
+                    ]
+                  },
+                  "label": {
+                    "tag": "25",
+                    "text": "Clinical Judgement Complex Illnesses"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 451"
+                    ]
+                  },
+                  "label": {
+                    "tag": "26",
+                    "text": "Integrated Clinical Nursing Practice"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002791",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 175"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Introduction to Professional Nursing Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Fundamentals of Nurs Practice & Health Assessment"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 203"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Pharmacotherapeutics and Pharmacology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 224"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Geriatric Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 237"
+                    ]
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Nursing Research, Evidence-Based Pract & Q.I."
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 272"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Pathophysiology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 310"
+                    ]
+                  },
+                  "label": {
+                    "tag": "22",
+                    "text": "Community Nursing & Public Health"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 311"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Adult Care Nursing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 312"
+                    ]
+                  },
+                  "label": {
+                    "tag": "20",
+                    "text": "Adult Care Nursing II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 332"
+                    ]
+                  },
+                  "label": {
+                    "tag": "21",
+                    "text": "Psychiatric Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 440"
+                    ]
+                  },
+                  "label": {
+                    "tag": "23",
+                    "text": "Maternal & Newborn Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 445"
+                    ]
+                  },
+                  "label": {
+                    "tag": "24",
+                    "text": "Family & Childcare Nursing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 448"
+                    ]
+                  },
+                  "label": {
+                    "tag": "25",
+                    "text": "Leadership in Today's Nursing Workforce"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 449"
+                    ]
+                  },
+                  "label": {
+                    "tag": "26",
+                    "text": "Clinical Judgement Complex Illnesses"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NUR 451"
+                    ]
+                  },
+                  "label": {
+                    "tag": "27",
+                    "text": "Capstone: Integrated Clinical Nursing Practice"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        }
+      ]
+    }
+  }
+}

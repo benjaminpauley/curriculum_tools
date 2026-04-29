@@ -1,0 +1,70 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ASST": {
+      "programName": "Minor in Asian Studies",
+      "versions": [
+        {
+          "startTerm": "200910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000269",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 225",
+                  "BUS 450",
+                  "CHI 110",
+                  "CHI 111",
+                  "ENG 258",
+                  "HIS 275",
+                  "HIS 371",
+                  "HIS 372",
+                  "HIS 373",
+                  "HIS 374",
+                  "HIS 375",
+                  "JPN 110",
+                  "JPN 111",
+                  "JPN 116",
+                  "MUS 330",
+                  "PHI 210",
+                  "PSC 250",
+                  "THE 269 MinSpread 2"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Asian Studies Electives"
+              },
+              "minClasses": 5
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Minor must include courses from at least two different subjects.",
+            "A minimum of nine (9) unique credits is required to complete",
+            "a minor. A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

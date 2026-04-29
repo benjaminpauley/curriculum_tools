@@ -1,0 +1,451 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "EES": {
+      "programName": "Concentration in Earth Science",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000417",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ancient Environments with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sustainable Energy and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Landform Analysis with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Mineralogy and Rock Analysis with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 222",
+                  "EES 340",
+                  "EES 344"
+                ],
+                "hidden": [
+                  "PBH 222",
+                  "PHR 222"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000418",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ancient Environments with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sustainable Energy and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Landform Analysis with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Mineralogy and Rock Analysis with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 222",
+                  "EES 340",
+                  "EES 344"
+                ],
+                "hidden": [
+                  "PBH 222",
+                  "PHR 222"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002582",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ancient Environments with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sustainable Energy and the Environment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Landform Analysis with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 330",
+                  "EES 340",
+                  "EES 344",
+                  "EES 424",
+                  "EES 456"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 222",
+                  "EES 305",
+                  "EES 315",
+                  "EES 323"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

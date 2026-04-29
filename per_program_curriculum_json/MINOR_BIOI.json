@@ -1,0 +1,335 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BIOI": {
+      "programName": "Minor in Bioinformatics",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000272",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216",
+                  "MAT 315"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Statistical Data Analysis or Applied Probability & Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Genetics with Laboratory"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Genetics with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 304",
+                          "BIO 314"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Genetics with Laboratory and Genetics & Society Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Genetics with Laboratory and Genetics & Society Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "GENETICS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 314"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Introduction to Bioinformatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 315"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Bioinformatics Programming & Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 436",
+                  "BIO 450",
+                  "CSC 305",
+                  "CSC 342",
+                  "CSC 350",
+                  "MAT 373"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Bioinformatics Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 19
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 10
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001733",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 202",
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216",
+                  "MAT 315"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Statistical Data Analysis or Applied Probability & Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 230"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Genetics with Laboratory"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Genetics with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "BIO 304",
+                          "BIO 314"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Genetics with Laboratory and Genetics & Society Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Genetics with Laboratory and Genetics & Society Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "GENETICS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 314"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Introduction to Bioinformatics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 315"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Genomic Data Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 436",
+                  "BIO 450",
+                  "CSC 305",
+                  "CSC 342",
+                  "CSC 350",
+                  "MAT 373"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Bioinformatics Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 19
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 10
+          }
+        }
+      ]
+    }
+  }
+}

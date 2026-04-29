@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "SPEX": {
+      "programName": "Minor in Sport and Exercise Science",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002211",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 210"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Kinesiology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 307",
+                  "HSC 309",
+                  "HSC 320",
+                  "HSC 324",
+                  "HSC 326",
+                  "HSC 328",
+                  "HSC 334",
+                  "HSC 342",
+                  "HSC 352",
+                  "HSC 356",
+                  "HSC 360",
+                  "HSC 370",
+                  "HSC 420",
+                  "HSC 450"
+                ],
+                "hidden": [
+                  "HSC 357"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Minor Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PLAW": {
+      "programName": "Minor in Pre-Law",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000327",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Logical Inquiry"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 241",
+                  "PHI 220"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Critical and Creative Thinking or Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 230",
+                  "COM 330",
+                  "ENG 200",
+                  "ENG 371"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Writing and Communication"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSC 110",
+                  "PSC 339",
+                  "PSC 340",
+                  "PSC 341",
+                  "PSC 350",
+                  "SOC 101",
+                  "SOC 325"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Governmental and Social Institutions"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250",
+                  "ECO 200",
+                  "ECO 201"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business and Economics"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 21
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students entering the Pre-Law minor program as freshmen or",
+            "sophomores must have a program of study approved by their",
+            "Pre-Law advisor prior to completing 60 credits at Eastern CT",
+            "State University.",
+            "Transfer students must have their program approved prior to",
+            "the completion of 30 credits at Eastern CT State University.",
+            "A minimum of nine (9) unique credits is required to complete",
+            "a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 12
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002369",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Logical Inquiry"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 341",
+                  "PHI 220"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Philosophy of Law or Ethics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 230",
+                  "COM 330",
+                  "ENG 241",
+                  "ENG 371"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Writing and Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSC 339",
+                  "PSC 340",
+                  "PSC 341",
+                  "PSC 350",
+                  "SOC 101",
+                  "SOC 325"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Governmental and Social Institutions"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250",
+                  "ECO 200",
+                  "ECO 201"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business and Economics"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete",
+            "a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

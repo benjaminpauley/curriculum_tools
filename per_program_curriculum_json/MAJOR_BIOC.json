@@ -1,0 +1,358 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "BIOC": {
+      "programName": "Major in Biochemistry",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000197",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Organismal Biology With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 140"
+                ],
+                "hidden": [
+                  "BIO 220"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Cell Structure & Function With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Genetics with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Organic Chemistry I With Laboratory"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Organic Chemistry II With Laboratory"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 316"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Biochemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 317"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Biochemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Biochemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Biochemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 323"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Physical Biochemistry"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 410"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "15",
+                "text": "Physical Biochemistry Techniques"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 425"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "Chemical Instrumentation With Laboratory"
+              },
+              "minCredits": 4
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17",
+                "text": "Calculus II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "18",
+                        "text": "General Physics I and II with Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "18",
+                    "text": "General Physics I and II with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "19",
+                        "text": "Physics w/Calculus I and II with Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "19",
+                    "text": "Physics w/Calculus I and II with Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "20",
+                "text": "PHYSICS"
+              }
+            }
+          ],
+          "declaredMajor": "BIOC",
+          "minimumCredits": {
+            "min": 58
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BIOL": 30,
+            "MAJOR_CPSC": 4,
+            "MAJOR_EESC": 8,
+            "MAJOR_MATH": 4,
+            "CONC_7_12": 18,
+            "CONC_EESG": 16,
+            "CONC_PNUR": 8,
+            "CONC_PPTH": 8,
+            "CONC_MATH": 4,
+            "CONC_ALHL": 8
+          }
+        }
+      ]
+    }
+  }
+}

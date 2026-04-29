@@ -1,0 +1,259 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PRNT": {
+      "programName": "Concentration in Printmaking",
+      "versions": [
+        {
+          "startTerm": "201310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000072",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 112"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Color Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2.1",
+                    "text": "Digital Imaging & Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Relief Printmaking I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.1",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.2",
+                    "text": "Art History I:Pre-History-1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.3",
+                    "text": "Art History II:1400-Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 230"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Visual Journals And Bookmaking"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 317"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Polyester Plate Lithography"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 318"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Intaglio Printmaking I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Water Based Screen Printing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 485"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Senior Project in Studio Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 208"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 220",
+                  "ART 319",
+                  "ART 328",
+                  "ART 418",
+                  "ART 420",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=VPRI)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_ARHI": 6
+          }
+        }
+      ]
+    }
+  }
+}

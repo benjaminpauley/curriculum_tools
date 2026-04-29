@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ENGL": {
+      "programName": "Minor in English",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000294",
+          "rules": [],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "ENG 100",
+                "100P",
+                "241"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR, CONC_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201440",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000295",
+          "rules": [],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Approval of a course",
+            "of study by the Department Chair is required.",
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "ENG 100",
+                "100P"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PEAR": {
+      "programName": "Major in Pre-Early Childhood Education",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000230",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "4.1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 215"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Foundations of Early Childhood Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Psychology of Childhood"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "PEAR",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in this area.",
+            "Students must complete the following courses prior to CARE",
+            "admission:"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002636",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "4.1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 215"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Foundations of Early Childhood Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 206"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Psychology of Childhood"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "PEAR",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in this area.",
+            "Students must complete the following courses prior to CARE",
+            "admission:"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

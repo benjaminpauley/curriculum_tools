@@ -1,0 +1,484 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "MUSI": {
+      "programName": "Minor in Music",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000318",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Theory of Music I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sight Singing, Ear Training Lab I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 235",
+                  "MUS 236",
+                  "MUS 335"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Music History or Ethnomusicology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 106",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Ensemble"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "MUS 227",
+                          "MUS 304",
+                          "MUS 308",
+                          "MUS 310",
+                          "MUS 314",
+                          "MUS 330"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Global"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Global"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "MUS 113",
+                          "MUS 212",
+                          "MUS 214",
+                          "MUS 217",
+                          "MUS 218",
+                          "MUS 220",
+                          "MUS 256",
+                          "MUS 317",
+                          "MUS 320",
+                          "MUS 356",
+                          "MUS 456"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Performance"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Performance"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "MUS 206",
+                          "MUS 216",
+                          "MUS 230",
+                          "MUS 309",
+                          "MUS 350",
+                          "MUS 356",
+                          "MUS 372",
+                          "MUS 456"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Theory"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Theory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Area Electives"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 206",
+                  "MUS 212",
+                  "MUS 214",
+                  "MUS 216",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 227",
+                  "MUS 230",
+                  "MUS 256",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 309",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 317",
+                  "MUS 320",
+                  "MUS 330",
+                  "MUS 350",
+                  "MUS 356",
+                  "MUS 365",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Additional Area Electives"
+              },
+              "minCredits": 3,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor.",
+            "Within the Minor Electives, you are required to select six credits",
+            "from two of the following three areas:",
+            "Area 1 Global: MUS 227, 304, 308, 310, 314, 330, 365;",
+            "Area 2 Performance: MUS 113, 212, 214, 217, 218, 220, 256, 317,",
+            "320, 356, 365, 456;",
+            "Area 3 Theory: MUS 206, 216, 230, 309, 350, 356, 365, 372, 456;",
+            "and 3 additional credits in any area."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000319",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Theory of Music I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sight Singing, Ear Training Lab I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 235",
+                  "MUS 236",
+                  "MUS 335"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Music History or Ethnomusicology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Ensemble"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 200:499"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "3 Credits of Music Electives at the 200+ level"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 300:499"
+                ]
+              },
+              "label": {
+                "tag": null,
+                "text": "6 Credits of Music Electives at 300+ level"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor.",
+            "Within the Minor Electives, you are required to select nine credits",
+            "with at least 6 credits at the 300 level or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002584",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Theory of Music I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sight Singing, Ear Training Lab I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 235",
+                  "MUS 236",
+                  "MUS 335"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Music History or Ethnomusicology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 107",
+                  "MUS 113"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Ensemble"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 200:499"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "3 Credits of Music Electives at the 200+ level"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 300:499"
+                ]
+              },
+              "label": {
+                "tag": null,
+                "text": "3 Credits of Music Electives at 300+ level"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor.",
+            "Within the Minor Electives, you are required to select six credits",
+            "with at least 3 credits at the 300 level or higher."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

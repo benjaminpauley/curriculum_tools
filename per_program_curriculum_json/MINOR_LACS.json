@@ -1,0 +1,125 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "LACS": {
+      "programName": "Minor in Latin American & Caribbean Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000309",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ART 224",
+                  "HIS 255",
+                  "HIS 342",
+                  "HIS 345",
+                  "HIS 346",
+                  "HIS 347",
+                  "LAS 319",
+                  "LAS 328",
+                  "PSC 328",
+                  "SPA 318",
+                  "SPA 319",
+                  "SPA 320",
+                  "SPA 321",
+                  "SPA 323"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Latin American & Caribbean Study Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002394",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ART 224",
+                  "HIS 255",
+                  "HIS 342",
+                  "HIS 345",
+                  "HIS 346",
+                  "HIS 347",
+                  "LAS 219",
+                  "LAS 317",
+                  "LAS 328",
+                  "PSC 328",
+                  "SPA 219",
+                  "SPA 317",
+                  "SPA 320",
+                  "SPA 321",
+                  "SPA 323"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Latin American & Caribbean Study Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

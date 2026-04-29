@@ -1,0 +1,118 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "DINE": {
+      "programName": "Minor in Data and Information Engineering",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002668",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 202"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intro to Programming & Machine Intelligence"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 203"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Advanced Programming for Data Science"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 205",
+                  "BIS 379",
+                  "BIS 447"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "BIS Required Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Database and Info Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210",
+                  "CSC 231",
+                  "CSC 249",
+                  "CSC 251",
+                  "CSC 259",
+                  "CSC 305",
+                  "CSC 342",
+                  "CSC 343"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Minor Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "CSC 249 OR CSC 259 can fulfill three credits of electives, both courses cannot",
+            "be combined to fulfill minor requirements."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

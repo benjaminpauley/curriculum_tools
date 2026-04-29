@@ -1,0 +1,2109 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "POLI": {
+      "programName": "Major in Political Science",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000054",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=7_12",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "American Government and Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 140",
+                              "PSC 217",
+                              "PSC 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "International Relations or Global Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Applied Qualitative Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Applied Quantitative Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 200",
+                              "PSC 205",
+                              "PSC 215",
+                              "PSC 216",
+                              "PSC 227",
+                              "PSC 325",
+                              "PSC 326",
+                              "PSC 330",
+                              "PSC 335",
+                              "PSC 339",
+                              "PSC 340",
+                              "PSC 341",
+                              "PSC 350",
+                              "PSC 351",
+                              "PSC 353"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "US Government and Politics"
+                          },
+                          "minClasses": 2
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 230",
+                              "PSC 250",
+                              "PSC 270",
+                              "PSC 275",
+                              "PSC 305",
+                              "PSC 310",
+                              "PSC 311",
+                              "PSC 320",
+                              "PSC 323",
+                              "PSC 328",
+                              "PSC 338",
+                              "PSC 352",
+                              "355 #240"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Comparative Politics and International Relations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 209",
+                              "PSC 212",
+                              "PSC 220",
+                              "PSC 225",
+                              "PSC 314",
+                              "PSC 315",
+                              "PSC 316",
+                              "PSC 400"
+                            ]
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Methods and Political Theory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 4,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 106",
+                                      "ANT 221",
+                                      "ANT 337"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "9",
+                                    "text": "Anthropology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "9",
+                                "text": "Anthropology"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ECO 100",
+                                      "ECO 200"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Economics"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "10",
+                                "text": "Economics"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "GEO 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Geography"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "11",
+                                "text": "Geography"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 310"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "History"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "12",
+                                "text": "History"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 231"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "Western Civilization Since 1500"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "13",
+                                "text": "Western Civilization Since 1500"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "General Psychology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "14",
+                                "text": "General Psychology"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "SOC 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Introduction to Sociology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "15",
+                                "text": "Introduction to Sociology"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "16",
+                            "text": "SOCIAL STUDIES CERTIFICATION"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "17",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "American Government and Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 140",
+                              "PSC 217",
+                              "PSC 220"
+                            ]
+                          },
+                          "label": {
+                            "tag": "19",
+                            "text": "International Relations or Democratic Theory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Applied Qualitative Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Applied Quantitative Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 208"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Global Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "ATTRIBUTE=SDAB",
+                              "rules": [
+                                {
+                                  "type": "rule_complete",
+                                  "label": {
+                                    "tag": "24",
+                                    "text": "Internship Complete via Study Abroad"
+                                  }
+                                }
+                              ],
+                              "conditionType": "dw_internal"
+                            },
+                            {
+                              "condition": null,
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 490:497"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "Internship or Study Abroad"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 200",
+                                      "PSC 205",
+                                      "PSC 215",
+                                      "PSC 216",
+                                      "PSC 227",
+                                      "PSC 300",
+                                      "PSC 325",
+                                      "PSC 326",
+                                      "PSC 330",
+                                      "PSC 333",
+                                      "PSC 335",
+                                      "PSC 339",
+                                      "PSC 340",
+                                      "PSC 341",
+                                      "PSC 345",
+                                      "PSC 350",
+                                      "PSC 351",
+                                      "PSC 353",
+                                      "PSC 490",
+                                      "PSC 491",
+                                      "PSC 492",
+                                      "PSC 493",
+                                      "PSC 495",
+                                      "@ (With ATTRIBUTE=PGOV)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "US Government and Politics"
+                                  },
+                                  "minClasses": 2
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 140",
+                                      "PSC 217",
+                                      "PSC 230",
+                                      "PSC 250",
+                                      "PSC 270",
+                                      "PSC 275",
+                                      "PSC 305",
+                                      "PSC 310",
+                                      "PSC 311",
+                                      "PSC 320",
+                                      "PSC 323",
+                                      "PSC 328",
+                                      "PSC 338",
+                                      "PSC 352",
+                                      "PSC 355",
+                                      "PSC 357",
+                                      "PSC 494",
+                                      "GEO 338",
+                                      "#235",
+                                      "GEO 240"
+                                    ],
+                                    "hidden": [
+                                      "@ (With ATTRIBUTE=PPIR)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Comparative Politics and International Relations"
+                                  },
+                                  "minClasses": 2
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 209",
+                                      "PSC 212",
+                                      "PSC 220",
+                                      "PSC 225",
+                                      "PSC 314",
+                                      "PSC 315",
+                                      "PSC 316",
+                                      "PSC 370",
+                                      "PSC 400"
+                                    ],
+                                    "hidden": [
+                                      "@ (With ATTRIBUTE=PMPT)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Methods and Political Theory"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 140",
+                                      "PSC 217",
+                                      "PSC 200",
+                                      "PSC 205",
+                                      "PSC 209",
+                                      "PSC 212",
+                                      "PSC 215",
+                                      "PSC 216",
+                                      "PSC 220",
+                                      "PSC 225",
+                                      "PSC 227",
+                                      "PSC 230",
+                                      "PSC 250",
+                                      "PSC 270",
+                                      "PSC 275",
+                                      "PSC 300",
+                                      "PSC 305",
+                                      "PSC 310",
+                                      "PSC 311",
+                                      "PSC 314",
+                                      "PSC 315",
+                                      "PSC 316",
+                                      "PSC 320",
+                                      "PSC 323",
+                                      "PSC 325",
+                                      "PSC 326",
+                                      "PSC 328",
+                                      "PSC 330",
+                                      "PSC 333",
+                                      "PSC 335",
+                                      "PSC 339",
+                                      "PSC 340",
+                                      "PSC 341",
+                                      "PSC 350",
+                                      "PSC 351",
+                                      "PSC 352",
+                                      "PSC 353",
+                                      "PSC 355",
+                                      "PSC 370",
+                                      "PSC 400",
+                                      "PSC 480",
+                                      "PSC 490",
+                                      "PSC 491",
+                                      "PSC 492",
+                                      "PSC 493",
+                                      "PSC 494",
+                                      "PSC 495",
+                                      "Lowest Priority"
+                                    ],
+                                    "hidden": [
+                                      "@@ (With ATTRIBUTE=PGOV",
+                                      "ATTRIBUTE=PMPT",
+                                      "ATTRIBUTE=PMPT)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Major Electives"
+                                  },
+                                  "minCredits": 6,
+                                  "minClasses": 2,
+                                  "combinationOperator": "and"
+                                }
+                              ],
+                              "conditionType": "static"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "30",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "POLI",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Political Science majors can receive no more than two grades",
+            "below C (2.0) in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_SOCO": 9,
+            "MAJOR_WGST": 6,
+            "CONC_7_12": 12,
+            "CONC_HAMS": 12,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 6,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001569",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=7_12",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "American Government and Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 140",
+                              "PSC 217",
+                              "PSC 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "International Relations or Global Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Applied Qualitative Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Applied Quantitative Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 200",
+                              "PSC 205",
+                              "PSC 215",
+                              "PSC 216",
+                              "PSC 227",
+                              "PSC 325",
+                              "PSC 326",
+                              "PSC 330",
+                              "PSC 335",
+                              "PSC 339",
+                              "PSC 340",
+                              "PSC 341",
+                              "PSC 350",
+                              "PSC 351",
+                              "PSC 353"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "US Government and Politics"
+                          },
+                          "minClasses": 2
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 230",
+                              "PSC 250",
+                              "PSC 270",
+                              "PSC 275",
+                              "PSC 305",
+                              "PSC 310",
+                              "PSC 311",
+                              "PSC 320",
+                              "PSC 323",
+                              "PSC 328",
+                              "PSC 338",
+                              "PSC 352",
+                              "355 #240"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Comparative Politics and International Relations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 209",
+                              "PSC 212",
+                              "PSC 220",
+                              "PSC 225",
+                              "PSC 314",
+                              "PSC 315",
+                              "PSC 316",
+                              "PSC 400"
+                            ]
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Methods and Political Theory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 4,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ANT 106",
+                                      "ANT 221",
+                                      "ANT 337"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "9",
+                                    "text": "Anthropology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "9",
+                                "text": "Anthropology"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ECO 100",
+                                      "ECO 200"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Economics"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "10",
+                                "text": "Economics"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "GEO 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Geography"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "11",
+                                "text": "Geography"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 121",
+                                      "HIS 221",
+                                      "HIS 310"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "History"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "12",
+                                "text": "History"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 231"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "European History Since 1500"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "13",
+                                "text": "European History Since 1500"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "General Psychology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "14",
+                                "text": "General Psychology"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "SOC 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Introduction to Sociology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "15",
+                                "text": "Introduction to Sociology"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "16",
+                            "text": "SOCIAL STUDIES CERTIFICATION"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "17",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "American Government and Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 140",
+                              "PSC 217",
+                              "PSC 220"
+                            ]
+                          },
+                          "label": {
+                            "tag": "19",
+                            "text": "International Relations or Democratic Theory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Applied Qualitative Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Applied Quantitative Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 208"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "22",
+                            "text": "Global Politics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "ATTRIBUTE=SDAB",
+                              "rules": [
+                                {
+                                  "type": "rule_complete",
+                                  "label": {
+                                    "tag": "24",
+                                    "text": "Internship Complete via Study Abroad"
+                                  }
+                                }
+                              ],
+                              "conditionType": "dw_internal"
+                            },
+                            {
+                              "condition": null,
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 490:497"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "Internship or Study Abroad"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 200",
+                                      "PSC 205",
+                                      "PSC 215",
+                                      "PSC 216",
+                                      "PSC 227",
+                                      "PSC 300",
+                                      "PSC 325",
+                                      "PSC 326",
+                                      "PSC 330",
+                                      "PSC 333",
+                                      "PSC 335",
+                                      "PSC 339",
+                                      "PSC 340",
+                                      "PSC 341",
+                                      "PSC 345",
+                                      "PSC 350",
+                                      "PSC 351",
+                                      "PSC 353",
+                                      "PSC 490",
+                                      "PSC 491",
+                                      "PSC 492",
+                                      "PSC 493",
+                                      "PSC 495",
+                                      "PSC 498",
+                                      "@ @ (With ATTRIBUTE=PGOV)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "26",
+                                    "text": "US Government and Politics"
+                                  },
+                                  "minClasses": 2
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 140",
+                                      "PSC 217",
+                                      "PSC 230",
+                                      "PSC 250",
+                                      "PSC 270",
+                                      "PSC 275",
+                                      "PSC 305",
+                                      "PSC 310",
+                                      "PSC 311",
+                                      "PSC 320",
+                                      "PSC 323",
+                                      "PSC 328",
+                                      "PSC 338",
+                                      "PSC 352",
+                                      "PSC 355",
+                                      "PSC 357",
+                                      "PSC 494",
+                                      "PSC 498",
+                                      "GEO 336",
+                                      "GEO 338",
+                                      "WST 336",
+                                      "#235",
+                                      "WST 240"
+                                    ],
+                                    "hidden": [
+                                      "@ (With ATTRIBUTE=PPIR)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "27",
+                                    "text": "Comparative Politics and International Relations"
+                                  },
+                                  "minClasses": 2
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 209",
+                                      "PSC 212",
+                                      "PSC 220",
+                                      "PSC 225",
+                                      "PSC 314",
+                                      "PSC 315",
+                                      "PSC 316",
+                                      "PSC 370",
+                                      "PSC 400",
+                                      "PSC 498"
+                                    ],
+                                    "hidden": [
+                                      "@ (With ATTRIBUTE=PMPT)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "28",
+                                    "text": "Methods and Political Theory"
+                                  },
+                                  "minClasses": 1
+                                },
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 140",
+                                      "PSC 217",
+                                      "PSC 200",
+                                      "PSC 205",
+                                      "PSC 209",
+                                      "PSC 212",
+                                      "PSC 215",
+                                      "PSC 216",
+                                      "PSC 220",
+                                      "PSC 225",
+                                      "PSC 227",
+                                      "PSC 230",
+                                      "PSC 250",
+                                      "PSC 270",
+                                      "PSC 275",
+                                      "PSC 300",
+                                      "PSC 305",
+                                      "PSC 310",
+                                      "PSC 311",
+                                      "PSC 314",
+                                      "PSC 315",
+                                      "PSC 316",
+                                      "PSC 320",
+                                      "PSC 323",
+                                      "PSC 325",
+                                      "PSC 326",
+                                      "PSC 328",
+                                      "PSC 330",
+                                      "PSC 333",
+                                      "PSC 335",
+                                      "PSC 339",
+                                      "PSC 340",
+                                      "PSC 341",
+                                      "PSC 350",
+                                      "PSC 351",
+                                      "PSC 352",
+                                      "PSC 353",
+                                      "PSC 355",
+                                      "PSC 370",
+                                      "PSC 400",
+                                      "PSC 480",
+                                      "PSC 490",
+                                      "PSC 491",
+                                      "PSC 492",
+                                      "PSC 493",
+                                      "PSC 494",
+                                      "PSC 495",
+                                      "GEO 336",
+                                      "GEO 338",
+                                      "WST 336",
+                                      "Lowest Priority"
+                                    ],
+                                    "hidden": [
+                                      "@@ (With ATTRIBUTE=PGOV",
+                                      "ATTRIBUTE=PMPT",
+                                      "ATTRIBUTE=PMPT)"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "29",
+                                    "text": "Major Electives"
+                                  },
+                                  "minCredits": 6,
+                                  "minClasses": 2,
+                                  "combinationOperator": "and"
+                                }
+                              ],
+                              "conditionType": "static"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "30",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "POLI",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 18,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Political Science majors can receive no more than two grades",
+            "below C (2.0) in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_SOCO": 6,
+            "MAJOR_WGST": 6,
+            "MAJOR_CRIM": 6,
+            "CONC_7_12": 12,
+            "CONC_HAMS": 12,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 6,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002447",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=7_12",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 100"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "1",
+                            "text": "Power, Politics, Processes"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201",
+                              "PSC 202"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 208"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "International Politics"
+                          },
+                          "minClasses": 1,
+                          "qualifiers": {
+                            "priority": "high"
+                          }
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 217"
+                            ],
+                            "hidden": [
+                              "PSC 140"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "War, Diplomacy and International Relations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 200",
+                              "PSC 205",
+                              "PSC 211",
+                              "PSC 208",
+                              "PSC 209",
+                              "PSC 215",
+                              "PSC 216",
+                              "PSC 217",
+                              "PSC 220",
+                              "PSC 227",
+                              "PSC 230",
+                              "PSC 250",
+                              "PSC 265",
+                              "PSC 300",
+                              "PSC 305",
+                              "PSC 310",
+                              "PSC 311",
+                              "PSC 314",
+                              "PSC 315",
+                              "PSC 316",
+                              "PSC 318",
+                              "PSC 320",
+                              "PSC 323",
+                              "PSC 325",
+                              "PSC 326",
+                              "PSC 328",
+                              "PSC 330",
+                              "PSC 333",
+                              "PSC 335",
+                              "PSC 336",
+                              "PSC 338",
+                              "PSC 339",
+                              "PSC 340",
+                              "PSC 341",
+                              "PSC 345",
+                              "PSC 350",
+                              "PSC 351",
+                              "PSC 352",
+                              "PSC 353",
+                              "PSC 355",
+                              "PSC 357",
+                              "PSC 365",
+                              "PSC 370"
+                            ],
+                            "hidden": [
+                              "CAS 305",
+                              "PHI 314",
+                              "PHI 316",
+                              "PHI 318",
+                              "WST 326",
+                              "WST 336",
+                              "WST 338",
+                              "LAS 328",
+                              "GEO 336",
+                              "GEO 338"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Major Electives"
+                          },
+                          "minCredits": 9
+                        },
+                        {
+                          "type": "group",
+                          "minGroups": 4,
+                          "options": [
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "ECO 100",
+                                      "ECO 200"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "10",
+                                    "text": "Economics"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "10",
+                                "text": "Economics"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "GEO 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "11",
+                                    "text": "Geography"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "11",
+                                "text": "Geography"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 115",
+                                      "HIS 116",
+                                      "HIS 255",
+                                      "HIS 275",
+                                      "HIS 265"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "12",
+                                    "text": "History"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "12",
+                                "text": "History"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 230",
+                                      "HIS 231"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "13",
+                                    "text": "European History"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "13",
+                                "text": "European History"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "HIS 120",
+                                      "HIS 121",
+                                      "HIS 310"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "13.1",
+                                    "text": "American History"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "13.1",
+                                "text": "American History"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSY 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "14",
+                                    "text": "General Psychology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "14",
+                                "text": "General Psychology"
+                              }
+                            },
+                            {
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "SOC 100"
+                                    ],
+                                    "hidden": []
+                                  },
+                                  "label": {
+                                    "tag": "15",
+                                    "text": "Introduction to Sociology"
+                                  },
+                                  "minClasses": 1
+                                }
+                              ],
+                              "label": {
+                                "tag": "15",
+                                "text": "Introduction to Sociology"
+                              }
+                            }
+                          ],
+                          "label": {
+                            "tag": "16",
+                            "text": "SOCIAL STUDIES CERTIFICATION"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "17",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 100"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Power, Politics, Processes"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 201"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "20",
+                            "text": "Applied Qualitative Research Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "21",
+                            "text": "Applied Quantitative Methods"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 460"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23",
+                            "text": "Seminar in Political Science"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 208",
+                              "PSC 217"
+                            ],
+                            "hidden": [
+                              "PSC 140"
+                            ]
+                          },
+                          "label": {
+                            "tag": "23.1",
+                            "text": "Non-US PSC Elective"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 220",
+                              "PSC 314"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "23.2",
+                            "text": "Theory Elective"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "if_else",
+                          "branches": [
+                            {
+                              "condition": "ATTRIBUTE=SDAB",
+                              "rules": [
+                                {
+                                  "type": "rule_complete",
+                                  "label": {
+                                    "tag": "24",
+                                    "text": "Internship Complete via Study Abroad"
+                                  }
+                                }
+                              ],
+                              "conditionType": "dw_internal"
+                            },
+                            {
+                              "condition": null,
+                              "rules": [
+                                {
+                                  "type": "course",
+                                  "courses": {
+                                    "connector": "or",
+                                    "courses": [
+                                      "PSC 490:495"
+                                    ]
+                                  },
+                                  "label": {
+                                    "tag": "25",
+                                    "text": "Internship or Study Abroad"
+                                  },
+                                  "minCredits": 3,
+                                  "qualifiers": {
+                                    "minGrade": 2
+                                  }
+                                },
+                                {
+                                  "type": "if_else",
+                                  "branches": [
+                                    {
+                                      "condition": "PSC 490:495 was passed",
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "PSC 200",
+                                              "PSC 205",
+                                              "PSC 211",
+                                              "PSC 208",
+                                              "PSC 209",
+                                              "PSC 215",
+                                              "PSC 216",
+                                              "PSC 217",
+                                              "PSC 220",
+                                              "PSC 227",
+                                              "PSC 230",
+                                              "PSC 250",
+                                              "PSC 265",
+                                              "PSC 300",
+                                              "PSC 305",
+                                              "PSC 310",
+                                              "PSC 311",
+                                              "PSC 314",
+                                              "PSC 315",
+                                              "PSC 316",
+                                              "PSC 320",
+                                              "PSC 323",
+                                              "PSC 325",
+                                              "PSC 326",
+                                              "PSC 328",
+                                              "PSC 330",
+                                              "PSC 333",
+                                              "PSC 335",
+                                              "PSC 336",
+                                              "PSC 338",
+                                              "PSC 339",
+                                              "PSC 340",
+                                              "PSC 341",
+                                              "PSC 345",
+                                              "PSC 350",
+                                              "PSC 351",
+                                              "PSC 352",
+                                              "PSC 353",
+                                              "PSC 355",
+                                              "PSC 357",
+                                              "PSC 365",
+                                              "PSC 370"
+                                            ],
+                                            "hidden": [
+                                              "CAS 305",
+                                              "PHI 314",
+                                              "PHI 316",
+                                              "WST 326",
+                                              "WST 336",
+                                              "WST 338",
+                                              "LAS 328",
+                                              "GEO 336",
+                                              "GEO 338"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "26",
+                                            "text": "Internship Complete: Major Electives"
+                                          },
+                                          "minCredits": 15
+                                        }
+                                      ],
+                                      "conditionType": "ethos"
+                                    },
+                                    {
+                                      "condition": null,
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "PSC 200",
+                                              "PSC 205",
+                                              "PSC 211",
+                                              "PSC 208",
+                                              "PSC 209",
+                                              "PSC 215",
+                                              "PSC 216",
+                                              "PSC 217",
+                                              "PSC 220",
+                                              "PSC 227",
+                                              "PSC 230",
+                                              "PSC 250",
+                                              "PSC 265",
+                                              "PSC 300",
+                                              "PSC 305",
+                                              "PSC 310",
+                                              "PSC 311",
+                                              "PSC 314",
+                                              "PSC 315",
+                                              "PSC 316",
+                                              "PSC 318",
+                                              "PSC 320",
+                                              "PSC 323",
+                                              "PSC 325",
+                                              "PSC 326",
+                                              "PSC 328",
+                                              "PSC 330",
+                                              "PSC 333",
+                                              "PSC 335",
+                                              "PSC 336",
+                                              "PSC 338",
+                                              "PSC 339",
+                                              "PSC 340",
+                                              "PSC 341",
+                                              "PSC 345",
+                                              "PSC 350",
+                                              "PSC 351",
+                                              "PSC 352",
+                                              "PSC 353",
+                                              "PSC 355",
+                                              "PSC 357",
+                                              "PSC 365",
+                                              "PSC 370"
+                                            ],
+                                            "hidden": [
+                                              "CAS 305",
+                                              "PHI 314",
+                                              "PHI 316",
+                                              "PHI 318",
+                                              "WST 326",
+                                              "WST 336",
+                                              "WST 338",
+                                              "LAS 328",
+                                              "GEO 336",
+                                              "GEO 338"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "27",
+                                            "text": "Major Electives"
+                                          },
+                                          "minCredits": 18
+                                        }
+                                      ],
+                                      "conditionType": "static"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "conditionType": "static"
+                            }
+                          ]
+                        }
+                      ],
+                      "label": {
+                        "tag": "28",
+                        "text": "MAJOR REQUIREMENTS"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "POLI",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Political Science majors can receive no more than two grades",
+            "below C (2.0) in the major.",
+            "While internships may be taken for 3-15 credits, only 3 credits",
+            "of Internship PSC 490:495 will count toward completing major",
+            "requirements. If study abroad taken with no internship, students",
+            "will need 18 credits of electives."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [
+            {
+              "max": 3,
+              "courses": [
+                "PSC 490:495"
+              ]
+            }
+          ],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_SOCO": 6,
+            "MAJOR_WGST": 6,
+            "CONC_7_12": 12,
+            "CONC_HAMS": 12,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 6,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_P_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

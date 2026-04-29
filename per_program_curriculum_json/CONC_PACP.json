@@ -1,0 +1,132 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PACP": {
+      "programName": "Conc in Performance  Acting, Choreography &Playwrt",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002664",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 171"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Improvisational and Physical Theatre"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 172"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Acting I for Majors"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 299"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Diversity in Performance"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 227",
+                  "228 mincredits 1 in THE 227"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Practica"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 351",
+                  "THE 364"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Adaptation/Media/Performance or Performance in America"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DNC 240",
+                  "DNC 241",
+                  "DNC 251",
+                  "DNC 253",
+                  "DNC 254",
+                  "THE 174",
+                  "THE 269",
+                  "THE 270",
+                  "THE 271",
+                  "THE 273",
+                  "THE 308",
+                  "THE 372",
+                  "THE 377",
+                  "THE 393",
+                  "THE 471",
+                  "THE 472"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3,
+            "MINOR_ANY": 3
+          }
+        }
+      ]
+    }
+  }
+}

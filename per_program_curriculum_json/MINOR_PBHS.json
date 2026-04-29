@@ -1,0 +1,543 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PBHS": {
+      "programName": "Minor in Public Health Studies",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000329",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 209",
+                  "PBH 209"
+                ],
+                "hidden": [
+                  "BIO 209",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Nutrition and Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ],
+                "hidden": [
+                  "BIO 206"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Epidemiology for Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ],
+                "hidden": [
+                  "BIO 228",
+                  "BIO 306"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Introduction to Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Field Internship in Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 325",
+                  "SOC 107",
+                  "SOC 250"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Public Health Studies Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000330",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 209",
+                  "PBH 209"
+                ],
+                "hidden": [
+                  "BIO 209",
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Nutrition and Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ],
+                "hidden": [
+                  "BIO 206"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Epidemiology for Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ],
+                "hidden": [
+                  "BIO 228",
+                  "BIO 306"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Introduction to Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Field Internship in Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 235",
+                  "HSC 306",
+                  "PSY 325",
+                  "SOC 107",
+                  "SOC 250"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Public Health Studies Elective"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001686",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ],
+                "hidden": [
+                  "BIO 206"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Epidemiology for Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ],
+                "hidden": [
+                  "BIO 228",
+                  "BIO 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introduction to Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494",
+                  "HSC 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Internship"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 209",
+                  "PBH 209",
+                  "PBH 330",
+                  "HSC 235",
+                  "HSC 306",
+                  "PBH 414"
+                ],
+                "hidden": [
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Public Issues"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 340",
+                  "PBH 350",
+                  "PBH 441"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Application"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 255",
+                  "COM 255",
+                  "SOC 312",
+                  "SWK 344",
+                  "SWK 365",
+                  "PBH 333",
+                  "BIS 362",
+                  "EES 323",
+                  "PBH 323",
+                  "PSY 325"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Experiential and Practice Analysis"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002140",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ],
+                "hidden": [
+                  "BIO 206"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Epidemiology for Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ],
+                "hidden": [
+                  "BIO 228",
+                  "BIO 306"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introduction to Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494",
+                  "HSC 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Internship"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 209",
+                  "PBH 209",
+                  "PBH 330",
+                  "HSC 235",
+                  "HSC 306",
+                  "PBH 414"
+                ],
+                "hidden": [
+                  "HPE 209"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Public Issues"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 340",
+                  "PBH 350",
+                  "PBH 441"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Application"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 255",
+                  "BUS 255",
+                  "SOC 312",
+                  "SWK 344",
+                  "SWK 365",
+                  "PBH 333",
+                  "BIS 362",
+                  "EES 323",
+                  "PBH 323",
+                  "PSY 325"
+                ],
+                "hidden": [
+                  "COM 255"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Experiential and Practice Analysis"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ECON": {
+      "programName": "Major in Economics",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000499",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics for Business and Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 479"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Senior Economics Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Internship in Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ECOB OR CONC=ECOG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Quantitative Methods Economics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 301"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Intermediate Microeconomics Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 302"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Intermediate Macroeconomic Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 305",
+                              "ECO 310",
+                              "ECO 320",
+                              "ECO 322",
+                              "ECO 325",
+                              "ECO 330",
+                              "ECO 331",
+                              "ECO 333",
+                              "ECO 335",
+                              "ECO 340",
+                              "ECO 345",
+                              "ECO 350",
+                              "ECO 353",
+                              "ECO 355",
+                              "ECO 360",
+                              "ECO 370",
+                              "ECO 377",
+                              "ECO 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "General Economics Electives"
+                          },
+                          "minCredits": 15
+                        }
+                      ],
+                      "label": {
+                        "tag": "12",
+                        "text": "GENERAL ECONOMICS CONCENTRATION REQUIREMENTS - PLEASE DECLARE A CONCENTRATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECON",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_FNCE": 9,
+            "MAJOR_H/SS": 12,
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000500",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics for Business and Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 479"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Senior Economics Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Internship in Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ECOB OR CONC=ECOG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Quantitative Methods Economics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 301"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Intermediate Microeconomics Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 302"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Intermediate Macroeconomic Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 305",
+                              "ECO 310",
+                              "ECO 320",
+                              "ECO 322",
+                              "ECO 325",
+                              "ECO 330",
+                              "ECO 331",
+                              "ECO 333",
+                              "ECO 335",
+                              "ECO 340",
+                              "ECO 345",
+                              "ECO 350",
+                              "ECO 353",
+                              "ECO 355",
+                              "ECO 360",
+                              "ECO 370",
+                              "ECO 377",
+                              "ECO 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "General Economics Electives"
+                          },
+                          "minCredits": 15
+                        }
+                      ],
+                      "label": {
+                        "tag": "12",
+                        "text": "GENERAL ECONOMICS CONCENTRATION REQUIREMENTS - PLEASE DECLARE A CONCENTRATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECON",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_FNCE": 9,
+            "MAJOR_H/SS": 12,
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202350",
+          "requirementAuthority": "RA001471",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics for Business and Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 479"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Senior Economics Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Internship in Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ECOB OR CONC=ECOG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Quantitative Methods Economics"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 301"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Intermediate Microeconomics Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 302"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Intermediate Macroeconomic Analysis"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 305",
+                              "ECO 310",
+                              "ECO 312",
+                              "ECO 320",
+                              "ECO 322",
+                              "ECO 325",
+                              "ECO 330",
+                              "ECO 331",
+                              "ECO 333",
+                              "ECO 335",
+                              "ECO 340",
+                              "ECO 343",
+                              "ECO 345",
+                              "ECO 350",
+                              "ECO 353",
+                              "ECO 355",
+                              "ECO 360",
+                              "ECO 370",
+                              "ECO 377",
+                              "ECO 465"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "General Economics Electives"
+                          },
+                          "minCredits": 15
+                        }
+                      ],
+                      "label": {
+                        "tag": "12",
+                        "text": "GENERAL ECONOMICS CONCENTRATION REQUIREMENTS - PLEASE DECLARE A CONCENTRATION"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECON",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_FNCE": 9,
+            "MAJOR_H/SS": 12,
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 3,
+            "CONC_ACTU": 6
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002401",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introductory Macroeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Introductory Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics for Business and Economics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.1",
+                    "text": "Research Methods"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Microeconomic Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 302"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Macroeconomic Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 479"
+                    ],
+                    "hidden": [
+                      "FIN 462"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Senior Economics Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 490"
+                    ],
+                    "hidden": [
+                      "FIN 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Internship in Economics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ECOB OR CONC=ECOA",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "9",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "10",
+                        "text": "A concentration is required for Graduation"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "ECON",
+          "minimumCredits": {
+            "min": 39
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_FNCE": 9,
+            "MAJOR_H/SS": 12,
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 3
+          }
+        }
+      ]
+    }
+  }
+}

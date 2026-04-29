@@ -1,0 +1,112 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "HCMG": {
+      "programName": "Minor in Healthcare Management",
+      "versions": [
+        {
+          "startTerm": "201940",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001300",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "BUS 201",
+                  "BUS 350"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Healthcare Management"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 380",
+                  "BUS 381",
+                  "BIS 362",
+                  "FIN 401",
+                  "OSC 363"
+                ],
+                "hidden": [
+                  "BUS 363"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Analyzing Healthcare Issues"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 255",
+                  "HSC 225",
+                  "HSC 255",
+                  "PSY 325",
+                  "ECO 333"
+                ],
+                "hidden": [
+                  "HPE 225",
+                  "COM 255"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Communicating about Healthcare"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228",
+                  "PBH 209",
+                  "BIO 202"
+                ],
+                "hidden": [
+                  "HSC 209"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "The Healthcare Environment"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

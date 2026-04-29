@@ -1,0 +1,222 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "MISP": {
+      "programName": "Minor in Med. Interpreting in Spanish",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001813",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 415",
+                  "SPA 415"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Medical Interpreting and Translation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 225"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Medical Terminology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 312",
+                  "SPA 313"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Conversation & Composition I or II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 404"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Spanish Translation and Interpretation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 255",
+                  "HSC 255",
+                  "PBH 330",
+                  "PBH 350",
+                  "PBH 311",
+                  "PBH 414",
+                  "PBH 345"
+                ],
+                "hidden": [
+                  "COM 255"
+                ]
+              },
+              "label": {
+                "tag": null,
+                "text": "Minor Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002653",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 415",
+                  "SPA 415"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Medical Interpreting and Translation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 225"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Medical Terminology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 314"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Latino/a Conversations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SPA 404"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Spanish Translation and Interpretation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 255",
+                  "HSC 255",
+                  "PBH 330",
+                  "PBH 350",
+                  "PBH 311",
+                  "PBH 414",
+                  "PBH 345"
+                ],
+                "hidden": [
+                  "COM 255"
+                ]
+              },
+              "label": {
+                "tag": null,
+                "text": "Minor Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

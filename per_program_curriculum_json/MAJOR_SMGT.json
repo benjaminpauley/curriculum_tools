@@ -1,0 +1,524 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SMGT": {
+      "programName": "Major in Sports & Leisure Management",
+      "versions": [
+        {
+          "startTerm": "201440",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000226",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Personal Health"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 340"
+                    ],
+                    "hidden": [
+                      "SLM 330"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Facility Design in Sport Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Applied Anatomy and Physiology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 411"
+                    ],
+                    "hidden": [
+                      "HPE 411"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sport in Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 240"
+                    ],
+                    "hidden": [
+                      "SLM 250"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Sport Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 341"
+                    ],
+                    "hidden": [
+                      "SLM 331"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Legal Issues in Sport Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 342"
+                    ],
+                    "hidden": [
+                      "SLM 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Leadership"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 412"
+                    ],
+                    "hidden": [
+                      "SLM 440"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Quantitative Analysis in Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 410"
+                    ],
+                    "hidden": [
+                      "SLM 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Research Methods in Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "FAC >=1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "10",
+                            "text": "First Aid Certification: Complete"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "11",
+                            "text": "First Aid Certification: Required"
+                          }
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=SPMG OR CONC=SSPE",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "13",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "14",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "SMGT",
+          "minimumCredits": {
+            "min": 49,
+            "max": 55
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The grade of C or higher must be earned in all Sport & Leisure",
+            "Management major courses.  Students must select a concentration",
+            "from: Sport Management or Sport Science and Performance."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_HAMS": 3,
+            "CONC_PPTH": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001738",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Personal Health"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 340"
+                    ],
+                    "hidden": [
+                      "SLM 330"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Facilty Design in Sport Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HPE 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Applied Anatomy and Physiology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 411"
+                    ],
+                    "hidden": [
+                      "HPE 411"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sport in Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 240"
+                    ],
+                    "hidden": [
+                      "SLM 250"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Sport Management & Sport Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 341"
+                    ],
+                    "hidden": [
+                      "SLM 331"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Legal Issues in Sport Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 342"
+                    ],
+                    "hidden": [
+                      "SLM 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Leadership"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 412"
+                    ],
+                    "hidden": [
+                      "SLM 440"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Quantitative Analysis in Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 410"
+                    ],
+                    "hidden": [
+                      "SLM 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Research Methods in Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "FAC >=1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "10",
+                            "text": "First Aid Certification: Complete"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "11",
+                            "text": "First Aid Certification: Required"
+                          }
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=SPMG OR CONC=SSPE",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "13",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "14",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "SMGT",
+          "minimumCredits": {
+            "min": 48,
+            "max": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The grade of C or higher must be earned in all Sport & Leisure",
+            "Management major courses.  Students must select a concentration",
+            "from: Sport Management or Sport Science and Performance."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_HAMS": 3,
+            "CONC_PPTH": 3,
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

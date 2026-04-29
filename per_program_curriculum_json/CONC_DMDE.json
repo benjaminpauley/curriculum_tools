@@ -1,0 +1,340 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DMDE": {
+      "programName": "Concentration in Digital Media Design",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000405",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 402"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Issues in Contemporary Art"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 334",
+                      "ART 335"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Art Exhibitions or Graphic Design III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "Required Concentration Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 325",
+                  "ART 332",
+                  "ART 342",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436",
+                  "ART 487"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Capstone Experience"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000406",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Graphic Design III"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 402"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Issues in Contemporary Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "Required Concentration Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 325",
+                  "ART 332",
+                  "ART 342",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436",
+                  "ART 487"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Capstone Experience"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000407",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 335"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Graphic Design III"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 402"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Issues in Contemporary Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "Required Concentration Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 325",
+                  "ART 326",
+                  "ART 332",
+                  "ART 342",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436",
+                  "ART 487",
+                  "NMS 440"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Capstone Experience"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ILLU": 7
+          }
+        }
+      ]
+    }
+  }
+}

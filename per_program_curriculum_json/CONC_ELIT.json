@@ -1,0 +1,553 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ELIT": {
+      "programName": "Concentration in Literary Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000016",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intro to Writing Literary Criticism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 204",
+                      "ENG 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intro to Writing Studies or Intro to Creative Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "3",
+                "text": "GATEWAY COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 125",
+                  "ENG 130",
+                  "ENG 225",
+                  "ENG 226",
+                  "ENG 227",
+                  "ENG 292",
+                  "ENG 310",
+                  "ENG 358",
+                  "ENG 359"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Literary Analysis, Form and Theory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 212",
+                  "ENG 213",
+                  "ENG 214",
+                  "ENG 215",
+                  "ENG 223",
+                  "ENG 234",
+                  "ENG 293",
+                  "ENG 317",
+                  "ENG 321",
+                  "ENG 325",
+                  "ENG 327",
+                  "ENG 328",
+                  "ENG 332",
+                  "ENG 333",
+                  "ENG 335",
+                  "ENG 336",
+                  "ENG 345",
+                  "ENG 354"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Literary History and Traditions"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 216",
+                  "ENG 228",
+                  "ENG 233",
+                  "ENG 239",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 307",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 316",
+                  "ENG 318",
+                  "ENG 319",
+                  "ENG 320",
+                  "ENG 322",
+                  "ENG 329",
+                  "ENG 330",
+                  "ENG 331",
+                  "ENG 337",
+                  "ENG 339",
+                  "ENG 342",
+                  "ENG 344",
+                  "ENG 350",
+                  "ENG 352",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 399"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Literature in Cultural Context"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 125",
+                  "ENG 130",
+                  "ENG 225",
+                  "ENG 226",
+                  "ENG 227",
+                  "ENG 292",
+                  "ENG 293",
+                  "ENG 310",
+                  "ENG 358",
+                  "ENG 359",
+                  "ENG 212",
+                  "ENG 213",
+                  "ENG 214",
+                  "ENG 215",
+                  "ENG 223",
+                  "ENG 234",
+                  "ENG 317",
+                  "ENG 321",
+                  "ENG 325",
+                  "ENG 327",
+                  "ENG 328",
+                  "ENG 332",
+                  "ENG 333",
+                  "ENG 335",
+                  "ENG 336",
+                  "ENG 345",
+                  "ENG 354",
+                  "ENG 216",
+                  "ENG 228",
+                  "ENG 233",
+                  "ENG 239",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 307",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 316",
+                  "ENG 318",
+                  "ENG 319",
+                  "ENG 320",
+                  "ENG 322",
+                  "ENG 329",
+                  "ENG 331",
+                  "ENG 337",
+                  "ENG 339",
+                  "ENG 342",
+                  "ENG 344",
+                  "ENG 350",
+                  "ENG 352",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 399"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 125",
+                  "CAS 217",
+                  "AMS 251",
+                  "AMS 420",
+                  "GEO 260",
+                  "WST 228",
+                  "WST 266",
+                  "WST 307",
+                  "WST 351",
+                  "WST 352",
+                  "WST 356",
+                  "WST 357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P",
+                  "ENG 461",
+                  "ENG 462",
+                  "499 LowestPriority"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Choose any three additional literature courses from the Literary",
+            "Studies Concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001753",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intro to Writing Literary Criticism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 204",
+                      "ENG 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intro to Writing Studies or Intro to Creative Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "3",
+                "text": "GATEWAY COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 125",
+                  "ENG 130",
+                  "ENG 225",
+                  "ENG 226",
+                  "ENG 227",
+                  "ENG 310",
+                  "ENG 358",
+                  "ENG 359"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Literary Analysis, Form and Theory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 214",
+                  "ENG 215",
+                  "ENG 223",
+                  "ENG 234",
+                  "ENG 317",
+                  "ENG 321",
+                  "ENG 325",
+                  "ENG 327",
+                  "ENG 328",
+                  "ENG 332",
+                  "ENG 333",
+                  "ENG 335",
+                  "ENG 336"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Literary History and Traditions"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 216",
+                  "ENG 228",
+                  "ENG 233",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 307",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 316",
+                  "ENG 318",
+                  "ENG 319",
+                  "ENG 320",
+                  "ENG 322",
+                  "ENG 329",
+                  "ENG 330",
+                  "ENG 331",
+                  "ENG 337",
+                  "ENG 339",
+                  "ENG 342",
+                  "ENG 344",
+                  "ENG 350",
+                  "ENG 352",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 399"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Literature in Cultural Context"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 125",
+                  "ENG 130",
+                  "ENG 225",
+                  "ENG 226",
+                  "ENG 227",
+                  "ENG 310",
+                  "ENG 358",
+                  "ENG 359",
+                  "ENG 214",
+                  "ENG 215",
+                  "ENG 223",
+                  "ENG 234",
+                  "ENG 317",
+                  "ENG 321",
+                  "ENG 325",
+                  "ENG 327",
+                  "ENG 328",
+                  "ENG 332",
+                  "ENG 333",
+                  "ENG 335",
+                  "ENG 336",
+                  "ENG 216",
+                  "ENG 228",
+                  "ENG 233",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 307",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 316",
+                  "ENG 318",
+                  "ENG 319",
+                  "ENG 320",
+                  "ENG 322",
+                  "ENG 329",
+                  "ENG 331",
+                  "ENG 337",
+                  "ENG 339",
+                  "ENG 342",
+                  "ENG 344",
+                  "ENG 350",
+                  "ENG 352",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 399"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 125",
+                  "CAS 217",
+                  "AMS 251",
+                  "AMS 420",
+                  "GEO 260",
+                  "WST 228",
+                  "WST 266",
+                  "WST 307",
+                  "WST 351",
+                  "WST 352",
+                  "WST 356",
+                  "WST 357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P",
+                  "ENG 461",
+                  "ENG 462",
+                  "ENG 499",
+                  "{HIDE ENG 202} LowestPriority"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "lowest"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Choose any three additional literature courses from the Literary",
+            "Studies Concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

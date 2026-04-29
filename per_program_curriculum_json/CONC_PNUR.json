@@ -1,0 +1,206 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PNUR": {
+      "programName": "Concentration in Pre-Nursing",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202010",
+          "requirementAuthority": "RA000212",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 301",
+                          "BIO 302"
+                        ],
+                        "hidden": [
+                          "PBH 301",
+                          "PBH 302"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Microbes and Your Health & Lab"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "1",
+                    "text": "Microbes and Your Health & Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BIO 334"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "General Microbiology with Lab"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "2",
+                    "text": "General Microbiology with Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 425"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Microbiology for Health Science"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Microbiology for Health Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "MICROBIOLOGY"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "General Chemistry II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "General Chemistry I Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "General Chemistry II Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Anatomy & Physiology I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Anatomy & Physiology II"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

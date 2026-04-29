@@ -1,0 +1,116 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "HIST": {
+      "programName": "Minor in History",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000107",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:499"
+                ],
+                "hidden": [
+                  "HIS 3@",
+                  "4@",
+                  "AAT 380",
+                  "AAT 381",
+                  "AMS 420",
+                  "LAS 342",
+                  "LAS 345",
+                  "LAS 346",
+                  "LAS 347",
+                  "PHR 391",
+                  "WST 317",
+                  "WST 363"
+                ],
+                "except": [
+                  "HIS 310",
+                  "HIS 470"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "300/400 Level History Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 100:499"
+                ],
+                "hidden": [
+                  "HIS 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "AAT 201",
+                  "AAT 380",
+                  "AAT 381",
+                  "AMS 251",
+                  "AMS 420",
+                  "CAS 271",
+                  "LAS 255",
+                  "LAS 342",
+                  "LAS 345",
+                  "LAS 346",
+                  "LAS 347",
+                  "NES 250",
+                  "PHR 391",
+                  "WST 244",
+                  "WST 317",
+                  "WST 363"
+                ],
+                "except": [
+                  "HIS 310",
+                  "470 Low-Priority"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "History Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Nine (9) credits must be completed at Eastern CT University.",
+            "A minimum of nine (9) unique credits is required to complete a",
+            "minor.",
+            "HIS 310 and 470 may not be used towards the minor. Maximum of 3",
+            "credits from HIS 471 may be used towards the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

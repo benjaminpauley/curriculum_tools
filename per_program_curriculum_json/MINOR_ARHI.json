@@ -1,0 +1,285 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ARHI": {
+      "programName": "Minor in Art History",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000077",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Art History I: Pre-History-1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Art History II: 1600 to Present"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 225",
+                  "ART 233",
+                  "ART 250",
+                  "ART 313",
+                  "ART 316",
+                  "ART 336",
+                  "ART 340",
+                  "ART 345",
+                  "ART 355",
+                  "ART 360",
+                  "ART 369",
+                  "ART 371",
+                  "ART 402",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Art History Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201920",
+          "endTerm": "202550",
+          "requirementAuthority": "RA001272",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Art History I: Pre-History-1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Art History II: 1600 to Present"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 225",
+                  "ART 229",
+                  "ART 233",
+                  "ART 250",
+                  "ART 313",
+                  "ART 316",
+                  "ART 336",
+                  "ART 345",
+                  "ART 355",
+                  "ART 360",
+                  "ART 369",
+                  "ART 371",
+                  "ART 401",
+                  "ART 402",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "LAS 224",
+                  "WST 355"
+                ],
+                "hidden": [
+                  "ART 340"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Art History Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002802",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Art History I: Pre-History-1600"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Art History II: 1600 to Present"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 224",
+                  "ART 225",
+                  "ART 229",
+                  "ART 233",
+                  "ART 250",
+                  "ART 313",
+                  "ART 316",
+                  "ART 345",
+                  "ART 355",
+                  "ART 360",
+                  "ART 369",
+                  "ART 371",
+                  "ART 401",
+                  "ART 402",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "LAS 224",
+                  "WST 355"
+                ],
+                "hidden": [
+                  "ART 340"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Art History Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

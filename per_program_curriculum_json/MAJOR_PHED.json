@@ -1,0 +1,631 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PHED": {
+      "programName": "Major in Physical Education",
+      "versions": [
+        {
+          "startTerm": "201310",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000218",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Child and Adolescent Development and Exceptionalities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Foundations of U.S. Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Personal Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introduction to Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 240"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Curriculum Materials in Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 315"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Adapted Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 328"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Applied Anatomy and Physiology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "The Physiological Basis of Movement"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Technology in Physical Activity Assessment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 362"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Team Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 363"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Elementary School Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 368"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Educational Dance and Gymnastics, Stunts & Tumbling"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Motor Development"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 411"
+                ],
+                "hidden": [
+                  "HPE 411"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Sport in Society"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 413"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "Physiology of Exercise"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=PEST OR CONC= P_12",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "17",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "18",
+                        "text": "A Concentration is Required for Graduation"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PHED",
+          "minimumCredits": {
+            "min": 51,
+            "max": 66
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Physical Education majors may choose one of two concentrations:",
+            "Physical Education Teacher Certification or Physical",
+            "Education Studies. For those students admitted to",
+            "the CARE program pursuing the Teacher Certification the",
+            "following additional courses are required: HPE 441, HPE 445,",
+            "HPE 475, HPE 476, 1 US/American History course, 1 English",
+            "course above the 100 level and First Aid Certification. For",
+            "those students not admitted to CARE pursuing the Physical",
+            "Education Studies concentration you must complete a MINOR program of",
+            "study as well as an Internship to complete your degree",
+            "requirements.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SMGT": 9,
+            "CONC_7_12": 12,
+            "CONC_SSPE": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002155",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Child and Adolescent Development and Exceptionalities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 357"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "International Cross-Cultural Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Personal Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introduction to Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 240"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Curriculum Materials in Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 315"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Adapted Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 328"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Applied Anatomy and Physiology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "The Physiological Basis of Movement"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Technology in Physical Activity Assessment"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 362"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Team Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 363"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Elementary School Activities and Games"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 368"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Educational Dance and Gymnastics, Stunts & Tumbling"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "Motor Development"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 413"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "Physiology of Exercise"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=PEST OR CONC= P_12",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "17",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "18",
+                        "text": "A Concentration is Required for Graduation"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "PHED",
+          "minimumCredits": {
+            "min": 51,
+            "max": 66
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Physical Education majors may choose one of two concentrations:",
+            "Physical Education Teacher Certification or Physical",
+            "Education Studies. For those students admitted to",
+            "the CARE program pursuing the Teacher Certification the",
+            "following additional courses are required: HPE 441, HPE 445,",
+            "HPE 475, HPE 476, 1 US/American History course, 1 English",
+            "course above the 100 level and First Aid Certification. For",
+            "those students not admitted to CARE pursuing the Physical",
+            "Education Studies concentration you must complete a MINOR program of",
+            "study as well as an Internship to complete your degree",
+            "requirements.",
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_SMGT": 9,
+            "CONC_7_12": 12,
+            "CONC_SSPE": 6
+          }
+        }
+      ]
+    }
+  }
+}

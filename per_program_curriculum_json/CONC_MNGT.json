@@ -1,0 +1,231 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MNGT": {
+      "programName": "Concentration in Management",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000026",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 332",
+                  "BUS 333",
+                  "BUS 363",
+                  "BUS 370",
+                  "BUS 433",
+                  "BUS 434",
+                  "BUS 450",
+                  "BUS 464",
+                  "BUS 466"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 331\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 332\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 333\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 363\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 370\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 433\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 434\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 450\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 464\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 466\"), {HIDE OSC 363"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001978",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 331"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Organizational Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 333"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Human Resource Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "International Business"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 315",
+                  "BUS 330",
+                  "BUS 332",
+                  "BUS 342",
+                  "BUS 350",
+                  "BUS 410",
+                  "BUS 433",
+                  "BUS 436",
+                  "BUS 464"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 330\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 332\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 350\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 433\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 436\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 464\")"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002490",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 331"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Organizational Behavior"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 333"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Human Resource Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "International Business"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250",
+                  "BUS 332",
+                  "BUS 342",
+                  "BUS 350",
+                  "BUS 410",
+                  "BUS 464"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 332\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 350\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 464\")"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_INTL": 3,
+            "CONC_BSMG": 3,
+            "CONC_MKTG": 3
+          }
+        }
+      ]
+    }
+  }
+}

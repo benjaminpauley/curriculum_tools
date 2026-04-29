@@ -1,0 +1,75 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PHED": {
+      "programName": "Minor in Physical Education",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000323",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Physical Education"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 300:499"
+                ],
+                "hidden": [
+                  "HPE 3@",
+                  "4@",
+                  "HSC 318",
+                  "HSC 319",
+                  "HSC 430",
+                  "HSC 438"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Physical Education Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

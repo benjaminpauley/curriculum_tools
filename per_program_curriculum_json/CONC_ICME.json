@@ -1,0 +1,234 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ICME": {
+      "programName": "Concentration in Integrated Communication Media",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000435",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Communication Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 474"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Experimental Digital Media Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 245",
+                  "COM 310",
+                  "COM 320",
+                  "COM 325",
+                  "COM 352",
+                  "COM 380",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 490"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000436",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Communication Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 474"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Experimental Digital Media Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 351",
+                  "COM 245",
+                  "COM 310",
+                  "COM 320",
+                  "COM 351",
+                  "COM 352",
+                  "COM 358",
+                  "COM 380",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 490"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000437",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Communication Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 474",
+                  "NMS 440"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Capstone Experience"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 351",
+                  "COM 245",
+                  "COM 310",
+                  "COM 320",
+                  "COM 351",
+                  "COM 352",
+                  "COM 358",
+                  "COM 380",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 490",
+                  "FLM 380"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

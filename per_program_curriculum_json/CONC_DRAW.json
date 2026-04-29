@@ -1,0 +1,286 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DRAW": {
+      "programName": "Concentration in Painting & Drawing",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000364",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 112"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Color Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Relief Printmaking I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Art History I: Pre-History-1600"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Art History II: 1600-Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Painting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 308"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Painting II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 309"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Figure Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 352"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Drawing II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 485"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Senior Project in Studio Art"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 208"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "14",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 408",
+                  "ART 409",
+                  "ART 430"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "15",
+                "text": "Advanced Studio Requirement"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 205",
+                  "ART 307",
+                  "ART 312",
+                  "ART 314",
+                  "ART 322",
+                  "ART 342",
+                  "ART 352",
+                  "ART 390",
+                  "ART 395",
+                  "ART 408",
+                  "ART 409",
+                  "ART 414",
+                  "ART 419",
+                  "ART 422",
+                  "ART 430",
+                  "ART 480",
+                  "ART 490"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=VDRW)"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6
+          }
+        }
+      ]
+    }
+  }
+}

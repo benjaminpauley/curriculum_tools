@@ -1,0 +1,394 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "BUAD": {
+      "programName": "Minor in Business Administration",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000083",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles of Accounting I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Principles of Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=BFIN)"
+                        ],
+                        "hidden": [
+                          "High-Priority BUS 245"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Finance"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Finance"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=BMGT)"
+                        ],
+                        "hidden": [
+                          "High-Priority BUS 201",
+                          "BUS 230"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Management"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Management"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=BMKT)"
+                        ],
+                        "hidden": [
+                          "High-Priority BUS 225"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Marketing"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Marketing"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=BOPM)"
+                        ],
+                        "hidden": [
+                          "High-Priority BUS 260",
+                          "366",
+                          "OSC 260"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Operations Management"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Operations Management"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (WITH ATTRIBUTE=BHR)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Human Resource Management"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "13",
+                    "text": "Human Resource Management"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (WITH ATTRIBUTE=BINT)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "International Business"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "label": {
+                    "tag": "14",
+                    "text": "International Business"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "Business Administration - 2 Areas"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 300:499"
+                ],
+                "hidden": [
+                  "BUS 3@",
+                  "4@",
+                  "BIS 361",
+                  "BIS 442",
+                  "CAS 370",
+                  "FIN 346",
+                  "FIN 347",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 437",
+                  "FIN 438",
+                  "FIN 445",
+                  "FIN 446",
+                  "FIN 462"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "300/400 Level Business Administration Electives (Eastern Courses Only)"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 300:499"
+                ],
+                "hidden": [
+                  "BUS 3@",
+                  "4@",
+                  "BIS 361",
+                  "BIS 442",
+                  "CAS 370",
+                  "FIN 346",
+                  "FIN 347",
+                  "FIN 348",
+                  "FIN 349",
+                  "FIN 437",
+                  "FIN 438",
+                  "FIN 445",
+                  "FIN 446",
+                  "FIN 462",
+                  "FIN 490"
+                ]
+              },
+              "label": {
+                "tag": "17",
+                "text": "Additional 300/400 Level Business Administration Elective (Transfer Allowed)"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 21
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "Six (6) credits of the 300+ level business minor, requirement must",
+            "be taken at Eastern CT State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001985",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles of Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Principles of Marketing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201",
+                  "BIS 205",
+                  "FIN 245",
+                  "OSC 260",
+                  "ECO 215",
+                  "MAT 216"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "General Business Courses"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 326",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 350",
+                  "BUS 428",
+                  "BUS 450"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Business Electives"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "ECO 215 and MAT 216 cannot both count in this requirement."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

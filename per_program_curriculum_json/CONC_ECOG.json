@@ -1,0 +1,384 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ECOG": {
+      "programName": "Concentration in General Economics",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000420",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 310",
+                  "ECO 320",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 340",
+                  "ECO 345",
+                  "ECO 350",
+                  "ECO 353",
+                  "ECO 355",
+                  "ECO 360",
+                  "ECO 370",
+                  "ECO 377",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Economics Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_DATA": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000421",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 310",
+                  "ECO 320",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 340",
+                  "ECO 345",
+                  "ECO 350",
+                  "ECO 353",
+                  "ECO 355",
+                  "ECO 360",
+                  "ECO 370",
+                  "ECO 377",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Economics Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001470",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 310",
+                  "ECO 312",
+                  "ECO 320",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 340",
+                  "ECO 343",
+                  "ECO 345",
+                  "ECO 350",
+                  "ECO 353",
+                  "ECO 355",
+                  "ECO 360",
+                  "ECO 363",
+                  "ECO 370",
+                  "ECO 377",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Economics Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002169",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 312",
+                  "ECO 320",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 335",
+                  "ECO 343",
+                  "ECO 345",
+                  "ECO 350",
+                  "ECO 363",
+                  "ECO 377",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Economics Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

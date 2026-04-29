@@ -1,0 +1,232 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PHUM": {
+      "programName": "Minor in Peace & Human Rights",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000321",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHR 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Peace & Human Rights"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 400",
+                  "PHR 400"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Peace & Human Rights Seminar"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 358",
+                  "ART 369",
+                  "BUS 466",
+                  "HIS 243",
+                  "HIS 346",
+                  "HIS 373",
+                  "HIS 375",
+                  "HIS 391",
+                  "PHI 220",
+                  "PHI 340",
+                  "PHI 360",
+                  "PHI 370",
+                  "PHI 371",
+                  "PHR 391",
+                  "PSC 314",
+                  "PSC 315",
+                  "PSC 326",
+                  "SOC 208"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=PHR)"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Peace & Human Rights Electives"
+              },
+              "minCredits": 9
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "@ @ (WITH ATTRIBUTE=PHR) WAS TAKEN",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=PHR)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "PHR Course - minimum 3 credits required"
+                      },
+                      "minCredits": 3
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002203",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 300",
+                  "ANT 358",
+                  "ART 355",
+                  "ART 369",
+                  "BUS 466",
+                  "ENG 228",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 314",
+                  "ENG 351",
+                  "ENG 352",
+                  "ENG 393",
+                  "GEO 306",
+                  "GEO 331",
+                  "GEO 336",
+                  "GEO 337",
+                  "GEO 338",
+                  "HSC 235",
+                  "HIS 243",
+                  "HIS 346",
+                  "HIS 373",
+                  "HIS 375",
+                  "HIS 391",
+                  "LAS 225",
+                  "LAS 240",
+                  "LAS 393",
+                  "PHI 200",
+                  "PHI 220",
+                  "PHI 340",
+                  "PHI 360",
+                  "PHI 370",
+                  "PHI 371",
+                  "PHR 200",
+                  "PSC 227",
+                  "PSC 314",
+                  "PSC 315",
+                  "PSC 326",
+                  "PSC 336",
+                  "PSC 338",
+                  "PSC 340",
+                  "PSC 370",
+                  "SOC 208",
+                  "SOC 250",
+                  "SOC 346",
+                  "SOC 357",
+                  "THE 299",
+                  "THE 309",
+                  "WST 208",
+                  "WST 227",
+                  "WST 228",
+                  "WST 300",
+                  "WST 306",
+                  "WST 336",
+                  "WST 338",
+                  "WST 351",
+                  "WST 352",
+                  "WST 355"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Minor Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "No more than six credits can be from one discipline:"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

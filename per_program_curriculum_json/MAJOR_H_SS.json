@@ -1,0 +1,1449 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "H_SS": {
+      "programName": "Major in History & Social Science",
+      "versions": [
+        {
+          "startTerm": "201010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000036",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Intro Early World History or Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Early or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 230",
+                      "HIS 231"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Western Civilization"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Historical Research and Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HUS)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HUS)",
+                      "3@ (WITH ATTRIBUTE=HUS)",
+                      "4@ (WITH ATTRIBUTE=HUS)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "US History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HGLO)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HGLO)",
+                      "3@ (WITH ATTRIBUTE=HGLO)",
+                      "4@ (WITH ATTRIBUTE=HGLO)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Global History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499"
+                    ],
+                    "hidden": [
+                      "HIS 2@",
+                      "3@",
+                      "4@",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Additional History Elective"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "qualifiers": {
+                    "priority": "low"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "HISTORY ELECTIVES"
+              },
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "ECO 100:499",
+                  "GEO 100:499",
+                  "PSC 100:499",
+                  "PSY 100:499",
+                  "SOC 100:499",
+                  "NES 200",
+                  "NES 400",
+                  "WST 240",
+                  "WST 260",
+                  "WST 315"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 329",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 210",
+                  "ENG 260",
+                  "WST 306",
+                  "PSC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 227",
+                  "WST 326",
+                  "CAS 305",
+                  "PHI 314",
+                  "PHI 370",
+                  "PHI 316",
+                  "LAS 328",
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Social Science Electives"
+              },
+              "minCredits": 12,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 400",
+                  "HIS 406",
+                  "HIS 407",
+                  "HIS 420",
+                  "HIS 461",
+                  "HIS 462",
+                  "HIS 463"
+                ]
+              },
+              "label": {
+                "tag": "17",
+                "text": "Seminar or Colloquium"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "declaredMajor": "H/SS",
+          "minimumCredits": {
+            "min": 44
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history major.",
+            "Transfer students must take a minimum of 15 credits of history",
+            "courses at Eastern CT State University.",
+            "A minimum of 5 history electives at the",
+            "200/300/400 level. A maximum of 1 of these electives may be",
+            "taken at the 200-level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "MAJOR_LHRM": 28,
+            "MAJOR_LBST": 12,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_PSYC": 12,
+            "MAJOR_SOCO": 12,
+            "MAJOR_WGST": 9,
+            "CONC_7_12": 28,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 28,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_PSTD": 12,
+            "CONC_PC&Y": 12,
+            "CONC_PBHV": 12,
+            "CONC_PSYW": 12,
+            "CONC_P_12": 3,
+            "CONC_SPMG": 3
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001567",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Intro Early World History or Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Early or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 230",
+                      "HIS 231"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "European History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Historical Research and Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HUS)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HUS)",
+                      "3@ (WITH ATTRIBUTE=HUS)",
+                      "4@ (WITH ATTRIBUTE=HUS)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "US History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HGLO)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HGLO)",
+                      "3@ (WITH ATTRIBUTE=HGLO)",
+                      "4@ (WITH ATTRIBUTE=HGLO)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Global History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499"
+                    ],
+                    "hidden": [
+                      "HIS 2@",
+                      "3@",
+                      "4@",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Additional History Elective"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "qualifiers": {
+                    "priority": "low"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "HISTORY ELECTIVES"
+              },
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "ECO 100:499",
+                  "GEO 100:499",
+                  "PSC 100:499",
+                  "PSY 100:499",
+                  "SOC 100:499",
+                  "NES 200",
+                  "NES 400",
+                  "WST 240",
+                  "WST 260",
+                  "WST 315"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 329",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 210",
+                  "ENG 260",
+                  "WST 306",
+                  "PSC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 227",
+                  "WST 326",
+                  "CAS 305",
+                  "PHI 314",
+                  "PHI 370",
+                  "PHI 316",
+                  "LAS 328",
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Social Science Electives"
+              },
+              "minCredits": 12,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 400",
+                  "HIS 406",
+                  "HIS 407",
+                  "HIS 420",
+                  "HIS 461",
+                  "HIS 462",
+                  "HIS 463"
+                ]
+              },
+              "label": {
+                "tag": "17",
+                "text": "Seminar or Colloquium"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "declaredMajor": "H/SS",
+          "minimumCredits": {
+            "min": 44
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history major.",
+            "Transfer students must take a minimum of 15 credits of history",
+            "courses at Eastern CT State University.",
+            "A minimum of 5 history electives at the",
+            "200/300/400 level. A maximum of 1 of these electives may be",
+            "taken at the 200-level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "MAJOR_LHRM": 28,
+            "MAJOR_LBST": 12,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_PSYC": 12,
+            "MAJOR_SOCO": 12,
+            "MAJOR_WGST": 9,
+            "CONC_7_12": 28,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 28,
+            "CONC_ENGL": 3,
+            "CONC_EVSC": 3,
+            "CONC_MATH": 3,
+            "CONC_PSTD": 12,
+            "CONC_PC&Y": 12,
+            "CONC_PBHV": 12,
+            "CONC_PSYW": 12,
+            "CONC_P_12": 3,
+            "CONC_SPMG": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002200",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 101"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History Professionalism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Intro Early World History or Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Early or Recent American Experience"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 230",
+                      "HIS 231"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "European History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Historical Research and Writing"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HUS)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HUS)",
+                      "3@ (WITH ATTRIBUTE=HUS)",
+                      "4@ (WITH ATTRIBUTE=HUS)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "US History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HGLO)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HGLO)",
+                      "3@ (WITH ATTRIBUTE=HGLO)",
+                      "4@ (WITH ATTRIBUTE=HGLO)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Global History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499"
+                    ],
+                    "hidden": [
+                      "HIS 2@",
+                      "3@",
+                      "4@",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Additional History Elective"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "qualifiers": {
+                    "priority": "low"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "HISTORY ELECTIVES"
+              },
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "ECO 100:499",
+                  "GEO 100:499",
+                  "PSC 100:499",
+                  "PSY 100:499",
+                  "SOC 100:499",
+                  "NES 200",
+                  "NES 400",
+                  "WST 240",
+                  "WST 260",
+                  "WST 315"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 329",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 210",
+                  "ENG 260",
+                  "WST 306",
+                  "PSC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 227",
+                  "WST 326",
+                  "CAS 305",
+                  "PHI 314",
+                  "PHI 370",
+                  "PHI 316",
+                  "LAS 328",
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Social Science Electives"
+              },
+              "minCredits": 12,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 400",
+                  "HIS 406",
+                  "HIS 407",
+                  "HIS 420",
+                  "HIS 461",
+                  "HIS 462",
+                  "HIS 463"
+                ]
+              },
+              "label": {
+                "tag": "17",
+                "text": "Seminar or Colloquium"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "declaredMajor": "H/SS",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history major.",
+            "Transfer students must take a minimum of 15 credits of history",
+            "courses at Eastern CT State University.",
+            "A minimum of 5 history electives at the",
+            "200/300/400 level. A maximum of 1 of these electives may be",
+            "taken at the 200-level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "MAJOR_LHRM": 28,
+            "MAJOR_LBST": 12,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_PSYC": 12,
+            "MAJOR_SOCO": 12,
+            "MAJOR_WGST": 9,
+            "CONC_7_12": 28,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 28,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_PSTD": 12,
+            "CONC_PC&Y": 12,
+            "CONC_PBHV": 12,
+            "CONC_PSYW": 12,
+            "CONC_P_12": 3,
+            "CONC_SPMG": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002446",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 101"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "History Professionalism"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Intro Early World History or Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 120",
+                      "HIS 121"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "American Origins/Making Modern America"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 230",
+                      "HIS 231"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "The Birth of Europe/The Making and Breaking of Europe"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Historical Research and Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 401"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10.1",
+                    "text": "History as a Career"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HUS)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HUS)",
+                      "3@ (WITH ATTRIBUTE=HUS)",
+                      "4@ (WITH ATTRIBUTE=HUS)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "US History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499 (WITH ATTRIBUTE=HGLO)"
+                    ],
+                    "hidden": [
+                      "HIS 2@ (WITH ATTRIBUTE=HGLO)",
+                      "3@ (WITH ATTRIBUTE=HGLO)",
+                      "4@ (WITH ATTRIBUTE=HGLO)",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Global History Electives"
+                  },
+                  "minClasses": 2
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 200:499"
+                    ],
+                    "hidden": [
+                      "HIS 2@",
+                      "3@",
+                      "4@",
+                      "AAT 201",
+                      "AAT 380",
+                      "AAT 381",
+                      "AMS 251",
+                      "AMS 420",
+                      "CAS 271",
+                      "LAS 255",
+                      "LAS 342",
+                      "LAS 345",
+                      "LAS 346",
+                      "LAS 347",
+                      "NES 250",
+                      "PHR 391",
+                      "WST 244",
+                      "WST 317",
+                      "WST 363"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Additional History Elective"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "qualifiers": {
+                    "priority": "low"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "HISTORY ELECTIVES"
+              },
+              "qualifiers": {
+                "priority": "low"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "ECO 100:499",
+                  "GEO 100:499",
+                  "PSC 100:499",
+                  "PSY 100:499",
+                  "SOC 100:499",
+                  "NES 200",
+                  "NES 400",
+                  "WST 240",
+                  "WST 260",
+                  "WST 315"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 329",
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 210",
+                  "ENG 260",
+                  "WST 306",
+                  "PSC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 227",
+                  "WST 326",
+                  "CAS 305",
+                  "PHI 314",
+                  "PHI 370",
+                  "PHI 316",
+                  "LAS 328",
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Social Science Electives"
+              },
+              "minCredits": 12,
+              "qualifiers": {
+                "priority": "high"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 400",
+                  "HIS 406",
+                  "HIS 407",
+                  "HIS 420",
+                  "HIS 461",
+                  "HIS 462",
+                  "HIS 463"
+                ]
+              },
+              "label": {
+                "tag": "17",
+                "text": "Seminar or Colloquium"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            }
+          ],
+          "declaredMajor": "H/SS",
+          "minimumCredits": {
+            "min": 46
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better in each course is required for the history major.",
+            "Transfer students must take a minimum of 15 credits of history",
+            "courses at Eastern CT State University.",
+            "A minimum of 5 history electives at the",
+            "200/300/400 level. A maximum of 1 of these electives may be",
+            "taken at the 200-level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "MAJOR_LHRM": 28,
+            "MAJOR_LBST": 12,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 12,
+            "MAJOR_PSYC": 12,
+            "MAJOR_SOCO": 12,
+            "MAJOR_WGST": 9,
+            "CONC_7_12": 28,
+            "CONC_NSCI": 3,
+            "CONC_H/SS": 28,
+            "CONC_ENGL": 3,
+            "CONC_MATH": 3,
+            "CONC_PSTD": 12,
+            "CONC_PC&Y": 12,
+            "CONC_PBHV": 12,
+            "CONC_PSYW": 12,
+            "CONC_P_12": 3,
+            "CONC_SPMG": 3
+          }
+        }
+      ]
+    }
+  }
+}

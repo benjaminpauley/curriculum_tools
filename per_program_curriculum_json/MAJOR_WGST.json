@@ -1,0 +1,1262 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "WGST": {
+      "programName": "Major in Women's and Gender Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000522",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 347"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 324",
+                  "WST 331",
+                  "WST 306",
+                  "ANT 300"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 370"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "ENG 228",
+                  "ENG 266",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 370",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001249",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 347",
+                  "ENG 393"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 324",
+                  "WST 331",
+                  "WST 306",
+                  "ANT 300"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 370"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "ENG 228",
+                  "ENG 266",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 370",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202120",
+          "requirementAuthority": "RA001755",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 347",
+                  "ENG 393"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 331",
+                  "WST 306",
+                  "ANT 300"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 370"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "ENG 228",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 370",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202140",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001910",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 338",
+                  "WST 347",
+                  "ENG 393",
+                  "GEO 338",
+                  "PSC 338"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 306",
+                  "WST 310",
+                  "WST 331",
+                  "WST 316",
+                  "ANT 300",
+                  "CRM 317",
+                  "SOC 310"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 370"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "CRM 317",
+                  "ENG 228",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "GEO 338",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSC 338",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 370",
+                  "WST 338",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002166",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352",
+                  "SOC 208",
+                  "PSY 315"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 310",
+                  "WST 316",
+                  "WST 326",
+                  "WST 336",
+                  "WST 347",
+                  "CRM 317",
+                  "ENG 393",
+                  "GEO 336",
+                  "PSC 326",
+                  "PSC 336",
+                  "SOC 310"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 306",
+                  "WST 331",
+                  "WST 338",
+                  "ANT 300",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 306",
+                  "GEO 338",
+                  "PSC 338"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 361",
+                  "WST 370",
+                  "ANT 370",
+                  "ART 355",
+                  "ENG 307",
+                  "ENG 356",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PHI 361"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "CRM 317",
+                  "ENG 228",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 306",
+                  "GEO 336",
+                  "GEO 338",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PHI 361",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSC 336",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 373",
+                  "WST 336",
+                  "WST 361",
+                  "WST 490",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

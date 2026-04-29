@@ -1,0 +1,190 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MKTG": {
+      "programName": "Concentration in Marketing",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000027",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 428"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Marketing Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 321",
+                  "BUS 324",
+                  "BUS 325",
+                  "BUS 326",
+                  "BUS 327",
+                  "BUS 329",
+                  "BUS 429",
+                  "BUS 465"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 324\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 325\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 326\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 327\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 329\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 429\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 465\")"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001979",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 428"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Marketing Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 255",
+                  "BUS 321",
+                  "BUS 325",
+                  "BUS 326",
+                  "BUS 327",
+                  "BUS 329",
+                  "BUS 342",
+                  "BUS 343",
+                  "BUS 427",
+                  "BUS 429",
+                  "BUS 465"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 325\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 326\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 327\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 329\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 465\"), {HIDE BUS 480 (with DWTitle= \"@ BUS 343\")"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_BSMG": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002592",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 428"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Marketing Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 255",
+                  "BUS 321",
+                  "BUS 325",
+                  "BUS 326",
+                  "BUS 327",
+                  "BUS 329",
+                  "BUS 343",
+                  "BUS 427",
+                  "BUS 429",
+                  "BUS 465"
+                ],
+                "hidden": [
+                  "{HIDE BUS 480 (With DWTitle = \"@ BUS 325\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 326\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 327\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 329\"), {HIDE BUS 480 (With DWTitle = \"@ BUS 465\"), {HIDE BUS 480 (with DWTitle= \"@ BUS 343\")"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_INTL": 3,
+            "CONC_BSMG": 3
+          }
+        }
+      ]
+    }
+  }
+}

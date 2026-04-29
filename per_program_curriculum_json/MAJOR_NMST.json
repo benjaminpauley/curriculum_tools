@@ -1,0 +1,1517 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "NMST": {
+      "programName": "Major in New Media Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000508",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Multimodal Writing Workshop"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to New Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Performance in Context"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "S02 >=600",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "6",
+                            "text": "Intro to Computing/Problem Solving: Waived"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Intro to Computing/Problem Solving"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "NMSTMAJCRep",
+                    "text": "Category 1: Cultural Representations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 122",
+                          "ART 203",
+                          "ART 213",
+                          "ART 233",
+                          "ART 310",
+                          "ART 343",
+                          "COM 215",
+                          "COM 220",
+                          "COM 252",
+                          "CSC 210",
+                          "CSC 212",
+                          "CSC 220",
+                          "EES 300",
+                          "ENG 241",
+                          "ENG 359",
+                          "ENG 374",
+                          "FLM 359",
+                          "MUS 250",
+                          "PSC 325",
+                          "PSC 333",
+                          "THE 260",
+                          "THE 261",
+                          "THE 285",
+                          "THE 375"
+                        ],
+                        "hidden": [
+                          "@ @ (WITH Attribute = \"NMTC\")",
+                          "@ @ (WITH Attribute = \"NMSI\")",
+                          "@ @ (With Attribute = \"NMIN\")",
+                          "@ @ (With Attribute = \"NMDA\")",
+                          "@ @ (With Attribute = \"NMCR\")"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Additional Interdisciplinary Courses"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "low"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Additional Interdisciplinary Courses"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "INTERDISCIPLINARY COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DMDE OR CONC=ICME OR CONC=MEDC OR CONC=MWFA OR CONC=PERM OR CONC=COMM OR CONC=ENGL OR CONC=VART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "13",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NMST",
+          "minimumCredits": {
+            "min": 49,
+            "max": 56
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "New Media Studies majors need to select a concentration from",
+            "the following: Communication, English, Media Computation,",
+            "Performance Media, or Visual Arts.",
+            "Within the Interdisciplinary Course options, you will select two",
+            "courses from categories 1 through 5 for a total of four classes,",
+            "two in each category. You will then need to select a fifth course",
+            "from a third category. IMPORTANT NOTE:  Courses will be placed",
+            "in this area as they are taken, but may not apply to the desired",
+            "category until all five courses have been taken and/or registered",
+            "for.  If you want to see how your planned courses apply, you may",
+            "use the Look Ahead feature to see how your audit will look."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_POLI": 6,
+            "MAJOR_THEA": 9,
+            "MAJOR_VART": 3,
+            "CONC_7_12": 12,
+            "CONC_THAC": 6,
+            "CONC_TDAN": 6,
+            "CONC_TDIR": 6,
+            "CONC_TDTM": 6,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 15,
+            "CONC_SPMG": 3,
+            "CONC_ENGL": 3,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 3,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000509",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Visual Basic.NET"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Multimodal Writing Workshop"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to New Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Performance in Context"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "S02 >=600",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "6",
+                            "text": "Intro to Computing/Problem Solving: Waived"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Intro to Computing/Problem Solving"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "NMSTMAJCRep",
+                    "text": "Category 1: Cultural Representations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 122",
+                          "ART 203",
+                          "ART 213",
+                          "ART 233",
+                          "ART 310",
+                          "ART 343",
+                          "COM 215",
+                          "COM 220",
+                          "COM 252",
+                          "CSC 210",
+                          "CSC 212",
+                          "CSC 220",
+                          "EES 300",
+                          "ENG 241",
+                          "ENG 359",
+                          "ENG 374",
+                          "FLM 359",
+                          "MUS 250",
+                          "PSC 325",
+                          "PSC 333",
+                          "THE 261",
+                          "THE 285",
+                          "THE 375"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Additional Interdisciplinary Courses"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "low"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Additional Interdisciplinary Courses"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "INTERDISCIPLINARY COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DMDE OR CONC=ICME OR CONC=MEDC OR CONC=MWFA OR CONC=PERM OR CONC=COMM OR CONC=ENGL OR CONC=VART",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "13",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NMST",
+          "minimumCredits": {
+            "min": 49,
+            "max": 56
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "New Media Studies majors need to select a concentration from",
+            "the following: Communication, English, Media Computation,",
+            "Performance Media, or Visual Arts.",
+            "Within the Interdisciplinary Course options, you will select two",
+            "courses from categories 1 through 5 for a total of four classes,",
+            "two in each category. You will then need to select a fifth course",
+            "from a third category. IMPORTANT NOTE:  Courses will be placed",
+            "in this area as they are taken, but may not apply to the desired",
+            "category until all five courses have been taken and/or registered",
+            "for.  If you want to see how your planned courses apply, you may",
+            "use the Look Ahead feature to see how your audit will look."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_POLI": 6,
+            "MAJOR_THEA": 9,
+            "MAJOR_VART": 3,
+            "CONC_7_12": 12,
+            "CONC_THAC": 6,
+            "CONC_TDAN": 6,
+            "CONC_TDIR": 6,
+            "CONC_TDTM": 6,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 15,
+            "CONC_SPMG": 3,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 3,
+            "CONC_HAMS": 3
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000510",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Visual Basic.NET"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Multimodal Writing Workshop"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 110"
+                    ],
+                    "hidden": [
+                      "NMS 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to New Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 220"
+                    ],
+                    "hidden": [
+                      "NMS 220"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "NMS Second Year Inquiry Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Performance in Context"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "S02 >=600",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "7",
+                            "text": "Intro to Computing/Problem Solving: Waived"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Intro to Computing/Problem Solving"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "NMSTMAJCRep",
+                    "text": "Category 1: Cultural Representations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 122",
+                          "ART 203",
+                          "ART 213",
+                          "ART 233",
+                          "ART 310",
+                          "ART 343",
+                          "COM 215",
+                          "COM 220",
+                          "COM 252",
+                          "CSC 210",
+                          "CSC 212",
+                          "CSC 220",
+                          "EES 300",
+                          "ENG 241",
+                          "ENG 359",
+                          "ENG 374",
+                          "FLM 359",
+                          "MUS 250",
+                          "PSC 325",
+                          "PSC 333",
+                          "THE 261",
+                          "THE 281",
+                          "THE 285",
+                          "THE 345",
+                          "THE 375"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Additional Interdisciplinary Courses"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "low"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Additional Interdisciplinary Courses"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "INTERDISCIPLINARY COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DMDE OR CONC=ICME OR CONC=MEDC OR CONC=MWFA OR CONC=PERM",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "13",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "14",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NMST",
+          "minimumCredits": {
+            "min": 49,
+            "max": 56
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "New Media Studies majors need to select a concentration from",
+            "the following: Integrated Communication Media, Multimedia Writing, Form",
+            "& Analysis, Media Computation, Performance Media, or Digital Media Design.",
+            "Within the Interdisciplinary Course options, you will select two",
+            "courses from categories 1 through 5 for a total of four classes,",
+            "two in each category. You will then need to select a fifth course",
+            "from a third category. IMPORTANT NOTE:  Courses will be placed",
+            "in this area as they are taken, but may not apply to the desired",
+            "category until all five courses have been taken and/or registered",
+            "for.  If you want to see how your planned courses apply, you may",
+            "use the Look Ahead feature to see how your audit will look."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_CPSC": 3,
+            "MAJOR_ECED": 12,
+            "MAJOR_POLI": 6,
+            "MAJOR_THEA": 9,
+            "MAJOR_VART": 3,
+            "CONC_7_12": 12,
+            "CONC_THAC": 6,
+            "CONC_TDAN": 6,
+            "CONC_TDIR": 6,
+            "CONC_TDTM": 6,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 15,
+            "CONC_SPMG": 3,
+            "CONC_ENGL": 3,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 3,
+            "CONC_HAMS": 3,
+            "CONC_ILLU": 12
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000511",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Visual Basic.NET"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Multimodal Writing Workshop"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 110"
+                    ],
+                    "hidden": [
+                      "NMS 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to New Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 220"
+                    ],
+                    "hidden": [
+                      "NMS 220"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "NMS Second Year Inquiry Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Performance in Context"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "S02 >=600",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "7",
+                            "text": "Intro to Computing/Problem Solving: Waived"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Intro to Computing/Problem Solving"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 3,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "NMSTMAJCRep",
+                    "text": "Category 1: Cultural Representations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 122",
+                          "ART 203",
+                          "ART 213",
+                          "ART 233",
+                          "ART 310",
+                          "ART 343",
+                          "COM 215",
+                          "COM 220",
+                          "COM 252",
+                          "CSC 210",
+                          "CSC 212",
+                          "CSC 220",
+                          "EES 300",
+                          "ENG 241",
+                          "ENG 359",
+                          "ENG 374",
+                          "FLM 359",
+                          "MUS 250",
+                          "MUS 307",
+                          "PSC 325",
+                          "PSC 333",
+                          "THE 260",
+                          "THE 261",
+                          "THE 281",
+                          "THE 285",
+                          "THE 345",
+                          "THE 375"
+                        ],
+                        "hidden": [
+                          "FLM 220"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Additional Interdisciplinary Courses"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "low"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Additional Interdisciplinary Courses"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "INTERDISCIPLINARY COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DMDE OR CONC=ICME OR CONC=MEDC OR CONC=MWFA OR CONC=PERM",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "13",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "14",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NMST",
+          "minimumCredits": {
+            "min": 49,
+            "max": 56
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "New Media Studies majors need to select a concentration from",
+            "the following: Integrated Communication Media, Multimedia Writing, Form",
+            "& Analysis, Media Computation, Performance Media, or Digital Media Design.",
+            "Within the Interdisciplinary Course options, you must",
+            "must select 5 courses in at least 3 categories.",
+            "IMPORTANT NOTE:  Courses will be placed",
+            "in this area as they are taken, but may not apply to the desired",
+            "category until all five courses have been taken and/or registered",
+            "for.  If you want to see how your planned courses apply, you may",
+            "use the Look Ahead feature to see how your audit will look."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_POLI": 6,
+            "MAJOR_THEA": 9,
+            "MAJOR_VART": 3,
+            "CONC_7_12": 12,
+            "CONC_THAC": 6,
+            "CONC_TDAN": 6,
+            "CONC_TDIR": 6,
+            "CONC_TDTM": 6,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 15,
+            "CONC_SPMG": 3,
+            "CONC_ENGL": 3,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 3,
+            "CONC_HAMS": 3,
+            "CONC_ILLU": 9
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002183",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Visual Basic.NET"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Composition"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 110"
+                    ],
+                    "hidden": [
+                      "NMS 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to New Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "NMS 220"
+                    ],
+                    "hidden": [
+                      "NMS 220"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "NMS Second Year Inquiry Seminar"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Performance in Context"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "S02 >=600",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "7",
+                            "text": "Intro to Computing/Problem Solving: Waived"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 110"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Intro to Computing/Problem Solving"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 2,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 3,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "NMSTMAJCRep",
+                    "text": "Category 1: Cultural Representations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ART 122",
+                          "ART 203",
+                          "ART 213",
+                          "ART 233",
+                          "ART 310",
+                          "ART 343",
+                          "COM 215",
+                          "COM 220",
+                          "COM 252",
+                          "CSC 210",
+                          "CSC 212",
+                          "CSC 220",
+                          "EES 300",
+                          "ENG 241",
+                          "ENG 359",
+                          "ENG 374",
+                          "FLM 359",
+                          "MUS 250",
+                          "MUS 307",
+                          "PSC 325",
+                          "PSC 333",
+                          "THE 260",
+                          "THE 261",
+                          "THE 281",
+                          "THE 285",
+                          "THE 345",
+                          "THE 375"
+                        ],
+                        "hidden": [
+                          "FLM 220"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Additional Interdisciplinary Courses"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "priority": "low"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Additional Interdisciplinary Courses"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "INTERDISCIPLINARY COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DMDE OR CONC=ICME OR CONC=MEDC OR CONC=MWFA OR CONC=PERM",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "13",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "14",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NMST",
+          "minimumCredits": {
+            "min": 49,
+            "max": 56
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "New Media Studies majors need to select a concentration from",
+            "the following: Integrated Communication Media, Multimedia Writing, Form",
+            "& Analysis, Media Computation, Performance Media, or Digital Media Design.",
+            "Within the Interdisciplinary Course options, you must",
+            "must select 5 courses in at least 3 categories.",
+            "IMPORTANT NOTE:  Courses will be placed",
+            "in this area as they are taken, but may not apply to the desired",
+            "category until all five courses have been taken and/or registered",
+            "for.  If you want to see how your planned courses apply, you may",
+            "use the Look Ahead feature to see how your audit will look."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_POLI": 6,
+            "MAJOR_THEA": 9,
+            "MAJOR_VART": 3,
+            "CONC_7_12": 12,
+            "CONC_THAC": 6,
+            "CONC_TDAN": 6,
+            "CONC_TDIR": 6,
+            "CONC_TDTM": 6,
+            "CONC_ARHI": 3,
+            "CONC_DIGI": 15,
+            "CONC_SPMG": 3,
+            "CONC_ENGL": 3,
+            "CONC_ELIT": 3,
+            "CONC_ERTC": 3,
+            "CONC_HAMS": 3,
+            "CONC_ILLU": 9
+          }
+        }
+      ]
+    }
+  }
+}

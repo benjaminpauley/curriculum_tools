@@ -1,0 +1,113 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CYBE": {
+      "programName": "Minor in Cybersecurity",
+      "versions": [
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002821",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Cybersecurity & Society"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 202",
+                  "CSC 303"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Programming"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 251"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Networking Fundamentals"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 333"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Cryptography"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 334"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Software & Network Security"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

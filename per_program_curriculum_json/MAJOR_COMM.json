@@ -1,0 +1,1203 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "COMM": {
+      "programName": "Major in Communication",
+      "versions": [
+        {
+          "startTerm": "200840",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000494",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 120",
+                  "COM 201",
+                  "COM 210",
+                  "COM 212",
+                  "COM 215",
+                  "COM 220",
+                  "COM 230",
+                  "COM 241",
+                  "COM 245",
+                  "COM 270",
+                  "COM 301",
+                  "COM 310",
+                  "COM 312",
+                  "COM 320",
+                  "COM 321",
+                  "COM 330",
+                  "COM 340",
+                  "COM 351",
+                  "COM 355",
+                  "COM 357",
+                  "COM 358",
+                  "COM 360",
+                  "COM 361",
+                  "COM 364",
+                  "COM 372",
+                  "COM 373",
+                  "COM 380",
+                  "COM 401",
+                  "COM 420",
+                  "COM 425",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 450",
+                  "COM 460",
+                  "COM 464",
+                  "COM 468",
+                  "COM 476",
+                  "COM 478",
+                  "COM 480"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=MELT)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Major Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Communication majors must complete a minor or a 2nd major for graduation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201820",
+          "requirementAuthority": "RA001683",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 120",
+                  "COM 201",
+                  "COM 210",
+                  "COM 212",
+                  "COM 215",
+                  "COM 220",
+                  "COM 230",
+                  "COM 241",
+                  "COM 245",
+                  "COM 270",
+                  "COM 301",
+                  "COM 310",
+                  "COM 312",
+                  "COM 320",
+                  "COM 321",
+                  "COM 330",
+                  "COM 340",
+                  "COM 351",
+                  "COM 355",
+                  "COM 357",
+                  "COM 358",
+                  "COM 360",
+                  "COM 361",
+                  "COM 364",
+                  "COM 372",
+                  "COM 373",
+                  "COM 380",
+                  "COM 401",
+                  "COM 420",
+                  "COM 425",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 450",
+                  "COM 460",
+                  "COM 464",
+                  "COM 468",
+                  "COM 476",
+                  "COM 478",
+                  "COM 480"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=MELT)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Major Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        },
+        {
+          "startTerm": "201840",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000201",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 120",
+                  "COM 201",
+                  "COM 210",
+                  "COM 212",
+                  "COM 215",
+                  "COM 220",
+                  "COM 230",
+                  "COM 241",
+                  "COM 245",
+                  "COM 270",
+                  "COM 301",
+                  "COM 310",
+                  "COM 312",
+                  "COM 320",
+                  "COM 321",
+                  "COM 330",
+                  "COM 340",
+                  "COM 351",
+                  "COM 355",
+                  "COM 357",
+                  "COM 358",
+                  "COM 360",
+                  "COM 361",
+                  "COM 364",
+                  "COM 372",
+                  "COM 373",
+                  "COM 380",
+                  "COM 401",
+                  "COM 420",
+                  "COM 425",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 450",
+                  "COM 460",
+                  "COM 464",
+                  "COM 468",
+                  "COM 476",
+                  "COM 478",
+                  "COM 480"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=MELT)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Major Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000495",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 120",
+                  "COM 201",
+                  "COM 210",
+                  "COM 212",
+                  "COM 215",
+                  "COM 220",
+                  "COM 230",
+                  "COM 241",
+                  "COM 245",
+                  "COM 255",
+                  "COM 270",
+                  "COM 301",
+                  "COM 310",
+                  "COM 312",
+                  "COM 320",
+                  "COM 321",
+                  "COM 330",
+                  "COM 340",
+                  "COM 351",
+                  "COM 355",
+                  "COM 357",
+                  "COM 358",
+                  "COM 360",
+                  "COM 361",
+                  "COM 364",
+                  "COM 372",
+                  "COM 373",
+                  "COM 380",
+                  "COM 401",
+                  "COM 420",
+                  "COM 425",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 450",
+                  "COM 460",
+                  "COM 464",
+                  "COM 476",
+                  "COM 478",
+                  "COM 480"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=MELT)"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Major Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        },
+        {
+          "startTerm": "202040",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001473",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ADVZ OR CONC=SOCM OR CONC=APMP OR CONC=LDSP OR CONC=MWRJ OR CONC=PBRE OR CONC=GNLT",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "15",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 1@",
+                          "COM 2@",
+                          "COM 3@",
+                          "COM 4@"
+                        ],
+                        "hidden": [
+                          "@ (With ATTRIBUTE=MELT)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "16",
+                        "text": "Communication Generalist Concentration Requirements"
+                      },
+                      "minCredits": 15
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Communication majors must choose a concentration, until that is done",
+            "the requirements for the Communication Generalist Concentration",
+            "will be displayed."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001911",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction To Mass Communications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 101"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Interpersonal Communication"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 230"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8.1",
+                    "text": "Public Speaking"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Communication Law and Ethics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Communication Writing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Communications Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 403"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Mass Communication Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "COM 490",
+                      "COM 491"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Internship"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ADVZ OR CONC=SOCM OR CONC=APMP OR CONC=LDSP OR CONC=MWRJ OR CONC=PBRE OR CONC=GNLT",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "15",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 1@",
+                          "COM 2@",
+                          "COM 3@",
+                          "COM 4@"
+                        ],
+                        "hidden": [
+                          "@ (With ATTRIBUTE=MELT)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "16",
+                        "text": "Communication Generalist Concentration Requirements"
+                      },
+                      "minCredits": 15
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "COMM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Communication majors must choose a concentration, until that is done",
+            "the requirements for the Communication Generalist Concentration",
+            "will be displayed."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_HAMS": 3,
+            "CONC_COMM": 18,
+            "CONC_SPMG": 12,
+            "CONC_PUBH": 3
+          }
+        }
+      ]
+    }
+  }
+}

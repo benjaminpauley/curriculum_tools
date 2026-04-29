@@ -1,0 +1,179 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "ECON": {
+      "programName": "Minor in Economics",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "201320",
+          "requirementAuthority": "RA000094",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles Of Macroeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Principles Of Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 329"
+                ],
+                "except": [
+                  "ECO 215",
+                  "ECO 480",
+                  "ECO 490",
+                  "ECO 492"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Economics Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 12 credits of the minor must be completed at Eastern.",
+            "A minimum nine (9) unique credits is required to complete a minor.",
+            "ECO 215, 480, 490, and 492 do not count towards the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201340",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000293",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introductory Macroeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introductory Microeconomics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CAS 329"
+                ],
+                "except": [
+                  "ECO 480",
+                  "ECO 490",
+                  "ECO 492"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Economics Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of 12 credits of the minor must be completed at Eastern.",
+            "A minimum nine (9) unique credits is required to complete a minor.",
+            "ECO 480, 490, and 492 do not count towards the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

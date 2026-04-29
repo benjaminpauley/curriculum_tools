@@ -1,0 +1,779 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "SUST": {
+      "programName": "Concentration in Sustainable Energy Science",
+      "versions": [
+        {
+          "startTerm": "201310",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000208",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 207"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sustainable Energy Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Energy Resources"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Energy Issues In Geoscience"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 205"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Global Climate Change or Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 306",
+                  "EES 330",
+                  "EES 342",
+                  "EES 405",
+                  "EES 441",
+                  "EES 460"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Sustainable Energy Science Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "General Physic I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "General Physic I & II With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Physics With Calculus I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Physics With Calculus I & II With Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "PHYSICS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_MATH": 4,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000470",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 207"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sustainable Energy Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Energy Resources"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Energy Issues In Geoscience"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 205"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Global Climate Change or Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 306",
+                  "EES 330",
+                  "EES 342",
+                  "EES 356",
+                  "EES 405",
+                  "EES 441",
+                  "EES 456",
+                  "EES 460"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Sustainable Energy Science Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "General Physic I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "General Physic I & II With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Physics With Calculus I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Physics With Calculus I & II With Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "PHYSICS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_MATH": 4,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001359",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 207"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sustainable Energy Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Energy Resources"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "and",
+                "courses": [
+                  "EES 402, ; 1 Class in EES 204, 205; 1 Class in EES 330, 356 2 Classes in EES 306, 330, 342, 356, 405, 441, 456, 460; 1 Group in (2 Classes in PHY 204",
+                  "205) OR (2 Classes in PHY 208",
+                  "209)"
+                ],
+                "hidden": [
+                  "{HIDE EES 480 (With DWTitle = \"@ EES 405\"); 1 Class in MAT 243, {HIDE MAT 480 (With DWTitle = \"@ MAT 243\")"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Energy Issues In Geoscience"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_MATH": 4,
+            "CONC_PPTH": 8
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001775",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 104"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "1.1",
+                        "text": "Dynamic Earth With Laboratory"
+                      },
+                      "minCredits": 4,
+                      "minClasses": 1,
+                      "combinationOperator": "and",
+                      "qualifiers": {
+                        "priority": "high"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "1.1",
+                    "text": "Dynamic Earth With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 104",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1.2",
+                        "text": "Earth Science Laboratory & Dynamic Earth"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "1.2",
+                    "text": "Earth Science Laboratory & Dynamic Earth"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 106",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "2.1",
+                        "text": "Geology of National Parks & Earth Science Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "2.1",
+                    "text": "Geology of National Parks & Earth Science Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3.1",
+                        "text": "Introduction to Geology & Earth Science Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "3.1",
+                    "text": "Introduction to Geology & Earth Science Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5.1",
+                        "text": "Environmental Geology & Earth Science Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Environmental Geology & Earth Science Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 220",
+                          "EES 221"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5.2",
+                        "text": "Environmental Geology & Environmental Geology Lab"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "5.2",
+                    "text": "Environmental Geology & Environmental Geology Lab"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "EARTH SCIENCE & LAB"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 204",
+                  "EES 205"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Global Climate Change or Sustainable Energy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 207"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sustainable Energy Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 330",
+                  "EES 356"
+                ]
+              },
+              "label": {
+                "tag": "10.1",
+                "text": "Mineral and Rock Analysis or Structural Geology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Energy Resources"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 344"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "33.2",
+                "text": "Sedimentology And Stratigraphy With Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Energy Issues In Geoscience"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 306",
+                  "EES 330",
+                  "EES 342",
+                  "EES 356",
+                  "EES 405",
+                  "EES 441",
+                  "EES 456"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Sustainable Energy Science Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "General Physic I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "General Physic I & II With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Physics With Calculus I & II With Laboratory"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Physics With Calculus I & II With Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "PHYSICS"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_MATH": 4,
+            "CONC_PPTH": 8
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PUBH": {
+      "programName": "Concentration in Public Health",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000214",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Introduction To Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Epidemiology For Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 209"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Nutrition And Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Field Internship Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 301"
+                ],
+                "hidden": [
+                  "Bio @ (With DWTitle = \"@ BIO 301\")"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Microbes And Your Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 302"
+                ],
+                "hidden": [
+                  "Bio @ (With DWTitle = \"@ BIO 302\")"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Microbes And Your Health Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 255",
+                  "COM 464",
+                  "EES 323",
+                  "HPE 326",
+                  "HSC 255",
+                  "SOC 312",
+                  "SWK 344",
+                  "SWK 375"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Public Health Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001361",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 228"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Introduction To Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 206"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Epidemiology For Liberal Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 209"
+                ],
+                "hidden": [
+                  "HSC 209"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Nutrition And Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Field Internship Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 301"
+                ],
+                "hidden": [
+                  "BIO @ (With DWTitle = \"@ BIO 301\")"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Microbes And Your Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 302"
+                ],
+                "hidden": [
+                  "BIO @ (With DWTitle = \"@ BIO 302\")"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Microbes And Your Health Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 255",
+                  "COM 464",
+                  "EES 323",
+                  "HPE 326",
+                  "HSC 235",
+                  "HSC 255",
+                  "HSC 306",
+                  "HSC 309",
+                  "HSC 235",
+                  "HSC 404",
+                  "HSC 415",
+                  "HSC 440",
+                  "SOC 311",
+                  "SOC 312",
+                  "SWK 344",
+                  "SWK 375",
+                  "PBH 309",
+                  "PBH 311",
+                  "PBH 330",
+                  "PBH 333",
+                  "PBH 340",
+                  "PBH 345",
+                  "PBH 350",
+                  "PBH 402",
+                  "PBH 414",
+                  "PBH 441",
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Public Health Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6,
+            "CONC_MHCC": 0
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002546",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Principles of Global Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 333"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Principles of Healthcare Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles of Community Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3.1",
+                "text": "Program Planning and Evaluation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 494"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Field Internship Public Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 301"
+                ],
+                "hidden": [
+                  "BIO @ (With DWTitle = \"@ BIO 301\")"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Microbes And Your Health"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 302"
+                ],
+                "hidden": [
+                  "BIO @ (With DWTitle = \"@ BIO 302\")"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Microbes And Your Health Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 255"
+                ],
+                "hidden": [
+                  "BUS 255"
+                ]
+              },
+              "label": {
+                "tag": "6.1",
+                "text": "Health Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 464",
+                  "EES 323",
+                  "HPE 326",
+                  "HSC 235",
+                  "HSC 306",
+                  "HSC 309",
+                  "HSC 404",
+                  "HSC 415",
+                  "SOC 311",
+                  "SOC 312",
+                  "SWK 344",
+                  "SWK 375",
+                  "PBH 309",
+                  "PBH 311",
+                  "PBH 340",
+                  "PBH 345",
+                  "PBH 414",
+                  "PBH 441",
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Public Health Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PARS": {
+      "programName": "Minor in Paramedic Science",
+      "versions": [
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002005",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 211"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Paramedic Science I with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 312"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Paramedic Science II with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 322"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Paramedic Science III with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 412"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Paramedic Scienc IV witih Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 492"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Clinical Rotation and Field Internship"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "Students must successfully complete HSC 225, 318, 319, 308, and 408 prior to admission to the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        }
+      ]
+    }
+  }
+}

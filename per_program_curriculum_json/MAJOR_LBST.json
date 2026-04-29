@@ -1,0 +1,1271 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "LBST": {
+      "programName": "Major in Liberal Studies",
+      "versions": [
+        {
+          "startTerm": "201540",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000038",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CHE 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introductory Chemistry w/Lab"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Literary Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Children's Literature"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 338"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Linguistic Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 116"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 140"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geometry and Probability for Elementary School Teaching"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 104",
+                      "EES 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Dynamic Earth with Laboratory or Intro to Geology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 101",
+                              "GEO 101",
+                              "PSC 101"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12.1",
+                            "text": "ECO, GEO, PSC for 1 credit each"
+                          },
+                          "minClasses": 3
+                        }
+                      ],
+                      "label": {
+                        "tag": "12.1",
+                        "text": "ECO, GEO, PSC for 1 credit each"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ECO 200",
+                              "GEO 100",
+                              "PSC 110"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12.2",
+                            "text": "ECO, GEO, PSC 1 course - 3 credits"
+                          },
+                          "minCredits": 3,
+                          "minClasses": 1,
+                          "combinationOperator": "and"
+                        }
+                      ],
+                      "label": {
+                        "tag": "12.2",
+                        "text": "ECO, GEO, PSC 1 course - 3 credits"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "12.3",
+                    "text": "Economics/Geography/Political Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ENGL OR CONC=EES OR CONC=H/SS OR CONC=MATH OR CONC=NSCI",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "14",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "LBST",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Liberal Studies major is open only to those students who have",
+            "declared pre-Elementary or pre-Early Childhood Education as a",
+            "major or who have been admitted to one of those majors through",
+            "the CARE admissions process. Liberal Studies majors must declare",
+            "a concentration in Natural Science, History/Social Science,",
+            "English or Mathematics."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 15,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6,
+            "MAJOR_H/SS": 3,
+            "MAJOR_PSYC": 3
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA001990",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 104"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Dynamic Earth with Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Literary Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Children's Literature"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 338"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Linguistic Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 116"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 140"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geometry and Probability for Elementary School Teaching"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHS 105"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Introductory Physical Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200",
+                      "GEO 100",
+                      "PSC 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12.2",
+                    "text": "Economics/Geography/Political Science"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ENGL OR CONC=EES OR CONC=H/SS OR CONC=MATH OR CONC=NSCI",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "14",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "LBST",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Liberal Studies major is open only to those students who have",
+            "declared pre-Elementary or pre-Early Childhood Education as a",
+            "major or who have been admitted to one of those majors through",
+            "the CARE admissions process. Liberal Studies majors must declare",
+            "a concentration in Natural Science, History/Social Science,",
+            "English or Mathematics."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000503",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EES 104"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Dynamic Earth with Laboratory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Literary Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Children's Literature"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 338"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Linguistic Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 116"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Intro Modern World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 140"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geometry and Probability for Elementary School Teaching"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHS 105"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Introductory Physical Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200",
+                      "GEO 100",
+                      "PSC 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12.2",
+                    "text": "Economics/Geography/Political Science"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "LBST >= 1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "LBSTEXD",
+                            "text": "Liberal Studies Exit Portfolio Complete"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "LBSTEXND",
+                            "text": "Liberal Studies Exit Portfolio Required"
+                          }
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ENGL OR CONC=EES OR CONC=H/SS OR CONC=MATH OR CONC=NSCI",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "14",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "LBST",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Liberal Studies major is open only to those students who have",
+            "declared pre-Elementary or pre-Early Childhood Education as a",
+            "major or who have been admitted to one of those majors through",
+            "the CARE admissions process. Liberal Studies majors must declare",
+            "a concentration in Natural Science, History/Social Science,",
+            "English, Mathematics, or Environmental Earth Science.",
+            "A grade of C or better is required for each course in the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001814",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EES 104"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Dynamic Earth with Laboratory"
+                          },
+                          "minCredits": 4,
+                          "minClasses": 1,
+                          "combinationOperator": "and"
+                        }
+                      ],
+                      "label": {
+                        "tag": "2",
+                        "text": "Dynamic Earth with Laboratory"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 104",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2.1",
+                            "text": "Dynamic Earth and Earth Science Laboratory"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2.1",
+                        "text": "Dynamic Earth and Earth Science Laboratory"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "2.2",
+                    "text": "Dynamic Earth with Laboratory"
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 130"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Literary Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Children's Literature"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 338"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Linguistic Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 140"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geometry and Probability for Elementary School Teaching"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHS 105"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Introductory Physical Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200",
+                      "GEO 100",
+                      "PSC 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12.2",
+                    "text": "Economics/Geography/Political Science"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "LBST >= 1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "LBSTEXD",
+                            "text": "Liberal Studies Exit Portfolio Complete"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "LBSTEXND",
+                            "text": "Liberal Studies Exit Portfolio Required"
+                          }
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ENGL OR CONC=EES OR CONC=H/SS OR CONC=MATH OR CONC=NSCI",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "14",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "LBST",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Liberal Studies major is open only to those students who have",
+            "declared pre-Elementary or pre-Early Childhood Education as a",
+            "major or who have been admitted to one of those majors through",
+            "the CARE admissions process. Liberal Studies majors must declare",
+            "a concentration in Natural Science, History/Social Science,",
+            "English, Mathematics, or Environmental Earth Science.",
+            "A grade of C or better is required for each course in the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002533",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 104",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "Dynamic Earth and Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2",
+                        "text": "Dynamic Earth and Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 110",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2.1",
+                            "text": "Introduction to Geology and Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2.1",
+                        "text": "Introduction to Geology and Earth Science Lab"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "EES 220",
+                              "EES 112"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2.3",
+                            "text": "Environmental Geology and Earth Science Lab"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "2.3",
+                        "text": "Environmental Geology and Earth Science Lab"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Environmental Earth Science with Lab"
+                  }
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 177"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Reading Closely"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 328"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Children's Literature"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 338"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Linguistic Analysis"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "HIS 115",
+                      "HIS 116"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "World History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 140"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Geometry and Probability for Elementary School Teaching"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PHS 105"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Introductory Physical Sciences"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 304"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11.1",
+                    "text": "Genetics and Society"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200",
+                      "GEO 100",
+                      "PSC 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12.2",
+                    "text": "Economics/Geography/Political Science"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and"
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "LBST >= 1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "LBSTEXD",
+                            "text": "Liberal Studies Exit Portfolio Complete"
+                          }
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "LBSTEXND",
+                            "text": "Liberal Studies Exit Portfolio Required"
+                          }
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ]
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "MAJOR CORE REQUIREMENTS"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=ENGL OR CONC=EES OR CONC=H/SS OR CONC=MATH OR CONC=NSCI",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "14",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "15",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "LBST",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "The Liberal Studies major is open only to those students who have",
+            "declared pre-Elementary or pre-Early Childhood Education as a",
+            "major or who have been admitted to one of those majors through",
+            "the CARE admissions process. Liberal Studies majors must declare",
+            "a concentration in Natural Science, History/Social Science,",
+            "English, Mathematics, or Environmental Earth Science.",
+            "A grade of C or better is required for each course in the major and concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 6,
+            "MAJOR_ECED": 6,
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

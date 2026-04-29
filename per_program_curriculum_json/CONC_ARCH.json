@@ -1,0 +1,80 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ARCH": {
+      "programName": "Concentration in Archaeology",
+      "versions": [
+        {
+          "startTerm": "202110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001696",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 385"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Archaeological Research Methods"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "2",
+                "text": "Required Course"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 210",
+                      "ANT 245",
+                      "ANT 320",
+                      "ANT 365",
+                      "ANT 370",
+                      "WST 370"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Choose 4 Concentration Electives"
+                  },
+                  "minClasses": 4
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "Concentration Electives"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

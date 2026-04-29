@@ -1,0 +1,100 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "FILM": {
+      "programName": "Minor in Film Studies",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000098",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FLM 101"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Film"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "An approved course of study must be entered on your record to",
+            "be reflected on this unofficial degree evaluation. Note: Of the",
+            "four electives in this minor, only one course may be from your",
+            "major department.  A minimum nine (9) unique credits is required",
+            "to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002002",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FLM 101"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Film"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "An approved course of study must be entered on your record to",
+            "be reflected on this unofficial degree evaluation. Note: Of the",
+            "five electives in this minor, only one course may be from your",
+            "major department.  A minimum nine (9) unique credits is required",
+            "to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MATH": {
+      "programName": "Concentration in Mathematics",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001832",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Calculus II with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230",
+                  "CSC 230",
+                  "MAT 310",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 373",
+                  "MAT 374",
+                  "CSC 315",
+                  "EES 342"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "DATA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001932",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus II with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 310"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Applied Linear Algebra"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 315"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Applied Probability & Statistics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 362"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Advanced Mathematics for Elementary School Teaching"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

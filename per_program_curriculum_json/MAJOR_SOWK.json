@@ -1,0 +1,603 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SOWK": {
+      "programName": "Major in Social Work",
+      "versions": [
+        {
+          "startTerm": "200710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000057",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSC 110",
+                              "PSC 200"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "2",
+                            "text": "American Government"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "ANT 106",
+                              "ANT 221",
+                              "ANT 225",
+                              "ANT 240",
+                              "ANT 300",
+                              "ANT 345",
+                              "ANT 337",
+                              "ANT 358",
+                              "ANT 364"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Anthropological Foundation"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "BIO 202"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Human Biology"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 100"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Psychological Foundation"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SOC 100",
+                              "SOC 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "6",
+                            "text": "Sociological Foundation"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "7",
+                        "text": "FOUNDATION COURSES"
+                      },
+                      "qualifiers": {
+                        "minGrade": 1
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 200"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Introduction to Social Work"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Generalist Practice with Communities and Organizations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 311"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "The Social Environment & Human Behavior"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 312"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Human Behavior in the Social Environment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 320"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Generalist Practice with Individuals and Families"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Social Welfare Policy"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Research for Social Work I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 333"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Research for Social Worker II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 350"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Social Work Field Internship and Seminar I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 420"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Generalist Practice with Groups and Organizations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 450"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Field Internship Seminar II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 475"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "19",
+                            "text": "Social Work Senior Seminar"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "20",
+                        "text": "REQUIRED COURSES - A GRADE OF C OR BETTER IS REQUIRED"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "SOWK",
+          "minimumCredits": {
+            "min": 58
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_SOCO": 6,
+            "CONC_PUBH": 6,
+            "CONC_HAMS": 9,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001239",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=WHATIF",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "1",
+                        "text": "Program prerequisites:"
+                      }
+                    },
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 200"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Introduction to Social Work"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 300"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Generalist Practice with Communities and Organizations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 311"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "The Social Environment & Human Behavior"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 312"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Human Behavior in the Social Environment"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 320"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Generalist Practice with Individuals and Families"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 325"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Social Welfare Policy"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 330"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "Research for Social Work I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 333"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "15",
+                            "text": "Research for Social Worker II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 335"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "15.1",
+                            "text": "Understanding Social Work Theory"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 350"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "16",
+                            "text": "Social Work Field Internship and Seminar I"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 420"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "17",
+                            "text": "Generalist Practice with Groups and Organizations"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 450"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "18",
+                            "text": "Field Internship Seminar II"
+                          },
+                          "minClasses": 1
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "SWK 475"
+                            ],
+                            "hidden": []
+                          },
+                          "label": {
+                            "tag": "19",
+                            "text": "Social Work Senior Seminar"
+                          },
+                          "minClasses": 1
+                        }
+                      ],
+                      "label": {
+                        "tag": "20",
+                        "text": "REQUIRED COURSES - A GRADE OF C OR BETTER IS REQUIRED"
+                      },
+                      "qualifiers": {
+                        "minGrade": 2
+                      }
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "SOWK",
+          "minimumCredits": {
+            "min": 46
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_SOCO": 6,
+            "CONC_PUBH": 6,
+            "CONC_HAMS": 9,
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

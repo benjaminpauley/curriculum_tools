@@ -1,0 +1,104 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "FREN": {
+      "programName": "Minor in French",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202020",
+          "requirementAuthority": "RA000297",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FRE 112:499"
+                ],
+                "hidden": [
+                  "FRE 2@",
+                  "3@",
+                  "4@",
+                  "FLM 223"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "French Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202040",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001692",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FRE 112:499"
+                ],
+                "hidden": [
+                  "FRE 2@",
+                  "3@",
+                  "4@",
+                  "FLM 223"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "French Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

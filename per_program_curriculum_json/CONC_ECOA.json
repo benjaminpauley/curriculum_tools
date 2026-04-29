@@ -1,0 +1,50 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ECOA": {
+      "programName": "Concentration in Economic Policy and Analysis",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002400",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 322",
+                  "ECO 325",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 333",
+                  "ECO 343",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

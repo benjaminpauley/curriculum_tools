@@ -1,0 +1,154 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CNST": {
+      "programName": "Minor in Canadian Studies",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000085",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CAS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Canadian Culture and Society"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CAS 200:499"
+                ],
+                "hidden": [
+                  "CAS 2@",
+                  "3@",
+                  "4@",
+                  "ANT 201",
+                  "ANT 222",
+                  "ANT 340",
+                  "BUS 370",
+                  "CHE 310",
+                  "ECO 329",
+                  "ENG 125",
+                  "ENG 217",
+                  "GEO 210",
+                  "HIS 271",
+                  "PSC 305"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Canadian Studies Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000277",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CAS 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Canadian Culture and Society"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CAS 200:499"
+                ],
+                "hidden": [
+                  "CAS 2@",
+                  "3@",
+                  "4@",
+                  "ANT 201",
+                  "ANT 222",
+                  "ANT 340",
+                  "BUS 370",
+                  "CHE 310",
+                  "ECO 329",
+                  "ENG 125",
+                  "ENG 217",
+                  "GEO 210",
+                  "HIS 271",
+                  "PSC 305"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Canadian Studies Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

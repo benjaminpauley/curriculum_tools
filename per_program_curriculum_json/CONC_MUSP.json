@@ -1,0 +1,561 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MUSP": {
+      "programName": "Concentration in Performance",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000046",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 320",
+                  "MUS 356",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000456",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000457",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 314",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Musicology Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001244",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301",
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 318",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Electives from Another Concentration"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001771",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Practicum in Music"
+              },
+              "minCredits": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 5
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301",
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 318",
+                  "MUS 355",
+                  "MUS 372"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Electives from Another Concentration"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202550",
+          "requirementAuthority": "RA001992",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Practicum in Music"
+              },
+              "minCredits": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Electives"
+              },
+              "minCredits": 5
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002781",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Individual Music Instruction"
+              },
+              "minCredits": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Individual Music Instruction: Adanced"
+              },
+              "minCredits": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Practicum in Music"
+              },
+              "minCredits": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 317",
+                  "MUS 320",
+                  "MUS 321",
+                  "MUS 340",
+                  "MUS 346",
+                  "MUS 356",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Performance Electives"
+              },
+              "minCredits": 8,
+              "qualifiers": {
+                "priority": "low"
+              }
+            }
+          ],
+          "minimumCredits": {
+            "min": 12
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [
+            {
+              "max": 4,
+              "courses": [
+                "MUS 456"
+              ]
+            },
+            {
+              "max": 4,
+              "courses": [
+                "MUS 356"
+              ]
+            }
+          ],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

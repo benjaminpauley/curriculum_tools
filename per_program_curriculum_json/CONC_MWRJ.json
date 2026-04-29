@@ -1,0 +1,93 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MWRJ": {
+      "programName": "Concentration in Media Writing & Journalism",
+      "versions": [
+        {
+          "startTerm": "200510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001477",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 351"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Journalism Principles"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 352"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Emergent Media Reporting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 357"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Scriptwriting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 210",
+                  "COM 310",
+                  "COM 321",
+                  "COM 358",
+                  "COM 361",
+                  "COM 364",
+                  "COM 373",
+                  "COM 450"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Two Additional Courses"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

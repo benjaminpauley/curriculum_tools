@@ -1,0 +1,82 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "CPSC": {
+      "programName": "Concentration in Computer Science",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001833",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Data Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230",
+                  "CSC 230",
+                  "CSC 335",
+                  "CSC 301",
+                  "CSC 315",
+                  "CSC 342",
+                  "CSC 343",
+                  "CSC 375",
+                  "CSC 475"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "degreeType": "BS",
+          "declaredMajor": "DATA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

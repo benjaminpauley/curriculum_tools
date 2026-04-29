@@ -1,0 +1,175 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "CMFT": {
+      "programName": "Major in Communication, Film, and Theatre",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002660",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CFT 100"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Performance Media Collaborations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CFT 101"
+                ],
+                "hidden": [
+                  "THE 101"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Entertainment Industry Employability"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 265",
+                  "CFT 205"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "World Performance & Culture or Media Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 230",
+                  "THE 174"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Public Speaking or The Actor's Voice"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 220",
+                  "FLM 220"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Video & Film Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CFT 401"
+                ],
+                "hidden": [
+                  "THE 482"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Career Preparation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 474",
+                  "FLM 440",
+                  "FLM 441"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Capstone"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=DTPM OR CONC=FLMV OR CONC=JNRL OR CONC=PACP",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "THEAMAJ13",
+                        "text": "A Concentration is Required"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "CMFT",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must complete a concentration in one of the following:",
+            "(1) Design, Technology, and Performance Media,(2) Filmmaking and Video",
+            "Production, (3) Multimedia Journalism:News & Sports, (4) Performance:",
+            "Acting, Choregraphy,and Playwriting"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

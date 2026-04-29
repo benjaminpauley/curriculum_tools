@@ -1,0 +1,1443 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ENGL": {
+      "programName": "Concentration in English",
+      "versions": [
+        {
+          "startTerm": "201510",
+          "endTerm": "201520",
+          "requirementAuthority": "RA000368",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 139",
+                  "139P"
+                ]
+              },
+              "label": {
+                "tag": "2.1",
+                "text": "Number Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2.2",
+                "text": "Statistical Data Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction English Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "American Literature From 1865"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 309",
+                  "ENG 353",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 228",
+                  "ENG 242",
+                  "ENG 250",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 266"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201540",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000410",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistical Data Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction English Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 213"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "American Literature From 1865"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 309",
+                  "ENG 353",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 228",
+                  "ENG 242",
+                  "ENG 250",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 266"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000039",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction English Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 223"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Survey of American Literature"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 309",
+                  "ENG 353",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 228",
+                  "ENG 242",
+                  "ENG 250",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 257",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 266"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000409",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Directed Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000049",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Directed Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 362",
+                  "ENG 363",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000411",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 223"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Survey of American Literature"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 207",
+                  "ENG 209",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 353",
+                  "ENG 369",
+                  "ENG 372",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242",
+                  "ENG 250",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 204",
+                  "ENG 220",
+                  "ENG 271",
+                  "ENG 272",
+                  "ENG 273",
+                  "ENG 306",
+                  "ENG 370",
+                  "ENG 371",
+                  "ENG 373",
+                  "ENG 374"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Rhetoric and Composition"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201910",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000412",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 223"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Survey of American Literature"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 207",
+                  "ENG 209",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 353",
+                  "ENG 369",
+                  "ENG 372",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242",
+                  "ENG 250",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 204",
+                  "ENG 220",
+                  "ENG 271",
+                  "ENG 272",
+                  "ENG 273",
+                  "ENG 306",
+                  "ENG 370",
+                  "ENG 371",
+                  "ENG 373",
+                  "ENG 374"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Rhetoric and Composition"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001757",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intro to Writing Lit Criticism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 223"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Survey of American Literature"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 205",
+                  "ENG 206",
+                  "ENG 207",
+                  "ENG 209",
+                  "ENG 230",
+                  "ENG 241",
+                  "ENG 353",
+                  "ENG 369",
+                  "ENG 372",
+                  "ENG 380"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Creative Writing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 242",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 204",
+                  "ENG 271",
+                  "ENG 272",
+                  "ENG 273",
+                  "ENG 306",
+                  "ENG 370",
+                  "ENG 371",
+                  "ENG 373",
+                  "ENG 374"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Rhetoric and Composition"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002534",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 190"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Writing Approaches and Techniques"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 290"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Writing Process and Craft"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 223"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Survey of American Literature"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 277"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5.5",
+                "text": "Reading Critically"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 228",
+                  "ENG 242",
+                  "ENG 252",
+                  "ENG 255",
+                  "ENG 256",
+                  "ENG 258",
+                  "ENG 259",
+                  "ENG 310",
+                  "ENG 313",
+                  "ENG 314",
+                  "ENG 352",
+                  "ENG 357"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Reading Culture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:399"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "4@",
+                  "307 (with DWterm>=200840)",
+                  "351",
+                  "352",
+                  "356",
+                  "357",
+                  "THE 308",
+                  "WLC 324",
+                  "NES 342",
+                  "NES 343",
+                  "FLM 359",
+                  "MCL 375"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "300 Level English Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

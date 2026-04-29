@@ -1,0 +1,210 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "BUAL": {
+      "programName": "Concentration in Business Analytics",
+      "versions": [
+        {
+          "startTerm": "202140",
+          "endTerm": "202550",
+          "requirementAuthority": "RA001834",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 2@",
+                  "BIS 2@",
+                  "BUS 2@",
+                  "ECO 2@",
+                  "FIN 2@"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "200-level Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 2@",
+                  "3@",
+                  "BIS 2@",
+                  "3@",
+                  "BUS 2@",
+                  "3@",
+                  "ECO 2@",
+                  "3@",
+                  "FIN 2@",
+                  "3@"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "200 or 300-level Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 3@",
+                  "4@",
+                  "BIS 3@",
+                  "4@",
+                  "BUS 3@",
+                  "4@",
+                  "ECO 3@",
+                  "4@",
+                  "FIN 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "300 or 400-level Concentration Electives"
+              },
+              "minClasses": 2
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 310",
+                  "BUS 380",
+                  "BUS 428",
+                  "BUS 433",
+                  "ECO 305",
+                  "FIN 346",
+                  "OSC 360",
+                  "OSC 363"
+                ],
+                "hidden": [
+                  "BUS 346",
+                  "BUS 360",
+                  "BUS 363"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "degreeType": "BS",
+          "declaredMajor": "DATA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002823",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Business Analytics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DSC 305"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Data Cleaning and Transformation Techniques"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DSC 310"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Explorations in Data Science Topics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DSC 320"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Predictive Analytics"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Topics in Data Science"
+              },
+              "minClasses": 1
+            }
+          ],
+          "degreeType": "BS",
+          "declaredMajor": "DATA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

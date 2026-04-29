@@ -1,0 +1,78 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CINE": {
+      "programName": "Minor in Cinema Studies",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002659",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FLM 101"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Cinema Studies"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ARA 219",
+                  "CHI 216",
+                  "ENG 339",
+                  "ENG 359",
+                  "ENG 374",
+                  "FLM 219",
+                  "FLM 223",
+                  "FLM 321",
+                  "FLM 322",
+                  "FLM 352",
+                  "FRE 223",
+                  "ITL 219",
+                  "MUS 307",
+                  "SPA 219",
+                  "LAS 219",
+                  "THE 351"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Cinema Studies Electives"
+              },
+              "minClasses": 4
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

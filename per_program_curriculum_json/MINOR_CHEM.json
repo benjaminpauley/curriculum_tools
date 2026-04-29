@@ -1,0 +1,91 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "CHEM": {
+      "programName": "Minor in Chemistry",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000086",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Organic Chemistry I with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Organic Chemistry II with Laboratory"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 310",
+                  "CHE 316",
+                  "CHE 320",
+                  "CHE 322",
+                  "CHE 323",
+                  "CHE 370",
+                  "CHE 380",
+                  "CHE 425",
+                  "CHE 480",
+                  "CHE 492"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Chemistry Electives"
+              },
+              "minClasses": 3
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A maximum of two courses may be transferred."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "P_12": {
+      "programName": "P-12 Certification, Physical Education",
+      "versions": [
+        {
+          "startTerm": "201240",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000219",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 441"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Teaching, Organization, Administration-Elementary School PE"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Teaching, Organization, Administration-Secondary PE"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 475"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Student Teaching (PreK-12)"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 476"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Student Teaching Seminar"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "FAC>=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "5",
+                        "text": "First Aid Certification: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "6",
+                        "text": "First Aid Certification: Required"
+                      }
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ENG 125:499"
+                        ],
+                        "hidden": [
+                          "2@",
+                          "3@",
+                          "4@",
+                          "@ (With ATTRIBUTE=IIA)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "English Elective - Certification"
+                      },
+                      "minClasses": 1
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ANT 221",
+                          "HIS 120",
+                          "HIS 121",
+                          "HIS 221",
+                          "HIS 241",
+                          "HIS 245",
+                          "HIS 251",
+                          "HIS 302",
+                          "HIS 303",
+                          "HIS 310",
+                          "HIS 316",
+                          "HIS 318",
+                          "HIS 321",
+                          "HIS 322"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "History Elective - Certification"
+                      },
+                      "minClasses": 1
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

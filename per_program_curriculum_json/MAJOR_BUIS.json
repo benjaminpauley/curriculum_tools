@@ -1,0 +1,1071 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "BUIS": {
+      "programName": "Major in Business Information System",
+      "versions": [
+        {
+          "startTerm": "201410",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000200",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction To Computing And Problem Solving"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles Of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Principles Of Marketing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": [
+                      "BUS 245"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "OSC 260"
+                    ],
+                    "hidden": [
+                      "BUS 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Operations Management"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "BUSINESS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 361",
+                      "BUS 361"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "BIS & Web Technologies or Systems & Operations"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 370"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Systems Analysis and Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 375"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Electronic Commerce"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 377"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Organizational Website & Database Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249",
+                      "CSC 251"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "CSC Elective"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 430"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Enterprise Resource Planning and E Business"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 461"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Seminar on Information Systems and Business Strategies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Internship in Business Information Systems"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "20",
+                "text": "SYSTEMS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 362",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 480",
+                  "BUS 467"
+                ]
+              },
+              "label": {
+                "tag": "21",
+                "text": "Advanced Elective Courses"
+              },
+              "minCredits": 9
+            }
+          ],
+          "declaredMajor": "BUIS",
+          "minimumCredits": {
+            "min": 60
+          },
+          "minimumGPA": 2.5,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CPSC": 3,
+            "MAJOR_ECED": 6,
+            "MAJOR_ECON": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_FNCE": 21,
+            "MAJOR_HSCI": 3,
+            "MAJOR_LHRM": 3,
+            "MAJOR_NMST": 3,
+            "MAJOR_DATA": 6,
+            "CONC_ECOB": 9,
+            "CONC_7_12": 9,
+            "CONC_SPMG": 9
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000492",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction To Computing And Problem Solving"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles Of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Principles Of Marketing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": [
+                      "BUS 245"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "OSC 260"
+                    ],
+                    "hidden": [
+                      "BUS 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Operations Management"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "BUSINESS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 361",
+                      "BUS 361"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "BIS & Web Technologies or Systems & Operations"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 370"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Systems Analysis and Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 375"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Electronic Commerce"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 377"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Organizational Website & Database Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249",
+                      "CSC 251"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "CSC Elective"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 430"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Enterprise Resource Planning and E Business"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 461"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Seminar on Information Systems and Business Strategies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Internship in Business Information Systems"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "20",
+                "text": "SYSTEMS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 362",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 420",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 480",
+                  "BUS 467"
+                ]
+              },
+              "label": {
+                "tag": "21",
+                "text": "Advanced Elective Courses"
+              },
+              "minCredits": 9
+            }
+          ],
+          "declaredMajor": "BUIS",
+          "minimumCredits": {
+            "min": 61
+          },
+          "minimumGPA": 2.5,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CPSC": 3,
+            "MAJOR_ECED": 6,
+            "MAJOR_ECON": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_FNCE": 24,
+            "MAJOR_HSCI": 3,
+            "MAJOR_LHRM": 3,
+            "MAJOR_NMST": 3,
+            "MAJOR_DATA": 6,
+            "CONC_ECOB": 9,
+            "CONC_7_12": 9,
+            "CONC_SPMG": 9
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000493",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 180",
+                      "CSC 202",
+                      "CSC 210"
+                    ],
+                    "hidden": [
+                      "CSC 110"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intro CSC Course"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles Of Microeconomics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215",
+                      "MAT 216"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Statistics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Principles Of Marketing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": [
+                      "BUS 245"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "OSC 260"
+                    ],
+                    "hidden": [
+                      "BUS 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Operations Management"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "BUSINESS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 361"
+                    ],
+                    "hidden": [
+                      "BUS 361",
+                      "{HIDE BIS 480 (With DWtitle= \"@ BIS 361\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Business Information Systems"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 370"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Systems Analysis and Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 375"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Electronic Commerce"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 373"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Business Database Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 249",
+                      "CSC 251"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "CSC Elective"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 430"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Enterprise Resource Planning and E Business"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 461"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Seminar on Information Systems and Business Strategies"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Internship in Business Information Systems"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "20",
+                "text": "SYSTEMS COMPONENT COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 420",
+                  "BIS 305",
+                  "BIS 340",
+                  "BIS 362",
+                  "BIS 364",
+                  "BIS 365",
+                  "BIS 367",
+                  "BIS 368",
+                  "BIS 420",
+                  "BIS 437",
+                  "BIS 442",
+                  "BIS 447",
+                  "BIS 480",
+                  "OSC 467"
+                ]
+              },
+              "label": {
+                "tag": "21",
+                "text": "Advanced Elective Courses"
+              },
+              "minCredits": 9
+            }
+          ],
+          "declaredMajor": "BUIS",
+          "minimumCredits": {
+            "min": 60
+          },
+          "minimumGPA": 2.5,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CPSC": 3,
+            "MAJOR_ECED": 6,
+            "MAJOR_ECON": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_FNCE": 27,
+            "MAJOR_HSCI": 3,
+            "MAJOR_LHRM": 3,
+            "MAJOR_NMST": 3,
+            "MAJOR_DATA": 18,
+            "CONC_ECOB": 9,
+            "CONC_7_12": 9,
+            "CONC_SPMG": 9,
+            "CONC_DATA": 6
+          }
+        }
+      ]
+    }
+  }
+}

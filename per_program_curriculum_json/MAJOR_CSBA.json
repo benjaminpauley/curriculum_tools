@@ -1,0 +1,389 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "CSBA": {
+      "programName": "Computer Science",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002710",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 101",
+                      "CSC 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Computer Science Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 230",
+                      "MAT 230"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Discrete Math for CSC/Discrete Structures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 155",
+                      "MAT 155P",
+                      "MAT 195",
+                      "MAT 243"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Mathematical Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Computer Science & Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 231"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Computer Science & Programming II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Data Structures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 445"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Software Engineering"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 341"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Database and Info Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 450"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Senior Research"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "Required Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 251",
+                      "CSC 320",
+                      "CSC 335",
+                      "CSC 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Category A & B"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 335",
+                      "CSC 340"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Category B"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "priority": "high"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "Computer Science Principles"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 420",
+                      "ART 124",
+                      "ART 323",
+                      "ART 326",
+                      "ART 337",
+                      "ART 310",
+                      "ART 343",
+                      "ART 351",
+                      "BIS 205",
+                      "BIS 305",
+                      "BIS 437",
+                      "BIS 442",
+                      "COM 352",
+                      "COM 362",
+                      "CSC 202",
+                      "CSC 203",
+                      "CSC 249",
+                      "EES 208",
+                      "EES 342",
+                      "EES 441",
+                      "EES 444",
+                      "EES 300",
+                      "EES 301",
+                      "EES 340",
+                      "ENG 206",
+                      "ENG 305",
+                      "ENG 360",
+                      "MAT 216",
+                      "MAT 310",
+                      "MAT 315",
+                      "MAT 340",
+                      "MAT 342",
+                      "MAT 343",
+                      "HIS 386",
+                      "PHI 366",
+                      "PSY 227",
+                      "PSC 202",
+                      "THE 261",
+                      "THE 277",
+                      "THE 280",
+                      "THE 281",
+                      "THE 285",
+                      "THE 345",
+                      "THE 385"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Applications, Design and Implications Electives"
+                  },
+                  "minCredits": 6
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 300:499",
+                      "ACC 420",
+                      "ART 124",
+                      "ART 323",
+                      "ART 326",
+                      "ART 337",
+                      "ART 310",
+                      "ART 343",
+                      "ART 351",
+                      "BIS 205",
+                      "BIS 305",
+                      "BIS 437",
+                      "BIS 442",
+                      "BIS 367",
+                      "COM 352",
+                      "COM 362",
+                      "CSC 202",
+                      "CSC 203",
+                      "CSC 249",
+                      "EES 208",
+                      "EES 300",
+                      "EES 301",
+                      "EES 340",
+                      "EES 342",
+                      "EES 441",
+                      "EES 444",
+                      "ENG 206",
+                      "ENG 305",
+                      "ENG 360",
+                      "MAT 216",
+                      "MAT 244",
+                      "MAT 310",
+                      "MAT 315",
+                      "MAT 340",
+                      "MAT 342",
+                      "MAT 343",
+                      "MAT 350",
+                      "HIS 386",
+                      "PHI 366",
+                      "PSY 227",
+                      "PSC 202",
+                      "THE 261",
+                      "THE 277",
+                      "THE 280",
+                      "THE 281",
+                      "THE 285",
+                      "THE 345",
+                      "THE 385"
+                    ],
+                    "hidden": [
+                      "CSC 3@",
+                      "4@",
+                      "MAT 350",
+                      "MAT 353"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Additional Computer Science Electives"
+                  },
+                  "minCredits": 6,
+                  "qualifiers": {
+                    "priority": "low"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "16",
+                "text": "Computer Science Applications, Design, and Implications"
+              }
+            }
+          ],
+          "declaredMajor": "CSBA",
+          "minimumCredits": {
+            "min": 46
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "For CSC 210, 231 and 270 a minimum grade of 2.0 (C)",
+            "for each course is required.",
+            "In any 300- or 400-level CSC courses, either a minimum",
+            "grade of C in each course or a minimum average GPA of 2.3",
+            "must be earned in these courses.",
+            "Please note the major is restricted to 3 credits of ACC 420 or BIS 205",
+            "or BIS 305, and 4 credits of EES 300/301 or EES 340."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "CSC 210 (With DWGrade <2)"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 9,
+            "CONC_MEDC": 15,
+            "MAJOR_NMST": 6,
+            "MAJOR_BUIS": 3,
+            "CONC_DATA": 9,
+            "CONC_TEAC": 3,
+            "CONC_CPSC": 6
+          }
+        }
+      ]
+    }
+  }
+}

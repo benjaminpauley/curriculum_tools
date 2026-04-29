@@ -1,0 +1,397 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "PSWK": {
+      "programName": "Major in Pre-Social Work",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000058",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "PSWKMAJ1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "copy_rules_from",
+              "requirementAuthority": "RA000057"
+            }
+          ],
+          "declaredMajor": "PSWK",
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students should apply for admission to the Social Work major",
+            "following completion of approximately 45 credits including",
+            "SWK 200 or equivalent course.",
+            "You must earn a grade of C or better in SWK 200."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001240",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "PSWKMAJ1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSC 100",
+                      "PSC 110",
+                      "PSC 200",
+                      "PSC 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4.1",
+                    "text": "American Government"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 106",
+                      "ANT 221",
+                      "ANT 225",
+                      "ANT 240",
+                      "ANT 300",
+                      "ANT 345",
+                      "ANT 337",
+                      "ANT 358",
+                      "ANT 364"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Anthropological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6.1",
+                    "text": "Human Biology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7.1",
+                    "text": "Psychological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100",
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8.1",
+                    "text": "Sociological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SWK 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8.2",
+                    "text": "Introduction to Social Work"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                }
+              ],
+              "label": {
+                "tag": "9.1",
+                "text": "FOUNDATION COURSES"
+              }
+            }
+          ],
+          "declaredMajor": "PSWK",
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students should apply for admission to the Social Work major",
+            "following completion of approximately 45 credits including",
+            "SWK 200 or equivalent course.",
+            "You must earn a grade of C or better in SWK 200."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "202550",
+          "requirementAuthority": "RA002635",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "PSWKMAJ1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSC 100",
+                      "PSC 110",
+                      "PSC 200",
+                      "PSC 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4.1",
+                    "text": "American Government"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ANT 106",
+                      "ANT 221",
+                      "ANT 225",
+                      "ANT 240",
+                      "ANT 300",
+                      "ANT 345",
+                      "ANT 337",
+                      "ANT 358",
+                      "ANT 364"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Anthropological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIO 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6.1",
+                    "text": "Human Biology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7.1",
+                    "text": "Psychological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100",
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8.1",
+                    "text": "Sociological Foundation"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SWK 200"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8.2",
+                    "text": "Introduction to Social Work"
+                  },
+                  "minClasses": 1,
+                  "qualifiers": {
+                    "minGrade": 2
+                  }
+                }
+              ],
+              "label": {
+                "tag": "9.1",
+                "text": "FOUNDATION COURSES"
+              }
+            }
+          ],
+          "declaredMajor": "PSWK",
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students should apply for admission to the Social Work major",
+            "following completion of approximately 45 credits including",
+            "SWK 200 or equivalent course.",
+            "You must earn a grade of C or better in SWK 200."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002817",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "PSWKMAJ1",
+                "text": "Program Prerequisites"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SWK 200"
+                ]
+              },
+              "label": {
+                "tag": "8.2",
+                "text": "Introduction to Social Work"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "minGrade": 2
+              }
+            }
+          ],
+          "declaredMajor": "PSWK",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students should apply for admission to the Social Work major",
+            "following completion of approximately 45 credits including",
+            "SWK 200 or equivalent course.",
+            "You must earn a grade of C or better in SWK 200."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

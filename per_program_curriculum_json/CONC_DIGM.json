@@ -1,0 +1,490 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DIGM": {
+      "programName": "Concentration in Digital Art & Media Design",
+      "versions": [
+        {
+          "startTerm": "202310",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002220",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two-Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 122"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Digital Illustration & Page Layout"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Imaging & Web Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Relief Printmaking I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Art Hist: Pre-History to 1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Art Hist: 1400 to the Present"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Graphic Design I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 310",
+                  "ART 323",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 332",
+                  "ART 335",
+                  "ART 337",
+                  "ART 342",
+                  "ART 343",
+                  "ART 351",
+                  "ART 403",
+                  "ART 412",
+                  "ART 421",
+                  "ART 422",
+                  "ART 432",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "CSC 202",
+                  "CSC 311",
+                  "ENG 206",
+                  "MUS 372",
+                  "THE 345"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 5
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Major Capstone"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "A maximum of 2 classes from the following may be used as a concentration elective:",
+            "CSC 202, 311, ENG 206, MUS 372, THE 345"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6,
+            "CONC_ILLU": 33
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002597",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two-Dimensional Design Elements"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Three-Dimensional Design"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 122"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Illustration & Page Layout"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Digital Imaging and Online Media"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Intro to Art History:Prehistory to 1400"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Intro to Art History:1400 to the Present"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "Required Foundation Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 233",
+                      "ART 345"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Writing About Art Stage 2"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 401",
+                      "ART 402"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Writing About Art Stage 3"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "9.1.",
+                "text": "Required Writing Courses"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Capstone"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 202",
+                  "ART 213",
+                  "ART 310",
+                  "ART 323",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 332",
+                  "ART 335",
+                  "ART 337",
+                  "ART 342",
+                  "ART 343",
+                  "ART 351",
+                  "ART 365",
+                  "ART 403",
+                  "ART 412",
+                  "ART 421",
+                  "ART 432",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "CSC 202",
+                  "CSC 311",
+                  "ENG 206",
+                  "MUS 372",
+                  "THE 345 MinCredits 9 in ART @"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 5
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6,
+            "CONC_ILLU": 28,
+            "CONC_SART": 28
+          }
+        }
+      ]
+    }
+  }
+}

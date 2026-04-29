@@ -1,0 +1,353 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TDIR": {
+      "programName": "Concentration in Directing",
+      "versions": [
+        {
+          "startTerm": "201610",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000065",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 260"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc1",
+                    "text": "Performance Media History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 271"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc2",
+                    "text": "Directing II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 273"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc3",
+                    "text": "Acting II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 374"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc4",
+                    "text": "Directing III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "TDIRConc5",
+                "text": "CONCENTRATION REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 357",
+                  "ENG 308",
+                  "THE 308",
+                  "THE 351",
+                  "THE 361",
+                  "THE 470",
+                  "THE 471",
+                  "THE 499"
+                ]
+              },
+              "label": {
+                "tag": "TDIRConc6",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Within the Concentration Electives, you are limited to one course",
+            "in COM 357, ENG 308 and THE 308."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001526",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 260"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc1",
+                    "text": "Performance Media History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 271"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc2",
+                    "text": "Directing II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 273"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc3",
+                    "text": "Acting II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 374"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc4",
+                    "text": "Directing III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "TDIRConc5",
+                "text": "CONCENTRATION REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 357",
+                  "ENG 308",
+                  "THE 308",
+                  "THE 299",
+                  "THE 309",
+                  "THE 351",
+                  "THE 361",
+                  "THE 470",
+                  "THE 471",
+                  "THE 499"
+                ]
+              },
+              "label": {
+                "tag": "TDIRConc6",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Within the Concentration Electives, you are limited to one course",
+            "in COM 357, ENG 308 and THE 308."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3
+          }
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002238",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 260"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc1",
+                    "text": "Performance Media History"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 271"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc2",
+                    "text": "Directing II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 273"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc3",
+                    "text": "Acting II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 374"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "TDIRConc4",
+                    "text": "Directing III"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "TDIRConc5",
+                "text": "CONCENTRATION REQUIREMENTS"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 357",
+                  "ENG 308",
+                  "THE 308",
+                  "THE 299",
+                  "THE 309",
+                  "THE 351",
+                  "THE 361",
+                  "THE 470",
+                  "THE 471",
+                  "THE 499"
+                ]
+              },
+              "label": {
+                "tag": "TDIRConc6",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Within the Concentration Electives, you are limited to one course",
+            "in COM 357, ENG 308 and THE 308."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3
+          }
+        }
+      ]
+    }
+  }
+}

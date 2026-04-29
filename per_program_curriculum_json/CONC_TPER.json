@@ -1,0 +1,256 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TPER": {
+      "programName": "Concentration in Performance",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002404",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "THE 174 was PASSED and THE 273 is PASSED and THE 372 is PASSED",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "13",
+                        "text": "Acting Specialization"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "DNC 240 is PASSED and DNC 280 is PASSED and DNC 254 is PASSED",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "14",
+                                "text": "Dance & Physical Theatre Specialization"
+                              }
+                            },
+                            {
+                              "type": "subset",
+                              "rules": [
+                                {
+                                  "type": "group",
+                                  "minGroups": 1,
+                                  "options": [
+                                    {
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "THE 171",
+                                              "THE 172"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "1",
+                                            "text": "Acting foundational course"
+                                          },
+                                          "minClasses": 1
+                                        }
+                                      ],
+                                      "label": {
+                                        "tag": "1",
+                                        "text": "Acting foundational course"
+                                      }
+                                    },
+                                    {
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "THE 171",
+                                              "DNC 253"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "1.1",
+                                            "text": "Dance & Physical Theatre foundational course"
+                                          },
+                                          "minClasses": 1
+                                        }
+                                      ],
+                                      "label": {
+                                        "tag": "1.1",
+                                        "text": "Dance & Physical Theatre foundational course"
+                                      }
+                                    },
+                                    {
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "and",
+                                            "courses": [
+                                              "THE 174",
+                                              "THE 273",
+                                              "THE 372"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "2",
+                                            "text": "Acting Specialization required courses"
+                                          },
+                                          "minCredits": 9
+                                        }
+                                      ],
+                                      "label": {
+                                        "tag": "2",
+                                        "text": "Acting Specialization required courses"
+                                      }
+                                    },
+                                    {
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "and",
+                                            "courses": [
+                                              "DNC 240",
+                                              "DNC 280",
+                                              "DNC 254"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "3",
+                                            "text": "Dance & Physical Theatre required courses"
+                                          },
+                                          "minCredits": 9
+                                        }
+                                      ],
+                                      "label": {
+                                        "tag": "3",
+                                        "text": "Dance & Physical Theatre required courses"
+                                      }
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "4",
+                                    "text": "Required Concentration Courses"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "5",
+                                "text": "Required Concentration Courses"
+                              }
+                            },
+                            {
+                              "type": "group",
+                              "minGroups": 1,
+                              "options": [
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "THE 270",
+                                          "THE 377",
+                                          "THE 393",
+                                          "THE 471",
+                                          "THE 499"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "6",
+                                        "text": "Acting Elective"
+                                      },
+                                      "minCredits": 3
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "6",
+                                    "text": "Acting Elective"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "THE 180",
+                                          "THE 299",
+                                          "THE 377",
+                                          "DNC 241",
+                                          "DNC 251",
+                                          "DNC 255",
+                                          "DNC 346",
+                                          "DNC 347",
+                                          "DNC 351",
+                                          "DNC 395",
+                                          "DNC 445",
+                                          "DNC 491"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "7",
+                                        "text": "Dance & Physical Theatre Elective"
+                                      },
+                                      "minCredits": 3
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "7",
+                                    "text": "Dance & Physical Theatre Elective"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "8",
+                                "text": "Specialization Electives"
+                              }
+                            }
+                          ],
+                          "conditionType": "unknown"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must complete the requirements of Acting Specialization OR",
+            "Dance & Physical Theatre Specialization"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

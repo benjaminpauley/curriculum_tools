@@ -1,0 +1,108 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ADVZ": {
+      "programName": "Concentration in Advertising",
+      "versions": [
+        {
+          "startTerm": "200510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001474",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advertising Essentials"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 373"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Advertising Copywriting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 476"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Advertising & Media Planning"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 478"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Integrated Marketing Communication"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 255",
+                  "COM 301",
+                  "COM 361",
+                  "COM 372",
+                  "COM 375",
+                  "BUS 255"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "One Additional Course"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_SOCM": 3
+          }
+        }
+      ]
+    }
+  }
+}

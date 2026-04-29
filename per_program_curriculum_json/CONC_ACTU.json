@@ -1,0 +1,402 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ACTU": {
+      "programName": "Concentration in Actuarial Science",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000394",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": [
+                      "{HIDE MAT 480 (With DWTitle= \"@MAT 380\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 355"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Probability"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 356"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Financial Mathematics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305",
+                      "MAT 343"
+                    ],
+                    "hidden": [
+                      "MAT @ (With ATTRIBUTE=MDMA)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Applications"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ECO 200",
+                          "ECO 201"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": null,
+                        "text": "Macro and Micro-economics"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": null,
+                    "text": "Macro and Micro-economics"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BUS 245",
+                          "BUS 346"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": null,
+                        "text": "Business Finance and Investment Analysis"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": null,
+                    "text": "Business Finance and Investment Analysis"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Electives"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001998",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": [
+                      "{HIDE MAT 480 (With DWTitle= \"@MAT 380\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 355"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Probability"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 356"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Financial Mathematics"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 202",
+                      "CSC 210",
+                      "}"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Programming"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305",
+                      "MAT 343"
+                    ],
+                    "hidden": [
+                      "MAT @ (With ATTRIBUTE=MDMA)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Machine Learning or Explorations in Data Analytics"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ECO 200",
+                          "ECO 201"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": null,
+                        "text": "Macro and Micro-economics"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": null,
+                    "text": "Macro and Micro-economics"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "BUS 245",
+                          "BUS 346"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": null,
+                        "text": "Business Finance and Investment Analysis"
+                      },
+                      "minClasses": 2
+                    }
+                  ],
+                  "label": {
+                    "tag": null,
+                    "text": "Business Finance and Investment Analysis"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Electives"
+              }
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

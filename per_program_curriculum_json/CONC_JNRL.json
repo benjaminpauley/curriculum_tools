@@ -1,0 +1,144 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "JNRL": {
+      "programName": "Conc in Multimedia Journalism  News and Sports",
+      "versions": [
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002663",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 120"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "TV News and Sports"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 210"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Photojournalism"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 245"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Applied Audio Production"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 285"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Sports Video"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 352"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Emergent Media Reporting"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 425"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "TV News & Sports Packaging"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 490",
+                  "COM 410"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Practica"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CFT 305"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Media Law and Ethics"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3,
+            "MINOR_ANY": 3
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "NURS": {
+      "programName": "Major in Nursing",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "202450",
+          "requirementAuthority": "RA002385",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "General Chemistry I Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Lifespan Development"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Medical Terminology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy and Physiology I with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Anatomy and Physiology II with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "NUR 203"
+                ],
+                "hidden": [
+                  "HSC 408",
+                  "NUR 403"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Principles of Pharmacology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 425"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Microbiology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "RNLE >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "26.1",
+                        "text": "Registered Nurse Licensure Exam Preparation: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "26.2",
+                        "text": "Registered Nurse Licensure Exam Preparation: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=NTRA",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "13",
+                                "text": "Major Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NURS",
+          "minimumCredits": {
+            "min": 81
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "202550",
+          "requirementAuthority": "RA002649",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "General Chemistry I Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Lifespan Development"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Medical Terminology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy and Physiology I with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Anatomy and Physiology II with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 425"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Microbiology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "RNLE >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "26.1",
+                        "text": "Registered Nurse Licensure Exam Preparation: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "26.2",
+                        "text": "Registered Nurse Licensure Exam Preparation: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=NTRA",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "13",
+                                "text": "Major Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NURS",
+          "minimumCredits": {
+            "min": 81
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002790",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "General Chemistry I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "General Chemistry I Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2.2",
+                "text": "Statistical Data Analysis"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Lifespan Development"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 215"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 225"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Medical Terminology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 318"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Anatomy and Physiology I with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 319"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Anatomy and Physiology II with Lab"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 425"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Microbiology for Health Sciences"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "RNLE >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "26.1",
+                        "text": "Registered Nurse Licensure Exam Preparation: Complete"
+                      }
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "26.2",
+                        "text": "Registered Nurse Licensure Exam Preparation: Required"
+                      }
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=NTRA",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "13",
+                                "text": "Major Requirements"
+                              }
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ]
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "NURS",
+          "minimumCredits": {
+            "min": 84
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 15,
+            "CONC_PSTD": 3,
+            "CONC_PC&Y": 3,
+            "CONC_PSYW": 3,
+            "CONC_DEVL": 3
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SOCO": {
+      "programName": "Major in Sociology",
+      "versions": [
+        {
+          "startTerm": "201240",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000515",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Sociological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Senior Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "SOC 100:499",
+                  "MinCredits 12 in SOC @"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Major Electives"
+              },
+              "minCredits": 18,
+              "minClasses": 6,
+              "combinationOperator": "and"
+            }
+          ],
+          "declaredMajor": "SOCO",
+          "minimumCredits": {
+            "min": 34
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_WGST": 12,
+            "CONC_ECUL": 6,
+            "CONC_PUBH": 3,
+            "CONC_HAMS": 9,
+            "CONC_P_12": 3,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000061",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intro to the Sociology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sociological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Senior Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "SOC 100:499",
+                  "MinCredits 12 in SOC @"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "#WST 208",
+                  "ART 212",
+                  "ART 240",
+                  "ART 260",
+                  "ART 310",
+                  "ART 347",
+                  "ART 465",
+                  "SWK 344"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Major Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "declaredMajor": "SOCO",
+          "minimumCredits": {
+            "min": 37
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_WGST": 12,
+            "CONC_ECUL": 6,
+            "CONC_PUBH": 3,
+            "CONC_HAMS": 9,
+            "CONC_P_12": 3,
+            "CONC_7_12": 12,
+            "OTHER_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201740",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000514",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intro to the Sociology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sociological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Senior Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "CRM 100:499",
+                  "SOC 100:499",
+                  "MinCredits 12 in SOC @"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "CRM 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Sociology/Anthropology Electives"
+              },
+              "minCredits": 18
+            }
+          ],
+          "declaredMajor": "SOCO",
+          "minimumCredits": {
+            "min": 37
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students with at least a 2.7 GPA overall and in the major will also",
+            "have the option to complete a Senior Thesis."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_WGST": 12,
+            "CONC_ECUL": 6,
+            "CONC_PUBH": 3,
+            "CONC_HAMS": 9,
+            "CONC_P_12": 3,
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002395",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Intro to the Sociology Major"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sociological Theory"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Senior Seminar"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              }
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=GIST OR CONC=DEIN OR CONC=MHSS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "10",
+                        "text": "Concentration Requirements"
+                      }
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ANT 100:499",
+                          "CRM 100:499",
+                          "SOC 100:499",
+                          "MinCredits 12 in SOC @"
+                        ],
+                        "hidden": [
+                          "ANT 1@",
+                          "2@",
+                          "3@",
+                          "4@",
+                          "CAS 201",
+                          "CAS 222",
+                          "CAS 340",
+                          "LAS 225",
+                          "LAS 240",
+                          "WST 300",
+                          "WST 370",
+                          "HSC 302",
+                          "ART 336",
+                          "CRM 1@",
+                          "2@",
+                          "3@",
+                          "4@",
+                          "SOC 1@",
+                          "2@",
+                          "3@",
+                          "4@",
+                          "WST 208",
+                          "WST 212",
+                          "WST 240",
+                          "WST 260",
+                          "WST 310",
+                          "WST 347",
+                          "WST 465",
+                          "SWK 344",
+                          "SPA 356"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Sociology Generalist Concentration Requirements"
+                      },
+                      "minCredits": 18
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ]
+            }
+          ],
+          "declaredMajor": "SOCO",
+          "minimumCredits": {
+            "min": 37
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Sociology majors must choose a concentration from: Generalist, Mental Health and Social Services or Diversity, Equity, and Inclusion, until that is done",
+            "the requirements for the Sociology Generalist Concentration",
+            "will be displayed.",
+            "Students with at least a 2.7 GPA overall and in the major will also",
+            "have the option to complete a Senior Thesis."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 12,
+            "MAJOR_ELED": 12,
+            "MAJOR_WGST": 12,
+            "CONC_ECUL": 6,
+            "CONC_PUBH": 3,
+            "CONC_HAMS": 9,
+            "CONC_P_12": 3,
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}

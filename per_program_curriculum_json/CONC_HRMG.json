@@ -1,0 +1,48 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "HRMG": {
+      "programName": "Concentration in Human Resource Management",
+      "versions": [
+        {
+          "startTerm": "201710",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000432",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 333",
+                  "BUS 433",
+                  "BUS 436"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "PHIL": {
+      "programName": "Minor in Philosophy",
+      "versions": [
+        {
+          "startTerm": "201110",
+          "endTerm": "202020",
+          "requirementAuthority": "RA000322",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Perspectives in Philosophy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 200",
+                  "PHI 210",
+                  "PHI 215",
+                  "PHI 220",
+                  "PHI 230",
+                  "PHI 231",
+                  "PHI 235",
+                  "PHI 310",
+                  "PHI 312",
+                  "PHI 314",
+                  "PHI 320",
+                  "PHI 330",
+                  "PHI 340",
+                  "PHI 365",
+                  "PHI 371",
+                  "PHI 400",
+                  "PHI 420",
+                  "PHI 480"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Philosophy Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "202040",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001687",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 120"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Perspectives in Philosophy"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 2@",
+                  "3@",
+                  "4@ (With DWResident=Y)"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Philosophy Electives at Eastern"
+              },
+              "minCredits": 6
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHI 2@",
+                  "3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Philosophy Electives"
+              },
+              "minCredits": 6
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

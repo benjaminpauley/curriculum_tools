@@ -1,0 +1,1850 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "CPSC": {
+      "programName": "Major in Computer Science",
+      "versions": [
+        {
+          "startTerm": "201410",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000496",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 251"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Net-centric Computing/Networking Fundamentals"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 320"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Computer Organization and Architecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Data Structures and Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Program Language and Translations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Database and Information Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 385"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Software Engineering and Professional Practice"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Operating Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 347",
+                          "CSC 355",
+                          "CSC 356",
+                          "CSC 365",
+                          "CSC 366",
+                          "CSC 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Hardware Architecture"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Hardware Architecture"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 337",
+                          "CSC 338",
+                          "CSC 339",
+                          "CSC 358",
+                          "CSC 410"
+                        ]
+                      },
+                      "label": {
+                        "tag": "13",
+                        "text": "Net-Centric Computing"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "13",
+                    "text": "Net-Centric Computing"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 311",
+                          "CSC 375",
+                          "CSC 410",
+                          "CSC 456",
+                          "CSC 475"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "Software Development"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "14",
+                    "text": "Software Development"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 350",
+                          "CSC 351",
+                          "CSC 352",
+                          "CSC 353",
+                          "CSC 430",
+                          "CSC 455"
+                        ]
+                      },
+                      "label": {
+                        "tag": "15",
+                        "text": "Computational Science"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "15",
+                    "text": "Computational Science"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CSC 300: 499"
+                        ],
+                        "hidden": [
+                          "3@",
+                          "4@",
+                          "MAT 350",
+                          "MAT 353"
+                        ]
+                      },
+                      "label": {
+                        "tag": "16",
+                        "text": "Computer Science Electives"
+                      },
+                      "minCredits": 12
+                    }
+                  ],
+                  "label": {
+                    "tag": "16",
+                    "text": "Computer Science Electives"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "Computer Science Elective Areas"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "MAT 230"
+                ]
+              },
+              "label": {
+                "tag": "18",
+                "text": "Discrete Math for Computer Science or Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "19",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "20",
+                "text": "Calculus II with Technology"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade below 2.0 (C) in any 300- or 400-level course is",
+            "unacceptable toward the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 15,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 9,
+            "CONC_MEDC": 15
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000202",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 251"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Net-centric Computing/Networking Fundamentals"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 320"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Computer Organization and Architecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Data Structures and Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Programming Languages and Translation"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Database and Info Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 385"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Software Engineering and Professional Practice"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Operating Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "MAT 230"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Discrete Math for Computer Science or Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "13",
+                "text": "300/400 Level Computer Science Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 367",
+                  "CSC 300:499",
+                  "MAT 244",
+                  "MAT 340",
+                  "MAT 350"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Computer Science Electives"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 49
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade below 2.0 (C) in any 300- or 400-level course is",
+            "unacceptable toward the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "MAJOR_BUIS": 3,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 9,
+            "CONC_MEDC": 15,
+            "CONC_DATA": 8
+          }
+        },
+        {
+          "startTerm": "201810",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000497",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 180"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Fundamentals of Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Data Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 320"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Computer Organization and Architecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Database and Info Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Networking & Distributed Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Operating Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Software Engineering"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "MAT 230"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Discrete Math for Computer Science or Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300: 499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "300/400 Level Computer Science Electives"
+              },
+              "minCredits": 8
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 367",
+                  "CSC 300:499",
+                  "MAT 244",
+                  "MAT 340",
+                  "MAT 350"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Computer Science Electives"
+              },
+              "minCredits": 3
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 9,
+            "CONC_MEDC": 9,
+            "CONC_DATA": 9,
+            "MAJOR_NMST": 12,
+            "MAJOR_BUIS": 3
+          }
+        },
+        {
+          "startTerm": "202010",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001305",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 180"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Fundamentals of Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Data Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 320"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Computer Organization and Architecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Database and Info Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 401"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Networking & Distributed Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Operating Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Software Engineering"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "MAT 230"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Discrete Math for Computer Science or Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300: 499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "499 MinCredits 8 in CSC @ tag=MINCSCCREDS"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "300/400 Level Computer Science Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 367",
+                  "CSC 300:499",
+                  "MAT 244",
+                  "MAT 340",
+                  "MAT 350"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Computer Science Electives"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "For CSC 210, 231 and 270 a minimum grade of 2.0 (C)",
+            "for each course is required.",
+            "In any 300- or 400-level CSC courses, either a minimum",
+            "grade of C in each course or a minimum average GPA of 2.3",
+            "must be earned in these courses."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "CSC 210 (With DWGrade <2)"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 9,
+            "CONC_MEDC": 15,
+            "MAJOR_NMST": 6,
+            "MAJOR_BUIS": 3,
+            "CONC_DATA": 9
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001942",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 180"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Fundamentals of Computing"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Computer Science and Programming I"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 251"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3.5",
+                "text": "Computer Networking Fundamentals and Practice"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Data Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 320"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Computer Organization and Architecture"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 335"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Computer Algorithms"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 341"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Database and Info Management"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Operating Systems"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 445"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Software Engineering"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Senior Research"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "MAT 230"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Discrete Math for Computer Science or Discrete Structures"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300: 499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "499 MinCredits 8 in CSC @ tag=MINCSCCREDS"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "300/400 Level Computer Science Electives"
+              },
+              "minClasses": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 367",
+                  "CSC 300:499",
+                  "MAT 244",
+                  "MAT 340",
+                  "MAT 350"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "CSC 499"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Computer Science Electives"
+              },
+              "minClasses": 1
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 52
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "For CSC 210, 231 and 270 a minimum grade of 2.0 (C)",
+            "for each course is required.",
+            "In any 300- or 400-level CSC courses, either a minimum",
+            "grade of C in each course or a minimum average GPA of 2.3",
+            "must be earned in these courses."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "CSC 210 (With DWGrade <2)"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MATH": 6,
+            "CONC_MEDC": 15,
+            "MAJOR_NMST": 6,
+            "MAJOR_BUIS": 3,
+            "CONC_DATA": 6,
+            "CONC_TEAC": 3,
+            "CONC_CPSC": 6,
+            "MAJOR_DATA": 10
+          }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002674",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 180"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Fundamentals of Computing"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 230",
+                      "MAT 230"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Discrete Math for Computer Science or Discrete Structures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 243"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Calculus I with Technology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 244"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Calculus II with Technology"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Computer Science & Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 231"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Computer Science & Programming II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Structures"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 445"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Software Engineering"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 341"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Database and Info Management"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 450"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Senior Research"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "Required Courses"
+              }
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 251"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Computer Networking Fundamentals and Practice"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 320"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Computer Organization and Architecture"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Computer Algorithms"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Programming Languages"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 440"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Operating Systems"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "Computer Science Principles"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300: 498",
+                  "MAT 340",
+                  "MAT 350",
+                  "BIS 367"
+                ],
+                "hidden": [
+                  "CSC 3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ],
+                "except": [
+                  "CSC 485",
+                  "CSC 490",
+                  "CSC 491",
+                  "499 MinCredits 9 in CSC @ tag=MINCSCCREDS"
+                ]
+              },
+              "label": {
+                "tag": "18",
+                "text": "Computer Science Electives"
+              },
+              "minCredits": 12
+            }
+          ],
+          "declaredMajor": "CPSC",
+          "minimumCredits": {
+            "min": 59
+          },
+          "minimumGPA": 2.3,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "For CSC 210, 231 and 270 a minimum grade of 2.0 (C)",
+            "for each course is required.",
+            "In any 300- or 400-level CSC courses, either a minimum",
+            "grade of C in each course or a minimum average GPA of 2.3",
+            "must be earned in these courses."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "CSC 210 (With DWGrade <2)"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_MATH": 10,
+            "CONC_7_12": 12,
+            "CONC_EESC": 3,
+            "CONC_SUST": 3,
+            "CONC_MEDC": 15,
+            "MAJOR_NMST": 6,
+            "MAJOR_BUIS": 3,
+            "CONC_DATA": 6,
+            "CONC_TEAC": 3,
+            "MAJOR_Data": 10,
+            "CONC_CPSC": 6,
+            "CONC_MATH": 6
+          }
+        }
+      ]
+    }
+  }
+}

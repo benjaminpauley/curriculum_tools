@@ -1,0 +1,83 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MHSS": {
+      "programName": "Concentration in Mental Health and Social Services",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002398",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 312"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Sociology of Mental illness"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 107",
+                  "SOC 209",
+                  "SOC 212",
+                  "SOC 220",
+                  "SOC 265",
+                  "SOC 307",
+                  "SOC 310",
+                  "SOC 311",
+                  "SOC 318",
+                  "SOC 321",
+                  "SOC 480",
+                  "SOC 490",
+                  "SOC 495",
+                  "ANT 480",
+                  "CRM 480",
+                  "SWK 344",
+                  "SWK 435",
+                  "SWK 465",
+                  "WST 310",
+                  "MinCredits 9 in SOC @"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Mental Health and Social Services Electives"
+              },
+              "minCredits": 15
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Choose 15 credits of Mental Health & Social Services Electives, up to",
+            "six of which may be ANT, CRM, and SWK courses that appear in the list",
+            "below; the remainder must be SOC courses."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_CRIM": 3,
+            "CONC_GIST": 6,
+            "CONC_DEIN": 6
+          }
+        }
+      ]
+    }
+  }
+}

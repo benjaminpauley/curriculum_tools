@@ -1,0 +1,748 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DATA": {
+      "programName": "Concentration in Data Science",
+      "versions": [
+        {
+          "startTerm": "201910",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000400",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory/Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 231"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Computer Science and Progrmming II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Applications"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 373",
+                  "MAT 374",
+                  "CSC 314",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Category A Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 400",
+                  "MAT 440",
+                  "MAT 450",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202110",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001822",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory/Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Computer Science and Programming I"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 231"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Computer Science and Progrmming II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305",
+                      "MAT 343"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Applications"
+                  },
+                  "minClasses": 1
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 343",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 373",
+                  "MAT 374",
+                  "CSC 314",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Category A Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 341",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 400",
+                  "MAT 440",
+                  "MAT 450",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202350",
+          "requirementAuthority": "RA001999",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory/Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305",
+                      "MAT 343"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Applications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 210",
+                              "CSC 231"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Computer Programming I and II"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "3",
+                        "text": "Computer Programming I and II"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 202",
+                              "CSC 203"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Intro to Progamming and Machine Intelligence and Adv. Programming"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "Intro to Progamming and Machine Intelligence and Adv. Programming"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "4.1",
+                    "text": "Computer Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 343",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 373",
+                  "MAT 374",
+                  "CSC 314",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Category A Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 320",
+                  "MAT 341",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 380",
+                  "MAT 400",
+                  "MAT 440",
+                  "MAT 450",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002365",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 320",
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Number Theory/Geometry"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 342"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Explorations in Data Science"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CSC 305",
+                      "MAT 343"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Data Mining and Applications"
+                  },
+                  "minClasses": 1
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 210",
+                              "CSC 231"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3",
+                            "text": "Computer Programming I and II"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "3",
+                        "text": "Computer Programming I and II"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "CSC 202",
+                              "CSC 203"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Intro to Progamming and Machine Intelligence and Adv. Programming"
+                          },
+                          "minClasses": 2
+                        }
+                      ],
+                      "label": {
+                        "tag": "4",
+                        "text": "Intro to Progamming and Machine Intelligence and Adv. Programming"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "4.1",
+                    "text": "Computer Science"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "Required",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              }
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 343",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 360",
+                  "MAT 373",
+                  "MAT 374",
+                  "CSC 314",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Category A Concentration Elective"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 320",
+                  "MAT 341",
+                  "MAT 345",
+                  "MAT 350",
+                  "MAT 353",
+                  "MAT 355",
+                  "MAT 356",
+                  "MAT 360",
+                  "MAT 370",
+                  "MAT 371",
+                  "MAT 373",
+                  "MAT 374",
+                  "MAT 380",
+                  "MAT 400",
+                  "MAT 440",
+                  "MAT 450",
+                  "CSC 315",
+                  "CSC 360",
+                  "ECO 305"
+                ]
+              },
+              "label": {
+                "tag": "Electives",
+                "text": "Concentration Elective"
+              },
+              "minClasses": 2
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_CPSC": 6,
+            "MAJOR_BUIS": 6
+          }
+        }
+      ]
+    }
+  }
+}

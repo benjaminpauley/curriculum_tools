@@ -1,0 +1,266 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MINL": {
+      "programName": "Concentration in Music Industry and Leadership",
+      "versions": [
+        {
+          "startTerm": "201940",
+          "endTerm": "202150",
+          "requirementAuthority": "RA001322",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Music Recording Techniques"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 361"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Leadership in Music Organizations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Special Topics/Independent Study/Practicum"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 495"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Internship in Music"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 220",
+                  "MUS 240",
+                  "MUS 304",
+                  "MUS 307",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 312",
+                  "MUS 318",
+                  "MUS 320",
+                  "MUS 340",
+                  "MUS 355",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Electives from Another Concentration"
+              },
+              "minCredits": 3
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "202350",
+          "requirementAuthority": "RA001993",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Intermediate Music Production and Technology"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Leadership in Music Organizations"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Special Topics/Independent Study/Practicum"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 495"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Internship in Music"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002343",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 301"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Music Recording Techniques"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Leadership in the Performing Arts"
+              },
+              "minClasses": 1
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 362",
+                  "MUS 395"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Special Topics/Independent Study/Practicum"
+              },
+              "minCredits": 3
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 495"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Internship in Music/Approved Capstone"
+              },
+              "minClasses": 1
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        }
+      ]
+    }
+  }
+}
