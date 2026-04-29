@@ -4051,6 +4051,7 @@
               }
             }
           ],
+          "degreeType": "BA",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 44,
@@ -4357,6 +4358,7 @@
               ]
             }
           ],
+          "degreeType": "BS",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 53,
