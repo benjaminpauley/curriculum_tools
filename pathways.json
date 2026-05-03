@@ -178,9 +178,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -201,9 +202,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -839,9 +841,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -862,9 +865,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -1219,9 +1223,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -1242,9 +1247,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -1700,9 +1706,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -1723,9 +1730,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -2258,9 +2266,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -2281,9 +2290,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -2815,9 +2825,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -2838,9 +2849,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -3419,9 +3431,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -4038,9 +4051,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -4450,9 +4464,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -4626,9 +4641,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -4649,9 +4665,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -5253,9 +5270,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -5887,9 +5905,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -5910,9 +5929,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -6222,9 +6242,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -6245,9 +6266,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -6756,9 +6778,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -6779,9 +6802,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -6837,9 +6861,10 @@
               "subsection": "Major Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -7419,9 +7444,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -7442,9 +7468,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -7904,9 +7931,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -7927,9 +7955,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -8256,9 +8285,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -8314,9 +8344,10 @@
               "subsection": "Mathematics Prerequisite (if needed)",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -8772,9 +8803,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -9781,9 +9813,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -10867,9 +10900,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -11952,9 +11986,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -13062,9 +13097,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -14151,9 +14187,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -15284,9 +15321,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -16323,9 +16361,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -17277,9 +17316,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -18257,9 +18297,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -18280,9 +18321,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -18429,9 +18471,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -19300,9 +19343,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -20286,9 +20330,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -21494,9 +21539,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -22327,9 +22373,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -23365,9 +23412,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -24376,9 +24424,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -25412,9 +25461,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -26428,9 +26478,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -26451,9 +26502,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -27462,9 +27514,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -28402,9 +28455,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -28425,9 +28479,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -28777,9 +28832,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -29912,9 +29968,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -31124,9 +31181,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -32335,9 +32393,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -33571,9 +33630,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -34768,9 +34828,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -36027,9 +36088,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -37016,9 +37078,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -38132,9 +38195,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -39250,9 +39314,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -40330,9 +40395,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -41457,9 +41523,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -42569,9 +42636,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -43706,9 +43774,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -44824,9 +44893,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -44847,9 +44917,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -45959,9 +46030,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -47000,9 +47072,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -47023,9 +47096,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -47154,9 +47228,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -48151,9 +48226,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -49268,9 +49344,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -50411,9 +50488,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -50434,9 +50512,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -50916,9 +50995,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -50939,9 +51019,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -51380,9 +51461,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -51403,9 +51485,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -51985,9 +52068,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -52008,9 +52092,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -52474,9 +52559,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -52497,9 +52583,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -53007,9 +53094,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -53030,9 +53118,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -53567,9 +53656,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -53590,9 +53680,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -54025,9 +54116,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -54048,9 +54140,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -54551,9 +54644,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -54609,9 +54703,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -54890,9 +54985,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -55346,9 +55442,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -55369,9 +55466,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -56108,9 +56206,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -56513,9 +56612,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -56536,9 +56636,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -57393,9 +57494,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -57416,9 +57518,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -57875,9 +57978,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -57898,9 +58002,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -58555,9 +58660,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -58578,9 +58684,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -59038,9 +59145,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -59351,9 +59459,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -59374,9 +59483,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -60345,9 +60455,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 155/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 155"
+              "MAT 155",
+              "MAT 155P"
             ],
             "raw": "MAT 155/P",
             "notes": [
@@ -60368,9 +60479,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -60965,9 +61077,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -60988,9 +61101,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -61849,9 +61963,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -61872,9 +61987,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -62801,9 +62917,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -62954,9 +63071,10 @@
               "subsection": "Mathematics Prerequisite",
               "raw_course_code": "MAT 155/P",
               "course_classification": {
-                "code_type": "placement_variant",
+                "code_type": "choice",
                 "course_codes": [
-                  "MAT 155"
+                  "MAT 155",
+                  "MAT 155P"
                 ],
                 "raw": "MAT 155/P",
                 "notes": [
@@ -63754,9 +63872,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -63777,9 +63896,10 @@
         "foundational_writing": {
           "raw_course_code": "ENG 100/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "ENG 100"
+              "ENG 100",
+              "ENG 100P"
             ],
             "raw": "ENG 100/P",
             "notes": [
@@ -64241,9 +64361,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -64544,9 +64665,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
@@ -65054,9 +65176,10 @@
         "foundational_math": {
           "raw_course_code": "MAT 135/P",
           "course_classification": {
-            "code_type": "placement_variant",
+            "code_type": "choice",
             "course_codes": [
-              "MAT 135"
+              "MAT 135",
+              "MAT 135P"
             ],
             "raw": "MAT 135/P",
             "notes": [
