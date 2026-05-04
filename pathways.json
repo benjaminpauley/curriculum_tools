@@ -3577,7 +3577,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -3604,7 +3604,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -3831,7 +3831,7 @@
                 ],
                 "raw": "CHE 316/317",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "Biochemistry I w/Lab",
               "requirement_type": "Major",
@@ -3858,7 +3858,7 @@
                 ],
                 "raw": "CHE 318/319",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Biochemistry II w/Lab",
               "requirement_type": "Major",
@@ -4392,7 +4392,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -4419,7 +4419,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -7677,13 +7677,14 @@
               "subsection": null,
               "raw_course_code": "CRM 475/490",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "CRM 475",
                   "CRM 490"
                 ],
                 "raw": "CRM 475/490",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Internship (Group or Individual)",
               "requirement_type": "Major",
@@ -8164,13 +8165,14 @@
               "subsection": null,
               "raw_course_code": "CRM 475/490",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "CRM 475",
                   "CRM 490"
                 ],
                 "raw": "CRM 475/490",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Internship (Group or Individual)",
               "requirement_type": "Major",
@@ -9359,13 +9361,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -9385,13 +9388,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -10446,13 +10450,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -10472,13 +10477,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -11532,13 +11538,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -11558,13 +11565,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -12643,13 +12651,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -12669,13 +12678,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -13529,7 +13539,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -13556,7 +13566,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -13608,7 +13618,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth w/Lab",
               "requirement_type": "Major",
@@ -13733,13 +13743,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -13759,13 +13770,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -14867,13 +14879,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -14893,13 +14906,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -15907,13 +15921,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -15933,13 +15948,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -16862,13 +16878,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -16888,13 +16905,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -17864,13 +17882,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -17890,13 +17909,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -18889,13 +18909,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -18915,13 +18936,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -19549,7 +19571,7 @@
                 ],
                 "raw": "MUS 205/215",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory I + Sight/Ear Training Lab I",
               "requirement_type": "Major",
@@ -19576,7 +19598,7 @@
                 ],
                 "raw": "MUS 206/216",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory II + Sight/Ear-Training Lab II",
               "requirement_type": "Major",
@@ -19876,13 +19898,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -19902,13 +19925,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -21085,13 +21109,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -21111,13 +21136,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -21919,13 +21945,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -21945,13 +21972,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -22958,13 +22986,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -22984,13 +23013,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -23652,7 +23682,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -24664,7 +24694,7 @@
                 ],
                 "raw": "EES 104/112",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -25701,7 +25731,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -26717,7 +26747,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -27754,7 +27784,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -29413,13 +29443,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -29439,13 +29470,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -29495,13 +29527,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -30626,13 +30659,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -30652,13 +30686,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -30708,13 +30743,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -31838,13 +31874,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -31864,13 +31901,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -31920,13 +31958,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -33075,13 +33114,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -33101,13 +33141,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -33157,13 +33198,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -34044,7 +34086,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -34071,7 +34113,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -34123,7 +34165,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth w/Lab",
               "requirement_type": "Major",
@@ -34273,13 +34315,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -34299,13 +34342,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -34355,13 +34399,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -35533,13 +35578,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -35559,13 +35605,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -35615,13 +35662,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -36523,13 +36571,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -36549,13 +36598,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -36605,13 +36655,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -37640,13 +37691,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -37666,13 +37718,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -37722,13 +37775,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -38352,7 +38406,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth/Earth Science Lab",
               "requirement_type": "Major",
@@ -38429,7 +38483,7 @@
                 ],
                 "raw": "EES 300/301",
                 "notes": [],
-                "lab_pair_confidence": "probable"
+                "lab_pair_confidence": null
               },
               "title": "Intro to Geographic Information Systems w/Lab",
               "requirement_type": "Major",
@@ -38531,7 +38585,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -38558,7 +38612,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -38759,13 +38813,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -38785,13 +38840,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -38841,13 +38897,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -39840,13 +39897,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -39866,13 +39924,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -39922,13 +39981,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -40968,13 +41028,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -40994,13 +41055,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -41050,13 +41112,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -41432,8 +41495,8 @@
       "program_name": "ELE/ED and Liberal Studies: Earth Science",
       "program_name_from_sheet": "Elementary Education and Liberal Studies Major: Earth Science Concentration",
       "degree_type": "dual",
-      "banner_major_code": ["PELM", "ELED", "LBST"],
-      "banner_concentration_code": "EES",
+      "banner_major_code": null,
+      "banner_concentration_code": null,
       "banner_code_note": "Banner mapping unknown — requires manual lookup or Banner export.",
       "source_file": "ele-ed-and-liberal-studies-earth-science.xlsx",
       "plan_revision_date": "Plan revised: Summer 2025",
@@ -41763,7 +41826,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -42876,7 +42939,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -44014,7 +44077,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -45132,7 +45195,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -46270,7 +46333,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth & Earth Science Lab",
               "requirement_type": "Major",
@@ -47671,13 +47734,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -47697,13 +47761,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -47753,13 +47818,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -48432,7 +48498,7 @@
                 ],
                 "raw": "MUS 205/215",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory I + Sight/Ear Training Lab I",
               "requirement_type": "Major",
@@ -48459,7 +48525,7 @@
                 ],
                 "raw": "MUS 206/216",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory II + Sight/Ear-Training Lab II",
               "requirement_type": "Major",
@@ -48789,13 +48855,14 @@
               "subsection": null,
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -48815,13 +48882,14 @@
               "subsection": null,
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -48871,13 +48939,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -49954,13 +50023,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -49980,13 +50050,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -50036,13 +50107,14 @@
               "subsection": null,
               "raw_course_code": "PSY 206/208",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "PSY 206",
                   "PSY 208"
                 ],
                 "raw": "PSY 206/208",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Psychology of Childhood or Adolescence",
               "requirement_type": "EDU",
@@ -51085,7 +51157,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth/Earth Science Lab",
               "requirement_type": "Major",
@@ -51162,7 +51234,7 @@
                 ],
                 "raw": "EES 300/301",
                 "notes": [],
-                "lab_pair_confidence": "probable"
+                "lab_pair_confidence": null
               },
               "title": "Intro to Geographic Information Systems w/Lab",
               "requirement_type": "Major",
@@ -51264,7 +51336,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -51291,7 +51363,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -52258,7 +52330,7 @@
                 ],
                 "raw": "BIO 304/314",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "Genetics and Society/Lab",
               "requirement_type": "Major",
@@ -52438,7 +52510,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I/Lab",
               "requirement_type": "Concentration",
@@ -52465,7 +52537,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II/Lab",
               "requirement_type": "Concentration",
@@ -52749,7 +52821,7 @@
                 ],
                 "raw": "BIO 304/314",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "Genetics and Society/Lab",
               "requirement_type": "Major",
@@ -53284,7 +53356,7 @@
                 ],
                 "raw": "BIO 304/314",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "Genetics and Society/Lab",
               "requirement_type": "Major",
@@ -53537,7 +53609,7 @@
                 ],
                 "raw": "BIO 301/302*",
                 "notes": [],
-                "lab_pair_confidence": "probable"
+                "lab_pair_confidence": null
               },
               "title": "Microbes and Your Health/Lab",
               "requirement_type": "Concentration",
@@ -55121,7 +55193,7 @@
                 ],
                 "raw": "MUS 205/215",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory I + Sight/Ear Training Lab I",
               "requirement_type": "Major",
@@ -55148,7 +55220,7 @@
                 ],
                 "raw": "MUS 206/216",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Music Theory II + Sight/Ear-Training Lab II",
               "requirement_type": "Major",
@@ -55607,7 +55679,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I/Lab",
               "requirement_type": "Major",
@@ -55797,8 +55869,8 @@
               },
               "year_min": 2,
               "year_max": 2,
-              "semester": null,
-              "rec_year_raw": "2nd",
+              "semester": "S",
+              "rec_year_raw": "2nd (S)",
               "prereq_note_raw": "Taken together in 2nd year Spring (Admission to BSN program)"
             },
             {
@@ -55822,8 +55894,8 @@
               },
               "year_min": 2,
               "year_max": 2,
-              "semester": null,
-              "rec_year_raw": "2nd",
+              "semester": "S",
+              "rec_year_raw": "2nd (S)",
               "prereq_note_raw": null
             },
             {
@@ -55847,8 +55919,8 @@
               },
               "year_min": 2,
               "year_max": 2,
-              "semester": null,
-              "rec_year_raw": "2nd",
+              "semester": "S",
+              "rec_year_raw": "2nd (S)",
               "prereq_note_raw": null
             },
             {
@@ -55872,8 +55944,8 @@
               },
               "year_min": 3,
               "year_max": 3,
-              "semester": null,
-              "rec_year_raw": "3rd",
+              "semester": "F",
+              "rec_year_raw": "3rd (F)",
               "prereq_note_raw": "Taken together in 3rd year Fall (Admission to BSN program)"
             },
             {
@@ -55897,8 +55969,8 @@
               },
               "year_min": 3,
               "year_max": 3,
-              "semester": null,
-              "rec_year_raw": "3rd",
+              "semester": "F",
+              "rec_year_raw": "3rd (F)",
               "prereq_note_raw": null
             },
             {
@@ -55922,8 +55994,8 @@
               },
               "year_min": 3,
               "year_max": 3,
-              "semester": null,
-              "rec_year_raw": "3rd",
+              "semester": "S",
+              "rec_year_raw": "3rd (S)",
               "prereq_note_raw": "Taken together in 3rd year Spring (Admission to BSN program)"
             },
             {
@@ -55947,8 +56019,8 @@
               },
               "year_min": 3,
               "year_max": 3,
-              "semester": null,
-              "rec_year_raw": "3rd",
+              "semester": "S",
+              "rec_year_raw": "3rd (S)",
               "prereq_note_raw": null
             },
             {
@@ -55972,8 +56044,8 @@
               },
               "year_min": 3,
               "year_max": 3,
-              "semester": null,
-              "rec_year_raw": "3rd",
+              "semester": "S",
+              "rec_year_raw": "3rd (S)",
               "prereq_note_raw": null
             },
             {
@@ -55997,8 +56069,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "F",
+              "rec_year_raw": "4th (F)",
               "prereq_note_raw": "Taken together in 4th year Fall (Admission to BSN program)"
             },
             {
@@ -56022,8 +56094,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "F",
+              "rec_year_raw": "4th (F)",
               "prereq_note_raw": null
             },
             {
@@ -56047,8 +56119,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "F",
+              "rec_year_raw": "4th (F)",
               "prereq_note_raw": null
             },
             {
@@ -56072,8 +56144,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "S",
+              "rec_year_raw": "4th (S)",
               "prereq_note_raw": "Taken together in 4th year Spring (Admission to BSN program)"
             },
             {
@@ -56097,8 +56169,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "S",
+              "rec_year_raw": "4th (S)",
               "prereq_note_raw": null
             },
             {
@@ -56122,8 +56194,8 @@
               },
               "year_min": 4,
               "year_max": 4,
-              "semester": null,
-              "rec_year_raw": "4th",
+              "semester": "S",
+              "rec_year_raw": "4th (S)",
               "prereq_note_raw": null
             }
           ]
@@ -57119,13 +57191,14 @@
               "subsection": null,
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "US History",
               "requirement_type": "Certification",
@@ -59098,7 +59171,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -59125,7 +59198,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -59180,7 +59253,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -59207,7 +59280,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -59939,7 +60012,7 @@
               "subsection": "*Major Electives (18 credits. See department for course options)",
               "raw_course_code": "ENG 214/215 (rec.)",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "ENG 214",
                   "ENG 215"
@@ -59947,7 +60020,8 @@
                 "raw": "ENG 214/215 (rec.)",
                 "notes": [
                   "advisory_recommendation"
-                ]
+                ],
+                "lab_pair_confidence": null
               },
               "title": "Elective (2 of 3)",
               "requirement_type": "Major",
@@ -60047,13 +60121,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -60073,13 +60148,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -60618,7 +60694,7 @@
                 ],
                 "raw": "EES 104/112*",
                 "notes": [],
-                "lab_pair_confidence": "likely"
+                "lab_pair_confidence": null
               },
               "title": "Dynamic Earth/Earth Science Lab",
               "requirement_type": "Major",
@@ -60695,7 +60771,7 @@
                 ],
                 "raw": "EES 300/301",
                 "notes": [],
-                "lab_pair_confidence": "probable"
+                "lab_pair_confidence": null
               },
               "title": "Intro to Geographic Information Systems w/Lab",
               "requirement_type": "Major",
@@ -60797,7 +60873,7 @@
                 ],
                 "raw": "CHE 210/212",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry I w/Lab",
               "requirement_type": "Major",
@@ -60824,7 +60900,7 @@
                 ],
                 "raw": "CHE 211/213",
                 "notes": [],
-                "lab_pair_confidence": "confirmed"
+                "lab_pair_confidence": null
               },
               "title": "General Chemistry II w/Lab",
               "requirement_type": "Major",
@@ -61581,13 +61657,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -62514,13 +62591,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
@@ -63464,13 +63542,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HIS 120/121",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HIS 120",
                   "HIS 121"
                 ],
                 "raw": "HIS 120/121",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "U.S History Course",
               "requirement_type": "EDU",
@@ -63490,13 +63569,14 @@
               "subsection": "Liberal Arts/General Education Certification Requirements (can be taken as ELAC courses)",
               "raw_course_code": "HPE 201/210",
               "course_classification": {
-                "code_type": "choice",
+                "code_type": "lab_pair",
                 "course_codes": [
                   "HPE 201",
                   "HPE 210"
                 ],
                 "raw": "HPE 201/210",
-                "notes": []
+                "notes": [],
+                "lab_pair_confidence": null
               },
               "title": "Current Issues in Health Ed/Personal Health",
               "requirement_type": "EDU",
