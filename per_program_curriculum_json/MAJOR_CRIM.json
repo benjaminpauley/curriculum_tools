@@ -5,9 +5,10 @@
       "programName": "Major in Criminology",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "202350",
-          "requirementAuthority": "RA000498",
+          "startTerm": "000000",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000029",
+          "dw_req_id": "RA000029",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "7",
                     "text": "Introduction to Criminology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "8",
                     "text": "Criminological Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "9",
                     "text": "Criminology Senior Seminar"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "10",
                     "text": "Introduction to Sociology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "11",
                     "text": "Methods of Social Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "12",
                     "text": "Statistics for Social Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,13 +122,236 @@
                     "tag": "13",
                     "text": "Criminology Internship: Group or Individual Supervision"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 358",
+                  "CRM 105",
+                  "CRM 317",
+                  "CRM 340",
+                  "CRM 360",
+                  "CRM 365",
+                  "CRM 480",
+                  "SOC 101",
+                  "SOC 209",
+                  "SOC 220",
+                  "SOC 310",
+                  "SOC 311",
+                  "SOC 315",
+                  "SOC 318",
+                  "SOC 325"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CRIM\")"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Crime Topics Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 345",
+                  "SOC 208",
+                  "SOC 240",
+                  "SOC 250",
+                  "SOC 307",
+                  "SOC 312",
+                  "SOC 346"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CDIV\")"
+                ]
+              },
+              "label": {
+                "tag": "16",
+                "text": "Social and Cultural Diversity Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "CRIM",
+          "minimumCredits": {
+            "min": 41
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 21,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Criminology majors must have an overall 2.0 GPA in the set of",
+            "major required courses and all courses counted toward the major.",
+            "A minimum of 21 credits of the major must be taken at Eastern",
+            "CT State University"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_H/SS": 12,
+            "MAJOR_LHRM": 12,
+            "MAJOR_SOWK": 6,
+            "MAJOR_SOCO": 22,
+            "MAJOR_WGST": 22,
+            "CONC_7_12": 9,
+            "CONC_PUBH": 3,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000498",
+          "dw_req_id": "RA000498",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CRM 210"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introduction to Criminology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CRM 410"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Criminological Theory"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CRM 450"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Criminology Senior Seminar"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "CRM 475",
+                      "CRM 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Criminology Internship: Group or Individual Supervision"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -158,7 +388,8 @@
                 "tag": "15",
                 "text": "Crime Topics Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -187,7 +418,8 @@
                 "tag": "16",
                 "text": "Social and Cultural Diversity Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "CRIM",
@@ -228,6 +460,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002348",
+          "dw_req_id": "RA002348",
           "rules": [
             {
               "type": "subset",
@@ -245,7 +478,8 @@
                     "tag": "7",
                     "text": "Introduction to Criminology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -260,7 +494,8 @@
                     "tag": "8",
                     "text": "Criminological Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -275,7 +510,8 @@
                     "tag": "9",
                     "text": "Criminology Senior Seminar"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -290,7 +526,8 @@
                     "tag": "10",
                     "text": "Introduction to Sociology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -305,7 +542,8 @@
                     "tag": "11",
                     "text": "Methods of Social Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -320,7 +558,8 @@
                     "tag": "12",
                     "text": "Statistics for Social Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -335,13 +574,15 @@
                     "tag": "13",
                     "text": "Criminology Internship: Group or Individual Supervision"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -351,9 +592,14 @@
                   "ANT 358",
                   "CRM 101",
                   "CRM 105",
+                  "CRM 209",
+                  "CRM 220",
                   "CRM 260",
+                  "CRM 311",
                   "CRM 317",
                   "CRM 320",
+                  "CRM 325",
+                  "CRM 330",
                   "CRM 340",
                   "CRM 345",
                   "CRM 350",
@@ -380,7 +626,8 @@
                 "tag": "15",
                 "text": "Crime Topics Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -409,7 +656,8 @@
                 "tag": "16",
                 "text": "Social and Cultural Diversity Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "CRIM",

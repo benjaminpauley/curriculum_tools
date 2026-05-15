@@ -1,0 +1,30 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "EEST": {
+      "programName": "Concentration in Environmental Earth Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000169",
+          "dw_req_id": "RA000169",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

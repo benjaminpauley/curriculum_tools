@@ -8,6 +8,7 @@
           "startTerm": "201610",
           "endTerm": "201850",
           "requirementAuthority": "RA000017",
+          "dw_req_id": "RA000017",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,13 +42,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Literary Criticism or Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -64,7 +68,8 @@
                 "tag": "4",
                 "text": "200-level Rhetoric and Composition Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -88,7 +93,8 @@
                 "tag": "5",
                 "text": "300-level Rhetoric and Composition Courses"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -136,7 +142,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -156,6 +163,7 @@
           "startTerm": "201910",
           "endTerm": "201920",
           "requirementAuthority": "RA000464",
+          "dw_req_id": "RA000464",
           "rules": [
             {
               "type": "subset",
@@ -173,7 +181,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -188,13 +197,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Literary Criticism or Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -212,7 +223,8 @@
                 "tag": "4",
                 "text": "200-level Rhetoric and Composition Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -236,7 +248,8 @@
                 "tag": "5",
                 "text": "300-level Rhetoric and Composition Courses"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -284,7 +297,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -304,6 +318,7 @@
           "startTerm": "201940",
           "endTerm": "202050",
           "requirementAuthority": "RA001250",
+          "dw_req_id": "RA001250",
           "rules": [
             {
               "type": "subset",
@@ -321,7 +336,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -336,13 +352,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Literary Criticism or Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -360,7 +378,8 @@
                 "tag": "4",
                 "text": "200-level Rhetoric and Composition Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -384,7 +403,8 @@
                 "tag": "5",
                 "text": "300-level Rhetoric and Composition Courses"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -432,7 +452,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -450,8 +471,9 @@
         },
         {
           "startTerm": "202110",
-          "endTerm": "202450",
+          "endTerm": "999999",
           "requirementAuthority": "RA001754",
+          "dw_req_id": "RA001754",
           "rules": [
             {
               "type": "subset",
@@ -469,7 +491,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -484,13 +507,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Literary Criticism or Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -507,7 +532,8 @@
                 "tag": "4",
                 "text": "200-level Rhetoric and Composition Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -531,7 +557,8 @@
                 "tag": "5",
                 "text": "300-level Rhetoric and Composition Courses"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -580,7 +607,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

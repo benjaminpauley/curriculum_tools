@@ -5,16 +5,18 @@
       "programName": "Major in Pre-Secondary Education",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "201920",
           "requirementAuthority": "RA000244",
+          "dw_req_id": "RA000244",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "2.1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -28,7 +30,8 @@
                 "tag": "3",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -43,7 +46,8 @@
                 "tag": "4",
                 "text": "Foundations of U.S. Education or International Cross Cultural Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "PSEC",
@@ -69,13 +73,15 @@
           "startTerm": "201940",
           "endTerm": "202450",
           "requirementAuthority": "RA001254",
+          "dw_req_id": "RA001254",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "2.1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -89,7 +95,8 @@
                 "tag": "3",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -104,7 +111,8 @@
                 "tag": "4",
                 "text": "Foundations of U.S. Education or International Cross Cultural Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "PSEC",
@@ -130,13 +138,15 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002638",
+          "dw_req_id": "RA002638",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "2.1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -150,7 +160,8 @@
                 "tag": "3",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -166,7 +177,8 @@
                 "tag": "4",
                 "text": "Foundations of U.S. Edu. or Intl. Cross Cultural Edu. or Global Field Study"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "PSEC",

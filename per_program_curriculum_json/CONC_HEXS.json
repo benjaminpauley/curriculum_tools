@@ -5,9 +5,10 @@
       "programName": "Concentration in Exercise and Sport Science",
       "versions": [
         {
-          "startTerm": "202310",
+          "startTerm": "000000",
           "endTerm": "202550",
           "requirementAuthority": "RA002144",
+          "dw_req_id": "RA002144",
           "rules": [
             {
               "type": "group",
@@ -27,7 +28,8 @@
                         "tag": "1",
                         "text": "Exercise Physiology with Lab"
                       },
-                      "minCredits": 4
+                      "minCredits": 4,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -50,7 +52,8 @@
                         "tag": "2",
                         "text": "Exercise Physiology and Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -62,7 +65,8 @@
               "label": {
                 "tag": "3",
                 "text": "Exercise Physiology and Lab"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -79,7 +83,8 @@
                 "tag": "4",
                 "text": "Introduction to Kinesiology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -96,7 +101,8 @@
                 "tag": "5",
                 "text": "Anatomy & Physiology I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -113,7 +119,8 @@
                 "tag": "6",
                 "text": "Anatomy & Physiology II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -128,7 +135,8 @@
                 "tag": "7",
                 "text": "Sport Psychology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -143,7 +151,8 @@
                 "tag": "8",
                 "text": "Seminar in Human Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -173,7 +182,8 @@
                 "tag": "9",
                 "text": "Exercise and Sport Science Concentration Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "7"
             }
           ],
           "degreeType": "BS",
@@ -194,6 +204,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002818",
+          "dw_req_id": "RA002818",
           "rules": [
             {
               "type": "course",
@@ -210,7 +221,8 @@
                 "tag": "1",
                 "text": "Introduction to Kinesiology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -227,7 +239,8 @@
                 "tag": "2",
                 "text": "Anatomy & Physiology I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -244,7 +257,8 @@
                 "tag": "3",
                 "text": "Anatomy & Physiology II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -259,7 +273,8 @@
                 "tag": "4",
                 "text": "Sport Psychology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -276,7 +291,8 @@
                 "tag": "5",
                 "text": "Exercise Physiology with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -291,7 +307,8 @@
                 "tag": "7",
                 "text": "Seminar in Human Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -321,7 +338,8 @@
                 "tag": "8",
                 "text": "Exercise and Sport Science Concentration Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "7"
             }
           ],
           "degreeType": "BS",

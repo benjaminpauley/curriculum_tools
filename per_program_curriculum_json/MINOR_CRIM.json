@@ -5,9 +5,10 @@
       "programName": "Minor in Criminology",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000286",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000092",
+          "dw_req_id": "RA000092",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,262 @@
                 "tag": "3",
                 "text": "Criminal Justice and Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 309"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Criminology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 375",
+                  "SOC 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Seminar & Field Instruction or Internship"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 358",
+                  "SOC 209",
+                  "SOC 220",
+                  "SOC 310",
+                  "SOC 311",
+                  "SOC 315",
+                  "SOC 318",
+                  "SOC 325"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CRIM\")"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Crime Topics"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 345",
+                  "SOC 208",
+                  "SOC 240",
+                  "SOC 250",
+                  "SOC 307",
+                  "SOC 312",
+                  "SOC 346"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CDIV\")"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Social Inequality/Diversity"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000285",
+          "dw_req_id": "RA000285",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 101"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Criminal Justice and Society"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 309"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Criminology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 375",
+                  "SOC 490"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Seminar & Field Instruction or Internship"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 358",
+                  "SOC 209",
+                  "SOC 220",
+                  "SOC 310",
+                  "SOC 311",
+                  "SOC 315",
+                  "SOC 318",
+                  "SOC 325"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CRIM\")"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Crime Topics"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ANT 345",
+                  "SOC 208",
+                  "SOC 240",
+                  "SOC 250",
+                  "SOC 307",
+                  "SOC 312",
+                  "SOC 346"
+                ],
+                "hidden": [
+                  "@ (With Attribute = \"CDIV\")"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Social Inequality/Diversity"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000286",
+          "dw_req_id": "RA000286",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 101"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Criminal Justice and Society"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +294,8 @@
                 "tag": "4",
                 "text": "Introduction to Criminology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -55,7 +312,8 @@
                 "tag": "5",
                 "text": "Seminar & Field Instruction or Internship"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -84,7 +342,8 @@
                 "tag": "6",
                 "text": "Crime Topics"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -109,7 +368,8 @@
                 "tag": "7",
                 "text": "Social Inequality/Diversity"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -137,6 +397,7 @@
           "startTerm": "201740",
           "endTerm": "999999",
           "requirementAuthority": "RA000287",
+          "dw_req_id": "RA000287",
           "rules": [
             {
               "type": "course",
@@ -152,7 +413,8 @@
                 "tag": "4",
                 "text": "Introduction to Criminology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -169,7 +431,8 @@
                 "tag": "5",
                 "text": "Seminar & Field Instruction or Internship"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -179,9 +442,14 @@
                   "ANT 358",
                   "CRM 101",
                   "CRM 105",
+                  "CRM 209",
+                  "CRM 220",
+                  "CRM 260",
+                  "CRM 311",
                   "CRM 317",
                   "CRM 320",
-                  "CRM 260",
+                  "CRM 325",
+                  "CRM 330",
                   "CRM 340",
                   "CRM 345",
                   "CRM 350",
@@ -202,7 +470,8 @@
                 "tag": "6",
                 "text": "Crime Topics"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -224,7 +493,8 @@
                 "tag": "7",
                 "text": "Social Inequality/Diversity"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

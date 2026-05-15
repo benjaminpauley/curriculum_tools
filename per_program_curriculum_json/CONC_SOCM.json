@@ -5,9 +5,10 @@
       "programName": "Concentration in Social Media",
       "versions": [
         {
-          "startTerm": "202310",
-          "endTerm": "202450",
+          "startTerm": "000000",
+          "endTerm": "999999",
           "requirementAuthority": "RA002195",
+          "dw_req_id": "RA002195",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Introducatin to Social Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Social Media Content Creation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Social Media Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Social Media Analytics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -82,7 +87,8 @@
                 "tag": "5",
                 "text": "Integrated Marketing Communication"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,

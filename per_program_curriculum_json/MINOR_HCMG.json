@@ -5,9 +5,10 @@
       "programName": "Minor in Healthcare Management",
       "versions": [
         {
-          "startTerm": "201940",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001300",
+          "dw_req_id": "RA001300",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Healthcare Management"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -43,7 +45,8 @@
                 "tag": "4",
                 "text": "Analyzing Healthcare Issues"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -65,7 +68,8 @@
                 "tag": "5",
                 "text": "Communicating about Healthcare"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -84,7 +88,8 @@
                 "tag": "6",
                 "text": "The Healthcare Environment"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

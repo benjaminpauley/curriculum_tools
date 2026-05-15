@@ -1,0 +1,30 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PMUS": {
+      "programName": "Major Concentration in Performing Arts: Music",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001451",
+          "dw_req_id": "RA001451",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

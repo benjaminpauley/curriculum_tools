@@ -5,9 +5,10 @@
       "programName": "Major in English",
       "versions": [
         {
-          "startTerm": "201610",
-          "endTerm": "201920",
-          "requirementAuthority": "RA000003",
+          "startTerm": "000000",
+          "endTerm": "201520",
+          "requirementAuthority": "RA000366",
+          "dw_req_id": "RA000366",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,693 @@
                     "tag": "1",
                     "text": "Introduction to English Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Writing For English Majors"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 212",
+                      "ENG 213",
+                      "ENG 214",
+                      "ENG 215",
+                      "ENG 356"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ESUR)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Survey Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 228",
+                      "ENG 356",
+                      "ENG 357",
+                      "ENG 307"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EWOM)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Women Writers"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 255",
+                      "ENG 256",
+                      "ENG 258",
+                      "ENG 259",
+                      "ENG 344",
+                      "ENG 345"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EETH)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Ethnicity in Literature"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 307",
+                      "ENG 316",
+                      "ENG 317",
+                      "ENG 323",
+                      "ENG 335",
+                      "ENG 336",
+                      "ENG 337"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EERL)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Early Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 318",
+                      "ENG 319",
+                      "ENG 320",
+                      "ENG 322",
+                      "ENG 331",
+                      "ENG 342"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EMID)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Middle Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 234",
+                      "ENG 257",
+                      "ENG 325",
+                      "ENG 332",
+                      "ENG 333",
+                      "ENG 350",
+                      "ENG 357"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ELAT)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Late Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 306",
+                      "ENG 340",
+                      "ENG 341",
+                      "ENG 347",
+                      "ENG 370",
+                      "ENG 371",
+                      "ENG 373",
+                      "ENG 374",
+                      "ENG 375",
+                      "ENG 380"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ELAN)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Language Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 102:498"
+                    ],
+                    "hidden": [
+                      "ENG 1@",
+                      "2@",
+                      "3@",
+                      "4@"
+                    ],
+                    "except": [
+                      "ENG 100",
+                      "100P",
+                      "ENG 461",
+                      "ENG 462",
+                      "499 # 101 LowestPriority"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "English Electives"
+                  },
+                  "minCredits": 9,
+                  "qualifiers": {
+                    "priority": "lowest"
+                  },
+                  "dw_rule_id": "1-9"
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "ENG 461",
+                              "462 Label 11 \"A"
+                            ]
+                          },
+                          "label": {
+                            "tag": null,
+                            "text": ""
+                          },
+                          "minCredits": 6,
+                          "dw_rule_id": "1-10-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "label": {
+                    "tag": "16",
+                    "text": "ENGLISH CAPSTONE OPTIONS - SELECT A, B, or C"
+                  },
+                  "dw_rule_id": "1-10"
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "ENGL >= 1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "17",
+                            "text": "English Exit Portfolio Complete"
+                          },
+                          "dw_rule_id": "1-11-0"
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "18",
+                            "text": "English Exit Portfolio Required"
+                          },
+                          "dw_rule_id": "1-11-1"
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ],
+                  "dw_rule_id": "1-11"
+                }
+              ],
+              "label": {
+                "tag": "19",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "declaredMajor": "ENGL",
+          "minimumCredits": {
+            "min": 42
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must earn a grade of C or",
+            "higher in all courses toward major requirements. 15 credits in the",
+            "English major must be taken at Eastern CT State University.",
+            "ENG 100/100P may not be used as part of the English major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_LBST": 9,
+            "MAJOR_NMST": 3,
+            "MAJOR_WGST": 20,
+            "CONC_7_12": 18,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 3,
+            "CONC_ENGL": 18
+          }
+        },
+        {
+          "startTerm": "201540",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000367",
+          "dw_req_id": "RA000367",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to English Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Writing For English Majors"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 212",
+                      "ENG 213",
+                      "ENG 214",
+                      "ENG 215",
+                      "ENG 356"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ESUR)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Survey Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 228",
+                      "ENG 356",
+                      "ENG 357",
+                      "ENG 307"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EWOM)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Women Writers"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 255",
+                      "ENG 256",
+                      "ENG 258",
+                      "ENG 259",
+                      "ENG 344",
+                      "ENG 345"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EETH)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Ethnicity in Literature"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 307",
+                      "ENG 316",
+                      "ENG 317",
+                      "ENG 323",
+                      "ENG 335",
+                      "ENG 336",
+                      "ENG 337"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EERL)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Early Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 218",
+                      "ENG 318",
+                      "ENG 319",
+                      "ENG 320",
+                      "ENG 322",
+                      "ENG 331",
+                      "ENG 342"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=EMID)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Middle Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 234",
+                      "ENG 257",
+                      "ENG 325",
+                      "ENG 332",
+                      "ENG 333",
+                      "ENG 350",
+                      "ENG 357"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ELAT)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Late Period"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 306",
+                      "ENG 340",
+                      "ENG 341",
+                      "ENG 347",
+                      "ENG 370",
+                      "ENG 371",
+                      "ENG 373",
+                      "ENG 374",
+                      "ENG 375",
+                      "ENG 380"
+                    ],
+                    "hidden": [
+                      "@ @ (with ATTRIBUTE=ELAN)"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Language Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 102:498"
+                    ],
+                    "hidden": [
+                      "ENG 1@",
+                      "2@",
+                      "3@",
+                      "4@"
+                    ],
+                    "except": [
+                      "ENG 100",
+                      "100P",
+                      "ENG 461",
+                      "ENG 462",
+                      "499 # 101 LowestPriority"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "English Electives"
+                  },
+                  "minCredits": 9,
+                  "qualifiers": {
+                    "priority": "lowest"
+                  },
+                  "dw_rule_id": "1-9"
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "and",
+                            "courses": [
+                              "ENG 461",
+                              "462 Label 11 \"A"
+                            ]
+                          },
+                          "label": {
+                            "tag": null,
+                            "text": ""
+                          },
+                          "minCredits": 6,
+                          "dw_rule_id": "1-10-0"
+                        }
+                      ]
+                    }
+                  ],
+                  "label": {
+                    "tag": "16",
+                    "text": "ENGLISH CAPSTONE OPTIONS - SELECT A, B, or C"
+                  },
+                  "dw_rule_id": "1-10"
+                },
+                {
+                  "type": "if_else",
+                  "branches": [
+                    {
+                      "condition": "ENGL >= 1",
+                      "rules": [
+                        {
+                          "type": "rule_complete",
+                          "label": {
+                            "tag": "17",
+                            "text": "English Exit Portfolio Complete"
+                          },
+                          "dw_rule_id": "1-11-0"
+                        }
+                      ],
+                      "conditionType": "ethos"
+                    },
+                    {
+                      "condition": null,
+                      "rules": [
+                        {
+                          "type": "rule_incomplete",
+                          "label": {
+                            "tag": "18",
+                            "text": "English Exit Portfolio Required"
+                          },
+                          "dw_rule_id": "1-11-1"
+                        }
+                      ],
+                      "conditionType": "static"
+                    }
+                  ],
+                  "dw_rule_id": "1-11"
+                }
+              ],
+              "label": {
+                "tag": "19",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "declaredMajor": "ENGL",
+          "minimumCredits": {
+            "min": 42
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must earn a grade of C or",
+            "higher in all courses toward major requirements. 15 credits in the",
+            "English major must be taken at Eastern CT State University.",
+            "ENG 100/100P may not be used as part of the English major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "MAJOR_LBST": 9,
+            "MAJOR_NMST": 3,
+            "MAJOR_WGST": 20,
+            "CONC_7_12": 18,
+            "CONC_HAMS": 9,
+            "CONC_NSCI": 3,
+            "CONC_ENGL": 18
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000003",
+          "dw_req_id": "RA000003",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ENG 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Introduction to English Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "group",
@@ -46,7 +733,8 @@
                             "tag": null,
                             "text": ""
                           },
-                          "minCredits": 6
+                          "minCredits": 6,
+                          "dw_rule_id": "1-1-0"
                         }
                       ]
                     }
@@ -54,7 +742,8 @@
                   "label": {
                     "tag": "7",
                     "text": "ENGLISH CAPSTONE OPTIONS - SELECT A, B, or C"
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "if_else",
@@ -67,7 +756,8 @@
                           "label": {
                             "tag": "8",
                             "text": "English Exit Portfolio Complete"
-                          }
+                          },
+                          "dw_rule_id": "1-2-0"
                         }
                       ],
                       "conditionType": "ethos"
@@ -80,18 +770,21 @@
                           "label": {
                             "tag": "9",
                             "text": "English Exit Portfolio Required"
-                          }
+                          },
+                          "dw_rule_id": "1-2-1"
                         }
                       ],
                       "conditionType": "static"
                     }
-                  ]
+                  ],
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -106,7 +799,8 @@
                       "label": {
                         "tag": "10.1",
                         "text": "General English Studies Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     },
                     {
                       "type": "if_else",
@@ -121,7 +815,8 @@
                               "label": {
                                 "tag": "11",
                                 "text": "Creative Writing Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-1-0"
                             },
                             {
                               "type": "if_else",
@@ -136,7 +831,8 @@
                                       "label": {
                                         "tag": "12",
                                         "text": "Cultural Studies Concentration Requirements"
-                                      }
+                                      },
+                                      "dw_rule_id": "2-1-1-0"
                                     },
                                     {
                                       "type": "if_else",
@@ -151,7 +847,8 @@
                                               "label": {
                                                 "tag": "13",
                                                 "text": "Early Childhood/Elementary Education Concentration Requirements"
-                                              }
+                                              },
+                                              "dw_rule_id": "2-1-1-1-0"
                                             },
                                             {
                                               "type": "if_else",
@@ -166,7 +863,8 @@
                                                       "label": {
                                                         "tag": "14",
                                                         "text": "Literary Studies Concentration Requirements"
-                                                      }
+                                                      },
+                                                      "dw_rule_id": "2-1-1-1-1-0"
                                                     },
                                                     {
                                                       "type": "if_else",
@@ -181,7 +879,8 @@
                                                               "label": {
                                                                 "tag": "15",
                                                                 "text": "Rhetoric & Composition Concentration Requirements"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "2-1-1-1-1-1-0"
                                                             },
                                                             {
                                                               "type": "if_else",
@@ -196,7 +895,8 @@
                                                                       "label": {
                                                                         "tag": "16",
                                                                         "text": "Student Designed Concentration Requirements"
-                                                                      }
+                                                                      },
+                                                                      "dw_rule_id": "2-1-1-1-1-1-1-0"
                                                                     },
                                                                     {
                                                                       "type": "if_else",
@@ -211,7 +911,8 @@
                                                                               "label": {
                                                                                 "tag": "17",
                                                                                 "text": "English for Secondary Education Concentration Requirements"
-                                                                              }
+                                                                              },
+                                                                              "dw_rule_id": "2-1-1-1-1-1-1-1-0"
                                                                             },
                                                                             {
                                                                               "type": "if_else",
@@ -224,52 +925,62 @@
                                                                                       "label": {
                                                                                         "tag": "18",
                                                                                         "text": "A Concentration is Required"
-                                                                                      }
+                                                                                      },
+                                                                                      "dw_rule_id": "2-1-1-1-1-1-1-1-1-0"
                                                                                     }
                                                                                   ],
                                                                                   "conditionType": "ethos"
                                                                                 }
-                                                                              ]
+                                                                              ],
+                                                                              "dw_rule_id": "2-1-1-1-1-1-1-1-1"
                                                                             }
                                                                           ],
                                                                           "conditionType": "static"
                                                                         }
-                                                                      ]
+                                                                      ],
+                                                                      "dw_rule_id": "2-1-1-1-1-1-1-1"
                                                                     }
                                                                   ],
                                                                   "conditionType": "static"
                                                                 }
-                                                              ]
+                                                              ],
+                                                              "dw_rule_id": "2-1-1-1-1-1-1"
                                                             }
                                                           ],
                                                           "conditionType": "static"
                                                         }
-                                                      ]
+                                                      ],
+                                                      "dw_rule_id": "2-1-1-1-1-1"
                                                     }
                                                   ],
                                                   "conditionType": "static"
                                                 }
-                                              ]
+                                              ],
+                                              "dw_rule_id": "2-1-1-1-1"
                                             }
                                           ],
                                           "conditionType": "static"
                                         }
-                                      ]
+                                      ],
+                                      "dw_rule_id": "2-1-1-1"
                                     }
                                   ],
                                   "conditionType": "static"
                                 }
-                              ]
+                              ],
+                              "dw_rule_id": "2-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "ENGL",
@@ -309,6 +1020,7 @@
           "startTerm": "201940",
           "endTerm": "202050",
           "requirementAuthority": "RA001238",
+          "dw_req_id": "RA001238",
           "rules": [
             {
               "type": "subset",
@@ -326,7 +1038,8 @@
                     "tag": "1",
                     "text": "Introduction to English Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "group",
@@ -347,7 +1060,8 @@
                             "tag": null,
                             "text": ""
                           },
-                          "minCredits": 6
+                          "minCredits": 6,
+                          "dw_rule_id": "1-1-0"
                         }
                       ]
                     }
@@ -355,7 +1069,8 @@
                   "label": {
                     "tag": "7",
                     "text": "ENGLISH CAPSTONE OPTIONS - SELECT A, B, or C"
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "if_else",
@@ -368,7 +1083,8 @@
                           "label": {
                             "tag": "8",
                             "text": "English Exit Portfolio Complete"
-                          }
+                          },
+                          "dw_rule_id": "1-2-0"
                         }
                       ],
                       "conditionType": "ethos"
@@ -381,18 +1097,21 @@
                           "label": {
                             "tag": "9",
                             "text": "English Exit Portfolio Required"
-                          }
+                          },
+                          "dw_rule_id": "1-2-1"
                         }
                       ],
                       "conditionType": "static"
                     }
-                  ]
+                  ],
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -407,7 +1126,8 @@
                       "label": {
                         "tag": "11",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -433,7 +1153,8 @@
                             "tag": "18",
                             "text": "GATEWAY COURSES"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "2-1-0"
                         },
                         {
                           "type": "course",
@@ -458,7 +1179,8 @@
                             "tag": "20",
                             "text": "I. Literary Analysis, Form and Theory"
                           },
-                          "minCredits": 3
+                          "minCredits": 3,
+                          "dw_rule_id": "2-1-1"
                         },
                         {
                           "type": "course",
@@ -491,7 +1213,8 @@
                             "tag": "21",
                             "text": "II. Literary History and Traditions"
                           },
-                          "minCredits": 3
+                          "minCredits": 3,
+                          "dw_rule_id": "2-1-2"
                         },
                         {
                           "type": "course",
@@ -542,7 +1265,8 @@
                             "tag": "22",
                             "text": "III. Literature in Cultural Context"
                           },
-                          "minCredits": 3
+                          "minCredits": 3,
+                          "dw_rule_id": "2-1-3"
                         },
                         {
                           "type": "course",
@@ -570,7 +1294,8 @@
                             "tag": "23",
                             "text": "IV. Rhetoric and Composition"
                           },
-                          "minCredits": 3
+                          "minCredits": 3,
+                          "dw_rule_id": "2-1-4"
                         },
                         {
                           "type": "course",
@@ -596,7 +1321,8 @@
                             "tag": "24",
                             "text": "V. Creative Writing"
                           },
-                          "minCredits": 3
+                          "minCredits": 3,
+                          "dw_rule_id": "2-1-5"
                         },
                         {
                           "type": "course",
@@ -644,18 +1370,21 @@
                           "minCredits": 12,
                           "qualifiers": {
                             "priority": "lowest"
-                          }
+                          },
+                          "dw_rule_id": "2-1-6"
                         }
                       ],
                       "label": {
                         "tag": "25",
                         "text": "General English Studies Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "ENGL",
@@ -697,6 +1426,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001749",
+          "dw_req_id": "RA001749",
           "rules": [
             {
               "type": "subset",
@@ -714,7 +1444,8 @@
                     "tag": "1",
                     "text": "Introduction to English Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "group",
@@ -735,7 +1466,8 @@
                             "tag": null,
                             "text": ""
                           },
-                          "minCredits": 6
+                          "minCredits": 6,
+                          "dw_rule_id": "1-1-0"
                         }
                       ]
                     }
@@ -743,7 +1475,8 @@
                   "label": {
                     "tag": "7",
                     "text": "ENGLISH CAPSTONE OPTIONS - SELECT A, B, or C"
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "if_else",
@@ -756,7 +1489,8 @@
                           "label": {
                             "tag": "8",
                             "text": "English Exit Portfolio Complete"
-                          }
+                          },
+                          "dw_rule_id": "1-2-0"
                         }
                       ],
                       "conditionType": "ethos"
@@ -769,18 +1503,21 @@
                           "label": {
                             "tag": "9",
                             "text": "English Exit Portfolio Required"
-                          }
+                          },
+                          "dw_rule_id": "1-2-1"
                         }
                       ],
                       "conditionType": "static"
                     }
-                  ]
+                  ],
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -795,7 +1532,8 @@
                       "label": {
                         "tag": "11",
                         "text": "Creative Writing Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     },
                     {
                       "type": "if_else",
@@ -810,7 +1548,8 @@
                               "label": {
                                 "tag": "12",
                                 "text": "Cultural Studies Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-1-0"
                             },
                             {
                               "type": "if_else",
@@ -825,7 +1564,8 @@
                                       "label": {
                                         "tag": "13",
                                         "text": "Early Childhood/Elementary Education Concentration Requirements"
-                                      }
+                                      },
+                                      "dw_rule_id": "2-1-1-0"
                                     },
                                     {
                                       "type": "if_else",
@@ -840,7 +1580,8 @@
                                               "label": {
                                                 "tag": "14",
                                                 "text": "Literary Studies Concentration Requirements"
-                                              }
+                                              },
+                                              "dw_rule_id": "2-1-1-1-0"
                                             },
                                             {
                                               "type": "if_else",
@@ -855,7 +1596,8 @@
                                                       "label": {
                                                         "tag": "15",
                                                         "text": "Rhetoric & Composition Concentration Requirements"
-                                                      }
+                                                      },
+                                                      "dw_rule_id": "2-1-1-1-1-0"
                                                     },
                                                     {
                                                       "type": "if_else",
@@ -870,7 +1612,8 @@
                                                               "label": {
                                                                 "tag": "16",
                                                                 "text": "Student Designed Concentration Requirements"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "2-1-1-1-1-1-0"
                                                             },
                                                             {
                                                               "type": "if_else",
@@ -885,7 +1628,8 @@
                                                                       "label": {
                                                                         "tag": "17",
                                                                         "text": "English for Secondary Education Concentration Requirements"
-                                                                      }
+                                                                      },
+                                                                      "dw_rule_id": "2-1-1-1-1-1-1-0"
                                                                     },
                                                                     {
                                                                       "type": "if_else",
@@ -900,7 +1644,8 @@
                                                                               "label": {
                                                                                 "tag": "17a",
                                                                                 "text": "General English Studies Requirements"
-                                                                              }
+                                                                              },
+                                                                              "dw_rule_id": "2-1-1-1-1-1-1-1-0"
                                                                             }
                                                                           ],
                                                                           "conditionType": "static"
@@ -926,7 +1671,8 @@
                                                                                     "tag": "18",
                                                                                     "text": "GATEWAY COURSES"
                                                                                   },
-                                                                                  "minClasses": 2
+                                                                                  "minClasses": 2,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-0"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -951,7 +1697,8 @@
                                                                                     "tag": "20",
                                                                                     "text": "I. Literary Analysis, Form and Theory"
                                                                                   },
-                                                                                  "minCredits": 3
+                                                                                  "minCredits": 3,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-1"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -980,7 +1727,8 @@
                                                                                     "tag": "21",
                                                                                     "text": "II. Literary History and Traditions"
                                                                                   },
-                                                                                  "minCredits": 3
+                                                                                  "minCredits": 3,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-2"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -1029,7 +1777,8 @@
                                                                                     "tag": "22",
                                                                                     "text": "III. Literature in Cultural Context"
                                                                                   },
-                                                                                  "minCredits": 3
+                                                                                  "minCredits": 3,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-3"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -1056,7 +1805,8 @@
                                                                                     "tag": "23",
                                                                                     "text": "IV. Rhetoric and Composition"
                                                                                   },
-                                                                                  "minCredits": 3
+                                                                                  "minCredits": 3,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-4"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -1082,7 +1832,8 @@
                                                                                     "tag": "24",
                                                                                     "text": "V. Creative Writing"
                                                                                   },
-                                                                                  "minCredits": 3
+                                                                                  "minCredits": 3,
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-5"
                                                                                 },
                                                                                 {
                                                                                   "type": "course",
@@ -1130,53 +1881,63 @@
                                                                                   "minCredits": 12,
                                                                                   "qualifiers": {
                                                                                     "priority": "lowest"
-                                                                                  }
+                                                                                  },
+                                                                                  "dw_rule_id": "2-1-1-1-1-1-1-1-1-6"
                                                                                 }
                                                                               ],
                                                                               "label": {
                                                                                 "tag": "25",
                                                                                 "text": "General English Studies Requirements"
-                                                                              }
+                                                                              },
+                                                                              "dw_rule_id": "2-1-1-1-1-1-1-1-1"
                                                                             }
                                                                           ],
                                                                           "conditionType": "static"
                                                                         }
-                                                                      ]
+                                                                      ],
+                                                                      "dw_rule_id": "2-1-1-1-1-1-1-1"
                                                                     }
                                                                   ],
                                                                   "conditionType": "static"
                                                                 }
-                                                              ]
+                                                              ],
+                                                              "dw_rule_id": "2-1-1-1-1-1-1"
                                                             }
                                                           ],
                                                           "conditionType": "static"
                                                         }
-                                                      ]
+                                                      ],
+                                                      "dw_rule_id": "2-1-1-1-1-1"
                                                     }
                                                   ],
                                                   "conditionType": "static"
                                                 }
-                                              ]
+                                              ],
+                                              "dw_rule_id": "2-1-1-1-1"
                                             }
                                           ],
                                           "conditionType": "static"
                                         }
-                                      ]
+                                      ],
+                                      "dw_rule_id": "2-1-1-1"
                                     }
                                   ],
                                   "conditionType": "static"
                                 }
-                              ]
+                              ],
+                              "dw_rule_id": "2-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "ENGL",
@@ -1208,6 +1969,7 @@
             "MAJOR_LBST": 9,
             "MAJOR_NMST": 3,
             "MAJOR_WGST": 20,
+            "MAJOR_THPM": 3,
             "CONC_7_12": 18,
             "CONC_HAMS": 9,
             "CONC_NSCI": 3,
@@ -1218,6 +1980,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002591",
+          "dw_req_id": "RA002591",
           "rules": [
             {
               "type": "subset",
@@ -1238,7 +2001,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1256,13 +2020,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "Introductory"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1283,7 +2049,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -1301,7 +2068,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -1316,13 +2084,15 @@
                     "tag": "6",
                     "text": "Career Development for English I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "Intermediate"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -1343,7 +2113,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "3-0"
                 },
                 {
                   "type": "course",
@@ -1361,7 +2132,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "3-1"
                 },
                 {
                   "type": "course",
@@ -1376,13 +2148,15 @@
                     "tag": "10",
                     "text": "Career Development for English II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-2"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "Advanced"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "if_else",
@@ -1395,7 +2169,8 @@
                       "label": {
                         "tag": "12",
                         "text": "English Exit Portfolio Complete"
-                      }
+                      },
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -1408,60 +2183,64 @@
                       "label": {
                         "tag": "13",
                         "text": "English Exit Portfolio Required"
-                      }
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "ENG 300:499"
-                        ],
-                        "hidden": [
-                          "ENG 3@",
-                          "ENG 4@"
-                        ]
                       },
-                      "label": {
-                        "tag": null,
-                        "text": "300/400 Level English Electives"
-                      },
-                      "minCredits": 9,
-                      "qualifiers": {
-                        "minGrade": 2
-                      }
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "ENG 100:499"
-                        ],
-                        "hidden": [
-                          "ENG 1@",
-                          "ENG 2@",
-                          "ENG 3@",
-                          "ENG 4@"
-                        ],
-                        "except": [
-                          "ENG 100",
-                          "100P MinGrade 2.0"
-                        ]
-                      },
-                      "label": {
-                        "tag": "15",
-                        "text": "Additional English Electives"
-                      },
-                      "minCredits": 9,
-                      "qualifiers": {
-                        "minGrade": 2
-                      }
+                      "dw_rule_id": "4-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 300:499"
+                ],
+                "hidden": [
+                  "ENG 3@",
+                  "ENG 4@"
+                ]
+              },
+              "label": {
+                "tag": null,
+                "text": "300/400 Level English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 100:499"
+                ],
+                "hidden": [
+                  "ENG 1@",
+                  "ENG 2@",
+                  "ENG 3@",
+                  "ENG 4@"
+                ],
+                "except": [
+                  "ENG 100",
+                  "100P MinGrade 2.0"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Additional English Electives"
+              },
+              "minCredits": 9,
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "ENGL",

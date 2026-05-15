@@ -8,6 +8,7 @@
           "startTerm": "201240",
           "endTerm": "999999",
           "requirementAuthority": "RA000219",
+          "dw_req_id": "RA000219",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Teaching, Organization, Administration-Elementary School PE"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Teaching, Organization, Administration-Secondary PE"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Student Teaching (PreK-12)"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Student Teaching Seminar"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "if_else",
@@ -80,7 +85,8 @@
                       "label": {
                         "tag": "5",
                         "text": "First Aid Certification: Complete"
-                      }
+                      },
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -93,59 +99,63 @@
                       "label": {
                         "tag": "6",
                         "text": "First Aid Certification: Required"
-                      }
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "ENG 125:499"
-                        ],
-                        "hidden": [
-                          "2@",
-                          "3@",
-                          "4@",
-                          "@ (With ATTRIBUTE=IIA)"
-                        ]
                       },
-                      "label": {
-                        "tag": "7",
-                        "text": "English Elective - Certification"
-                      },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "ANT 221",
-                          "HIS 120",
-                          "HIS 121",
-                          "HIS 221",
-                          "HIS 241",
-                          "HIS 245",
-                          "HIS 251",
-                          "HIS 302",
-                          "HIS 303",
-                          "HIS 310",
-                          "HIS 316",
-                          "HIS 318",
-                          "HIS 321",
-                          "HIS 322"
-                        ]
-                      },
-                      "label": {
-                        "tag": "8",
-                        "text": "History Elective - Certification"
-                      },
-                      "minClasses": 1
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 125:499"
+                ],
+                "hidden": [
+                  "2@",
+                  "3@",
+                  "4@",
+                  "@ (With ATTRIBUTE=IIA)"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "English Elective - Certification"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 221",
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 221",
+                  "HIS 241",
+                  "HIS 245",
+                  "HIS 251",
+                  "HIS 302",
+                  "HIS 303",
+                  "HIS 310",
+                  "HIS 316",
+                  "HIS 318",
+                  "HIS 321",
+                  "HIS 322"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "History Elective - Certification"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -157,7 +167,9 @@
           "notes": [],
           "maxClassesPerCourse": [],
           "maxCreditsPerCourse": [],
-          "sharingCredits": {}
+          "sharingCredits": {
+            "OTHER_ANY": null
+          }
         }
       ]
     }

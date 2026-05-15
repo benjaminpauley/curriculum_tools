@@ -5,9 +5,10 @@
       "programName": "Minor in Digital Art & Media Design",
       "versions": [
         {
-          "startTerm": "202310",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA002219",
+          "dw_req_id": "RA002219",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "6",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -99,7 +104,8 @@
                 "tag": "7",
                 "text": "Digital Art & Media Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -128,6 +134,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002617",
+          "dw_req_id": "RA002617",
           "rules": [
             {
               "type": "course",
@@ -142,7 +149,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -157,7 +165,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -172,7 +181,8 @@
                 "tag": "5",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -187,7 +197,8 @@
                 "tag": "6",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -218,7 +229,8 @@
                 "tag": "7",
                 "text": "Digital Art & Media Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

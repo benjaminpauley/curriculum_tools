@@ -1,0 +1,84 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "DUAL": {
+      "programName": "Concentration in Dual Language Learners",
+      "versions": [
+        {
+          "startTerm": "201840",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001517",
+          "dw_req_id": "RA001517",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DLL 616"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Bilingual Foundations and Methods"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DLL 617"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Linguistic and Academic Assessment of English Language Learners"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "DLL 618"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "First and Second Language Acquisition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 9
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -5,9 +5,10 @@
       "programName": "Major in Physical Education",
       "versions": [
         {
-          "startTerm": "201310",
+          "startTerm": "201240",
           "endTerm": "202250",
           "requirementAuthority": "RA000218",
+          "dw_req_id": "RA000218",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Foundations of U.S. Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Personal Health"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Introduction to Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -82,7 +87,8 @@
                 "tag": "5",
                 "text": "Introduction to Curriculum Materials in Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -97,7 +103,8 @@
                 "tag": "6",
                 "text": "Adapted Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -112,7 +119,8 @@
                 "tag": "7",
                 "text": "Applied Anatomy and Physiology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -127,7 +135,8 @@
                 "tag": "8",
                 "text": "The Physiological Basis of Movement"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -142,7 +151,8 @@
                 "tag": "9",
                 "text": "Technology in Physical Activity Assessment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -157,7 +167,8 @@
                 "tag": "10",
                 "text": "Individual Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -172,7 +183,8 @@
                 "tag": "11",
                 "text": "Team Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -187,7 +199,8 @@
                 "tag": "12",
                 "text": "Elementary School Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -202,7 +215,8 @@
                 "tag": "13",
                 "text": "Educational Dance and Gymnastics, Stunts & Tumbling"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -217,7 +231,8 @@
                 "tag": "14",
                 "text": "Motor Development"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -234,7 +249,8 @@
                 "tag": "15",
                 "text": "Sport in Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             },
             {
               "type": "course",
@@ -249,7 +265,8 @@
                 "tag": "16",
                 "text": "Physiology of Exercise"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "16"
             },
             {
               "type": "if_else",
@@ -264,7 +281,8 @@
                       "label": {
                         "tag": "17",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "17-0"
                     }
                   ],
                   "conditionType": "static"
@@ -277,12 +295,14 @@
                       "label": {
                         "tag": "18",
                         "text": "A Concentration is Required for Graduation"
-                      }
+                      },
+                      "dw_rule_id": "17-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "17"
             }
           ],
           "declaredMajor": "PHED",
@@ -327,6 +347,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002155",
+          "dw_req_id": "RA002155",
           "rules": [
             {
               "type": "course",
@@ -341,7 +362,8 @@
                 "tag": "1",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -356,7 +378,8 @@
                 "tag": "2",
                 "text": "International Cross-Cultural Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -371,7 +394,8 @@
                 "tag": "3",
                 "text": "Personal Health"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -386,7 +410,8 @@
                 "tag": "4",
                 "text": "Introduction to Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -401,7 +426,8 @@
                 "tag": "5",
                 "text": "Introduction to Curriculum Materials in Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -416,7 +442,8 @@
                 "tag": "6",
                 "text": "Adapted Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -431,7 +458,8 @@
                 "tag": "7",
                 "text": "Applied Anatomy and Physiology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -446,7 +474,8 @@
                 "tag": "8",
                 "text": "The Physiological Basis of Movement"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -461,7 +490,8 @@
                 "tag": "9",
                 "text": "Technology in Physical Activity Assessment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -476,7 +506,8 @@
                 "tag": "10",
                 "text": "Individual Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -491,7 +522,8 @@
                 "tag": "11",
                 "text": "Team Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -506,7 +538,8 @@
                 "tag": "12",
                 "text": "Elementary School Activities and Games"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -521,7 +554,8 @@
                 "tag": "13",
                 "text": "Educational Dance and Gymnastics, Stunts & Tumbling"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -536,7 +570,8 @@
                 "tag": "14",
                 "text": "Motor Development"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -551,7 +586,8 @@
                 "tag": "16",
                 "text": "Physiology of Exercise"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             },
             {
               "type": "if_else",
@@ -566,7 +602,8 @@
                       "label": {
                         "tag": "17",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "16-0"
                     }
                   ],
                   "conditionType": "static"
@@ -579,12 +616,14 @@
                       "label": {
                         "tag": "18",
                         "text": "A Concentration is Required for Graduation"
-                      }
+                      },
+                      "dw_rule_id": "16-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "16"
             }
           ],
           "declaredMajor": "PHED",
@@ -622,7 +661,8 @@
             "MAJOR_ELED": 6,
             "MAJOR_SMGT": 9,
             "CONC_7_12": 12,
-            "CONC_SSPE": 6
+            "CONC_SSPE": 6,
+            "OTHER_ANY": 1
           }
         }
       ]

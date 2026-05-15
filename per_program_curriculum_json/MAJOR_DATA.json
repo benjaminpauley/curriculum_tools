@@ -2,12 +2,13 @@
   "universityName": "Eastern Connecticut State University",
   "majors": {
     "DATA": {
-      "programName": "Major in Data Science BS",
+      "programName": "Major in Data Science",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA001830",
+          "dw_req_id": "RA001830",
           "rules": [
             {
               "type": "subset",
@@ -26,7 +27,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -43,7 +45,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -58,7 +61,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -73,7 +77,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -88,7 +93,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -105,7 +111,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -122,7 +129,8 @@
                     "tag": "7",
                     "text": "Business Analytics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -137,7 +145,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -152,13 +161,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -177,13 +188,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -202,13 +215,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -225,13 +240,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -251,13 +268,15 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -272,7 +291,8 @@
                       "label": {
                         "tag": "9999",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "static"
@@ -285,15 +305,16 @@
                       "label": {
                         "tag": "119",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BS",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 53,
@@ -314,9 +335,10 @@
           "sharingCredits": {}
         },
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA001831",
+          "dw_req_id": "RA001831",
           "rules": [
             {
               "type": "subset",
@@ -335,7 +357,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -352,7 +375,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -367,7 +391,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -382,7 +407,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -397,7 +423,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -414,7 +441,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -431,7 +459,8 @@
                     "tag": "7",
                     "text": "Business Analytics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -446,7 +475,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -461,13 +491,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -486,13 +518,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -511,13 +545,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -534,13 +570,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -577,13 +615,15 @@
                     "tag": "16.11",
                     "text": "Choose 2 Electives"
                   },
-                  "minClasses": 2
+                  "minClasses": 2,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "16.222",
                 "text": "Electives"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -603,16 +643,17 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BA",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 44,
@@ -638,6 +679,7 @@
           "startTerm": "202510",
           "endTerm": "202550",
           "requirementAuthority": "RA002808",
+          "dw_req_id": "RA002808",
           "rules": [
             {
               "type": "subset",
@@ -655,7 +697,8 @@
                     "tag": "7",
                     "text": "Intro to CSC or Data Science and Society"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -671,7 +714,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -689,7 +733,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -704,7 +749,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -719,7 +765,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -734,7 +781,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -751,7 +799,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -766,7 +815,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -781,13 +831,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -806,13 +858,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -830,13 +884,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -853,13 +909,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -895,13 +953,15 @@
                     "tag": "16.11",
                     "text": "Choose 2 Electives"
                   },
-                  "minClasses": 2
+                  "minClasses": 2,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "16.222",
                 "text": "Electives"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -920,16 +980,17 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BA",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 44,
@@ -955,6 +1016,7 @@
           "startTerm": "202510",
           "endTerm": "202550",
           "requirementAuthority": "RA002809",
+          "dw_req_id": "RA002809",
           "rules": [
             {
               "type": "subset",
@@ -972,7 +1034,8 @@
                     "tag": "7",
                     "text": "Intro to CSC or Data Science and Society"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -988,7 +1051,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1006,7 +1070,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1021,7 +1086,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1036,7 +1102,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1051,7 +1118,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1068,7 +1136,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1083,7 +1152,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -1098,13 +1168,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1123,13 +1195,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -1147,13 +1221,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -1170,13 +1246,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -1195,13 +1273,15 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -1216,7 +1296,8 @@
                       "label": {
                         "tag": "9999",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1229,15 +1310,16 @@
                       "label": {
                         "tag": "119",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BS",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 53,
@@ -1261,6 +1343,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002805",
+          "dw_req_id": "RA002805",
           "rules": [
             {
               "type": "subset",
@@ -1279,7 +1362,8 @@
                     "tag": "7",
                     "text": "Introduction to CSC or Data Science and Society"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1295,7 +1379,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1311,7 +1396,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1326,7 +1412,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1341,7 +1428,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1356,7 +1444,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1373,7 +1462,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1388,7 +1478,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -1403,13 +1494,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1428,13 +1521,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -1452,13 +1547,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -1475,13 +1572,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -1518,13 +1617,15 @@
                     "tag": "16.11",
                     "text": "Choose 2 Electives"
                   },
-                  "minClasses": 2
+                  "minClasses": 2,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "16.222",
                 "text": "Electives"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -1543,16 +1644,17 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BA",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 44,
@@ -1578,6 +1680,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002806",
+          "dw_req_id": "RA002806",
           "rules": [
             {
               "type": "subset",
@@ -1596,7 +1699,8 @@
                     "tag": "7",
                     "text": "Introduction to CSC or Data Science and Society"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1612,7 +1716,8 @@
                     "tag": "1",
                     "text": "Calculus"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1628,7 +1733,8 @@
                     "tag": "2",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1643,7 +1749,8 @@
                     "tag": "3",
                     "text": "Explorations in Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1658,7 +1765,8 @@
                     "tag": "4",
                     "text": "Intro to Programming and Machine Intelligence"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1673,7 +1781,8 @@
                     "tag": "5",
                     "text": "Advanced Programming for Data Science"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1690,7 +1799,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1705,7 +1815,8 @@
                     "tag": "8",
                     "text": "Basics of Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -1720,13 +1831,15 @@
                     "tag": "9",
                     "text": "Intro to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Level L1 Data Science Foundation"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1745,13 +1858,15 @@
                     "tag": "11",
                     "text": "Database Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "Level L2 Database Course"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -1769,13 +1884,15 @@
                     "tag": "13",
                     "text": "Data Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "Level L3 Data Mining/Analytics"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -1792,13 +1909,15 @@
                     "tag": "15",
                     "text": "Data Visualization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 }
               ],
               "label": {
                 "tag": "16",
                 "text": "Level L4 Stage 2 Writing"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -1817,13 +1936,15 @@
                     "tag": "17",
                     "text": "Capstone Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "Level L5 Capstone, Stage 3 Writing, Tier III"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -1838,7 +1959,8 @@
                       "label": {
                         "tag": "9999",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1851,15 +1973,16 @@
                       "label": {
                         "tag": "119",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
-          "degreeType": "BS",
           "declaredMajor": "DATA",
           "minimumCredits": {
             "min": 53,

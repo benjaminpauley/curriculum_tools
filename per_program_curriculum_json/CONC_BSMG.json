@@ -8,6 +8,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002143",
+          "dw_req_id": "RA002143",
           "rules": [
             {
               "type": "course",
@@ -24,7 +25,8 @@
                 "tag": "1",
                 "text": "Introduction to Sport Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -41,7 +43,8 @@
                 "tag": "2",
                 "text": "Facility Design in Sport Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -58,7 +61,8 @@
                 "tag": "3",
                 "text": "Leadership"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -75,7 +79,8 @@
                 "tag": "4",
                 "text": "Sports in American Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -95,7 +100,8 @@
                 "tag": "5",
                 "text": "Concentration Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -113,6 +119,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002491",
+          "dw_req_id": "RA002491",
           "rules": [
             {
               "type": "course",
@@ -129,7 +136,8 @@
                 "tag": "1",
                 "text": "Introduction to Sport Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -146,7 +154,8 @@
                 "tag": "2",
                 "text": "Facility Design in Sport Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -163,7 +172,8 @@
                 "tag": "3",
                 "text": "Leadership"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -180,7 +190,8 @@
                 "tag": "4",
                 "text": "Sports in American Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -202,7 +213,8 @@
                 "tag": "5",
                 "text": "Concentration Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,

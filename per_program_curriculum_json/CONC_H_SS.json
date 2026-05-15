@@ -5,9 +5,30 @@
       "programName": "Concentration in History Social Science",
       "versions": [
         {
-          "startTerm": "201610",
-          "endTerm": "201850",
-          "requirementAuthority": "RA000429",
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000172",
+          "dw_req_id": "RA000172",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "201520",
+          "requirementAuthority": "RA000376",
+          "dw_req_id": "RA000376",
           "rules": [
             {
               "type": "course",
@@ -22,22 +43,40 @@
                 "tag": "1",
                 "text": "Early or Recent American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
               "courses": {
                 "connector": "or",
                 "courses": [
-                  "MAT 217"
+                  "MAT 139",
+                  "139P"
+                ]
+              },
+              "label": {
+                "tag": "1.1",
+                "text": "Number Systems"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
                 ],
                 "hidden": []
               },
               "label": {
                 "tag": "2",
-                "text": "Statistics for Liberal Studies"
+                "text": "Statistical Data Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -55,7 +94,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "minGrade": 2
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -70,7 +110,8 @@
                 "tag": "4",
                 "text": "Western Civilization Before or Since 1500"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -87,7 +128,8 @@
                 "tag": "6",
                 "text": "History Elective with HGLO Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -104,7 +146,8 @@
                 "tag": "7",
                 "text": "History Elective with HUS Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -133,7 +176,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -148,7 +192,8 @@
                 "tag": "9",
                 "text": "Ideological Divisions: U.S."
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "if_else",
@@ -171,7 +216,8 @@
                         "tag": "10",
                         "text": "Seminar in History"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "10-0"
                     },
                     {
                       "type": "if_else",
@@ -191,7 +237,8 @@
                                 "tag": "11",
                                 "text": "Seminar in Political Science"
                               },
-                              "minClasses": 1
+                              "minClasses": 1,
+                              "dw_rule_id": "10-1-0"
                             }
                           ],
                           "conditionType": "dw_internal"
@@ -204,17 +251,512 @@
                               "label": {
                                 "tag": "12",
                                 "text": "Seminar in History or Political Science"
-                              }
+                              },
+                              "dw_rule_id": "10-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "10-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "10"
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "If completing HIS 200 with a C or better, please complete HIS 400,",
+            "406, 407 or 420. If completing PSC 201 with a C or better, please",
+            "complete PSC 460."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201540",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000040",
+          "dw_req_id": "RA000040",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Early or Recent American History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistical Data Analysis"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 200",
+                  "PSC 201"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Historical Research/Writing or Applied Qualitative Methods"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 230",
+                  "HIS 231"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Western Civilization Before or Since 1500"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399 (With ATTRIBUTE=HGLO)"
+                ],
+                "hidden": [
+                  "HIS 3@ (With ATTRIBUTE=HGLO)"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "History Elective with HGLO Attribute"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399 (With ATTRIBUTE=HUS)"
+                ],
+                "hidden": [
+                  "HIS 3@ (With ATTRIBUTE=HUS)"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "History Elective with HUS Attribute"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399"
+                ],
+                "hidden": [
+                  "HIS 3@",
+                  "AAT 380",
+                  "AAT 381",
+                  "LAS 342",
+                  "LAS 345",
+                  "LAS 346",
+                  "LAS 347",
+                  "PHR 391",
+                  "WST 317",
+                  "WST 363"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "History Elective"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "priority": "low"
+              },
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSC 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ideological Divisions: U.S."
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "HIS 200 (WITH dwGrade >= 2.0) was FOUND",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 400",
+                          "HIS 406",
+                          "HIS 407",
+                          "HIS 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Seminar in History"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "9-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "PSC 201 (WITH dwGrade >= 2.0) was FOUND",
+                          "rules": [
+                            {
+                              "type": "course",
+                              "courses": {
+                                "connector": "or",
+                                "courses": [
+                                  "PSC 460"
+                                ]
+                              },
+                              "label": {
+                                "tag": "11",
+                                "text": "Seminar in Political Science"
+                              },
+                              "minClasses": 1,
+                              "dw_rule_id": "9-1-0"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "12",
+                                "text": "Seminar in History or Political Science"
+                              },
+                              "dw_rule_id": "9-1-1"
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ],
+                      "dw_rule_id": "9-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "9"
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "LBST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "If completing HIS 200 with a C or better, please complete HIS 400,",
+            "406, 407 or 420. If completing PSC 201 with a C or better, please",
+            "complete PSC 460."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000429",
+          "dw_req_id": "RA000429",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Early or Recent American History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 200",
+                  "PSC 201"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Historical Research/Writing or Applied Qualitative Methods"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 230",
+                  "HIS 231"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Western Civilization Before or Since 1500"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399 (With ATTRIBUTE=HGLO)"
+                ],
+                "hidden": [
+                  "HIS 3@ (With ATTRIBUTE=HGLO)"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "History Elective with HGLO Attribute"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399 (With ATTRIBUTE=HUS)"
+                ],
+                "hidden": [
+                  "HIS 3@ (With ATTRIBUTE=HUS)"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "History Elective with HUS Attribute"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 300:399"
+                ],
+                "hidden": [
+                  "HIS 3@",
+                  "AAT 380",
+                  "AAT 381",
+                  "LAS 342",
+                  "LAS 345",
+                  "LAS 346",
+                  "LAS 347",
+                  "PHR 391",
+                  "WST 317",
+                  "WST 363"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "History Elective"
+              },
+              "minClasses": 1,
+              "qualifiers": {
+                "priority": "low"
+              },
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSC 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ideological Divisions: U.S."
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "HIS 200 (WITH dwGrade >= 2.0) was FOUND",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HIS 400",
+                          "HIS 406",
+                          "HIS 407",
+                          "HIS 420"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Seminar in History"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "9-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "PSC 201 (WITH dwGrade >= 2.0) was FOUND",
+                          "rules": [
+                            {
+                              "type": "course",
+                              "courses": {
+                                "connector": "or",
+                                "courses": [
+                                  "PSC 460"
+                                ]
+                              },
+                              "label": {
+                                "tag": "11",
+                                "text": "Seminar in Political Science"
+                              },
+                              "minClasses": 1,
+                              "dw_rule_id": "9-1-0"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "12",
+                                "text": "Seminar in History or Political Science"
+                              },
+                              "dw_rule_id": "9-1-1"
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ],
+                      "dw_rule_id": "9-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -240,6 +782,7 @@
           "startTerm": "201910",
           "endTerm": "202050",
           "requirementAuthority": "RA000430",
+          "dw_req_id": "RA000430",
           "rules": [
             {
               "type": "course",
@@ -254,7 +797,8 @@
                 "tag": "1",
                 "text": "Early or Recent American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -269,7 +813,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -287,7 +832,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "minGrade": 2
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -302,7 +848,8 @@
                 "tag": "4",
                 "text": "Western Civilization Before or Since 1500"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -319,7 +866,8 @@
                 "tag": "6",
                 "text": "History Elective with HGLO Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -336,7 +884,8 @@
                 "tag": "7",
                 "text": "History Elective with HUS Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -365,7 +914,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -380,7 +930,8 @@
                 "tag": "9",
                 "text": "Ideological Divisions: U.S."
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "if_else",
@@ -403,7 +954,8 @@
                         "tag": "10",
                         "text": "Seminar in History"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "9-0"
                     },
                     {
                       "type": "if_else",
@@ -423,7 +975,8 @@
                                 "tag": "11",
                                 "text": "Seminar in Political Science"
                               },
-                              "minClasses": 1
+                              "minClasses": 1,
+                              "dw_rule_id": "9-1-0"
                             }
                           ],
                           "conditionType": "dw_internal"
@@ -436,17 +989,20 @@
                               "label": {
                                 "tag": "12",
                                 "text": "Seminar in History or Political Science"
-                              }
+                              },
+                              "dw_rule_id": "9-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "9-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -472,6 +1028,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001566",
+          "dw_req_id": "RA001566",
           "rules": [
             {
               "type": "course",
@@ -486,7 +1043,8 @@
                 "tag": "1",
                 "text": "Early or Recent American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -501,7 +1059,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -519,7 +1078,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "minGrade": 2
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -534,7 +1094,8 @@
                 "tag": "4",
                 "text": "European History Before or Since 1500"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -551,7 +1112,8 @@
                 "tag": "6",
                 "text": "History Elective with HGLO Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -568,7 +1130,8 @@
                 "tag": "7",
                 "text": "History Elective with HUS Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -597,7 +1160,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -612,7 +1176,8 @@
                 "tag": "9",
                 "text": "Ideological Divisions: U.S."
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "if_else",
@@ -635,7 +1200,8 @@
                         "tag": "10",
                         "text": "Seminar in History"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "9-0"
                     },
                     {
                       "type": "if_else",
@@ -655,7 +1221,8 @@
                                 "tag": "11",
                                 "text": "Seminar in Political Science"
                               },
-                              "minClasses": 1
+                              "minClasses": 1,
+                              "dw_rule_id": "9-1-0"
                             }
                           ],
                           "conditionType": "dw_internal"
@@ -668,17 +1235,20 @@
                               "label": {
                                 "tag": "12",
                                 "text": "Seminar in History or Political Science"
-                              }
+                              },
+                              "dw_rule_id": "9-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "9-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -704,6 +1274,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002545",
+          "dw_req_id": "RA002545",
           "rules": [
             {
               "type": "course",
@@ -718,7 +1289,8 @@
                 "tag": "1",
                 "text": "American Origins or Making Modern America"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -733,7 +1305,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -751,7 +1324,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "minGrade": 2
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -766,7 +1340,8 @@
                 "tag": "4",
                 "text": "The Birth of Europe or The Making/Breaking of Europe"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -783,7 +1358,8 @@
                 "tag": "6",
                 "text": "History Elective with HGLO Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -800,7 +1376,8 @@
                 "tag": "7",
                 "text": "History Elective with HUS Attribute"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -829,7 +1406,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -844,73 +1422,23 @@
                 "tag": "9",
                 "text": "Ideological Divisions: U.S."
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
-              "type": "if_else",
-              "branches": [
-                {
-                  "condition": "HIS 200 (WITH dwGrade >= 2.0) was FOUND",
-                  "rules": [
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "HIS 400",
-                          "HIS 406",
-                          "HIS 407",
-                          "HIS 420"
-                        ]
-                      },
-                      "label": {
-                        "tag": "10",
-                        "text": "Seminar in History"
-                      },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "if_else",
-                      "branches": [
-                        {
-                          "condition": "PSC 201 (WITH dwGrade >= 2.0) was FOUND",
-                          "rules": [
-                            {
-                              "type": "course",
-                              "courses": {
-                                "connector": "or",
-                                "courses": [
-                                  "PSC 460"
-                                ]
-                              },
-                              "label": {
-                                "tag": "11",
-                                "text": "Seminar in Political Science"
-                              },
-                              "minClasses": 1
-                            }
-                          ],
-                          "conditionType": "dw_internal"
-                        },
-                        {
-                          "condition": null,
-                          "rules": [
-                            {
-                              "type": "rule_incomplete",
-                              "label": {
-                                "tag": "12",
-                                "text": "Seminar in History or Political Science"
-                              }
-                            }
-                          ],
-                          "conditionType": "static"
-                        }
-                      ]
-                    }
-                  ],
-                  "conditionType": "dw_internal"
-                }
-              ]
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Senior Seminar in Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -921,11 +1449,7 @@
           "residencyCredits": null,
           "maximumFailingCreditsAllowed": 0,
           "crGradesNotAllowedTerms": [],
-          "notes": [
-            "If completing HIS 200 with a C or better, please complete HIS 400,",
-            "406, 407 or 420. If completing PSC 201 with a C or better, please",
-            "complete PSC 460."
-          ],
+          "notes": [],
           "maxClassesPerCourse": [],
           "maxCreditsPerCourse": [],
           "sharingCredits": {

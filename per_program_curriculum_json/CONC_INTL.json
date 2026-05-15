@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000025",
+          "dw_req_id": "RA000025",
           "rules": [
             {
               "type": "course",
@@ -31,7 +32,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -51,6 +53,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001980",
+          "dw_req_id": "RA001980",
           "rules": [
             {
               "type": "course",
@@ -65,7 +68,8 @@
                 "tag": "1",
                 "text": "Globalization: Evolution and Impact"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -80,7 +84,8 @@
                 "tag": "2",
                 "text": "International Business"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -103,7 +108,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,

@@ -1,0 +1,30 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "POLI": {
+      "programName": "Concentration in Political Science",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000184",
+          "dw_req_id": "RA000184",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

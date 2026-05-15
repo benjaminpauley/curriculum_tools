@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002398",
+          "dw_req_id": "RA002398",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "2",
                 "text": "Sociology of Mental illness"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -42,6 +44,9 @@
                   "SOC 490",
                   "SOC 495",
                   "ANT 480",
+                  "CRM 209",
+                  "CRM 220",
+                  "CRM 311",
                   "CRM 480",
                   "SWK 344",
                   "SWK 435",
@@ -55,7 +60,8 @@
                 "tag": "3",
                 "text": "Mental Health and Social Services Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

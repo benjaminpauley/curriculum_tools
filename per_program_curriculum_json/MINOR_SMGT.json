@@ -5,9 +5,10 @@
       "programName": "Minor in Sport & Leisure Management",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "202250",
-          "requirementAuthority": "RA000336",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000128",
+          "dw_req_id": "RA000128",
           "rules": [
             {
               "type": "course",
@@ -25,7 +26,8 @@
                 "tag": "4",
                 "text": "Introduction to Sport Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -43,7 +45,76 @@
                 "tag": "3",
                 "text": "Sport & Leisure Management Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the minor.",
+            "A minimum of nine (9) unique credits is",
+            "required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "202250",
+          "requirementAuthority": "RA000336",
+          "dw_req_id": "RA000336",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 240"
+                ],
+                "hidden": [
+                  "SLM 240",
+                  "SLM 250"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Introduction to Sport Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SLM 300:499"
+                ],
+                "hidden": [
+                  "SLM 3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Sport & Leisure Management Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

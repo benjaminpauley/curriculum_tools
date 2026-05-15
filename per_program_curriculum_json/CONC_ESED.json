@@ -6,8 +6,9 @@
       "versions": [
         {
           "startTerm": "201610",
-          "endTerm": "202450",
+          "endTerm": "999999",
           "requirementAuthority": "RA000250",
+          "dw_req_id": "RA000250",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Literary Criticism"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,13 +42,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -65,7 +69,8 @@
                 "tag": "4",
                 "text": "General Concentration Requirements"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -81,7 +86,8 @@
                 "tag": "5",
                 "text": "English Literature Survey"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -130,7 +136,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

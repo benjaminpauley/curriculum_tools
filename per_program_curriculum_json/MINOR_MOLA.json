@@ -5,9 +5,10 @@
       "programName": "Minor in Modern Languages",
       "versions": [
         {
-          "startTerm": "202040",
-          "endTerm": "999999",
-          "requirementAuthority": "RA001691",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000262",
+          "dw_req_id": "RA000262",
           "rules": [
             {
               "type": "group",
@@ -36,7 +37,8 @@
                         "tag": "3",
                         "text": "9 FRE"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -63,7 +65,8 @@
                         "tag": "4",
                         "text": "9 SPA"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -75,7 +78,8 @@
               "label": {
                 "tag": "5",
                 "text": "9 credits 1 language"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -101,7 +105,8 @@
                         "tag": "6",
                         "text": "6 ITL"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -129,7 +134,8 @@
                         "tag": "7",
                         "text": "6 ARA"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -157,7 +163,8 @@
                         "tag": "8",
                         "text": "6 CHI"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "label": {
@@ -185,7 +192,8 @@
                         "tag": "9",
                         "text": "6 JPN"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-3"
                     }
                   ],
                   "label": {
@@ -213,7 +221,8 @@
                         "tag": "10",
                         "text": "6 FRE"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-4"
                     }
                   ],
                   "label": {
@@ -248,7 +257,8 @@
                         "tag": "11",
                         "text": "6 SPA"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-5"
                     }
                   ],
                   "label": {
@@ -260,7 +270,299 @@
               "label": {
                 "tag": "12",
                 "text": "6 credits another language"
-              }
+              },
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "202020",
+          "requirementAuthority": "RA000313",
+          "dw_req_id": "RA000313",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "FRE 200:499"
+                        ],
+                        "hidden": [
+                          "2@",
+                          "3@",
+                          "4@",
+                          "FLM 223",
+                          "WLC 231",
+                          "WST 331",
+                          "SPA 430"
+                        ]
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "9 FRE"
+                      },
+                      "minCredits": 9,
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "9 FRE"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SPA 200:499"
+                        ],
+                        "hidden": [
+                          "SPA 2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "9 SPA"
+                      },
+                      "minCredits": 9,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "9 SPA"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "9 credits 1 language"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ITL 100:499"
+                        ],
+                        "hidden": [
+                          "ITL 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "6 ITL"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "6 ITL"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "ARA 100:499"
+                        ],
+                        "hidden": [
+                          "ARA 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "6 ARA"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "6 ARA"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "CHI 100:499"
+                        ],
+                        "hidden": [
+                          "CHI 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "6 CHI"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-2"
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "6 CHI"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "JPN 100:499"
+                        ],
+                        "hidden": [
+                          "JPN 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "6 JPN"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-3"
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "6 JPN"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "FRE 100:499"
+                        ],
+                        "hidden": [
+                          "FRE 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "6 FRE"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-4"
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "6 FRE"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "SPA 100:499"
+                        ],
+                        "hidden": [
+                          "SPA 1@",
+                          "2@",
+                          "3@",
+                          "4@",
+                          "LAS 318",
+                          "LAS 319",
+                          "LAS 320",
+                          "LAS 321",
+                          "LAS 323",
+                          "SOC 355",
+                          "FRE 430"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "6 SPA"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-5"
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "6 SPA"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "6 credits another language"
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {
@@ -286,9 +588,10 @@
           }
         },
         {
-          "startTerm": "202110",
-          "endTerm": "202020",
-          "requirementAuthority": "RA000313",
+          "startTerm": "202040",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001691",
+          "dw_req_id": "RA001691",
           "rules": [
             {
               "type": "group",
@@ -317,7 +620,8 @@
                         "tag": "3",
                         "text": "9 FRE"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -344,7 +648,8 @@
                         "tag": "4",
                         "text": "9 SPA"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -356,7 +661,8 @@
               "label": {
                 "tag": "5",
                 "text": "9 credits 1 language"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -382,7 +688,8 @@
                         "tag": "6",
                         "text": "6 ITL"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -410,7 +717,8 @@
                         "tag": "7",
                         "text": "6 ARA"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -438,7 +746,8 @@
                         "tag": "8",
                         "text": "6 CHI"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "label": {
@@ -466,7 +775,8 @@
                         "tag": "9",
                         "text": "6 JPN"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-3"
                     }
                   ],
                   "label": {
@@ -494,7 +804,8 @@
                         "tag": "10",
                         "text": "6 FRE"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-4"
                     }
                   ],
                   "label": {
@@ -529,7 +840,8 @@
                         "tag": "11",
                         "text": "6 SPA"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-5"
                     }
                   ],
                   "label": {
@@ -541,7 +853,8 @@
               "label": {
                 "tag": "12",
                 "text": "6 credits another language"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

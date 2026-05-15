@@ -8,6 +8,7 @@
           "startTerm": "201610",
           "endTerm": "201850",
           "requirementAuthority": "RA000013",
+          "dw_req_id": "RA000013",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Introduction to Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,13 +42,15 @@
                     "tag": "2",
                     "text": "Writing Literary Criticism or Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -62,7 +66,8 @@
                 "tag": "4",
                 "text": "Forms & Genre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -91,7 +96,8 @@
                 "tag": "5",
                 "text": "Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -115,7 +121,8 @@
                 "tag": "6",
                 "text": "Creative Writing Workshops"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -134,7 +141,8 @@
                 "tag": "7",
                 "text": "Professional Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -182,7 +190,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -203,6 +212,7 @@
           "startTerm": "201910",
           "endTerm": "202050",
           "requirementAuthority": "RA000398",
+          "dw_req_id": "RA000398",
           "rules": [
             {
               "type": "subset",
@@ -220,7 +230,8 @@
                     "tag": "1",
                     "text": "Introduction to Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -235,13 +246,15 @@
                     "tag": "2",
                     "text": "Writing Literary Criticism or Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -257,7 +270,8 @@
                 "tag": "4",
                 "text": "Forms & Genre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -285,7 +299,8 @@
                 "tag": "5",
                 "text": "Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -309,7 +324,8 @@
                 "tag": "6",
                 "text": "Creative Writing Workshops"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -328,7 +344,8 @@
                 "tag": "7",
                 "text": "Professional Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -376,7 +393,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -394,8 +412,9 @@
         },
         {
           "startTerm": "202110",
-          "endTerm": "202450",
+          "endTerm": "999999",
           "requirementAuthority": "RA001748",
+          "dw_req_id": "RA001748",
           "rules": [
             {
               "type": "subset",
@@ -413,7 +432,8 @@
                     "tag": "1",
                     "text": "Introduction to Creative Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -428,13 +448,15 @@
                     "tag": "2",
                     "text": "Writing Literary Criticism or Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -450,7 +472,8 @@
                 "tag": "4",
                 "text": "Forms & Genre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -478,7 +501,8 @@
                 "tag": "5",
                 "text": "Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -502,7 +526,8 @@
                 "tag": "6",
                 "text": "Creative Writing Workshops"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -521,7 +546,8 @@
                 "tag": "7",
                 "text": "Professional Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -570,7 +596,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,

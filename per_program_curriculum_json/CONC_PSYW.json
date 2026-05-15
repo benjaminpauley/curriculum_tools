@@ -5,9 +5,10 @@
       "programName": "Concentration in Psychology of Work",
       "versions": [
         {
-          "startTerm": "201610",
-          "endTerm": "201950",
-          "requirementAuthority": "RA000463",
+          "startTerm": "201110",
+          "endTerm": "201150",
+          "requirementAuthority": "RA001303",
+          "dw_req_id": "RA001303",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,203 @@
                     "tag": "1",
                     "text": "Industrial and Organizational Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 402",
+                      "PSY 409"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Current Research in Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                }
+              ],
+              "label": {
+                "tag": "3",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 325",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 325",
+                      "PSY 460",
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Advanced Course or Indep Study/Internship"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "ADVANCED COURSES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 320",
+                  "PSY 410"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 306",
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 203",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Courses"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 208",
+                  "PSY 210"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201410",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000225",
+          "dw_req_id": "RA000225",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Industrial and Organizational Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,13 +237,211 @@
                     "tag": "2",
                     "text": "Current Research in Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 316",
+                      "PSY 325",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 316",
+                      "PSY 325",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 496",
+                      "PSY 497"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Advanced Course or Indep Study/Internship"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "ADVANCED COURSES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 320",
+                  "PSY 410"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 203",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Courses"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 208",
+                  "PSY 210"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201450",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000462",
+          "dw_req_id": "RA000462",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Industrial and Organizational Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 409"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Current Research in Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                }
+              ],
+              "label": {
+                "tag": "3",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -67,7 +462,8 @@
                     "tag": "4",
                     "text": "Advanced Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -91,13 +487,15 @@
                     "tag": "5",
                     "text": "Advanced Course or Indep Study/Internship/TA/Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "ADVANCED COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -113,7 +511,8 @@
                 "tag": "7",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -129,7 +528,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -144,7 +544,8 @@
                 "tag": "9",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -162,7 +563,209 @@
                 "tag": "10",
                 "text": "Specialized Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 208",
+                  "PSY 210"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Developmental Courses"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000463",
+          "dw_req_id": "RA000463",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Industrial and Organizational Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 409"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Current Research in Psychology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                }
+              ],
+              "label": {
+                "tag": "3",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 316",
+                      "PSY 325",
+                      "PSY 421",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Advanced Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 301",
+                      "PSY 316",
+                      "PSY 325",
+                      "PSY 421",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Advanced Course or Indep Study/Internship/TA/Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "ADVANCED COURSES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 320",
+                  "PSY 410"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 203",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Specialized Courses"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -178,7 +781,8 @@
                 "tag": "11",
                 "text": "Developmental Courses"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -198,6 +802,7 @@
           "startTerm": "202010",
           "endTerm": "202510",
           "requirementAuthority": "RA001430",
+          "dw_req_id": "RA001430",
           "rules": [
             {
               "type": "subset",
@@ -215,7 +820,8 @@
                     "tag": "1",
                     "text": "Industrial and Organizational Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -230,13 +836,15 @@
                     "tag": "2",
                     "text": "Current Research in Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -258,7 +866,8 @@
                     "tag": "4",
                     "text": "Advanced Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -283,13 +892,15 @@
                     "tag": "5",
                     "text": "Advanced Course or Indep Study/Internship/TA/Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "ADVANCED COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -305,7 +916,8 @@
                 "tag": "7",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -321,7 +933,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -336,7 +949,8 @@
                 "tag": "9",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -354,7 +968,8 @@
                 "tag": "10",
                 "text": "Specialized Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -370,7 +985,8 @@
                 "tag": "11",
                 "text": "Developmental Courses"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,

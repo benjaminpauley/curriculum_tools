@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000026",
+          "dw_req_id": "RA000026",
           "rules": [
             {
               "type": "course",
@@ -34,7 +35,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -54,6 +56,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001978",
+          "dw_req_id": "RA001978",
           "rules": [
             {
               "type": "course",
@@ -68,7 +71,8 @@
                 "tag": "1",
                 "text": "Organizational Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -83,7 +87,8 @@
                 "tag": "2",
                 "text": "Human Resource Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -98,7 +103,8 @@
                 "tag": "3",
                 "text": "International Business"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -123,7 +129,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -141,6 +148,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002490",
+          "dw_req_id": "RA002490",
           "rules": [
             {
               "type": "course",
@@ -155,7 +163,8 @@
                 "tag": "1",
                 "text": "Organizational Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -170,7 +179,8 @@
                 "tag": "2",
                 "text": "Human Resource Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -185,7 +195,8 @@
                 "tag": "3",
                 "text": "International Business"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -207,7 +218,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

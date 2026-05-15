@@ -1,0 +1,947 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "ELAC-CORE": {
+      "programName": "Liberal Arts Core & Foundational Concepts",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202550",
+          "requirementAuthority": "RA002418",
+          "dw_req_id": "RA002418",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "Attribute= TR30",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "LAC101TR30",
+                        "text": "Introductory Seminars Met by Completion of 30+ Transfer/Readmit Credits"
+                      },
+                      "dw_rule_id": "1-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "Attribute= TR60 or attribute=TRLA or attribute=TR75",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "LAC101TR60",
+                                "text": "Introductory Seminars Met by Completion of 60+ Transfer/Readmit Credits"
+                              },
+                              "dw_rule_id": "1-1-0"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "Attribute=TAPI",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "LAC101TAPI",
+                                        "text": "Introductory Seminars Met by TAP Degree In-Progress"
+                                      },
+                                      "dw_rule_id": "1-1-1-0"
+                                    },
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "Attribute=TAPC",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "LaC101TAPC",
+                                                "text": "Introductory Seminars Met by Completed TAP Degree"
+                                              },
+                                              "dw_rule_id": "1-1-1-1-0"
+                                            },
+                                            {
+                                              "type": "if_else",
+                                              "branches": [
+                                                {
+                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                  "rules": [
+                                                    {
+                                                      "type": "rule_complete",
+                                                      "label": {
+                                                        "tag": "LAC100BATR",
+                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-0"
+                                                    }
+                                                  ],
+                                                  "conditionType": "dw_internal"
+                                                },
+                                                {
+                                                  "condition": null,
+                                                  "rules": [
+                                                    {
+                                                      "type": "group",
+                                                      "minGroups": 1,
+                                                      "options": [
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "and",
+                                                                "courses": [
+                                                                  "LAC 100",
+                                                                  "LAC 101"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "2",
+                                                                "text": "LAC Seminar: Introductory"
+                                                              },
+                                                              "minClasses": 2,
+                                                              "dw_rule_id": "1-1-1-1-1-1-0"
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "2",
+                                                            "text": "LAC Seminar: Introductory"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "or",
+                                                                "courses": [
+                                                                  "@ (with attribute = TR10)"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "2.1",
+                                                                "text": "LAC Seminar: Introductory"
+                                                              },
+                                                              "minClasses": 1,
+                                                              "qualifiers": {
+                                                                "hideRule": true
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-1"
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "2.1",
+                                                            "text": "LAC Seminar: Introductory"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "2.2",
+                                                        "text": "LAC Seminar: Introductory"
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-1"
+                                                    },
+                                                    {
+                                                      "type": "if_else",
+                                                      "branches": [
+                                                        {
+                                                          "condition": "Attribute= TR60 or attribute= TRLA or attribute=TR75",
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_complete",
+                                                              "label": {
+                                                                "tag": "LAC200TR60",
+                                                                "text": "Intermediate Seminar Met by Completion of 60+ Transfer/Readmit Credits"
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-2-0"
+                                                            },
+                                                            {
+                                                              "type": "if_else",
+                                                              "branches": [
+                                                                {
+                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                  "rules": [
+                                                                    {
+                                                                      "type": "rule_complete",
+                                                                      "label": {
+                                                                        "tag": "LAC200BATR",
+                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                      },
+                                                                      "dw_rule_id": "1-1-1-1-1-2-1-0"
+                                                                    },
+                                                                    {
+                                                                      "type": "if_else",
+                                                                      "branches": [
+                                                                        {
+                                                                          "condition": "Attribute=TAPI",
+                                                                          "rules": [
+                                                                            {
+                                                                              "type": "rule_complete",
+                                                                              "label": {
+                                                                                "tag": "LAC200TAPI",
+                                                                                "text": "Introductory Seminars Met by TAP Degree In-Progress"
+                                                                              },
+                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-0"
+                                                                            },
+                                                                            {
+                                                                              "type": "if_else",
+                                                                              "branches": [
+                                                                                {
+                                                                                  "condition": "Attribute=TAPC",
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "rule_complete",
+                                                                                      "label": {
+                                                                                        "tag": "LAC200TAPC",
+                                                                                        "text": "Introductory Seminars Met by Completed TAP Degree"
+                                                                                      },
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-0"
+                                                                                    }
+                                                                                  ],
+                                                                                  "conditionType": "dw_internal"
+                                                                                },
+                                                                                {
+                                                                                  "condition": null,
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "LAC 200"
+                                                                                        ],
+                                                                                        "hidden": [
+                                                                                          "@ (with attribute = TRL2)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "3",
+                                                                                        "text": "LAC Seminar: Intermediate"
+                                                                                      },
+                                                                                      "minClasses": 1,
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-1"
+                                                                                    },
+                                                                                    {
+                                                                                      "type": "if_else",
+                                                                                      "branches": [
+                                                                                        {
+                                                                                          "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                          "rules": [
+                                                                                            {
+                                                                                              "type": "rule_complete",
+                                                                                              "label": {
+                                                                                                "tag": "LAC400BATR",
+                                                                                                "text": "Waived due to Earned Bachelor's Degree"
+                                                                                              },
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-0"
+                                                                                            }
+                                                                                          ],
+                                                                                          "conditionType": "dw_internal"
+                                                                                        },
+                                                                                        {
+                                                                                          "condition": null,
+                                                                                          "rules": [
+                                                                                            {
+                                                                                              "type": "course",
+                                                                                              "courses": {
+                                                                                                "connector": "or",
+                                                                                                "courses": [
+                                                                                                  "LAC 400"
+                                                                                                ]
+                                                                                              },
+                                                                                              "label": {
+                                                                                                "tag": "4",
+                                                                                                "text": "LAC Seminar: Advanced Level"
+                                                                                              },
+                                                                                              "minClasses": 1,
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-1"
+                                                                                            },
+                                                                                            {
+                                                                                              "type": "if_else",
+                                                                                              "branches": [
+                                                                                                {
+                                                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                                  "rules": [
+                                                                                                    {
+                                                                                                      "type": "rule_complete",
+                                                                                                      "label": {
+                                                                                                        "tag": "LACMBATR",
+                                                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                                                      },
+                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-0"
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "conditionType": "dw_internal"
+                                                                                                },
+                                                                                                {
+                                                                                                  "condition": null,
+                                                                                                  "rules": [
+                                                                                                    {
+                                                                                                      "type": "if_else",
+                                                                                                      "branches": [
+                                                                                                        {
+                                                                                                          "condition": "Attribute=TAPI or Attribute=TAPC or Attribute=TAPR",
+                                                                                                          "rules": [
+                                                                                                            {
+                                                                                                              "type": "course",
+                                                                                                              "courses": {
+                                                                                                                "connector": "or",
+                                                                                                                "courses": [
+                                                                                                                  "MAT 216",
+                                                                                                                  "@ (with attribute = LACM)"
+                                                                                                                ],
+                                                                                                                "hidden": [
+                                                                                                                  "MAT @ (WITH ATTRIBUTE= T1M)",
+                                                                                                                  "@ (WITH ATTRIBUTE= TRFM)"
+                                                                                                                ]
+                                                                                                              },
+                                                                                                              "label": {
+                                                                                                                "tag": "ELACMTAP",
+                                                                                                                "text": "Foundational Math Course - TAP Degree"
+                                                                                                              },
+                                                                                                              "minClasses": 1,
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-0"
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "conditionType": "dw_internal"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "condition": null,
+                                                                                                          "rules": [
+                                                                                                            {
+                                                                                                              "type": "course",
+                                                                                                              "courses": {
+                                                                                                                "connector": "or",
+                                                                                                                "courses": [
+                                                                                                                  "@ (with attribute = LACM)"
+                                                                                                                ],
+                                                                                                                "hidden": [
+                                                                                                                  "MAT @ (WITH ATTRIBUTE= T1M)",
+                                                                                                                  "@ (WITH ATTRIBUTE= TRFM)"
+                                                                                                                ]
+                                                                                                              },
+                                                                                                              "label": {
+                                                                                                                "tag": "8",
+                                                                                                                "text": "Foundational Math Course"
+                                                                                                              },
+                                                                                                              "minClasses": 1,
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-1"
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "type": "if_else",
+                                                                                                              "branches": [
+                                                                                                                {
+                                                                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                                                  "rules": [
+                                                                                                                    {
+                                                                                                                      "type": "rule_complete",
+                                                                                                                      "label": {
+                                                                                                                        "tag": "LACWBATR",
+                                                                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                                                                      },
+                                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2-0"
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "conditionType": "dw_internal"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "condition": null,
+                                                                                                                  "rules": [
+                                                                                                                    {
+                                                                                                                      "type": "course",
+                                                                                                                      "courses": {
+                                                                                                                        "connector": "or",
+                                                                                                                        "courses": [
+                                                                                                                          "@ (with attribute = LACW)"
+                                                                                                                        ],
+                                                                                                                        "hidden": [
+                                                                                                                          "ENG @ (WITH ATTRIBUTE= T1W)",
+                                                                                                                          "@ (With Attribute= TRFW)"
+                                                                                                                        ]
+                                                                                                                      },
+                                                                                                                      "label": {
+                                                                                                                        "tag": "9",
+                                                                                                                        "text": "Foundational Writing Course"
+                                                                                                                      },
+                                                                                                                      "minClasses": 1,
+                                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2-1"
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "conditionType": "static"
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2"
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "conditionType": "static"
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1"
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "conditionType": "static"
+                                                                                                }
+                                                                                              ],
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2"
+                                                                                            }
+                                                                                          ],
+                                                                                          "conditionType": "static"
+                                                                                        }
+                                                                                      ],
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2"
+                                                                                    }
+                                                                                  ],
+                                                                                  "conditionType": "static"
+                                                                                }
+                                                                              ],
+                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1"
+                                                                            }
+                                                                          ],
+                                                                          "conditionType": "dw_internal"
+                                                                        }
+                                                                      ],
+                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1"
+                                                                    }
+                                                                  ],
+                                                                  "conditionType": "dw_internal"
+                                                                }
+                                                              ],
+                                                              "dw_rule_id": "1-1-1-1-1-2-1"
+                                                            }
+                                                          ],
+                                                          "conditionType": "dw_internal"
+                                                        }
+                                                      ],
+                                                      "dw_rule_id": "1-1-1-1-1-2"
+                                                    }
+                                                  ],
+                                                  "conditionType": "static"
+                                                }
+                                              ],
+                                              "dw_rule_id": "1-1-1-1-1"
+                                            }
+                                          ],
+                                          "conditionType": "dw_internal"
+                                        }
+                                      ],
+                                      "dw_rule_id": "1-1-1-1"
+                                    }
+                                  ],
+                                  "conditionType": "dw_internal"
+                                }
+                              ],
+                              "dw_rule_id": "1-1-1"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        }
+                      ],
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "LAC 400 (3 credits) must be completed at Eastern."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BIOL": 4,
+            "MAJOR_CPSC": 4,
+            "MAJOR_DATA": 4,
+            "MAJOR_EESC": 4,
+            "MAJOR_MATH": 4,
+            "MAJOR_NURS": 4,
+            "MAJOR_ECED": 9,
+            "MAJOR_ELED": 4,
+            "CONC_ALHL": 4
+          }
+        },
+        {
+          "startTerm": "202610",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002734",
+          "dw_req_id": "RA002734",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "Attribute= TR30",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "LAC101TR30",
+                        "text": "Introductory Seminars Met by Completion of 30+ Transfer/Readmit Credits"
+                      },
+                      "dw_rule_id": "1-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "Attribute= TR60 or attribute=TRLA or attribute=TR75",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "LAC101TR60",
+                                "text": "Introductory Seminars Met by Completion of 60+ Transfer/Readmit Credits"
+                              },
+                              "dw_rule_id": "1-1-0"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "Attribute=TAPI",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "LAC101TAPI",
+                                        "text": "Introductory Seminars Met by TAP Degree In-Progress"
+                                      },
+                                      "dw_rule_id": "1-1-1-0"
+                                    },
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "Attribute=TAPC",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "LaC101TAPC",
+                                                "text": "Introductory Seminars Met by Completed TAP Degree"
+                                              },
+                                              "dw_rule_id": "1-1-1-1-0"
+                                            },
+                                            {
+                                              "type": "if_else",
+                                              "branches": [
+                                                {
+                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                  "rules": [
+                                                    {
+                                                      "type": "rule_complete",
+                                                      "label": {
+                                                        "tag": "LAC100BATR",
+                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-0"
+                                                    }
+                                                  ],
+                                                  "conditionType": "dw_internal"
+                                                },
+                                                {
+                                                  "condition": null,
+                                                  "rules": [
+                                                    {
+                                                      "type": "group",
+                                                      "minGroups": 1,
+                                                      "options": [
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "and",
+                                                                "courses": [
+                                                                  "LAC 100",
+                                                                  "LAC 101"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "2",
+                                                                "text": "LAC Seminar: Introductory"
+                                                              },
+                                                              "minClasses": 2,
+                                                              "dw_rule_id": "1-1-1-1-1-1-0"
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "2",
+                                                            "text": "LAC Seminar: Introductory"
+                                                          }
+                                                        },
+                                                        {
+                                                          "rules": [
+                                                            {
+                                                              "type": "course",
+                                                              "courses": {
+                                                                "connector": "or",
+                                                                "courses": [
+                                                                  "@ (with attribute = TR10)"
+                                                                ]
+                                                              },
+                                                              "label": {
+                                                                "tag": "2.1",
+                                                                "text": "LAC Seminar: Introductory"
+                                                              },
+                                                              "minClasses": 1,
+                                                              "qualifiers": {
+                                                                "hideRule": true
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-1"
+                                                            }
+                                                          ],
+                                                          "label": {
+                                                            "tag": "2.1",
+                                                            "text": "LAC Seminar: Introductory"
+                                                          }
+                                                        }
+                                                      ],
+                                                      "label": {
+                                                        "tag": "2.2",
+                                                        "text": "LAC Seminar: Introductory"
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-1"
+                                                    },
+                                                    {
+                                                      "type": "if_else",
+                                                      "branches": [
+                                                        {
+                                                          "condition": "Attribute= TR60 or attribute= TRLA or attribute=TR75",
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_complete",
+                                                              "label": {
+                                                                "tag": "LAC200TR60",
+                                                                "text": "Intermediate Seminar Met by Completion of 60+ Transfer/Readmit Credits"
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-2-0"
+                                                            },
+                                                            {
+                                                              "type": "if_else",
+                                                              "branches": [
+                                                                {
+                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                  "rules": [
+                                                                    {
+                                                                      "type": "rule_complete",
+                                                                      "label": {
+                                                                        "tag": "LAC200BATR",
+                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                      },
+                                                                      "dw_rule_id": "1-1-1-1-1-2-1-0"
+                                                                    },
+                                                                    {
+                                                                      "type": "if_else",
+                                                                      "branches": [
+                                                                        {
+                                                                          "condition": "Attribute=TAPI",
+                                                                          "rules": [
+                                                                            {
+                                                                              "type": "rule_complete",
+                                                                              "label": {
+                                                                                "tag": "LAC200TAPI",
+                                                                                "text": "Introductory Seminars Met by TAP Degree In-Progress"
+                                                                              },
+                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-0"
+                                                                            },
+                                                                            {
+                                                                              "type": "if_else",
+                                                                              "branches": [
+                                                                                {
+                                                                                  "condition": "Attribute=TAPC",
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "rule_complete",
+                                                                                      "label": {
+                                                                                        "tag": "LAC200TAPC",
+                                                                                        "text": "Introductory Seminars Met by Completed TAP Degree"
+                                                                                      },
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-0"
+                                                                                    }
+                                                                                  ],
+                                                                                  "conditionType": "dw_internal"
+                                                                                },
+                                                                                {
+                                                                                  "condition": null,
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "LAC 200"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "3",
+                                                                                        "text": "LAC Seminar: Intermediate"
+                                                                                      },
+                                                                                      "minClasses": 1,
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-1"
+                                                                                    },
+                                                                                    {
+                                                                                      "type": "if_else",
+                                                                                      "branches": [
+                                                                                        {
+                                                                                          "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                          "rules": [
+                                                                                            {
+                                                                                              "type": "rule_complete",
+                                                                                              "label": {
+                                                                                                "tag": "LAC400BATR",
+                                                                                                "text": "Waived due to Earned Bachelor's Degree"
+                                                                                              },
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-0"
+                                                                                            }
+                                                                                          ],
+                                                                                          "conditionType": "dw_internal"
+                                                                                        },
+                                                                                        {
+                                                                                          "condition": null,
+                                                                                          "rules": [
+                                                                                            {
+                                                                                              "type": "course",
+                                                                                              "courses": {
+                                                                                                "connector": "or",
+                                                                                                "courses": [
+                                                                                                  "LAC 400"
+                                                                                                ]
+                                                                                              },
+                                                                                              "label": {
+                                                                                                "tag": "4",
+                                                                                                "text": "LAC Seminar: Advanced Level"
+                                                                                              },
+                                                                                              "minClasses": 1,
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-1"
+                                                                                            },
+                                                                                            {
+                                                                                              "type": "if_else",
+                                                                                              "branches": [
+                                                                                                {
+                                                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                                  "rules": [
+                                                                                                    {
+                                                                                                      "type": "rule_complete",
+                                                                                                      "label": {
+                                                                                                        "tag": "LACMBATR",
+                                                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                                                      },
+                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-0"
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "conditionType": "dw_internal"
+                                                                                                },
+                                                                                                {
+                                                                                                  "condition": null,
+                                                                                                  "rules": [
+                                                                                                    {
+                                                                                                      "type": "if_else",
+                                                                                                      "branches": [
+                                                                                                        {
+                                                                                                          "condition": "Attribute=TAPI or Attribute=TAPC or Attribute=TAPR",
+                                                                                                          "rules": [
+                                                                                                            {
+                                                                                                              "type": "course",
+                                                                                                              "courses": {
+                                                                                                                "connector": "or",
+                                                                                                                "courses": [
+                                                                                                                  "MAT 216",
+                                                                                                                  "@ (with attribute = LACM)"
+                                                                                                                ],
+                                                                                                                "hidden": [
+                                                                                                                  "MAT @ (WITH ATTRIBUTE= T1M)",
+                                                                                                                  "@ (WITH ATTRIBUTE= TRFM)"
+                                                                                                                ]
+                                                                                                              },
+                                                                                                              "label": {
+                                                                                                                "tag": "ELACMTAP",
+                                                                                                                "text": "Foundational Math Course - TAP Degree"
+                                                                                                              },
+                                                                                                              "minClasses": 1,
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-0"
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "conditionType": "dw_internal"
+                                                                                                        },
+                                                                                                        {
+                                                                                                          "condition": null,
+                                                                                                          "rules": [
+                                                                                                            {
+                                                                                                              "type": "course",
+                                                                                                              "courses": {
+                                                                                                                "connector": "or",
+                                                                                                                "courses": [
+                                                                                                                  "@ (with attribute = LACM)"
+                                                                                                                ],
+                                                                                                                "hidden": [
+                                                                                                                  "MAT @ (WITH ATTRIBUTE= T1M)",
+                                                                                                                  "@ (WITH ATTRIBUTE= TRFM)"
+                                                                                                                ]
+                                                                                                              },
+                                                                                                              "label": {
+                                                                                                                "tag": "8",
+                                                                                                                "text": "Foundational Math Course"
+                                                                                                              },
+                                                                                                              "minClasses": 1,
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-1"
+                                                                                                            },
+                                                                                                            {
+                                                                                                              "type": "if_else",
+                                                                                                              "branches": [
+                                                                                                                {
+                                                                                                                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                                                                                                                  "rules": [
+                                                                                                                    {
+                                                                                                                      "type": "rule_complete",
+                                                                                                                      "label": {
+                                                                                                                        "tag": "LACWBATR",
+                                                                                                                        "text": "Waived due to Earned Bachelor's Degree"
+                                                                                                                      },
+                                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2-0"
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "conditionType": "dw_internal"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                  "condition": null,
+                                                                                                                  "rules": [
+                                                                                                                    {
+                                                                                                                      "type": "course",
+                                                                                                                      "courses": {
+                                                                                                                        "connector": "or",
+                                                                                                                        "courses": [
+                                                                                                                          "@ (with attribute = LACW)"
+                                                                                                                        ],
+                                                                                                                        "hidden": [
+                                                                                                                          "ENG @ (WITH ATTRIBUTE= T1W)",
+                                                                                                                          "@ (With Attribute= TRFW)"
+                                                                                                                        ]
+                                                                                                                      },
+                                                                                                                      "label": {
+                                                                                                                        "tag": "9",
+                                                                                                                        "text": "Foundational Writing Course"
+                                                                                                                      },
+                                                                                                                      "minClasses": 1,
+                                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2-1"
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "conditionType": "static"
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1-2"
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "conditionType": "static"
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2-1"
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "conditionType": "static"
+                                                                                                }
+                                                                                              ],
+                                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1-2-2"
+                                                                                            }
+                                                                                          ],
+                                                                                          "conditionType": "static"
+                                                                                        }
+                                                                                      ],
+                                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1-1-2"
+                                                                                    }
+                                                                                  ],
+                                                                                  "conditionType": "static"
+                                                                                }
+                                                                              ],
+                                                                              "dw_rule_id": "1-1-1-1-1-2-1-1-1"
+                                                                            }
+                                                                          ],
+                                                                          "conditionType": "dw_internal"
+                                                                        }
+                                                                      ],
+                                                                      "dw_rule_id": "1-1-1-1-1-2-1-1"
+                                                                    }
+                                                                  ],
+                                                                  "conditionType": "dw_internal"
+                                                                }
+                                                              ],
+                                                              "dw_rule_id": "1-1-1-1-1-2-1"
+                                                            }
+                                                          ],
+                                                          "conditionType": "dw_internal"
+                                                        }
+                                                      ],
+                                                      "dw_rule_id": "1-1-1-1-1-2"
+                                                    }
+                                                  ],
+                                                  "conditionType": "static"
+                                                }
+                                              ],
+                                              "dw_rule_id": "1-1-1-1-1"
+                                            }
+                                          ],
+                                          "conditionType": "dw_internal"
+                                        }
+                                      ],
+                                      "dw_rule_id": "1-1-1-1"
+                                    }
+                                  ],
+                                  "conditionType": "dw_internal"
+                                }
+                              ],
+                              "dw_rule_id": "1-1-1"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        }
+                      ],
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "LAC 400 (3 credits) must be completed at Eastern."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BIOL": 4,
+            "MAJOR_CPSC": 4,
+            "MAJOR_DATA": 4,
+            "MAJOR_EESC": 4,
+            "MAJOR_MATH": 4,
+            "MAJOR_NURS": 4,
+            "MAJOR_ECED": 9,
+            "MAJOR_ELED": 4,
+            "CONC_ALHL": 4
+          }
+        }
+      ]
+    }
+  }
+}

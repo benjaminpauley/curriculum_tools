@@ -5,9 +5,97 @@
       "programName": "Concentration in Sport Management",
       "versions": [
         {
+          "startTerm": "201040",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000377",
+          "dw_req_id": "RA000377",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 331"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Organization/Administration of Physical Education"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 343"
+                ],
+                "hidden": [
+                  "SLM 320"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Entrepreneurship, Marketing, and Communications In Sports"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 340"
+                ],
+                "hidden": [
+                  "SLM 330"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Facility Design in Sport Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ @ (with Attribute = \"SMEL\")"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Approved Minor Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_ANY": null
+          }
+        },
+        {
           "startTerm": "201440",
           "endTerm": "202050",
           "requirementAuthority": "RA000227",
+          "dw_req_id": "RA000227",
           "rules": [
             {
               "type": "subset",
@@ -28,7 +116,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -46,7 +135,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -66,7 +156,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -84,13 +175,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "5",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -111,7 +204,8 @@
                               "label": {
                                 "tag": null,
                                 "text": "Group Requirement"
-                              }
+                              },
+                              "dw_rule_id": "2-0-0"
                             }
                           ],
                           "label": {
@@ -123,7 +217,8 @@
                       "label": {
                         "tag": "11",
                         "text": "SEMINAR & ELECTIVES OR ELECTIVES COURSES ONLY"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     },
                     {
                       "type": "course",
@@ -151,12 +246,14 @@
                       "minClasses": 4,
                       "qualifiers": {
                         "minGrade": 2
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "ethos"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -182,6 +279,7 @@
           "startTerm": "202110",
           "endTerm": "202250",
           "requirementAuthority": "RA001736",
+          "dw_req_id": "RA001736",
           "rules": [
             {
               "type": "subset",
@@ -202,7 +300,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -220,7 +319,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -240,7 +340,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -258,13 +359,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "5",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -285,7 +388,8 @@
                               "label": {
                                 "tag": null,
                                 "text": "Group Requirement"
-                              }
+                              },
+                              "dw_rule_id": "2-0-0"
                             }
                           ],
                           "label": {
@@ -297,7 +401,8 @@
                       "label": {
                         "tag": "11",
                         "text": "INTERNSHIP & ELECTIVES OR ELECTIVES COURSES ONLY"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     },
                     {
                       "type": "course",
@@ -325,43 +430,48 @@
                       "minClasses": 4,
                       "qualifiers": {
                         "minGrade": 2
-                      }
-                    },
-                    {
-                      "type": "if_else",
-                      "branches": [
-                        {
-                          "condition": "SMGA>=1",
-                          "rules": [
-                            {
-                              "type": "rule_complete",
-                              "label": {
-                                "tag": "33.1",
-                                "text": "Sport Management Concentration Assessment Complete"
-                              }
-                            }
-                          ],
-                          "conditionType": "ethos"
-                        },
-                        {
-                          "condition": null,
-                          "rules": [
-                            {
-                              "type": "rule_incomplete",
-                              "label": {
-                                "tag": "33.2",
-                                "text": "Sport Management Concentration Assessment: Required"
-                              }
-                            }
-                          ],
-                          "conditionType": "static"
-                        }
-                      ]
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "ethos"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "SMGA>=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "33.1",
+                        "text": "Sport Management Concentration Assessment Complete"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "33.2",
+                        "text": "Sport Management Concentration Assessment: Required"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -387,6 +497,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002142",
+          "dw_req_id": "RA002142",
           "rules": [
             {
               "type": "subset",
@@ -407,7 +518,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -425,7 +537,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -445,7 +558,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -463,13 +577,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "5",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -490,7 +606,8 @@
                               "label": {
                                 "tag": null,
                                 "text": "Group Requirement"
-                              }
+                              },
+                              "dw_rule_id": "2-0-0"
                             }
                           ],
                           "label": {
@@ -502,7 +619,8 @@
                       "label": {
                         "tag": "11",
                         "text": "INTERNSHIP & ELECTIVES OR ELECTIVES COURSES ONLY"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     },
                     {
                       "type": "course",
@@ -530,43 +648,48 @@
                       "minClasses": 4,
                       "qualifiers": {
                         "minGrade": 2
-                      }
-                    },
-                    {
-                      "type": "if_else",
-                      "branches": [
-                        {
-                          "condition": "SMGA>=1",
-                          "rules": [
-                            {
-                              "type": "rule_complete",
-                              "label": {
-                                "tag": "33.1",
-                                "text": "Sport Management Concentration Assessment Complete"
-                              }
-                            }
-                          ],
-                          "conditionType": "ethos"
-                        },
-                        {
-                          "condition": null,
-                          "rules": [
-                            {
-                              "type": "rule_incomplete",
-                              "label": {
-                                "tag": "33.2",
-                                "text": "Sport Management Concentration Assessment: Required"
-                              }
-                            }
-                          ],
-                          "conditionType": "static"
-                        }
-                      ]
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "ethos"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "SMGA>=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "33.1",
+                        "text": "Sport Management Concentration Assessment Complete"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "33.2",
+                        "text": "Sport Management Concentration Assessment: Required"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,

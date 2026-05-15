@@ -8,6 +8,7 @@
           "startTerm": "201410",
           "endTerm": "201850",
           "requirementAuthority": "RA000223",
+          "dw_req_id": "RA000223",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Principles of Learning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Ethics for Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Applied Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Learning II: Theories and Work"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,13 +90,15 @@
                     "tag": "5",
                     "text": "Sustainable Behavior"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -107,7 +114,8 @@
                 "tag": "7",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -125,7 +133,8 @@
                 "tag": "8",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -140,7 +149,8 @@
                 "tag": "9",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -155,7 +165,8 @@
                 "tag": "10",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -178,7 +189,8 @@
                     "tag": "11",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -206,13 +218,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "13",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -235,6 +249,7 @@
           "startTerm": "201910",
           "endTerm": "201950",
           "requirementAuthority": "RA000393",
+          "dw_req_id": "RA000393",
           "rules": [
             {
               "type": "subset",
@@ -252,7 +267,8 @@
                     "tag": "1",
                     "text": "Principles of Learning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -267,7 +283,8 @@
                     "tag": "2",
                     "text": "Ethics for Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -282,7 +299,8 @@
                     "tag": "3",
                     "text": "Single-Subject Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -297,7 +315,8 @@
                     "tag": "4",
                     "text": "Applied Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -312,7 +331,8 @@
                     "tag": "5",
                     "text": "Learning II: Theories and Work"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -327,13 +347,15 @@
                     "tag": "6",
                     "text": "Topics in Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -349,7 +371,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -367,7 +390,8 @@
                 "tag": "9",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -382,7 +406,8 @@
                 "tag": "10",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -397,7 +422,8 @@
                 "tag": "11",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -420,7 +446,8 @@
                     "tag": "12",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -448,13 +475,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -477,6 +506,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001432",
+          "dw_req_id": "RA001432",
           "rules": [
             {
               "type": "subset",
@@ -494,7 +524,8 @@
                     "tag": "1",
                     "text": "Principles of Learning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -509,7 +540,8 @@
                     "tag": "2",
                     "text": "Ethics for Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -524,7 +556,8 @@
                     "tag": "2.a",
                     "text": "Supervision & Perf Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -539,7 +572,8 @@
                     "tag": "3",
                     "text": "Single-Subject Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -554,7 +588,8 @@
                     "tag": "4",
                     "text": "Applied Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -569,7 +604,8 @@
                     "tag": "5",
                     "text": "Learning II: Theories and Work"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -584,13 +620,15 @@
                     "tag": "6",
                     "text": "Topics in Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -606,7 +644,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -627,7 +666,8 @@
                 "tag": "9",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -642,7 +682,8 @@
                 "tag": "10",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -657,7 +698,8 @@
                 "tag": "11",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -681,7 +723,8 @@
                     "tag": "12",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -710,13 +753,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -739,6 +784,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002164",
+          "dw_req_id": "RA002164",
           "rules": [
             {
               "type": "subset",
@@ -756,7 +802,8 @@
                     "tag": "1",
                     "text": "Principles of Learning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -771,7 +818,8 @@
                     "tag": "2",
                     "text": "Ethics for Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -786,7 +834,8 @@
                     "tag": "2.a",
                     "text": "Supervision & Perf Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -801,7 +850,8 @@
                     "tag": "3",
                     "text": "Single-Subject Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -816,7 +866,8 @@
                     "tag": "4",
                     "text": "Applied Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -831,7 +882,8 @@
                     "tag": "5",
                     "text": "Learning II: Theories and Work"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -846,7 +898,8 @@
                     "tag": "5.1",
                     "text": "Behavioral Pharmacology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -861,13 +914,15 @@
                     "tag": "6",
                     "text": "Topics in Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -886,7 +941,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -907,7 +963,8 @@
                 "tag": "9",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -922,7 +979,8 @@
                 "tag": "10",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -937,7 +995,8 @@
                 "tag": "11",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -961,7 +1020,8 @@
                     "tag": "12",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -991,13 +1051,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -1018,8 +1080,9 @@
         },
         {
           "startTerm": "202510",
-          "endTerm": "999999",
+          "endTerm": "202650",
           "requirementAuthority": "RA002577",
+          "dw_req_id": "RA002577",
           "rules": [
             {
               "type": "subset",
@@ -1037,7 +1100,8 @@
                     "tag": "1",
                     "text": "Principles of Learning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1052,7 +1116,8 @@
                     "tag": "2",
                     "text": "Ethics for Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1067,7 +1132,8 @@
                     "tag": "2.a",
                     "text": "Supervision & Perf Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1082,7 +1148,8 @@
                     "tag": "3",
                     "text": "Single-Subject Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1097,7 +1164,8 @@
                     "tag": "4",
                     "text": "Applied Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1112,7 +1180,8 @@
                     "tag": "5",
                     "text": "Learning II: Theories and Work"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1127,7 +1196,8 @@
                     "tag": "5.1",
                     "text": "Behavioral Pharmacology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1142,13 +1212,15 @@
                     "tag": "6",
                     "text": "Topics in Behavior Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1168,7 +1240,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1189,7 +1262,8 @@
                 "tag": "9",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1204,7 +1278,8 @@
                 "tag": "10",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -1230,7 +1305,8 @@
                     "tag": "12",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 },
                 {
                   "type": "course",
@@ -1261,13 +1337,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "5-1"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -1279,6 +1357,281 @@
           "notes": [
             "PSY 205, 216, 225, 246, 316, 407 and 417 must be taken at Eastern CT State",
             "University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "202710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002950",
+          "dw_req_id": "RA002950",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles of Learning"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Ethics for Behavior Analysis"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2.a",
+                    "text": "Supervision & Perf Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 246"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Single-Subject Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Applied Behavior Analysis"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 407"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Learning II: Theories and Work"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 415"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5.1",
+                    "text": "Behavioral Pharmacology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 417"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Topics in Behavior Analysis"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 218",
+                  "PSY 318",
+                  "PSY 430",
+                  "PSY 434"
+                ],
+                "hidden": [
+                  "PSY 418"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 314",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ],
+                "hidden": [
+                  "PSY 204"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Developmental"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 303",
+                      "PSY 315",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 435",
+                      "PSY 450",
+                      "PSY 455",
+                      "PSY 460",
+                      "PSY 471"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 496",
+                      "PSY 497",
+                      "PSY 498"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Experiential Learning Requirement"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "dw_rule_id": "5-1"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "SPECIALIZED COURSES"
+              },
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "PSY 205, 216, 225, 246, 316, 407 and 417 must be taken at Eastern CT State",
+            "University.",
+            "Students must complete 3 credits of an approved behavior-analytic experience to meet the",
+            "Experiential Learning Requirement."
           ],
           "maxClassesPerCourse": [],
           "maxCreditsPerCourse": [],

@@ -5,9 +5,10 @@
       "programName": "Concentration in Healthcare Management",
       "versions": [
         {
-          "startTerm": "202010",
+          "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000381",
+          "dw_req_id": "RA000381",
           "rules": [
             {
               "type": "course",
@@ -24,7 +25,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             }
           ],
           "degreeType": "BS",
@@ -37,6 +39,125 @@
           "notes": [
             "Only 3 credits of transfer courses can be used in this concentration."
           ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002393",
+          "dw_req_id": "RA002393",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MGT 511"
+                    ],
+                    "hidden": [
+                      "MGT 511"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1b",
+                    "text": "Healthcare Economics and Finance"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MGT 512"
+                    ],
+                    "hidden": [
+                      "MGT 512"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2b",
+                    "text": "Healthcare Systems and Operations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MGT 513"
+                    ],
+                    "hidden": [
+                      "MGT 513"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3b",
+                    "text": "Analytic Methods in Healthcare"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MGT 514"
+                    ],
+                    "hidden": [
+                      "MGT 514"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4b",
+                    "text": "Healthcare Services Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MGT 515"
+                    ],
+                    "hidden": [
+                      "MGT 515"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5b",
+                    "text": "Quality in Healthcare"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "HEALTHCARE MANAGEMENT CONCENTRATION: Required Courses"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "degreeType": "MS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
           "maxClassesPerCourse": [],
           "maxCreditsPerCourse": [],
           "sharingCredits": {}

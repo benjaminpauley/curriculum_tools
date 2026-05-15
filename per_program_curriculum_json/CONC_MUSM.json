@@ -8,6 +8,7 @@
           "startTerm": "201710",
           "endTerm": "201720",
           "requirementAuthority": "RA000045",
+          "dw_req_id": "RA000045",
           "rules": [
             {
               "type": "course",
@@ -27,7 +28,8 @@
                 "tag": "1",
                 "text": "Musicology Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -48,7 +50,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -68,6 +71,7 @@
           "startTerm": "201740",
           "endTerm": "201750",
           "requirementAuthority": "RA000450",
+          "dw_req_id": "RA000450",
           "rules": [
             {
               "type": "course",
@@ -87,7 +91,8 @@
                 "tag": "1",
                 "text": "Musicology Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -107,7 +112,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -125,8 +131,9 @@
         },
         {
           "startTerm": "201810",
-          "endTerm": "201950",
+          "endTerm": "201920",
           "requirementAuthority": "RA000451",
+          "dw_req_id": "RA000451",
           "rules": [
             {
               "type": "course",
@@ -148,7 +155,8 @@
                 "tag": "1",
                 "text": "Musicology Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -168,7 +176,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -185,9 +194,10 @@
           }
         },
         {
-          "startTerm": "202010",
+          "startTerm": "201940",
           "endTerm": "202150",
           "requirementAuthority": "RA001243",
+          "dw_req_id": "RA001243",
           "rules": [
             {
               "type": "course",
@@ -209,7 +219,8 @@
                 "tag": "1",
                 "text": "Musicology Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -233,7 +244,8 @@
                 "tag": "2",
                 "text": "Electives from Another Concentration"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -253,6 +265,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001994",
+          "dw_req_id": "RA001994",
           "rules": [
             {
               "type": "course",
@@ -274,7 +287,8 @@
                 "tag": "1",
                 "text": "Musicology Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

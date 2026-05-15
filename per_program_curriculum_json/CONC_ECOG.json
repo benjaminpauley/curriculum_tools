@@ -5,9 +5,10 @@
       "programName": "Concentration in General Economics",
       "versions": [
         {
-          "startTerm": "201510",
-          "endTerm": "201850",
-          "requirementAuthority": "RA000420",
+          "startTerm": "201210",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000032",
+          "dw_req_id": "RA000032",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Quantitative Methods Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Intermediate Microeconomics Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,107 @@
                 "tag": "3",
                 "text": "Intermediate Macroeconomic Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 305",
+                  "ECO 310",
+                  "ECO 315",
+                  "ECO 320",
+                  "ECO 325",
+                  "ECO 329",
+                  "ECO 330",
+                  "ECO 331",
+                  "ECO 335",
+                  "ECO 340",
+                  "ECO 345",
+                  "ECO 350",
+                  "ECO 353",
+                  "ECO 355",
+                  "ECO 360",
+                  "ECO 370",
+                  "ECO 375",
+                  "ECO 377",
+                  "ECO 465"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Economics Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000420",
+          "dw_req_id": "RA000420",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Quantitative Methods Economics"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intermediate Microeconomics Analysis"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intermediate Macroeconomic Analysis"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -83,7 +186,8 @@
                 "tag": "4",
                 "text": "General Economics Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -103,6 +207,7 @@
           "startTerm": "201910",
           "endTerm": "201950",
           "requirementAuthority": "RA000421",
+          "dw_req_id": "RA000421",
           "rules": [
             {
               "type": "course",
@@ -117,7 +222,8 @@
                 "tag": "1",
                 "text": "Quantitative Methods Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -132,7 +238,8 @@
                 "tag": "2",
                 "text": "Intermediate Microeconomics Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -147,7 +254,8 @@
                 "tag": "3",
                 "text": "Intermediate Macroeconomic Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -178,7 +286,8 @@
                 "tag": "4",
                 "text": "General Economics Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -196,6 +305,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001470",
+          "dw_req_id": "RA001470",
           "rules": [
             {
               "type": "course",
@@ -210,7 +320,8 @@
                 "tag": "1",
                 "text": "Quantitative Methods Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -225,7 +336,8 @@
                 "tag": "2",
                 "text": "Intermediate Microeconomics Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -240,7 +352,8 @@
                 "tag": "3",
                 "text": "Intermediate Macroeconomic Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -274,7 +387,8 @@
                 "tag": "4",
                 "text": "General Economics Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -290,8 +404,9 @@
         },
         {
           "startTerm": "202310",
-          "endTerm": "999999",
+          "endTerm": "202350",
           "requirementAuthority": "RA002169",
+          "dw_req_id": "RA002169",
           "rules": [
             {
               "type": "course",
@@ -306,7 +421,8 @@
                 "tag": "1",
                 "text": "Quantitative Methods Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -321,7 +437,8 @@
                 "tag": "2",
                 "text": "Intermediate Microeconomics Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -336,7 +453,8 @@
                 "tag": "3",
                 "text": "Intermediate Macroeconomic Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -364,7 +482,8 @@
                 "tag": "4",
                 "text": "General Economics Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

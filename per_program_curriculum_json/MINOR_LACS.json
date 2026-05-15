@@ -5,9 +5,126 @@
       "programName": "Minor in Latin American & Caribbean Studies",
       "versions": [
         {
+          "startTerm": "201410",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000111",
+          "dw_req_id": "RA000111",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ENG 324",
+                  "HIS 255",
+                  "HIS 341",
+                  "HIS 342",
+                  "HIS 345",
+                  "HIS 346",
+                  "HIS 347",
+                  "MCL 324",
+                  "SOC 355",
+                  "SOC 356",
+                  "SPA 210",
+                  "SPA 211",
+                  "SPA 318",
+                  "SPA 323",
+                  "SPA 356",
+                  "WST 324"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Latin American & Caribbean Study Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000308",
+          "dw_req_id": "RA000308",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 225",
+                  "ANT 240",
+                  "ART 224",
+                  "HIS 255",
+                  "HIS 342",
+                  "HIS 345",
+                  "HIS 346",
+                  "HIS 347",
+                  "PSC 328",
+                  "SPA 318",
+                  "SPA 319",
+                  "SPA 320",
+                  "SPA 321",
+                  "SPA 323"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Latin American & Caribbean Study Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
           "startTerm": "201710",
           "endTerm": "202350",
           "requirementAuthority": "RA000309",
+          "dw_req_id": "RA000309",
           "rules": [
             {
               "type": "course",
@@ -37,7 +154,8 @@
                 "tag": "3",
                 "text": "Latin American & Caribbean Study Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -65,6 +183,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002394",
+          "dw_req_id": "RA002394",
           "rules": [
             {
               "type": "course",
@@ -95,7 +214,8 @@
                 "tag": "3",
                 "text": "Latin American & Caribbean Study Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {

@@ -5,16 +5,18 @@
       "programName": "Major in Pre-Elementary Education",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "201950",
           "requirementAuthority": "RA000232",
+          "dw_req_id": "RA000232",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "3.2",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -28,7 +30,8 @@
                 "tag": "4",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -43,7 +46,8 @@
                 "tag": "5",
                 "text": "Foundations of U.S. Education or International Cross Cultural Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -58,7 +62,8 @@
                 "tag": "7",
                 "text": "Psychology of Childhood or Psychology of Adolescence"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "PELM",
@@ -86,13 +91,15 @@
           "startTerm": "202010",
           "endTerm": "202450",
           "requirementAuthority": "RA001309",
+          "dw_req_id": "RA001309",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "3.2",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -106,7 +113,8 @@
                 "tag": "4",
                 "text": "Child and Adolescent Development and Exceptionalities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -121,7 +129,8 @@
                 "tag": "5",
                 "text": "Foundations of U.S. Education or International Cross Cultural Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -136,7 +145,8 @@
                 "tag": "7",
                 "text": "Psychology of Childhood or Psychology of Adolescence"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "PELM",
@@ -164,58 +174,149 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002637",
+          "dw_req_id": "RA002637",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "3.2",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "EDU 200"
-                ]
-              },
-              "label": {
-                "tag": "4",
-                "text": "Child and Adolescent Development and Exceptionalities"
-              },
-              "minClasses": 1
-            },
-            {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "EDU 210",
-                  "EDU 357",
-                  "EDU 457"
-                ]
-              },
-              "label": {
-                "tag": "5",
-                "text": "Foundations of U.S. Edu. or Intl. Cross Cultural Edu. or Global Field Study"
-              },
-              "minClasses": 1
-            },
-            {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "PSY 206",
-                  "PSY 208"
-                ]
-              },
-              "label": {
-                "tag": "7",
-                "text": "Psychology of Childhood or Psychology of Adolescence"
-              },
-              "minClasses": 1
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "attribute = TR60",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-0"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357",
+                              "EDU 457"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5",
+                            "text": "Foundations of U.S. Education or International Cross Cultural Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-1"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-2"
+                        }
+                      ],
+                      "label": {
+                        "tag": "8",
+                        "text": "Program Prerequisites"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 200"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4.1",
+                            "text": "Child and Adolescent Development and Exceptionalities"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-0"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 210",
+                              "EDU 357",
+                              "EDU 457"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5.1",
+                            "text": "Foundations of U.S. Education or International Cross Cultural Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "PSY 206",
+                              "PSY 208"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7.1",
+                            "text": "Psychology of Childhood or Psychology of Adolescence"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
+                        }
+                      ],
+                      "label": {
+                        "tag": "8.1",
+                        "text": "Program Prerequisites"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PELM",

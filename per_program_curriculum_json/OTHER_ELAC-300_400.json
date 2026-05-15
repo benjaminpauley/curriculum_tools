@@ -1,0 +1,90 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "ELAC-300_400": {
+      "programName": "Disciplinary Perspectives 300 400 Verification",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002588",
+          "dw_req_id": "RA002588",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "Attribute=BATR or attribute=SECD or attribute=TDEG",
+                  "rules": [],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ 3@ (with attribute=LOCR",
+                          "attribute=LOCM",
+                          "attribute=LOCT oR attribute=LOER",
+                          "attribute=LOQL",
+                          "attribute= LAAH",
+                          "attribute=LASS",
+                          "attribute=LASM)",
+                          "@ 4@ (with attribute=LOCR",
+                          "attribute=LOCM",
+                          "attribute=LOCT oR attribute=LOER",
+                          "attribute=LOQL",
+                          "attribute= LAAH",
+                          "attribute=LASS",
+                          "attribute=LASM)"
+                        ],
+                        "hidden": [
+                          "@ 3@ (with attribute= TRCR",
+                          "attribute= TRCM",
+                          "attribute= TRCT",
+                          "attribute= TRQL",
+                          "attribute = TRSS",
+                          "attribute = TRSM",
+                          "attribute=TRLO)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "33",
+                        "text": "300 or 400 level"
+                      },
+                      "minClasses": 1,
+                      "qualifiers": {
+                        "priority": "high"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "At least one Disciplinary Perspectives course must be taken at the",
+            "300/400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_POLI": 0
+          }
+        }
+      ]
+    }
+  }
+}

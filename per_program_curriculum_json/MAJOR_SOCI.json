@@ -1,0 +1,209 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SOCI": {
+      "programName": "Major in Sociology and Applied Social Relations",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000258",
+          "dw_req_id": "RA000258",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 100"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Introduction to Sociology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 201"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Intro to the Sociology Major"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 300"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Sociological Theory"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 350"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Methods of Social Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 351"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Statistics for Social Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "SOC 400"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Senior Seminar"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "REQUIRED COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 100:499",
+                  "SOC 100:499"
+                ],
+                "hidden": [
+                  "ANT 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "CAS 201",
+                  "CAS 222",
+                  "CAS 340",
+                  "LAS 225",
+                  "LAS 240",
+                  "WST 300",
+                  "WST 370",
+                  "HSC 302",
+                  "ART 336",
+                  "SOC 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Major Electives I"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives II"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "SOCI",
+          "minimumCredits": {
+            "min": 37
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -5,9 +5,30 @@
       "programName": "Concentration in Finance",
       "versions": [
         {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000171",
+          "dw_req_id": "RA000171",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
           "startTerm": "201210",
           "endTerm": "202150",
           "requirementAuthority": "RA000023",
+          "dw_req_id": "RA000023",
           "rules": [
             {
               "type": "course",
@@ -36,8 +57,7 @@
                   "BUS 438",
                   "BUS 445",
                   "BUS 446",
-                  "BUS 462",
-                  "BUS 480 (With DWTitle = \"@ BUS 462\") High-Priority"
+                  "BUS 462"
                 ]
               },
               "label": {
@@ -47,7 +67,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "high"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "degreeType": "BS",

@@ -8,6 +8,7 @@
           "startTerm": "200510",
           "endTerm": "202150",
           "requirementAuthority": "RA001476",
+          "dw_req_id": "RA001476",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Public Speaking"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Organizational Communication"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Advanced Interpersonal Communication"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -72,7 +76,8 @@
                 "tag": "4",
                 "text": "Two Additional Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -90,6 +95,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001913",
+          "dw_req_id": "RA001913",
           "rules": [
             {
               "type": "course",
@@ -104,7 +110,8 @@
                 "tag": "1",
                 "text": "Public Presentations"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -119,7 +126,8 @@
                 "tag": "2",
                 "text": "Organizational Communication"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -134,7 +142,8 @@
                 "tag": "3",
                 "text": "Advanced Interpersonal Communication"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -153,7 +162,8 @@
                 "tag": "4",
                 "text": "Two Additional Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

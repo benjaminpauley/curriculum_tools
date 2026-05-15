@@ -5,9 +5,10 @@
       "programName": "Major in Music",
       "versions": [
         {
-          "startTerm": "201510",
-          "endTerm": "201650",
-          "requirementAuthority": "RA000044",
+          "startTerm": "201240",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000505",
+          "dw_req_id": "RA000505",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Theory of Music I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Theory of Music II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Sight Singing Ear Training Lab I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,276 @@
                     "tag": "4",
                     "text": "Sight Singing Ear Training Lab II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "MUSIC THEORY"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 235"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Music History Survey I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 236"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Music History Survey II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Intro to Ethnomusicology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 302",
+                  "MUS 345"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Writing Intensive"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 103",
+                  "MUS 106",
+                  "MUS 107"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Applied Experience"
+              },
+              "minCredits": 4,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MUSI >=1",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "12",
+                        "text": "Keyboard Proficiency Examination: Complete"
+                      },
+                      "dw_rule_id": "5-0"
+                    }
+                  ],
+                  "conditionType": "ethos"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "13",
+                        "text": "Keyboard Proficiency Examination: Required"
+                      },
+                      "dw_rule_id": "5-1"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "CONC=MUSG OR CONC=MUST OR CONC=MUSP",
+                          "rules": [
+                            {
+                              "type": "blocktype_ref",
+                              "blockType": "CONC",
+                              "count": 1,
+                              "label": {
+                                "tag": "14",
+                                "text": "Concentration Requirements"
+                              },
+                              "dw_rule_id": "5-2-0"
+                            }
+                          ],
+                          "conditionType": "static"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "rule_incomplete",
+                              "label": {
+                                "tag": "15",
+                                "text": "A Concentration is Required"
+                              },
+                              "dw_rule_id": "5-2-1"
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ],
+                      "dw_rule_id": "5-2"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "5"
+            }
+          ],
+          "declaredMajor": "MUSI",
+          "minimumCredits": {
+            "min": 42
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_7_12": 6,
+            "CONC_PERM": 6,
+            "CONC_HAMS": 9
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000044",
+          "dw_req_id": "RA000044",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 205"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Theory of Music I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 206"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Theory of Music II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Sight Singing Ear Training Lab I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MUS 216"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Sight Singing Ear Training Lab II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,13 +358,15 @@
                     "tag": "5",
                     "text": "Theory of Music III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "MUSIC THEORY"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -109,7 +384,8 @@
                     "tag": "7",
                     "text": "Music History Survey I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -124,7 +400,8 @@
                     "tag": "8",
                     "text": "Music History Survey II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -139,13 +416,15 @@
                     "tag": "9",
                     "text": "Intro to Ethnomusicology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -161,7 +440,8 @@
                 "tag": "11",
                 "text": "Writing Intensive"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -177,7 +457,8 @@
                 "tag": "12",
                 "text": "Applied Experience"
               },
-              "minCredits": 4
+              "minCredits": 4,
+              "dw_rule_id": "4"
             },
             {
               "type": "if_else",
@@ -190,7 +471,8 @@
                       "label": {
                         "tag": "14",
                         "text": "Keyboard Proficiency Examination: Complete"
-                      }
+                      },
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -203,7 +485,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Keyboard Proficiency Examination: Required"
-                      }
+                      },
+                      "dw_rule_id": "5-1"
                     },
                     {
                       "type": "if_else",
@@ -218,7 +501,8 @@
                               "label": {
                                 "tag": "16",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "5-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -231,17 +515,20 @@
                               "label": {
                                 "tag": "17",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "5-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "5"
             }
           ],
           "declaredMajor": "MUSI",
@@ -274,6 +561,7 @@
           "startTerm": "201710",
           "endTerm": "201720",
           "requirementAuthority": "RA000506",
+          "dw_req_id": "RA000506",
           "rules": [
             {
               "type": "subset",
@@ -291,7 +579,8 @@
                     "tag": "1",
                     "text": "Theory of Music I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -306,7 +595,8 @@
                     "tag": "2",
                     "text": "Theory of Music II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -321,7 +611,8 @@
                     "tag": "3",
                     "text": "Sight Singing Ear Training Lab I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -336,7 +627,8 @@
                     "tag": "4",
                     "text": "Sight Singing Ear Training Lab II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -351,13 +643,15 @@
                     "tag": "5",
                     "text": "Theory of Music III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "MUSIC THEORY"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -375,7 +669,8 @@
                     "tag": "7",
                     "text": "Music History Survey I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -390,7 +685,8 @@
                     "tag": "8",
                     "text": "Music History Survey II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -405,13 +701,15 @@
                     "tag": "9",
                     "text": "Intro to Ethnomusicology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -427,7 +725,8 @@
                 "tag": "11",
                 "text": "Writing Intensive"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -442,7 +741,8 @@
                 "tag": "12",
                 "text": "Applied Experience"
               },
-              "minCredits": 4
+              "minCredits": 4,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -456,7 +756,8 @@
                 "tag": "13",
                 "text": "Senior Project in Music"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -469,7 +770,8 @@
                       "label": {
                         "tag": "14",
                         "text": "Keyboard Proficiency Examination: Complete"
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -482,7 +784,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Keyboard Proficiency Examination: Required"
-                      }
+                      },
+                      "dw_rule_id": "6-1"
                     },
                     {
                       "type": "if_else",
@@ -497,7 +800,8 @@
                               "label": {
                                 "tag": "16",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "6-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -510,17 +814,20 @@
                               "label": {
                                 "tag": "17",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "6-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "6-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "MUSI",
@@ -553,6 +860,7 @@
           "startTerm": "201740",
           "endTerm": "202150",
           "requirementAuthority": "RA000507",
+          "dw_req_id": "RA000507",
           "rules": [
             {
               "type": "subset",
@@ -570,7 +878,8 @@
                     "tag": "1",
                     "text": "Theory of Music I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -585,7 +894,8 @@
                     "tag": "2",
                     "text": "Theory of Music II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -600,7 +910,8 @@
                     "tag": "3",
                     "text": "Sight Singing Ear Training Lab I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -615,7 +926,8 @@
                     "tag": "4",
                     "text": "Sight Singing Ear Training Lab II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -630,13 +942,15 @@
                     "tag": "5",
                     "text": "Theory of Music III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "MUSIC THEORY"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -654,7 +968,8 @@
                     "tag": "7",
                     "text": "Music History Survey I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -669,7 +984,8 @@
                     "tag": "8",
                     "text": "Music History Survey II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -684,13 +1000,15 @@
                     "tag": "9",
                     "text": "Intro to Ethnomusicology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MUSIC HISTORY AND ETHNOMUSICOLOGY"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -706,7 +1024,8 @@
                 "tag": "11",
                 "text": "Writing Intensive"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -721,7 +1040,8 @@
                 "tag": "12",
                 "text": "Applied Experience"
               },
-              "minCredits": 4
+              "minCredits": 4,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -735,7 +1055,8 @@
                 "tag": "13",
                 "text": "Senior Project in Music"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -748,7 +1069,8 @@
                       "label": {
                         "tag": "14",
                         "text": "Keyboard Proficiency Examination: Complete"
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -761,7 +1083,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Keyboard Proficiency Examination: Required"
-                      }
+                      },
+                      "dw_rule_id": "6-1"
                     },
                     {
                       "type": "if_else",
@@ -776,7 +1099,8 @@
                               "label": {
                                 "tag": "16",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "6-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -789,17 +1113,20 @@
                               "label": {
                                 "tag": "17",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "6-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "6-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "MUSI",
@@ -832,6 +1159,7 @@
           "startTerm": "202210",
           "endTerm": "202350",
           "requirementAuthority": "RA001991",
+          "dw_req_id": "RA001991",
           "rules": [
             {
               "type": "subset",
@@ -849,7 +1177,8 @@
                     "tag": "1",
                     "text": "Theory of Music I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -864,7 +1193,8 @@
                     "tag": "3",
                     "text": "Sight Singing Ear Training Lab I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -879,7 +1209,8 @@
                     "tag": "2",
                     "text": "Theory of Music II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -894,7 +1225,8 @@
                     "tag": "4",
                     "text": "Sight Singing Ear Training Lab II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -909,7 +1241,8 @@
                     "tag": "5",
                     "text": "Theory of Music III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -924,7 +1257,8 @@
                     "tag": "5.1",
                     "text": "Sight Singing and Ear Training Lab III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -939,7 +1273,8 @@
                     "tag": "7",
                     "text": "Music History Survey I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -954,7 +1289,8 @@
                     "tag": "8",
                     "text": "Music History Survey II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -969,7 +1305,8 @@
                     "tag": "9",
                     "text": "Intro to Ethnomusicology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -984,13 +1321,15 @@
                     "tag": "9.1",
                     "text": "Senior Project in Music"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1007,7 +1346,8 @@
                 "tag": "10.1",
                 "text": "MUSIC THEORY & ANALYSIS"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1024,7 +1364,8 @@
                 "tag": "11",
                 "text": "MUSIC HISTORY & CRITICISM"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1039,7 +1380,8 @@
                 "tag": "12",
                 "text": "LARGE ENSEMBLE"
               },
-              "minCredits": 4
+              "minCredits": 4,
+              "dw_rule_id": "4"
             },
             {
               "type": "if_else",
@@ -1052,7 +1394,8 @@
                       "label": {
                         "tag": "14",
                         "text": "Keyboard Proficiency Examination: Complete"
-                      }
+                      },
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -1065,7 +1408,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Keyboard Proficiency Examination: Required"
-                      }
+                      },
+                      "dw_rule_id": "5-1"
                     },
                     {
                       "type": "if_else",
@@ -1080,7 +1424,8 @@
                               "label": {
                                 "tag": "16",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "5-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -1093,17 +1438,20 @@
                               "label": {
                                 "tag": "17",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "5-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "5"
             }
           ],
           "declaredMajor": "MUSI",
@@ -1136,6 +1484,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002341",
+          "dw_req_id": "RA002341",
           "rules": [
             {
               "type": "subset",
@@ -1153,7 +1502,8 @@
                     "tag": "1.1",
                     "text": "Fundamentals of Music Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1168,7 +1518,8 @@
                     "tag": "1",
                     "text": "Theory of Music I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1183,7 +1534,8 @@
                     "tag": "3",
                     "text": "Sight Singing Ear Training Lab I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1198,7 +1550,8 @@
                     "tag": "2",
                     "text": "Theory of Music II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1213,7 +1566,8 @@
                     "tag": "4",
                     "text": "Sight Singing Ear Training Lab II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1228,7 +1582,8 @@
                     "tag": "7",
                     "text": "Music History Survey I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1243,7 +1598,8 @@
                     "tag": "8",
                     "text": "Music History Survey II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1258,13 +1614,15 @@
                     "tag": "9",
                     "text": "Intro to Ethnomusicology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1282,7 +1640,8 @@
                 "tag": "11",
                 "text": "MUSIC HISTORY & CRITICISM"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1298,7 +1657,8 @@
                 "tag": "12",
                 "text": "ENSEMBLE PERFORMANCE"
               },
-              "minCredits": 2
+              "minCredits": 2,
+              "dw_rule_id": "3"
             },
             {
               "type": "if_else",
@@ -1311,7 +1671,8 @@
                       "label": {
                         "tag": "14",
                         "text": "Keyboard Proficiency Examination: Complete"
-                      }
+                      },
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -1324,7 +1685,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Keyboard Proficiency Examination: Required"
-                      }
+                      },
+                      "dw_rule_id": "4-1"
                     },
                     {
                       "type": "if_else",
@@ -1339,7 +1701,8 @@
                               "label": {
                                 "tag": "16",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "4-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -1352,17 +1715,20 @@
                               "label": {
                                 "tag": "17",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "4-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "4-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "MUSI",

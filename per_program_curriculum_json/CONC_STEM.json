@@ -1,0 +1,84 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "STEM": {
+      "programName": "Conc in Science, Technology, Engineering & Math",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000354",
+          "dw_req_id": "RA000354",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 656"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Teaching Math and Science with Technology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 660"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Math and Science Content: An Integrative Approach"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 662"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Inquiry, Problem Solving and Modeling in STEM Content"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 9
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

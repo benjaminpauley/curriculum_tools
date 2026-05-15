@@ -5,9 +5,10 @@
       "programName": "Minor in Computer Engineering Science",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201450",
-          "requirementAuthority": "RA000280",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000089",
+          "dw_req_id": "RA000089",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Numerical Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Signals and Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,153 @@
                 "tag": "5",
                 "text": "Digital Logic Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 356"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5.1",
+                "text": "Digital Logic Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 310"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Applied Linear Algebra"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Calculus III"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Computer Engineering Science Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "7"
+            }
+          ],
+          "minimumCredits": {
+            "min": 19
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000280",
+          "dw_req_id": "RA000280",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Numerical Analysis"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 351"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Signals and Systems"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 355"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Digital Logic Lecture"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +216,8 @@
                 "tag": "6",
                 "text": "Digital Logic Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -82,7 +232,8 @@
                 "tag": "7",
                 "text": "Applied Linear Algebra"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -97,7 +248,8 @@
                 "tag": "8",
                 "text": "Calculus III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -117,7 +269,8 @@
                 "tag": "9",
                 "text": "Computer Engineering Science Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": {
@@ -145,6 +298,7 @@
           "startTerm": "201510",
           "endTerm": "999999",
           "requirementAuthority": "RA000281",
+          "dw_req_id": "RA000281",
           "rules": [
             {
               "type": "course",
@@ -159,7 +313,8 @@
                 "tag": "3",
                 "text": "Numerical Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -174,7 +329,8 @@
                 "tag": "4",
                 "text": "Signals and Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -189,7 +345,8 @@
                 "tag": "5",
                 "text": "Digital Logic Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -204,7 +361,8 @@
                 "tag": "6",
                 "text": "Applied Linear Algebra"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -219,7 +377,8 @@
                 "tag": "7",
                 "text": "Calculus III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -239,7 +398,8 @@
                 "tag": "8",
                 "text": "Computer Engineering Science Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {

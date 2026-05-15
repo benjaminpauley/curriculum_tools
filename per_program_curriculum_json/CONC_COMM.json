@@ -1,0 +1,206 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "COMM": {
+      "programName": "Concentration in Communication",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000165",
+          "dw_req_id": "RA000165",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000397",
+          "dw_req_id": "RA000397",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Communication Writing"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 474"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Experimental Digital Media Production"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 245",
+                  "COM 310",
+                  "COM 320",
+                  "COM 325",
+                  "COM 352",
+                  "COM 380",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4,
+              "dw_rule_id": "3"
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002870",
+          "dw_req_id": "RA002870",
+          "rules": [],
+          "degreeType": "AS",
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000048",
+          "dw_req_id": "RA000048",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Communication Writing"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 474"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Experimental Digital Media Production"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 245",
+                  "COM 310",
+                  "COM 320",
+                  "COM 325",
+                  "COM 352",
+                  "COM 380",
+                  "COM 430",
+                  "COM 435",
+                  "COM 440",
+                  "COM 490"
+                ],
+                "hidden": [
+                  "{HIDE COM 480 (With DWTitle = \"@ COM 310\"), {HIDE COM 480 (With DWTitle = \"@ COM 320\"), {HIDE COM 480 (With DWTitle = \"@ COM 325\"), {HIDE COM 480 (With DWTitle = \"@ COM 352\"), {HIDE COM 480 (With DWTitle = \"@ COM 380\"), {HIDE COM 480 (With DWTitle = \"@ COM 430\"), {HIDE COM 480 (With DWTitle = \"@ COM 435\"), {HIDE COM 480 (With DWTitle = \"@ COM 440\"), {HIDE COM 480 (With DWTitle = \"@ COM 490\")"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4,
+              "dw_rule_id": "3"
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

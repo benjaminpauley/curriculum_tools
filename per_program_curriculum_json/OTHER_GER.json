@@ -1,0 +1,1026 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "GER": {
+      "programName": "General Education Requirements",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000533",
+          "dw_req_id": "RA000533",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HON 201",
+                          "HON 360",
+                          "361 HIDE-RULE"
+                        ]
+                      },
+                      "label": {
+                        "tag": "GERIA3credits",
+                        "text": "GER - IA"
+                      },
+                      "minCredits": 3,
+                      "minClasses": 1,
+                      "combinationOperator": "and",
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "GERIA3credits",
+                    "text": "GER - IA"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ @ (with ATTRIBUTE=IA)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "GERCLass",
+                        "text": "GER - IA"
+                      },
+                      "minCredits": 2,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "GERCLass",
+                    "text": "GER - IA"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "GERIA",
+                "text": "IA-Inquiry and Analysis"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TR75",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "43",
+                        "text": "Aesthetic Awareness Met by 75+ Transfer Credits"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "ATTRIBUTE=TR60",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "44",
+                                "text": "Aesthetic Awareness Met by 60+ Transfer Credits"
+                              },
+                              "dw_rule_id": "2-1-0"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "group",
+                              "minGroups": 1,
+                              "options": [
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "HON 201",
+                                          "HON 360",
+                                          "361 HIDE-RULE"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIB3credits",
+                                        "text": "GER - IB"
+                                      },
+                                      "minCredits": 3,
+                                      "minClasses": 1,
+                                      "combinationOperator": "and",
+                                      "dw_rule_id": "2-1-1-0"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERIB3credits",
+                                    "text": "GER - IB"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IB)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERCLIB",
+                                        "text": "GER - IB"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-1-1"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERCLIB",
+                                    "text": "GER - IB"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "GERIB",
+                                "text": "IB - Aesthetic Awareness"
+                              },
+                              "dw_rule_id": "2-1-1"
+                            },
+                            {
+                              "type": "group",
+                              "minGroups": 1,
+                              "options": [
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "HON 201",
+                                          "HON 360",
+                                          "HON 361",
+                                          "362 HIDE-RULE"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIC13credits",
+                                        "text": "GER - IC1"
+                                      },
+                                      "minCredits": 3,
+                                      "minClasses": 1,
+                                      "combinationOperator": "and",
+                                      "dw_rule_id": "2-1-2-0"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERIC13credits",
+                                    "text": "GER - IC1"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IC1)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERCLassIc1",
+                                        "text": "GER - IC1"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-2-1"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERCLassIc1",
+                                    "text": "GER - IC1"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "GERIC1",
+                                "text": "IC1 - Cultural Traditions 1"
+                              },
+                              "dw_rule_id": "2-1-2"
+                            },
+                            {
+                              "type": "group",
+                              "minGroups": 1,
+                              "options": [
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "HON 201",
+                                          "HON 360",
+                                          "361 HIDE-RULE"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIC23credits",
+                                        "text": "GER - IC2"
+                                      },
+                                      "minCredits": 3,
+                                      "minClasses": 1,
+                                      "combinationOperator": "and",
+                                      "dw_rule_id": "2-1-3-0"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERIC23credits",
+                                    "text": "GER - IC2"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IC2)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERCLassIc2",
+                                        "text": "GER - IC2"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-3-1"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "GERCLassIc2",
+                                    "text": "GER - IC2"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "GERIC2",
+                                "text": "IC2 - Cultural Traditions 2"
+                              },
+                              "dw_rule_id": "2-1-3"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "MAJOR = ENGL",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "GERVIIAENG",
+                                        "text": "ENGL majors are exempt from GER IIA"
+                                      },
+                                      "dw_rule_id": "2-1-4-0"
+                                    }
+                                  ],
+                                  "conditionType": "unknown"
+                                },
+                                {
+                                  "condition": null,
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IIA)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIIA",
+                                        "text": "IIA - Literature"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-4-1"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                }
+                              ],
+                              "dw_rule_id": "2-1-4"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "MAJOR = VART",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "VARTIIB",
+                                        "text": "VART majors are exempt from IIB"
+                                      },
+                                      "dw_rule_id": "2-1-5-0"
+                                    }
+                                  ],
+                                  "conditionType": "unknown"
+                                },
+                                {
+                                  "condition": null,
+                                  "rules": [
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "MAJOR = ART",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "ARTIIB",
+                                                "text": "ART majors are exempt from IIB"
+                                              },
+                                              "dw_rule_id": "2-1-5-1-0"
+                                            },
+                                            {
+                                              "type": "course",
+                                              "courses": {
+                                                "connector": "or",
+                                                "courses": [
+                                                  "Else 2 Credits in @ @ (with ATTRIBUTE=IIB)"
+                                                ]
+                                              },
+                                              "label": {
+                                                "tag": "GERIIB",
+                                                "text": "IIB - Fine Arts"
+                                              },
+                                              "minClasses": 1,
+                                              "dw_rule_id": "2-1-5-1-1"
+                                            }
+                                          ],
+                                          "conditionType": "unknown"
+                                        }
+                                      ],
+                                      "dw_rule_id": "2-1-5-1"
+                                    },
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IIIA)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIIIA",
+                                        "text": "IIIA - Mathematics"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-5-2"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                }
+                              ],
+                              "dw_rule_id": "2-1-5"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "ATTRIBUTE=TR75",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "GERIIIB7-",
+                                        "text": "Natural Sciences-Lab Met by 75+ Transfer Credits"
+                                      },
+                                      "dw_rule_id": "2-1-6-0"
+                                    }
+                                  ],
+                                  "conditionType": "dw_internal"
+                                },
+                                {
+                                  "condition": null,
+                                  "rules": [
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "ATTRIBUTE=TR60",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "GERIIIB6",
+                                                "text": "Natural Sciences-Lab Met by 60+ Transfer Credits"
+                                              },
+                                              "dw_rule_id": "2-1-6-1-0"
+                                            }
+                                          ],
+                                          "conditionType": "dw_internal"
+                                        },
+                                        {
+                                          "condition": null,
+                                          "rules": [
+                                            {
+                                              "type": "group",
+                                              "minGroups": 1,
+                                              "options": [
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "BIO @ (with ATTRIBUTE=LAB)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSB3credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-1-6-1-1-0"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSB3credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "CHE @ (with ATTRIBUTE=LAB)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSC3credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-1-6-1-1-1"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSC3credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "AST @ (with ATTRIBUTE=LAB)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSA3credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-1-6-1-1-2"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSA3credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "EES @ (with ATTRIBUTE=LAB)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSE3credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-1-6-1-1-3"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSE3credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "PHY @ (with ATTRIBUTE=LAB)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSP3credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-1-6-1-1-4"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSP3credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "BIO 202",
+                                                          "BIO 203"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSB4credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minClasses": 2,
+                                                      "dw_rule_id": "2-1-6-1-1-5"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSB4credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "CHE 200",
+                                                          "CHE 201"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSC4credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minClasses": 2,
+                                                      "dw_rule_id": "2-1-6-1-1-6"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSC4credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "CHE 210",
+                                                          "CHE 212"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSCh4credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minClasses": 2,
+                                                      "dw_rule_id": "2-1-6-1-1-7"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSCh4credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "CHE 211",
+                                                          "CHE 213"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERNSChe4credits",
+                                                        "text": "GER - NS Lab"
+                                                      },
+                                                      "minClasses": 2,
+                                                      "dw_rule_id": "2-1-6-1-1-8"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERNSChe4credits",
+                                                    "text": "GER - NS Lab"
+                                                  }
+                                                }
+                                              ],
+                                              "label": {
+                                                "tag": "GERNatSci",
+                                                "text": "NS - Natural Sciences"
+                                              },
+                                              "dw_rule_id": "2-1-6-1-1"
+                                            },
+                                            {
+                                              "type": "course",
+                                              "courses": {
+                                                "connector": "or",
+                                                "courses": [
+                                                  "@ @ (with ATTRIBUTE=IIIB)"
+                                                ]
+                                              },
+                                              "label": {
+                                                "tag": "GERIIIB2",
+                                                "text": "IIIB - Natural Science"
+                                              },
+                                              "minCredits": 2,
+                                              "dw_rule_id": "2-1-6-1-2"
+                                            }
+                                          ],
+                                          "conditionType": "static"
+                                        }
+                                      ],
+                                      "dw_rule_id": "2-1-6-1"
+                                    },
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "MAJOR = HIST",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "GERVBHIST",
+                                                "text": "History majors are exempt from GER IVA"
+                                              },
+                                              "dw_rule_id": "2-1-6-2-0"
+                                            }
+                                          ],
+                                          "conditionType": "unknown"
+                                        },
+                                        {
+                                          "condition": null,
+                                          "rules": [
+                                            {
+                                              "type": "course",
+                                              "courses": {
+                                                "connector": "or",
+                                                "courses": [
+                                                  "@ @ (with ATTRIBUTE=IVA)"
+                                                ]
+                                              },
+                                              "label": {
+                                                "tag": "GERIVA",
+                                                "text": "IVA - Social Sciences"
+                                              },
+                                              "minCredits": 4,
+                                              "dw_rule_id": "2-1-6-2-1"
+                                            }
+                                          ],
+                                          "conditionType": "static"
+                                        }
+                                      ],
+                                      "dw_rule_id": "2-1-6-2"
+                                    },
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "@ @ (with ATTRIBUTE=IVB)"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "GERIVB",
+                                        "text": "IVB - Econ, Pol Sci, Geo"
+                                      },
+                                      "minCredits": 2,
+                                      "dw_rule_id": "2-1-6-3"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                }
+                              ],
+                              "dw_rule_id": "2-1-6"
+                            },
+                            {
+                              "type": "course",
+                              "courses": {
+                                "connector": "or",
+                                "courses": [
+                                  "@ @ (with ATTRIBUTE=VA)"
+                                ]
+                              },
+                              "label": {
+                                "tag": "GERVA",
+                                "text": "VA - WRITING"
+                              },
+                              "minCredits": 2,
+                              "dw_rule_id": "2-1-7"
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ],
+                      "dw_rule_id": "2-1"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "ATTRIBUTE=AGE",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "GERVBAge",
+                                "text": "Health & Physical Educ Met by Age 25"
+                              },
+                              "dw_rule_id": "2-2-0"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "ATTRIBUTE=TR75",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "GERVB75",
+                                        "text": "Health & Physical Educ Met by 75+ Transfer Credits"
+                                      },
+                                      "dw_rule_id": "2-2-1-0"
+                                    }
+                                  ],
+                                  "conditionType": "dw_internal"
+                                },
+                                {
+                                  "condition": null,
+                                  "rules": [
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "ATTRIBUTE=TR60",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "GERVB60",
+                                                "text": "Health & Physical Educ Met by 60+ Transfer Credits"
+                                              },
+                                              "dw_rule_id": "2-2-1-1-0"
+                                            }
+                                          ],
+                                          "conditionType": "dw_internal"
+                                        },
+                                        {
+                                          "condition": null,
+                                          "rules": [
+                                            {
+                                              "type": "group",
+                                              "minGroups": 1,
+                                              "options": [
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "or",
+                                                        "courses": [
+                                                          "HPE 104"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERVBHP",
+                                                        "text": "GER - HPE"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "qualifiers": {
+                                                        "minGrade": 2
+                                                      },
+                                                      "dw_rule_id": "2-2-1-1-1-0"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERVBHP",
+                                                    "text": "GER - HPE"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "and",
+                                                        "courses": [
+                                                          "HPE 101",
+                                                          "@ (WITH ATTRIBUTE = ACT)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERVBHPE1",
+                                                        "text": "GER - HPE"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-2-1-1-1-1"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERVBHPE1",
+                                                    "text": "GER - HPE"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "and",
+                                                        "courses": [
+                                                          "HPE 102",
+                                                          "@ (WITH ATTRIBUTE = ACT)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERVBHPE2",
+                                                        "text": "GER - HPE"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-2-1-1-1-2"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERVBHPE2",
+                                                    "text": "GER - HPE"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "and",
+                                                        "courses": [
+                                                          "HPE 103",
+                                                          "@ (WITH ATTRIBUTE = ACT)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERVBHPE3",
+                                                        "text": "GER - HPE"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-2-1-1-1-3"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERVBHPE3",
+                                                    "text": "GER - HPE"
+                                                  }
+                                                },
+                                                {
+                                                  "rules": [
+                                                    {
+                                                      "type": "course",
+                                                      "courses": {
+                                                        "connector": "and",
+                                                        "courses": [
+                                                          "HPE 104",
+                                                          "@ (WITH ATTRIBUTE = ACT)"
+                                                        ]
+                                                      },
+                                                      "label": {
+                                                        "tag": "GERVBHPE4",
+                                                        "text": "GER - HPE"
+                                                      },
+                                                      "minCredits": 3,
+                                                      "dw_rule_id": "2-2-1-1-1-4"
+                                                    }
+                                                  ],
+                                                  "label": {
+                                                    "tag": "GERVBHPE4",
+                                                    "text": "GER - HPE"
+                                                  }
+                                                }
+                                              ],
+                                              "label": {
+                                                "tag": "GERVBHPEX",
+                                                "text": "Health & Physical Educ"
+                                              },
+                                              "dw_rule_id": "2-2-1-1-1"
+                                            },
+                                            {
+                                              "type": "course",
+                                              "courses": {
+                                                "connector": "or",
+                                                "courses": [
+                                                  "@ @ (with ATTRIBUTE=VC)"
+                                                ]
+                                              },
+                                              "label": {
+                                                "tag": "GERVC",
+                                                "text": "VC - Computer Competency"
+                                              },
+                                              "minCredits": 2,
+                                              "dw_rule_id": "2-2-1-1-2"
+                                            }
+                                          ],
+                                          "conditionType": "static"
+                                        }
+                                      ],
+                                      "dw_rule_id": "2-2-1-1"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                }
+                              ],
+                              "dw_rule_id": "2-2-1"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        }
+                      ],
+                      "dw_rule_id": "2-2"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

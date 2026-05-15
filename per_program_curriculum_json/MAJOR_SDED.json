@@ -1,0 +1,625 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SDED": {
+      "programName": "Major in Secondary Education",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000360",
+          "dw_req_id": "RA000360",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 518"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Methods of Teaching English Learners"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 550"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Measurement & Evaluation"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 611"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Methods of Teaching Special Learners"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "GRADUATE COURSES SECONDARY EDUCATION CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 508"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "* Research in Education"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 556",
+                      "EDU 612"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Technology Applications in Mathematics or Assistive Technology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 560",
+                      "EDU 562"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Curriculum Development & Evaluation"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 514"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "* Process, Development, and Teaching of Writing"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 615"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "** Coaching and Mentoring"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "GRADUATE CONTENT SECONDARY EDUCATION PEDAGOGY COURSE REQUIREMENTS"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Capstone Seminar"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "15",
+                    "text": "Thesis I"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "18",
+                "text": "CULMINATING EXPERIENCE/CONTENT FOCUSED"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "SDED",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Any ARC* or TEAM** transfer credits must be approved by the Dean of",
+            "SEPS and are limited to a total of six (6) credits after successful",
+            "completion of nine (9) graduate credits within the program for those",
+            "students in good academic standing."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000361",
+          "dw_req_id": "RA000361",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 504"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Educational Assessment"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 505"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Second Language Acquisition and Strategies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 511"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Learning and Teaching: Concepts and Models"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 555"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Education and Society"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "GRADUATE COURSE SECONDARY EDUCATION CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=EARL",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 521"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10a",
+                            "text": "Pre Student Teaching: Secondary Schools"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-0"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 544"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11a",
+                            "text": "Patterns of Development: Typical and Exceptional"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-1"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 546",
+                              "EDU 547",
+                              "EDU 548",
+                              "EDU 549"
+                            ],
+                            "hidden": [
+                              "EDU 696",
+                              "EDU 696",
+                              "EDU 696",
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12a",
+                            "text": "Issues and Applications in Secondary Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-2"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 582"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "13a",
+                            "text": "Teaching Exceptional Learners"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-0-3"
+                        }
+                      ],
+                      "label": {
+                        "tag": "17a",
+                        "text": "GRADUATE RELATED ELEMENTARY EDUCATION COURSE REQUIREMENTS"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 501"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7",
+                            "text": "Clinical Experience I"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-0"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 502"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "8",
+                            "text": "Clinical Experience Ii"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 510",
+                              "EDU 514"
+                            ],
+                            "hidden": [
+                              "EDU 696",
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Content Area Reading/Writing or Literacy Development"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 521"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Pre Student Teaching: Secondary Schools"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-3"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 544"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11",
+                            "text": "Patterns of Development: Typical and Exceptional"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-4"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 546",
+                              "EDU 547",
+                              "EDU 548",
+                              "EDU 549"
+                            ],
+                            "hidden": [
+                              "EDU 696",
+                              "EDU 696",
+                              "EDU 696",
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "12",
+                            "text": "Issues and Applications in Secondary Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-5"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 582"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "13",
+                            "text": "Teaching Exceptional Learners"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-6"
+                        }
+                      ],
+                      "label": {
+                        "tag": "14",
+                        "text": "GRADUATE SECONDARY EDUCATION CORE COURSES"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 525"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Classroom Management and Assessment/Secondary Schools"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 571"
+                    ]
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Graduate Student Teaching: Secondary Schools"
+                  },
+                  "minCredits": 6,
+                  "maxCredits": 9,
+                  "dw_rule_id": "3-1"
+                }
+              ],
+              "label": {
+                "tag": "17",
+                "text": "STUDENT TEACHING & CULMINATING EXPERIENCE"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "SDED",
+          "minimumCredits": {
+            "min": 30,
+            "max": 39
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "**** Advising Note 1 **** Candidates must complete all Core",
+            "and Secondary Education Courses as well as liberal Arts/General",
+            "Education Requirements prior to student teaching.",
+            "**** Advising Note 2 **** Candidates must complete all Core Courses,",
+            "but may also need to complete additional General Education and",
+            "state-required courses. Please discuss your progress toward",
+            "these requirements with your assigned advisor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

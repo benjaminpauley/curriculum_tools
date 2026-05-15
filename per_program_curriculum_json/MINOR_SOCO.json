@@ -5,9 +5,10 @@
       "programName": "Minor in Sociology",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "999999",
-          "requirementAuthority": "RA000334",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000126",
+          "dw_req_id": "RA000126",
           "rules": [
             {
               "type": "course",
@@ -30,7 +31,8 @@
                 "tag": "5",
                 "text": "300/400 Level Sociology Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -62,7 +64,93 @@
               "minCredits": 6,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000334",
+          "dw_req_id": "RA000334",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "300/400 Level Sociology Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SOC 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 208",
+                  "WST 212",
+                  "WST 240",
+                  "WST 260",
+                  "WST 310",
+                  "WST 347",
+                  "WST 465",
+                  "SWK 344",
+                  "SPA 356"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Additional Sociology Electives - Max 3 credits at the 100 Level"
+              },
+              "minCredits": 6,
+              "qualifiers": {
+                "priority": "low"
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

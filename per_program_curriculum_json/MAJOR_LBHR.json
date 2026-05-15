@@ -8,6 +8,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002230",
+          "dw_req_id": "RA002230",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "2",
                     "text": "Labor Economics and Inequality"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "1",
                     "text": "Health Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -82,13 +85,15 @@
                     "tag": "3",
                     "text": "Political Economy of Labor Relations"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": null,
                 "text": "Requirements"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "declaredMajor": "LBHR",
@@ -128,6 +133,27 @@
             "CONC_PC&Y": 18,
             "CONC_PSTD": 18
           }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002690",
+          "dw_req_id": "RA002690",
+          "rules": [],
+          "declaredMajor": "LBHR",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "The major in Labor and Human Resources is no longer offered.",
+            "Please contact your advisor to discuss an alternative major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
         }
       ]
     }

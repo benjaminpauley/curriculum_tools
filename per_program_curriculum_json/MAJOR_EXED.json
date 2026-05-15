@@ -1,0 +1,37 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "EXED": {
+      "programName": "Exploratory Major: Education",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000235",
+          "dw_req_id": "RA000235",
+          "rules": [
+            {
+              "type": "rule_incomplete",
+              "label": {
+                "tag": "1",
+                "text": "Major Not Yet Selected"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "declaredMajor": "EXED",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

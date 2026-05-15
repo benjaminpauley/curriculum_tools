@@ -1,0 +1,80 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "LAC-BT3": {
+      "programName": "Tier III Independent Inquiry",
+      "versions": [
+        {
+          "startTerm": "200810",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000009",
+          "dw_req_id": "RA000009",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "T3BATR",
+                        "text": "Waived due to Earned Bachelor Degree"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T3)"
+                        ],
+                        "hidden": [
+                          "HON 488"
+                        ]
+                      },
+                      "label": {
+                        "tag": "1",
+                        "text": "Tier III Independent Inquiry"
+                      },
+                      "minCredits": 3,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Transfer credit cannot be used to fulfill this requirement. Students in",
+            "the Honors Program may use HON 488 along with a satisfactory thesis to",
+            "fulfill this requirement."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

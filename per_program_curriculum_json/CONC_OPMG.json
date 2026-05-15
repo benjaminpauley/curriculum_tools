@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000028",
+          "dw_req_id": "RA000028",
           "rules": [
             {
               "type": "course",
@@ -28,7 +29,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

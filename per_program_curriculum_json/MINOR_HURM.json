@@ -5,9 +5,10 @@
       "programName": "Minor in Human Resources Management",
       "versions": [
         {
-          "startTerm": "202510",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002658",
+          "dw_req_id": "RA002658",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "2",
                     "text": "Introductory Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -41,13 +43,15 @@
                     "tag": "3",
                     "text": "Economics Elective"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "Required Economics Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -65,7 +69,8 @@
                     "tag": "5",
                     "text": "Human Resources Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -83,13 +88,15 @@
                     "tag": "6",
                     "text": "Business Elective"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "Required Business Administration Courses"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -107,7 +114,8 @@
                     "tag": "8",
                     "text": "Industrial Organizational Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 },
                 {
                   "type": "course",
@@ -123,13 +131,15 @@
                     "tag": "9",
                     "text": "Psychology Elective"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "Required Psychology Courses"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

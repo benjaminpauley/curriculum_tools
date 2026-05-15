@@ -5,9 +5,10 @@
       "programName": "Concentration in Earth Science",
       "versions": [
         {
-          "startTerm": "201510",
+          "startTerm": "000000",
           "endTerm": "201850",
           "requirementAuthority": "RA000417",
+          "dw_req_id": "RA000417",
           "rules": [
             {
               "type": "course",
@@ -23,7 +24,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +40,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +56,8 @@
                 "tag": "3",
                 "text": "Ancient Environments with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -68,7 +72,8 @@
                 "tag": "4",
                 "text": "Sustainable Energy and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -83,7 +88,8 @@
                 "tag": "5",
                 "text": "Landform Analysis with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -98,7 +104,8 @@
                 "tag": "6",
                 "text": "Mineralogy and Rock Analysis with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -119,7 +126,8 @@
                 "tag": "7",
                 "text": "Concentration Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -133,7 +141,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             }
           ],
           "degreeType": "BA",
@@ -155,6 +164,7 @@
           "startTerm": "201910",
           "endTerm": "202450",
           "requirementAuthority": "RA000418",
+          "dw_req_id": "RA000418",
           "rules": [
             {
               "type": "course",
@@ -170,7 +180,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -185,7 +196,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -200,7 +212,8 @@
                 "tag": "3",
                 "text": "Ancient Environments with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -215,7 +228,8 @@
                 "tag": "4",
                 "text": "Sustainable Energy and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -230,7 +244,8 @@
                 "tag": "5",
                 "text": "Landform Analysis with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -245,7 +260,8 @@
                 "tag": "6",
                 "text": "Mineralogy and Rock Analysis with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -266,7 +282,8 @@
                 "tag": "7",
                 "text": "Concentration Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -280,7 +297,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             }
           ],
           "degreeType": "BA",
@@ -302,6 +320,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002582",
+          "dw_req_id": "RA002582",
           "rules": [
             {
               "type": "course",
@@ -317,7 +336,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -332,7 +352,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -347,7 +368,8 @@
                 "tag": "3",
                 "text": "Ancient Environments with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -362,7 +384,8 @@
                 "tag": "4",
                 "text": "Sustainable Energy and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -377,7 +400,8 @@
                 "tag": "5",
                 "text": "Landform Analysis with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -395,7 +419,8 @@
                 "tag": "7",
                 "text": "Concentration Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -413,7 +438,8 @@
                 "tag": "8",
                 "text": "Concentration Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -427,7 +453,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             }
           ],
           "degreeType": "BA",

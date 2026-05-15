@@ -5,9 +5,10 @@
       "programName": "Concentration in Standard Psychology",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201950",
-          "requirementAuthority": "RA000222",
+          "startTerm": "201410",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000467",
+          "dw_req_id": "RA000467",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -30,18 +32,17 @@
                 "connector": "or",
                 "courses": [
                   "PSY 204",
-                  "PSY 314",
                   "PSY 206",
                   "PSY 208",
-                  "PSY 210",
-                  "PSY 212"
+                  "PSY 210"
                 ]
               },
               "label": {
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -56,7 +57,8 @@
                 "tag": "3",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -72,7 +74,8 @@
                 "tag": "4",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -89,7 +92,8 @@
                 "tag": "5",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -104,7 +108,425 @@
                 "tag": "6",
                 "text": "Groups"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 496",
+                      "497 LOW PRIORITY"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-1"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "SPECIALIZED COURSES"
+              },
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325"
+                ],
+                "except": [
+                  "PSY 100",
+                  "1XX LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Electives"
+              },
+              "minCredits": 6,
+              "minClasses": 2,
+              "combinationOperator": "and",
+              "dw_rule_id": "8"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201440",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000468",
+          "dw_req_id": "RA000468",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Groups"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "498 LOW PRIORITY"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-1"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "SPECIALIZED COURSES"
+              },
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325"
+                ],
+                "except": [
+                  "PSY 100",
+                  "1XX LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Electives"
+              },
+              "minCredits": 6,
+              "minClasses": 2,
+              "combinationOperator": "and",
+              "dw_rule_id": "8"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000469",
+          "dw_req_id": "RA000469",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Groups"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "subset",
@@ -129,7 +551,221 @@
                     "tag": "7",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 309",
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450",
+                      "PSY 460",
+                      "PSY 480",
+                      "PSY 490",
+                      "PSY 491",
+                      "PSY 496",
+                      "PSY 497",
+                      "498 LOW PRIORITY"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-1"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "SPECIALIZED COURSES"
+              },
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 102:499"
+                ],
+                "hidden": [
+                  "PSY 1@@",
+                  "2@@",
+                  "3@@",
+                  "WST 315",
+                  "PBH 325"
+                ],
+                "except": [
+                  "PSY 100",
+                  "1XX LOWEST PRIORITY"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Electives"
+              },
+              "minCredits": 6,
+              "minClasses": 2,
+              "combinationOperator": "and",
+              "dw_rule_id": "8"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000222",
+          "dw_req_id": "RA000222",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 402",
+                  "PSY 409"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Research"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 204",
+                  "PSY 314",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 212"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Developmental"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 205",
+                  "PSY 306"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Learning and Cognition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 318",
+                  "PSY 418",
+                  "PSY 430"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Biological Basis of Behavior"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 315",
+                  "PSY 320"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Individual Differences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 303"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Groups"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "PSY 309",
+                      "PSY 316",
+                      "PSY 319",
+                      "PSY 325",
+                      "PSY 330",
+                      "PSY 407",
+                      "PSY 410",
+                      "PSY 450",
+                      "PSY 460"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Specialized Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
                 },
                 {
                   "type": "course",
@@ -160,13 +796,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "priority": "low"
-                  }
+                  },
+                  "dw_rule_id": "7-1"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -198,7 +836,8 @@
                 "tag": "10",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -228,7 +867,8 @@
                 "tag": "11",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -248,6 +888,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001508",
+          "dw_req_id": "RA001508",
           "rules": [
             {
               "type": "course",
@@ -262,7 +903,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -283,7 +925,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -298,7 +941,8 @@
                 "tag": "3",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -314,7 +958,8 @@
                 "tag": "4",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -331,7 +976,8 @@
                 "tag": "5",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -346,7 +992,8 @@
                 "tag": "6",
                 "text": "Groups"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "subset",
@@ -372,7 +1019,8 @@
                     "tag": "7",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
                 },
                 {
                   "type": "course",
@@ -403,13 +1051,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "priority": "low"
-                  }
+                  },
+                  "dw_rule_id": "7-1"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -440,7 +1090,8 @@
                 "tag": "10",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -471,7 +1122,8 @@
                 "tag": "11",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -491,6 +1143,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002162",
+          "dw_req_id": "RA002162",
           "rules": [
             {
               "type": "course",
@@ -505,7 +1158,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -526,7 +1180,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -541,7 +1196,8 @@
                 "tag": "3",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -560,7 +1216,8 @@
                 "tag": "4",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -577,7 +1234,8 @@
                 "tag": "5",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -592,7 +1250,8 @@
                 "tag": "6",
                 "text": "Groups"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "subset",
@@ -618,7 +1277,8 @@
                     "tag": "7",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "7-0"
                 },
                 {
                   "type": "course",
@@ -650,13 +1310,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "priority": "low"
-                  }
+                  },
+                  "dw_rule_id": "7-1"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -687,7 +1349,8 @@
                 "tag": "10",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -718,7 +1381,8 @@
                 "tag": "11",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -738,6 +1402,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002576",
+          "dw_req_id": "RA002576",
           "rules": [
             {
               "type": "course",
@@ -758,7 +1423,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -773,7 +1439,8 @@
                 "tag": "3",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -794,7 +1461,8 @@
                 "tag": "4",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -811,7 +1479,8 @@
                 "tag": "5",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -826,7 +1495,8 @@
                 "tag": "6",
                 "text": "Groups"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -855,7 +1525,8 @@
                     "tag": "7",
                     "text": "Specialized Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -890,13 +1561,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "priority": "low"
-                  }
+                  },
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -927,7 +1600,8 @@
                 "tag": "10",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -958,7 +1632,8 @@
                 "tag": "11",
                 "text": "Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "8"
             }
           ],
           "minimumCredits": null,

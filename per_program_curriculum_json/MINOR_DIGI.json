@@ -5,39 +5,74 @@
       "programName": "Minor in Digital Art & Design",
       "versions": [
         {
-          "startTerm": "201510",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000291",
+          "startTerm": "200810",
+          "endTerm": "200850",
+          "requirementAuthority": "RA000093",
+          "dw_req_id": "RA000093",
           "rules": [
             {
               "type": "course",
               "courses": {
                 "connector": "or",
                 "courses": [
-                  "ART 122"
+                  "ART 125"
                 ],
                 "hidden": []
               },
               "label": {
                 "tag": "3",
-                "text": "Digital Illustration & Page Layout"
+                "text": "Digital Illustration"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
               "courses": {
                 "connector": "or",
                 "courses": [
-                  "ART 124"
+                  "ART 126"
                 ],
                 "hidden": []
               },
               "label": {
                 "tag": "4",
-                "text": "Digital Imaging & Online Media"
+                "text": "Digital Imaging"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 127"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4.1",
+                "text": "Digital Design & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 128"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4.2",
+                "text": "Designing for the Internet"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -52,7 +87,254 @@
                 "tag": "5",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 204"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 214",
+                  "ART 226",
+                  "ART 228",
+                  "ART 325",
+                  "ART 327",
+                  "ART 333",
+                  "ART 335",
+                  "ART 350",
+                  "ART 351",
+                  "410 #450"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "7"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "200910",
+          "endTerm": "200950",
+          "requirementAuthority": "RA000288",
+          "dw_req_id": "RA000288",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 204"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 214",
+                  "ART 216",
+                  "ART 226",
+                  "ART 228",
+                  "ART 233",
+                  "ART 310",
+                  "ART 325",
+                  "ART 327",
+                  "ART 330",
+                  "ART 333",
+                  "ART 334",
+                  "ART 335",
+                  "ART 338",
+                  "ART 343",
+                  "ART 350",
+                  "ART 351",
+                  "ART 403",
+                  "ART 410",
+                  "ART 421",
+                  "ART 432",
+                  "436 # 450"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201010",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000289",
+          "dw_req_id": "RA000289",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +349,264 @@
                 "tag": "6",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 214",
+                  "ART 216",
+                  "ART 226",
+                  "ART 228",
+                  "ART 233",
+                  "ART 310",
+                  "ART 325",
+                  "ART 327",
+                  "ART 330",
+                  "ART 333",
+                  "ART 334",
+                  "ART 335",
+                  "ART 338",
+                  "ART 343",
+                  "ART 350",
+                  "ART 351",
+                  "ART 403",
+                  "ART 410",
+                  "ART 421",
+                  "436 # 450"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000290",
+          "dw_req_id": "RA000290",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 214",
+                  "ART 216",
+                  "ART 226",
+                  "ART 228",
+                  "ART 233",
+                  "ART 310",
+                  "ART 325",
+                  "ART 327",
+                  "ART 330",
+                  "ART 333",
+                  "ART 334",
+                  "ART 335",
+                  "ART 338",
+                  "ART 343",
+                  "ART 350",
+                  "ART 351",
+                  "ART 403",
+                  "ART 410",
+                  "ART 421",
+                  "436 # 450"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Digital Art & Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000291",
+          "dw_req_id": "RA000291",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 203"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Graphic Design I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -104,7 +643,8 @@
                 "tag": "7",
                 "text": "Digital Art & Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -133,6 +673,7 @@
           "startTerm": "201740",
           "endTerm": "201950",
           "requirementAuthority": "RA000292",
+          "dw_req_id": "RA000292",
           "rules": [
             {
               "type": "course",
@@ -147,7 +688,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -162,7 +704,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -177,7 +720,8 @@
                 "tag": "5",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -192,7 +736,8 @@
                 "tag": "6",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -229,7 +774,8 @@
                 "tag": "7",
                 "text": "Digital Art & Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -258,6 +804,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001257",
+          "dw_req_id": "RA001257",
           "rules": [
             {
               "type": "course",
@@ -272,7 +819,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -287,7 +835,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -302,7 +851,8 @@
                 "tag": "5",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -317,7 +867,8 @@
                 "tag": "6",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -355,7 +906,8 @@
                 "tag": "7",
                 "text": "Digital Art & Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

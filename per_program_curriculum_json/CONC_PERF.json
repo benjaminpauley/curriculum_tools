@@ -1,0 +1,116 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PERF": {
+      "programName": "Concentration in Sport Performance",
+      "versions": [
+        {
+          "startTerm": "201040",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000466",
+          "dw_req_id": "RA000466",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 307"
+                ],
+                "hidden": [
+                  "HPE 303"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sports Conditioning For Youth"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "The Physiological Basis of Movement"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 413"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Physiology of Exercise"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 342"
+                ],
+                "hidden": [
+                  "SLM 346"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Sport Psychology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 334"
+                ],
+                "hidden": [
+                  "SLM 355"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Motor Learning"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

@@ -5,9 +5,10 @@
       "programName": "Concentration in Diversity, Equity, and Inclusion",
       "versions": [
         {
-          "startTerm": "202410",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002397",
+          "dw_req_id": "RA002397",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "2",
                 "text": "Social Inequality"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -58,6 +60,7 @@
                   "LAS 225",
                   "LAS 240",
                   "CRM 101",
+                  "CRM 311",
                   "CRM 317",
                   "CRM 480",
                   "SWK 365 (with attribute= SDEI) MinCredits 9 in SOC @"
@@ -67,7 +70,8 @@
                 "tag": "3",
                 "text": "DEI Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

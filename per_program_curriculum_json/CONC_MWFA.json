@@ -5,9 +5,10 @@
       "programName": "Concentration in Multimedia Writing,Form&Analysis",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "201750",
           "requirementAuthority": "RA000445",
+          "dw_req_id": "RA000445",
           "rules": [
             {
               "type": "course",
@@ -23,7 +24,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -44,7 +46,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "degreeType": "BA",
@@ -66,6 +69,7 @@
           "startTerm": "201810",
           "endTerm": "201850",
           "requirementAuthority": "RA000446",
+          "dw_req_id": "RA000446",
           "rules": [
             {
               "type": "course",
@@ -82,7 +86,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -104,7 +109,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "degreeType": "BA",
@@ -123,9 +129,10 @@
           }
         },
         {
-          "startTerm": "201940",
+          "startTerm": "201910",
           "endTerm": "999999",
           "requirementAuthority": "RA000447",
+          "dw_req_id": "RA000447",
           "rules": [
             {
               "type": "course",
@@ -142,7 +149,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -164,7 +172,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "degreeType": "BA",

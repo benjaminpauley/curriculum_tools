@@ -5,9 +5,10 @@
       "programName": "Concentration in Natural Science",
       "versions": [
         {
-          "startTerm": "201610",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000042",
+          "startTerm": "000000",
+          "endTerm": "201520",
+          "requirementAuthority": "RA000374",
+          "dw_req_id": "RA000374",
           "rules": [
             {
               "type": "course",
@@ -23,7 +24,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +40,8 @@
                 "tag": "2",
                 "text": "Intro To The Solar System"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +56,8 @@
                 "tag": "3",
                 "text": "Ecology and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -68,7 +72,8 @@
                 "tag": "4",
                 "text": "Human Biology Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -83,7 +88,8 @@
                 "tag": "5",
                 "text": "Reading and Writing Argument"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -97,22 +103,8 @@
                 "tag": "6",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
-            },
-            {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "MAT 217"
-                ],
-                "hidden": []
-              },
-              "label": {
-                "tag": "7",
-                "text": "Statistics for Liberal Studies"
-              },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -127,7 +119,8 @@
                 "tag": "8",
                 "text": "Energy & Scientific Method"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -142,7 +135,368 @@
                 "tag": "9",
                 "text": "Meteorology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 139",
+                  "139P"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Number Systems"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Statistical Data Analysis"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "10"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201540",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000373",
+          "dw_req_id": "RA000373",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Reading and Writing Argument"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 102"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Energy & Scientific Method"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000042",
+          "dw_req_id": "RA000042",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HIS 120",
+                  "HIS 121",
+                  "HIS 310"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "American History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "AST 226"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Intro To The Solar System"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Ecology and the Environment"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Human Biology Lecture"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 200"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Reading and Writing Argument"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LSM 400"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Senior Seminar Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Statistics for Liberal Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 102"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Energy & Scientific Method"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PHY 217"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Meteorology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -162,6 +516,7 @@
           "startTerm": "201740",
           "endTerm": "201750",
           "requirementAuthority": "RA000371",
+          "dw_req_id": "RA000371",
           "rules": [
             {
               "type": "course",
@@ -177,7 +532,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -192,7 +548,8 @@
                 "tag": "2",
                 "text": "Intro To The Solar System"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -207,7 +564,8 @@
                 "tag": "3",
                 "text": "Ecology and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -222,7 +580,8 @@
                 "tag": "4",
                 "text": "Human Biology Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -236,7 +595,8 @@
                 "tag": "5",
                 "text": "Science Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -250,7 +610,8 @@
                 "tag": "6",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -265,7 +626,8 @@
                 "tag": "7",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -280,7 +642,8 @@
                 "tag": "8",
                 "text": "Energy & Scientific Method"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -295,7 +658,8 @@
                 "tag": "9",
                 "text": "Meteorology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -315,6 +679,7 @@
           "startTerm": "201810",
           "endTerm": "201850",
           "requirementAuthority": "RA000372",
+          "dw_req_id": "RA000372",
           "rules": [
             {
               "type": "course",
@@ -330,7 +695,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -345,7 +711,8 @@
                 "tag": "2",
                 "text": "Intro To The Solar System"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -360,7 +727,8 @@
                 "tag": "3",
                 "text": "Ecology and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -375,7 +743,8 @@
                 "tag": "4",
                 "text": "Human Biology Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -390,7 +759,8 @@
                 "tag": "5",
                 "text": "Sustainable Energy"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -404,7 +774,8 @@
                 "tag": "6",
                 "text": "Science Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -418,7 +789,8 @@
                 "tag": "7",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -433,7 +805,8 @@
                 "tag": "8",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -448,7 +821,8 @@
                 "tag": "9",
                 "text": "Meteorology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -469,6 +843,7 @@
           "startTerm": "201910",
           "endTerm": "202450",
           "requirementAuthority": "RA000452",
+          "dw_req_id": "RA000452",
           "rules": [
             {
               "type": "course",
@@ -484,7 +859,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -499,7 +875,8 @@
                 "tag": "2",
                 "text": "Intro To The Solar System"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -514,7 +891,8 @@
                 "tag": "3",
                 "text": "Ecology and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -529,7 +907,8 @@
                 "tag": "4",
                 "text": "Human Biology Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -544,7 +923,8 @@
                 "tag": "5",
                 "text": "Sustainable Energy"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -558,7 +938,8 @@
                 "tag": "6",
                 "text": "Science Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -572,7 +953,8 @@
                 "tag": "7",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -587,7 +969,8 @@
                 "tag": "8",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -602,7 +985,8 @@
                 "tag": "9",
                 "text": "Meteorology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,
@@ -622,6 +1006,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002630",
+          "dw_req_id": "RA002630",
           "rules": [
             {
               "type": "course",
@@ -637,7 +1022,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -652,7 +1038,8 @@
                 "tag": "2",
                 "text": "Ecology and the Environment"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -667,7 +1054,8 @@
                 "tag": "3",
                 "text": "Human Biology Lecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -681,7 +1069,8 @@
                 "tag": "4",
                 "text": "Science Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -695,7 +1084,8 @@
                 "tag": "5",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -710,7 +1100,8 @@
                 "tag": "6",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -730,7 +1121,8 @@
                 "tag": "7",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,

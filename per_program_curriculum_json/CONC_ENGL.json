@@ -5,9 +5,50 @@
       "programName": "Concentration in English",
       "versions": [
         {
-          "startTerm": "201510",
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000146",
+          "dw_req_id": "RA000146",
+          "rules": [],
+          "degreeType": "AS",
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000170",
+          "dw_req_id": "RA000170",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
           "endTerm": "201520",
           "requirementAuthority": "RA000368",
+          "dw_req_id": "RA000368",
           "rules": [
             {
               "type": "course",
@@ -23,7 +64,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +80,8 @@
                 "tag": "2.1",
                 "text": "Number Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +96,8 @@
                 "tag": "2.2",
                 "text": "Statistical Data Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -68,7 +112,8 @@
                 "tag": "3",
                 "text": "Introduction English Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -83,7 +128,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -98,7 +144,8 @@
                 "tag": "5",
                 "text": "American Literature From 1865"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -118,7 +165,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -140,7 +188,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -169,7 +218,8 @@
                 "tag": "8",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -183,7 +233,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             }
           ],
           "degreeType": "BA",
@@ -202,9 +253,68 @@
           }
         },
         {
+          "startTerm": "000000",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000409",
+          "dw_req_id": "RA000409",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 499"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Directed Research"
+              },
+              "minCredits": 3,
+              "minClasses": 1,
+              "combinationOperator": "and",
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ENG 230",
+                  "ENG 237",
+                  "ENG 306",
+                  "ENG 373",
+                  "ENG 383"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "2"
+            }
+          ],
+          "degreeType": "BA",
+          "declaredMajor": "NMST",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
           "startTerm": "201540",
           "endTerm": "201550",
           "requirementAuthority": "RA000410",
+          "dw_req_id": "RA000410",
           "rules": [
             {
               "type": "course",
@@ -220,7 +330,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -235,7 +346,8 @@
                 "tag": "2",
                 "text": "Statistical Data Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -250,7 +362,8 @@
                 "tag": "3",
                 "text": "Introduction English Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -265,7 +378,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -280,7 +394,8 @@
                 "tag": "5",
                 "text": "American Literature From 1865"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -300,7 +415,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -322,7 +438,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -351,7 +468,8 @@
                 "tag": "8",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -365,7 +483,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -387,6 +506,7 @@
           "startTerm": "201610",
           "endTerm": "201720",
           "requirementAuthority": "RA000039",
+          "dw_req_id": "RA000039",
           "rules": [
             {
               "type": "course",
@@ -402,7 +522,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -417,7 +538,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -432,7 +554,8 @@
                 "tag": "3",
                 "text": "Introduction English Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -447,7 +570,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -462,7 +586,8 @@
                 "tag": "5",
                 "text": "Survey of American Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -482,7 +607,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -504,7 +630,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -533,7 +660,8 @@
                 "tag": "8",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -547,7 +675,8 @@
                 "tag": "9",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -566,64 +695,10 @@
           }
         },
         {
-          "startTerm": "201610",
-          "endTerm": "201650",
-          "requirementAuthority": "RA000409",
-          "rules": [
-            {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "ENG 499"
-                ]
-              },
-              "label": {
-                "tag": "1",
-                "text": "Directed Research"
-              },
-              "minCredits": 3,
-              "minClasses": 1,
-              "combinationOperator": "and"
-            },
-            {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "ENG 230",
-                  "ENG 237",
-                  "ENG 306",
-                  "ENG 373",
-                  "ENG 383"
-                ]
-              },
-              "label": {
-                "tag": "2",
-                "text": "Concentration Electives"
-              },
-              "minCredits": 15
-            }
-          ],
-          "degreeType": "BA",
-          "declaredMajor": "NMST",
-          "minimumCredits": null,
-          "minimumGPA": null,
-          "minimumGradePerCourse": null,
-          "residencyCredits": null,
-          "maximumFailingCreditsAllowed": 0,
-          "crGradesNotAllowedTerms": [],
-          "notes": [],
-          "maxClassesPerCourse": [],
-          "maxCreditsPerCourse": [],
-          "sharingCredits": {
-            "CONC_7_12": 12
-          }
-        },
-        {
           "startTerm": "201710",
           "endTerm": "201750",
           "requirementAuthority": "RA000049",
+          "dw_req_id": "RA000049",
           "rules": [
             {
               "type": "course",
@@ -639,7 +714,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -659,7 +735,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "degreeType": "BA",
@@ -678,9 +755,10 @@
           }
         },
         {
-          "startTerm": "201810",
+          "startTerm": "201740",
           "endTerm": "201850",
           "requirementAuthority": "RA000411",
+          "dw_req_id": "RA000411",
           "rules": [
             {
               "type": "course",
@@ -696,7 +774,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -711,7 +790,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -726,7 +806,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -741,7 +822,8 @@
                 "tag": "5",
                 "text": "Survey of American Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -764,7 +846,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -787,7 +870,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -810,7 +894,8 @@
                 "tag": "8",
                 "text": "Rhetoric and Composition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -839,7 +924,8 @@
                 "tag": "9",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -853,7 +939,8 @@
                 "tag": "10",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -875,6 +962,7 @@
           "startTerm": "201910",
           "endTerm": "202050",
           "requirementAuthority": "RA000412",
+          "dw_req_id": "RA000412",
           "rules": [
             {
               "type": "course",
@@ -890,7 +978,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -905,7 +994,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -920,7 +1010,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -935,7 +1026,8 @@
                 "tag": "5",
                 "text": "Survey of American Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -958,7 +1050,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -981,7 +1074,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -1004,7 +1098,8 @@
                 "tag": "8",
                 "text": "Rhetoric and Composition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -1033,7 +1128,8 @@
                 "tag": "9",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -1047,7 +1143,8 @@
                 "tag": "10",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -1069,6 +1166,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001757",
+          "dw_req_id": "RA001757",
           "rules": [
             {
               "type": "course",
@@ -1084,7 +1182,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1099,7 +1198,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1114,7 +1214,8 @@
                 "tag": "4",
                 "text": "Intro to Writing Lit Criticism"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1129,7 +1230,8 @@
                 "tag": "5",
                 "text": "Survey of American Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -1152,7 +1254,8 @@
                 "tag": "6",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -1174,7 +1277,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -1196,7 +1300,8 @@
                 "tag": "8",
                 "text": "Rhetoric and Composition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -1225,7 +1330,8 @@
                 "tag": "9",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -1239,7 +1345,8 @@
                 "tag": "10",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",
@@ -1261,6 +1368,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002534",
+          "dw_req_id": "RA002534",
           "rules": [
             {
               "type": "course",
@@ -1276,7 +1384,8 @@
                 "tag": "1",
                 "text": "American History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1291,7 +1400,8 @@
                 "tag": "2",
                 "text": "Statistics for Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1306,7 +1416,8 @@
                 "tag": "4",
                 "text": "Writing Approaches and Techniques"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1321,7 +1432,8 @@
                 "tag": "4.1",
                 "text": "Writing Process and Craft"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -1336,7 +1448,8 @@
                 "tag": "5",
                 "text": "Survey of American Literature"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -1351,7 +1464,8 @@
                 "tag": "5.5",
                 "text": "Reading Critically"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -1376,7 +1490,8 @@
                 "tag": "7",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -1405,7 +1520,8 @@
                 "tag": "9",
                 "text": "300 Level English Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -1419,7 +1535,8 @@
                 "tag": "10",
                 "text": "Senior Seminar Liberal Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BA",

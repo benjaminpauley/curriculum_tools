@@ -5,9 +5,45 @@
       "programName": "Minor in English",
       "versions": [
         {
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000095",
+          "dw_req_id": "RA000095",
+          "rules": [],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor."
+          ],
+          "maxClassesPerCourse": [
+            {
+              "max": 0,
+              "courses": [
+                "ENG 100",
+                "100P",
+                "241"
+              ]
+            }
+          ],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR, CONC_ANY": 6
+          }
+        },
+        {
           "startTerm": "201110",
           "endTerm": "201420",
           "requirementAuthority": "RA000294",
+          "dw_req_id": "RA000294",
           "rules": [],
           "minimumCredits": {
             "min": 15
@@ -42,6 +78,7 @@
           "startTerm": "201440",
           "endTerm": "999999",
           "requirementAuthority": "RA000295",
+          "dw_req_id": "RA000295",
           "rules": [],
           "minimumCredits": {
             "min": 15

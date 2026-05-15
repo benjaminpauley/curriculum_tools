@@ -1,0 +1,77 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "ELAC-DISCDC": {
+      "programName": "Disciplinary Perspectives: Discipline Categories",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002433",
+          "dw_req_id": "RA002433",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=BATR or ATTRIBUTE=SECD Or ATTrIBUTE=TDEG",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "DPBATR",
+                        "text": "Waived due to Earned Bachelor's Degree"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": "Attribute= TR60 or attribute=TRLA or attribute=TAPI or attribute=TAPC or attribute=TR75",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With attribute = LAAH",
+                          "attribute=LASS",
+                          "attribute= LASM) MaxTransfer 0 credits"
+                        ]
+                      },
+                      "label": {
+                        "tag": "TR60",
+                        "text": "Choose 1: Arts & Humanitites, Social Sciences or Science & Math"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 3,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students who transfer/readmit with 60+ credits and/or earn a CSCC TAP Degree must complete 1 Discipline Category.",
+            "This cannot be met with the same course that is used to fulfill the Learning Outcome Category.",
+            "This course must be completed at Eastern."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "OTHER_ELAC-300/400": 3
+          }
+        }
+      ]
+    }
+  }
+}

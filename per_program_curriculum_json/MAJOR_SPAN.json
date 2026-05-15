@@ -8,6 +8,7 @@
           "startTerm": "200810",
           "endTerm": "202050",
           "requirementAuthority": "RA000062",
+          "dw_req_id": "RA000062",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Intermediate Spanish I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Intermediate Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Advanced Spanish I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Advanced Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "5",
                     "text": "Spanish Civilization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "6",
                     "text": "Latin American Civilization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,13 +122,15 @@
                     "tag": "7",
                     "text": "Spanish Literature I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -140,7 +149,8 @@
                 "tag": "9",
                 "text": "Literature Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -155,7 +165,8 @@
                 "tag": "10",
                 "text": "Conversation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -181,7 +192,8 @@
                 "tag": "11",
                 "text": "Major Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "SPAN",
@@ -217,6 +229,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001758",
+          "dw_req_id": "RA001758",
           "rules": [
             {
               "type": "subset",
@@ -234,7 +247,8 @@
                     "tag": "1",
                     "text": "Intermediate Spanish I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -249,7 +263,8 @@
                     "tag": "2",
                     "text": "Intermediate Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -264,7 +279,8 @@
                     "tag": "3",
                     "text": "Advanced Spanish I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -279,7 +295,8 @@
                     "tag": "4",
                     "text": "Advanced Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -294,7 +311,8 @@
                     "tag": "5",
                     "text": "Spanish Civilization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -309,7 +327,8 @@
                     "tag": "6",
                     "text": "Latin American Civilization"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -324,13 +343,15 @@
                     "tag": "7",
                     "text": "Spanish Literature I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -346,7 +367,8 @@
                 "tag": "9",
                 "text": "Literature Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -361,7 +383,8 @@
                 "tag": "10",
                 "text": "Conversation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -389,7 +412,8 @@
                 "tag": "11",
                 "text": "Major Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "SPAN",
@@ -425,6 +449,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002667",
+          "dw_req_id": "RA002667",
           "rules": [
             {
               "type": "subset",
@@ -442,7 +467,8 @@
                     "tag": "2",
                     "text": "Intermediate Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -457,7 +483,8 @@
                     "tag": "3",
                     "text": "Spanish In & Through Social Media"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -472,7 +499,8 @@
                     "tag": "4",
                     "text": "Advanced Spanish I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -487,7 +515,8 @@
                     "tag": "5",
                     "text": "Advanced Spanish II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -502,7 +531,8 @@
                     "tag": "6",
                     "text": "Latino/a Conversations"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -517,7 +547,8 @@
                     "tag": "7",
                     "text": "Hispanic Cultures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -532,13 +563,15 @@
                     "tag": "8",
                     "text": "Spanish Translation & Interpretation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -559,7 +592,8 @@
                         "tag": "10",
                         "text": "Study Abroad Program"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -581,7 +615,8 @@
                         "tag": "11",
                         "text": "Internship"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -603,7 +638,8 @@
                         "tag": "12",
                         "text": "Community Field Experience"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "label": {
@@ -625,7 +661,8 @@
                         "tag": "13",
                         "text": "Field Experience"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-3"
                     }
                   ],
                   "label": {
@@ -637,7 +674,8 @@
               "label": {
                 "tag": "14",
                 "text": "Experiential Learning Experience"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -655,7 +693,8 @@
                 "tag": "15",
                 "text": "Pre-Professional Preparation course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -699,7 +738,8 @@
               "minCredits": 6,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "declaredMajor": "SPAN",

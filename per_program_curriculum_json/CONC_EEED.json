@@ -8,6 +8,7 @@
           "startTerm": "201610",
           "endTerm": "201650",
           "requirementAuthority": "RA000015",
+          "dw_req_id": "RA000015",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Literary Criticism"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,13 +42,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -70,7 +74,8 @@
                         "tag": "4",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -96,7 +101,8 @@
                         "tag": "5",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -108,7 +114,8 @@
               "label": {
                 "tag": "6",
                 "text": "Analysis and Literature"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -130,7 +137,8 @@
                 "tag": "7",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -161,7 +169,8 @@
                 "tag": "8",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -209,7 +218,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -229,6 +239,7 @@
           "startTerm": "201710",
           "endTerm": "201750",
           "requirementAuthority": "RA000413",
+          "dw_req_id": "RA000413",
           "rules": [
             {
               "type": "subset",
@@ -246,7 +257,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Literary Criticism"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -261,13 +273,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -291,7 +305,8 @@
                         "tag": "4",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -317,7 +332,8 @@
                         "tag": "5",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -329,7 +345,8 @@
               "label": {
                 "tag": "6",
                 "text": "Analysis and Literature"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -351,7 +368,8 @@
                 "tag": "7",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -383,7 +401,8 @@
                 "tag": "8",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -431,7 +450,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -451,6 +471,7 @@
           "startTerm": "201810",
           "endTerm": "202050",
           "requirementAuthority": "RA000414",
+          "dw_req_id": "RA000414",
           "rules": [
             {
               "type": "subset",
@@ -468,7 +489,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Literary Criticism"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -483,13 +505,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -513,7 +537,8 @@
                         "tag": "4",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -539,7 +564,8 @@
                         "tag": "5",
                         "text": "Analysis and Literature"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -551,7 +577,8 @@
               "label": {
                 "tag": "6",
                 "text": "Analysis and Literature"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -575,7 +602,8 @@
                 "tag": "7",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -604,7 +632,8 @@
                 "tag": "8",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -652,7 +681,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -671,8 +701,9 @@
         },
         {
           "startTerm": "202110",
-          "endTerm": "202450",
+          "endTerm": "999999",
           "requirementAuthority": "RA001752",
+          "dw_req_id": "RA001752",
           "rules": [
             {
               "type": "subset",
@@ -690,7 +721,8 @@
                     "tag": "1",
                     "text": "Intro to Writing Literary Criticism"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -705,13 +737,15 @@
                     "tag": "2",
                     "text": "Intro to Writing Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 }
               ],
               "label": {
                 "tag": "3",
                 "text": "GATEWAY COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -729,7 +763,8 @@
                 "tag": "6",
                 "text": "Analysis and Literature"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -751,7 +786,8 @@
                 "tag": "7",
                 "text": "Creative Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -781,7 +817,8 @@
                 "tag": "8",
                 "text": "Reading Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -830,7 +867,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,

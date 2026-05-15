@@ -5,9 +5,10 @@
       "programName": "Concentration in Banking and Real Estate",
       "versions": [
         {
-          "startTerm": "202210",
-          "endTerm": "999999",
+          "startTerm": "000000",
+          "endTerm": "202650",
           "requirementAuthority": "RA002012",
+          "dw_req_id": "RA002012",
           "rules": [
             {
               "type": "course",
@@ -24,7 +25,46 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002953",
+          "dw_req_id": "RA002953",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 349",
+                  "FIN 350",
+                  "FIN 437",
+                  "FIN 438",
+                  "FIN 446",
+                  "FIN 465"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

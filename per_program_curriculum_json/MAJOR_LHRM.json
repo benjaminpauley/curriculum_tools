@@ -5,9 +5,10 @@
       "programName": "Major in Labor Relations & HR Management",
       "versions": [
         {
-          "startTerm": "201510",
-          "endTerm": "201850",
-          "requirementAuthority": "RA000215",
+          "startTerm": "000000",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000501",
+          "dw_req_id": "RA000501",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Intermediate Microeconomics Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -43,7 +45,8 @@
                     "tag": "2",
                     "text": "Political Economy of Labor Relations"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -58,13 +61,15 @@
                     "tag": "3",
                     "text": "Labor Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "ECONOMICS COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -84,7 +89,8 @@
                 "tag": "5",
                 "text": "Business Administration Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -102,7 +108,247 @@
                 "tag": "6",
                 "text": "Psychology Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ANT 345",
+                  "#330",
+                  "BIS 361",
+                  "COM 312",
+                  "COM 330",
+                  "COM 331",
+                  "GEO 228",
+                  "GEO 337",
+                  "HIS 313",
+                  "HIS 315",
+                  "PHI 320",
+                  "PHI 360",
+                  "PSC 225",
+                  "PSC 314",
+                  "PSC 323",
+                  "PSC 325",
+                  "PSC 370",
+                  "PSY 325",
+                  "SOC 275",
+                  "SOC 325",
+                  "SOC 358",
+                  "SOC 373",
+                  "SWK 311",
+                  "SWK 325"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Other Disciplines"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 234",
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 366",
+                  "BUS 433",
+                  "ECO 301",
+                  "ECO 329",
+                  "ECO 330",
+                  "GEO 228",
+                  "GEO 337",
+                  "HIS 313",
+                  "HIS 317",
+                  "PSY 303",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404",
+                  "SOC 275",
+                  "SOC 358",
+                  "SWK 310"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Elective Courses"
+              },
+              "minClasses": 2,
+              "qualifiers": {
+                "priority": "lowest"
+              },
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LHR 490"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Internship Labor Relations & Human Resource Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            }
+          ],
+          "declaredMajor": "LHRM",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Pre-requisites for Labor Relations & Human Resource Management",
+            "courses are: ECO 200, ECO 201, PSY 100, ECO 215, and BUS 201."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 12,
+            "MAJOR_ECED": 12,
+            "MAJOR_PHIL": 9,
+            "MAJOR_POLI": 12,
+            "MAJOR_SOWK": 9,
+            "MAJOR_SOCO": 15,
+            "MAJOR_WGST": 16,
+            "CONC_7_12": 12,
+            "CONC_ECOB": 9,
+            "CONC_ECOG": 9,
+            "CONC_HAMS": 15,
+            "CONC_H/SS": 9,
+            "CONC_PSYW": 18,
+            "CONC_PBHV": 18,
+            "CONC_PC&Y": 18,
+            "CONC_PSTD": 18
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201850",
+          "requirementAuthority": "RA000215",
+          "dw_req_id": "RA000215",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Intermediate Microeconomics Analysis"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 329",
+                      "ECO 429"
+                    ],
+                    "hidden": [
+                      "{HIDE ECO 480 (With DWTitle = \"@ ECO 429\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Political Economy of Labor Relations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 330"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Labor Economics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "ECONOMICS COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 234",
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 366",
+                  "BUS 433"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Business Administration Courses"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 303",
+                  "PSY 304",
+                  "PSY 305",
+                  "PSY 403",
+                  "PSY 404"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Psychology Courses"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -142,7 +388,8 @@
                 "tag": "7",
                 "text": "Other Disciplines"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -197,7 +444,8 @@
               "minClasses": 2,
               "qualifiers": {
                 "priority": "lowest"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -211,7 +459,8 @@
                 "tag": "9",
                 "text": "Internship Labor Relations & Human Resource Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "LHRM",
@@ -256,6 +505,7 @@
           "startTerm": "201910",
           "endTerm": "202250",
           "requirementAuthority": "RA000502",
+          "dw_req_id": "RA000502",
           "rules": [
             {
               "type": "subset",
@@ -273,7 +523,8 @@
                     "tag": "1",
                     "text": "Intermediate Microeconomics Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -288,7 +539,8 @@
                     "tag": "2",
                     "text": "Labor Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -383,13 +635,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "priority": "lowest"
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": null,
                 "text": "Requirements"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "declaredMajor": "LHRM",

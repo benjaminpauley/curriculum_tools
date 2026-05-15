@@ -8,6 +8,7 @@
           "startTerm": "200810",
           "endTerm": "201720",
           "requirementAuthority": "RA000106",
+          "dw_req_id": "RA000106",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Seminar Health Care Information"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -41,7 +43,8 @@
                 "tag": "4",
                 "text": "Information Management, Computer Science or Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -62,7 +65,8 @@
                         "tag": "5",
                         "text": "Systems Analysis & Design and Introduction to Six Sigma"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -86,7 +90,8 @@
                         "tag": "6",
                         "text": "Intro to Web Development and Data Mining & Applications"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -98,7 +103,8 @@
               "label": {
                 "tag": "7",
                 "text": "ELECTIVE COMBINATION"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -117,7 +123,8 @@
                 "tag": "8",
                 "text": "Healthcare Informatics Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -137,7 +144,8 @@
                 "tag": "9",
                 "text": "Public Health/Health Psychology Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -165,6 +173,7 @@
           "startTerm": "201740",
           "endTerm": "999999",
           "requirementAuthority": "RA000304",
+          "dw_req_id": "RA000304",
           "rules": [
             {
               "type": "course",
@@ -179,7 +188,8 @@
                 "tag": "3",
                 "text": "Seminar Health Care Information"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -198,7 +208,8 @@
                 "tag": "4",
                 "text": "Information Management, Computer Science or Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -222,7 +233,8 @@
                         "tag": "5",
                         "text": "Systems Analysis & Design and Introduction to Six Sigma"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -246,7 +258,8 @@
                         "tag": "6",
                         "text": "Intro to Webpage Design & Development and Data Mining & Machine Learning"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -258,7 +271,8 @@
               "label": {
                 "tag": "7",
                 "text": "ELECTIVE COMBINATION"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -277,7 +291,8 @@
                 "tag": "8",
                 "text": "Healthcare Informatics Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -297,7 +312,8 @@
                 "tag": "9",
                 "text": "Public Health/Health Psychology Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

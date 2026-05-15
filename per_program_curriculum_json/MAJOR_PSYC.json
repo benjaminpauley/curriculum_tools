@@ -8,6 +8,7 @@
           "startTerm": "200710",
           "endTerm": "201950",
           "requirementAuthority": "RA000221",
+          "dw_req_id": "RA000221",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Introduction to the Psychology Major"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -43,7 +45,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -61,7 +64,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -79,7 +83,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -94,13 +99,15 @@
                     "tag": "5",
                     "text": "History And Systems of Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "PSYCHOLOGY CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -113,7 +120,8 @@
                       "label": {
                         "tag": "7",
                         "text": "Psychology Exit Examination Complete"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -126,7 +134,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Psychology Exit Examination Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     },
                     {
                       "type": "if_else",
@@ -141,7 +150,8 @@
                               "label": {
                                 "tag": "9",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -165,7 +175,8 @@
                                     "tag": "10",
                                     "text": "Research"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-0"
                                 },
                                 {
                                   "type": "course",
@@ -184,7 +195,8 @@
                                     "tag": "11",
                                     "text": "Developmental"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-1"
                                 },
                                 {
                                   "type": "course",
@@ -199,7 +211,8 @@
                                     "tag": "12",
                                     "text": "Learning and Cognition"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-2"
                                 },
                                 {
                                   "type": "course",
@@ -215,7 +228,8 @@
                                     "tag": "13",
                                     "text": "Biological Basis of Behavior"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-3"
                                 },
                                 {
                                   "type": "course",
@@ -232,7 +246,8 @@
                                     "tag": "14",
                                     "text": "Individual Differences"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-4"
                                 },
                                 {
                                   "type": "course",
@@ -247,7 +262,8 @@
                                     "tag": "15",
                                     "text": "Groups"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-5"
                                 },
                                 {
                                   "type": "course",
@@ -269,7 +285,8 @@
                                     "tag": "16",
                                     "text": "Specialized Course"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-6"
                                 },
                                 {
                                   "type": "course",
@@ -297,7 +314,8 @@
                                     "tag": "17",
                                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-7"
                                 },
                                 {
                                   "type": "course",
@@ -323,7 +341,8 @@
                                     "tag": "18",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-8"
                                 },
                                 {
                                   "type": "course",
@@ -347,23 +366,27 @@
                                     "tag": "19",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-9"
                                 }
                               ],
                               "label": {
                                 "tag": "20",
                                 "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
-                              }
+                              },
+                              "dw_rule_id": "2-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSYC",
@@ -404,6 +427,7 @@
           "startTerm": "202010",
           "endTerm": "202150",
           "requirementAuthority": "RA001431",
+          "dw_req_id": "RA001431",
           "rules": [
             {
               "type": "subset",
@@ -421,7 +445,8 @@
                     "tag": "1",
                     "text": "Introduction to the Psychology Major"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -439,7 +464,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -457,7 +483,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -475,7 +502,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -490,13 +518,15 @@
                     "tag": "5",
                     "text": "History And Systems of Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "PSYCHOLOGY CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -509,7 +539,8 @@
                       "label": {
                         "tag": "7",
                         "text": "Psychology Exit Examination Complete"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -522,7 +553,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Psychology Exit Examination Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     },
                     {
                       "type": "if_else",
@@ -537,7 +569,8 @@
                               "label": {
                                 "tag": "9",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -561,7 +594,8 @@
                                     "tag": "10",
                                     "text": "Research"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-0"
                                 },
                                 {
                                   "type": "course",
@@ -582,7 +616,8 @@
                                     "tag": "11",
                                     "text": "Developmental"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-1"
                                 },
                                 {
                                   "type": "course",
@@ -597,7 +632,8 @@
                                     "tag": "12",
                                     "text": "Learning and Cognition"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-2"
                                 },
                                 {
                                   "type": "course",
@@ -613,7 +649,8 @@
                                     "tag": "13",
                                     "text": "Biological Basis of Behavior"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-3"
                                 },
                                 {
                                   "type": "course",
@@ -630,7 +667,8 @@
                                     "tag": "14",
                                     "text": "Individual Differences"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-4"
                                 },
                                 {
                                   "type": "course",
@@ -645,7 +683,8 @@
                                     "tag": "15",
                                     "text": "Groups"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-5"
                                 },
                                 {
                                   "type": "course",
@@ -668,7 +707,8 @@
                                     "tag": "16",
                                     "text": "Specialized Course"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-6"
                                 },
                                 {
                                   "type": "course",
@@ -697,7 +737,8 @@
                                     "tag": "17",
                                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-7"
                                 },
                                 {
                                   "type": "course",
@@ -723,7 +764,8 @@
                                     "tag": "18",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-8"
                                 },
                                 {
                                   "type": "course",
@@ -747,23 +789,27 @@
                                     "tag": "19",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-9"
                                 }
                               ],
                               "label": {
                                 "tag": "20",
                                 "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
-                              }
+                              },
+                              "dw_rule_id": "2-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSYC",
@@ -804,6 +850,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001941",
+          "dw_req_id": "RA001941",
           "rules": [
             {
               "type": "subset",
@@ -821,7 +868,8 @@
                     "tag": "1",
                     "text": "Introduction to the Psychology Major"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -839,7 +887,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -857,7 +906,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -875,7 +925,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -890,7 +941,8 @@
                     "tag": "4.1",
                     "text": "Professional Development"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -905,13 +957,15 @@
                     "tag": "5",
                     "text": "History And Systems of Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "PSYCHOLOGY CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -924,7 +978,8 @@
                       "label": {
                         "tag": "7",
                         "text": "Psychology Exit Examination Complete"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -937,7 +992,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Psychology Exit Examination Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     },
                     {
                       "type": "if_else",
@@ -952,7 +1008,8 @@
                               "label": {
                                 "tag": "9",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -976,7 +1033,8 @@
                                     "tag": "10",
                                     "text": "Research"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-0"
                                 },
                                 {
                                   "type": "course",
@@ -997,7 +1055,8 @@
                                     "tag": "11",
                                     "text": "Developmental"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-1"
                                 },
                                 {
                                   "type": "course",
@@ -1012,7 +1071,8 @@
                                     "tag": "12",
                                     "text": "Learning and Cognition"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-2"
                                 },
                                 {
                                   "type": "course",
@@ -1031,7 +1091,8 @@
                                     "tag": "13",
                                     "text": "Biological Basis of Behavior"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-3"
                                 },
                                 {
                                   "type": "course",
@@ -1048,7 +1109,8 @@
                                     "tag": "14",
                                     "text": "Individual Differences"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-4"
                                 },
                                 {
                                   "type": "course",
@@ -1063,7 +1125,8 @@
                                     "tag": "15",
                                     "text": "Groups"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-5"
                                 },
                                 {
                                   "type": "course",
@@ -1086,7 +1149,8 @@
                                     "tag": "16",
                                     "text": "Specialized Course"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-6"
                                 },
                                 {
                                   "type": "course",
@@ -1116,7 +1180,8 @@
                                     "tag": "17",
                                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-7"
                                 },
                                 {
                                   "type": "course",
@@ -1142,7 +1207,8 @@
                                     "tag": "18",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-8"
                                 },
                                 {
                                   "type": "course",
@@ -1166,23 +1232,27 @@
                                     "tag": "19",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-9"
                                 }
                               ],
                               "label": {
                                 "tag": "20",
                                 "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
-                              }
+                              },
+                              "dw_rule_id": "2-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSYC",
@@ -1223,6 +1293,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002572",
+          "dw_req_id": "RA002572",
           "rules": [
             {
               "type": "subset",
@@ -1240,7 +1311,8 @@
                     "tag": "1.1",
                     "text": "General Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1255,7 +1327,8 @@
                     "tag": "1",
                     "text": "Introduction to the Psychology Major"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1273,7 +1346,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1291,7 +1365,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1309,7 +1384,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1324,7 +1400,8 @@
                     "tag": "4.1",
                     "text": "Professional Development"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1339,7 +1416,8 @@
                     "tag": "4.2",
                     "text": "Current Research in Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1354,13 +1432,15 @@
                     "tag": "5",
                     "text": "History And Systems of Psychology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "PSYCHOLOGY CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -1373,7 +1453,8 @@
                       "label": {
                         "tag": "7",
                         "text": "Psychology Exit Examination Complete"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -1386,7 +1467,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Psychology Exit Examination Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     },
                     {
                       "type": "if_else",
@@ -1401,7 +1483,8 @@
                               "label": {
                                 "tag": "9",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "2-2-0"
                             }
                           ],
                           "conditionType": "static"
@@ -1431,7 +1514,8 @@
                                     "tag": "11",
                                     "text": "Developmental"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-0"
                                 },
                                 {
                                   "type": "course",
@@ -1446,7 +1530,8 @@
                                     "tag": "12",
                                     "text": "Learning and Cognition"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-1"
                                 },
                                 {
                                   "type": "course",
@@ -1467,7 +1552,8 @@
                                     "tag": "13",
                                     "text": "Biological Basis of Behavior"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-2"
                                 },
                                 {
                                   "type": "course",
@@ -1484,7 +1570,8 @@
                                     "tag": "14",
                                     "text": "Individual Differences"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-3"
                                 },
                                 {
                                   "type": "course",
@@ -1499,7 +1586,8 @@
                                     "tag": "15",
                                     "text": "Groups"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-4"
                                 },
                                 {
                                   "type": "course",
@@ -1525,7 +1613,8 @@
                                     "tag": "16",
                                     "text": "Specialized Course"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-5"
                                 },
                                 {
                                   "type": "course",
@@ -1557,7 +1646,8 @@
                                     "tag": "17",
                                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                                   },
-                                  "minClasses": 1
+                                  "minClasses": 1,
+                                  "dw_rule_id": "2-2-1-6"
                                 },
                                 {
                                   "type": "course",
@@ -1583,7 +1673,8 @@
                                     "tag": "18",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-7"
                                 },
                                 {
                                   "type": "course",
@@ -1607,23 +1698,27 @@
                                     "tag": "19",
                                     "text": "Elective"
                                   },
-                                  "minCredits": 3
+                                  "minCredits": 3,
+                                  "dw_rule_id": "2-2-1-8"
                                 }
                               ],
                               "label": {
                                 "tag": "20",
                                 "text": "GENERAL PSYCHOLOGY CONCENTRATION DEGREE REQUIREMENTS"
-                              }
+                              },
+                              "dw_rule_id": "2-2-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSYC",

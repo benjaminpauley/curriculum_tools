@@ -5,9 +5,10 @@
       "programName": "4 -Year Traditional Nursing",
       "versions": [
         {
-          "startTerm": "202410",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA002387",
+          "dw_req_id": "RA002387",
           "rules": [
             {
               "type": "subset",
@@ -24,7 +25,8 @@
                     "tag": "13",
                     "text": "Fundamentals of Nurs Practice & Health Assessment w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -39,7 +41,8 @@
                     "tag": "14",
                     "text": "Nutrition for Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -56,7 +59,8 @@
                     "tag": "21",
                     "text": "Geriatric Nursing w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -73,7 +77,8 @@
                     "tag": "23",
                     "text": "Evidence- Based Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -90,7 +95,8 @@
                     "tag": "19",
                     "text": "Pathophysiology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -107,7 +113,8 @@
                     "tag": "20",
                     "text": "Community Nursing & Public Health w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -121,7 +128,8 @@
                     "tag": "15",
                     "text": "Adult Care Nursing I w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -135,7 +143,8 @@
                     "tag": "16",
                     "text": "Adult Care Nursing II w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -152,7 +161,8 @@
                     "tag": "22",
                     "text": "Psychiatric Nursing w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -169,7 +179,8 @@
                     "tag": "17",
                     "text": "Maternal & Newborn Nursing with Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -186,7 +197,8 @@
                     "tag": "18",
                     "text": "Family & Child Care Nursing with Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -200,7 +212,8 @@
                     "tag": "24",
                     "text": "Leadership & Management in Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 },
                 {
                   "type": "course",
@@ -214,7 +227,8 @@
                     "tag": "25",
                     "text": "Clinical Judgement Complex Illnesses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-12"
                 },
                 {
                   "type": "course",
@@ -228,13 +242,15 @@
                     "tag": "26",
                     "text": "Integrated Clinical Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-13"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MAJOR CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -260,6 +276,7 @@
           "startTerm": "202510",
           "endTerm": "202550",
           "requirementAuthority": "RA002648",
+          "dw_req_id": "RA002648",
           "rules": [
             {
               "type": "subset",
@@ -276,7 +293,8 @@
                     "tag": "13",
                     "text": "Fundamentals of Nurs Practice & Health Assessment w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -293,7 +311,8 @@
                     "tag": "19.1",
                     "text": "Pharmatherapeut & Pharmacology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -310,7 +329,8 @@
                     "tag": "14",
                     "text": "Nutrition for Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -327,7 +347,8 @@
                     "tag": "21",
                     "text": "Geriatric Nursing w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -344,7 +365,8 @@
                     "tag": "23",
                     "text": "Evidence- Based Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -361,7 +383,8 @@
                     "tag": "19",
                     "text": "Pathophysiology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -378,7 +401,8 @@
                     "tag": "20",
                     "text": "Community Nursing & Public Health w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -392,7 +416,8 @@
                     "tag": "15",
                     "text": "Adult Care Nursing I w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -406,7 +431,8 @@
                     "tag": "16",
                     "text": "Adult Care Nursing II w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -423,7 +449,8 @@
                     "tag": "22",
                     "text": "Psychiatric Nursing w. Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -440,7 +467,8 @@
                     "tag": "17",
                     "text": "Maternal & Newborn Nursing with Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -457,7 +485,8 @@
                     "tag": "18",
                     "text": "Family & Child Care Nursing with Clinical Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 },
                 {
                   "type": "course",
@@ -471,7 +500,8 @@
                     "tag": "24",
                     "text": "Leadership & Management in Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-12"
                 },
                 {
                   "type": "course",
@@ -485,7 +515,8 @@
                     "tag": "25",
                     "text": "Clinical Judgement Complex Illnesses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-13"
                 },
                 {
                   "type": "course",
@@ -499,13 +530,15 @@
                     "tag": "26",
                     "text": "Integrated Clinical Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-14"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MAJOR CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -531,6 +564,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002791",
+          "dw_req_id": "RA002791",
           "rules": [
             {
               "type": "subset",
@@ -547,7 +581,8 @@
                     "tag": "13",
                     "text": "Introduction to Professional Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -561,7 +596,8 @@
                     "tag": "14",
                     "text": "Fundamentals of Nurs Practice & Health Assessment"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -575,7 +611,8 @@
                     "tag": "15",
                     "text": "Pharmacotherapeutics and Pharmacology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -589,7 +626,8 @@
                     "tag": "16",
                     "text": "Geriatric Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -603,7 +641,8 @@
                     "tag": "17",
                     "text": "Nursing Research, Evidence-Based Pract & Q.I."
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -617,7 +656,8 @@
                     "tag": "18",
                     "text": "Pathophysiology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -631,7 +671,8 @@
                     "tag": "22",
                     "text": "Community Nursing & Public Health"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -645,7 +686,8 @@
                     "tag": "19",
                     "text": "Adult Care Nursing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -659,7 +701,8 @@
                     "tag": "20",
                     "text": "Adult Care Nursing II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -673,7 +716,8 @@
                     "tag": "21",
                     "text": "Psychiatric Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -687,7 +731,8 @@
                     "tag": "23",
                     "text": "Maternal & Newborn Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -701,7 +746,8 @@
                     "tag": "24",
                     "text": "Family & Childcare Nursing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 },
                 {
                   "type": "course",
@@ -715,7 +761,8 @@
                     "tag": "25",
                     "text": "Leadership in Today's Nursing Workforce"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-12"
                 },
                 {
                   "type": "course",
@@ -729,7 +776,8 @@
                     "tag": "26",
                     "text": "Clinical Judgement Complex Illnesses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-13"
                 },
                 {
                   "type": "course",
@@ -743,13 +791,15 @@
                     "tag": "27",
                     "text": "Capstone: Integrated Clinical Nursing Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-14"
                 }
               ],
               "label": {
                 "tag": "10",
                 "text": "MAJOR CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

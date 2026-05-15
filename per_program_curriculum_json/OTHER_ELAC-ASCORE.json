@@ -1,0 +1,123 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "ELAC-ASCORE": {
+      "programName": "Liberal Arts Core & Foundational Concepts",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002554",
+          "dw_req_id": "RA002554",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "Attribute=TR30",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "LAC101TR30",
+                        "text": "Introductory Seminars Met by Completion of 30+ Transfer/Readmit Credits"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "LAC 100",
+                          "LAC 101"
+                        ]
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "LAC Seminar: Introductory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "LAC 200"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "LAC Seminar: Intermediate"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (with attribute = LACM)"
+                ],
+                "hidden": [
+                  "MAT @ (WITH ATTRIBUTE= T1M)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Foundational Math Course"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (with attribute = LACW)"
+                ],
+                "hidden": [
+                  "ENG @ (WITH ATTRIBUTE= T1W)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Foundational Writing Course"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_ANY": null
+          }
+        }
+      ]
+    }
+  }
+}

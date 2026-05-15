@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201920",
           "requirementAuthority": "RA000205",
+          "dw_req_id": "RA000205",
           "rules": [
             {
               "type": "subset",
@@ -36,7 +37,8 @@
                           "combinationOperator": "and",
                           "qualifiers": {
                             "priority": "high"
-                          }
+                          },
+                          "dw_rule_id": "1-0-0"
                         }
                       ],
                       "label": {
@@ -59,7 +61,8 @@
                             "tag": "1.1",
                             "text": "Dynamic Earth and Earth Science Laboratory"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-1"
                         }
                       ],
                       "label": {
@@ -82,7 +85,8 @@
                             "tag": "2",
                             "text": "Geology of National Parks & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-2"
                         }
                       ],
                       "label": {
@@ -105,7 +109,8 @@
                             "tag": "3",
                             "text": "Introduction to Geology & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-3"
                         }
                       ],
                       "label": {
@@ -128,7 +133,8 @@
                             "tag": "4",
                             "text": "Geology of Natural Parks & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-4"
                         }
                       ],
                       "label": {
@@ -151,7 +157,8 @@
                             "tag": "5",
                             "text": "Geological Setting of Connecticut & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-5"
                         }
                       ],
                       "label": {
@@ -163,7 +170,8 @@
                   "label": {
                     "tag": "6",
                     "text": "EARTH SCIENCE & LAB"
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -178,7 +186,8 @@
                     "tag": "7",
                     "text": "Ancient Environments With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -193,7 +202,8 @@
                     "tag": "8",
                     "text": "Landform Analysis With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -208,7 +218,8 @@
                     "tag": "9",
                     "text": "Hydrology With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -223,7 +234,8 @@
                     "tag": "10",
                     "text": "Geographic Information Systems With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -238,7 +250,8 @@
                     "tag": "11",
                     "text": "Sedimentology and Stratigraphy With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -253,7 +266,8 @@
                     "tag": "12",
                     "text": "Struct Geol/Envron App w/Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -268,7 +282,8 @@
                     "tag": "13",
                     "text": "General Chemistry I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -283,7 +298,8 @@
                     "tag": "14",
                     "text": "General Chemistry II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -298,7 +314,8 @@
                     "tag": "15",
                     "text": "General Chemistry I Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -313,13 +330,15 @@
                     "tag": "16",
                     "text": "General Chemistry II Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 }
               ],
               "label": {
                 "tag": "17",
                 "text": "MAJOR CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -334,7 +353,8 @@
                       "label": {
                         "tag": "18",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -361,7 +381,8 @@
                             "tag": "21",
                             "text": "Mineralogy/Rock Analysis w/Lab OR Struct Geol/Envron App w/Lab"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-0"
                         },
                         {
                           "type": "course",
@@ -376,7 +397,8 @@
                             "tag": "22",
                             "text": "Field Methods in Earth Science"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
                         },
                         {
                           "type": "course",
@@ -391,7 +413,8 @@
                             "tag": "23",
                             "text": "Calculus I with Technology"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
                         },
                         {
                           "type": "course",
@@ -421,7 +444,8 @@
                             "tag": "24",
                             "text": "Environmental Earth Science Electives"
                           },
-                          "minCredits": 9
+                          "minCredits": 9,
+                          "dw_rule_id": "2-1-3"
                         },
                         {
                           "type": "group",
@@ -442,7 +466,8 @@
                                     "tag": "25",
                                     "text": "General Physic I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-4-0"
                                 }
                               ],
                               "label": {
@@ -465,7 +490,8 @@
                                     "tag": "26",
                                     "text": "Physics With Calculus I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-4-1"
                                 }
                               ],
                               "label": {
@@ -477,18 +503,21 @@
                           "label": {
                             "tag": "27",
                             "text": "PHYSICS"
-                          }
+                          },
+                          "dw_rule_id": "2-1-4"
                         }
                       ],
                       "label": {
                         "tag": "40",
                         "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "EESC",
@@ -524,6 +553,7 @@
           "startTerm": "201940",
           "endTerm": "202050",
           "requirementAuthority": "RA001344",
+          "dw_req_id": "RA001344",
           "rules": [
             {
               "type": "subset",
@@ -552,7 +582,8 @@
                           "combinationOperator": "and",
                           "qualifiers": {
                             "priority": "high"
-                          }
+                          },
+                          "dw_rule_id": "1-0-0"
                         }
                       ],
                       "label": {
@@ -575,7 +606,8 @@
                             "tag": "1.1",
                             "text": "Dynamic Earth and Earth Science Laboratory"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-1"
                         }
                       ],
                       "label": {
@@ -598,7 +630,8 @@
                             "tag": "2",
                             "text": "Geology of National Parks & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-2"
                         }
                       ],
                       "label": {
@@ -621,7 +654,8 @@
                             "tag": "3",
                             "text": "Introduction to Geology & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-3"
                         }
                       ],
                       "label": {
@@ -644,7 +678,8 @@
                             "tag": "4",
                             "text": "Geology of Natural Parks & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-4"
                         }
                       ],
                       "label": {
@@ -667,7 +702,8 @@
                             "tag": "5",
                             "text": "Geological Setting of Connecticut & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-5"
                         }
                       ],
                       "label": {
@@ -679,7 +715,8 @@
                   "label": {
                     "tag": "6",
                     "text": "EARTH SCIENCE & LAB"
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -694,7 +731,8 @@
                     "tag": "7",
                     "text": "Ancient Environments With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -709,7 +747,8 @@
                     "tag": "8",
                     "text": "Landform Analysis With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -724,7 +763,8 @@
                     "tag": "9",
                     "text": "Hydrology With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -739,7 +779,8 @@
                     "tag": "10",
                     "text": "Geographic Information Systems With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -754,7 +795,8 @@
                     "tag": "11",
                     "text": "Sedimentology and Stratigraphy With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -769,7 +811,8 @@
                     "tag": "13",
                     "text": "General Chemistry I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -784,7 +827,8 @@
                     "tag": "14",
                     "text": "General Chemistry II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -799,7 +843,8 @@
                     "tag": "15",
                     "text": "General Chemistry I Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -814,13 +859,15 @@
                     "tag": "16",
                     "text": "General Chemistry II Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 }
               ],
               "label": {
                 "tag": "17",
                 "text": "MAJOR CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -835,7 +882,8 @@
                       "label": {
                         "tag": "18",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -859,7 +907,8 @@
                             "tag": "21",
                             "text": "Mineralogy/Rock Analysis w/Lab AND Struct Geol/Envron App w/Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "2-1-0"
                         },
                         {
                           "type": "course",
@@ -874,7 +923,8 @@
                             "tag": "22",
                             "text": "Field Methods in Earth Science"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
                         },
                         {
                           "type": "course",
@@ -889,7 +939,8 @@
                             "tag": "23",
                             "text": "Calculus I with Technology"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
                         },
                         {
                           "type": "course",
@@ -919,7 +970,8 @@
                             "tag": "24",
                             "text": "Environmental Earth Science Electives"
                           },
-                          "minCredits": 9
+                          "minCredits": 9,
+                          "dw_rule_id": "2-1-3"
                         },
                         {
                           "type": "group",
@@ -940,7 +992,8 @@
                                     "tag": "25",
                                     "text": "General Physic I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-4-0"
                                 }
                               ],
                               "label": {
@@ -963,7 +1016,8 @@
                                     "tag": "26",
                                     "text": "Physics With Calculus I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-4-1"
                                 }
                               ],
                               "label": {
@@ -975,18 +1029,21 @@
                           "label": {
                             "tag": "27",
                             "text": "PHYSICS"
-                          }
+                          },
+                          "dw_rule_id": "2-1-4"
                         }
                       ],
                       "label": {
                         "tag": "40",
                         "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "EESC",
@@ -1022,6 +1079,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001772",
+          "dw_req_id": "RA001772",
           "rules": [
             {
               "type": "subset",
@@ -1039,7 +1097,8 @@
                     "tag": "7",
                     "text": "Ancient Environments With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1054,7 +1113,8 @@
                     "tag": "8",
                     "text": "Landform Analysis With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1069,7 +1129,8 @@
                     "tag": "9",
                     "text": "Hydrology With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1084,7 +1145,8 @@
                     "tag": "10",
                     "text": "Geographic Information Systems With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1099,7 +1161,8 @@
                     "tag": "13",
                     "text": "General Chemistry I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1114,7 +1177,8 @@
                     "tag": "14",
                     "text": "General Chemistry II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1129,7 +1193,8 @@
                     "tag": "15",
                     "text": "General Chemistry I Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1144,13 +1209,15 @@
                     "tag": "16",
                     "text": "General Chemistry II Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "17",
                 "text": "MAJOR CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -1165,7 +1232,8 @@
                       "label": {
                         "tag": "18",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1200,7 +1268,8 @@
                                   "combinationOperator": "and",
                                   "qualifiers": {
                                     "priority": "high"
-                                  }
+                                  },
+                                  "dw_rule_id": "2-1-0-0"
                                 }
                               ],
                               "label": {
@@ -1223,7 +1292,8 @@
                                     "tag": "1.1",
                                     "text": "Dynamic Earth and Earth Science Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-0-1"
                                 }
                               ],
                               "label": {
@@ -1246,7 +1316,8 @@
                                     "tag": "2",
                                     "text": "Geology of National Parks & Earth Science Lab"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-0-2"
                                 }
                               ],
                               "label": {
@@ -1269,7 +1340,8 @@
                                     "tag": "3",
                                     "text": "Introduction to Geology & Earth Science Lab"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-0-3"
                                 }
                               ],
                               "label": {
@@ -1292,7 +1364,8 @@
                                     "tag": "5",
                                     "text": "Environmental Geology & Earth Science Lab"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-0-4"
                                 }
                               ],
                               "label": {
@@ -1315,7 +1388,8 @@
                                     "tag": "5.1",
                                     "text": "Environmental Geology & Environmental Geology Lab"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-0-5"
                                 }
                               ],
                               "label": {
@@ -1327,7 +1401,8 @@
                           "label": {
                             "tag": "6",
                             "text": "EARTH SCIENCE & LAB"
-                          }
+                          },
+                          "dw_rule_id": "2-1-0"
                         },
                         {
                           "type": "course",
@@ -1342,7 +1417,8 @@
                             "tag": "21",
                             "text": "Mineralogy/Rock Analysis w/Lab"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
                         },
                         {
                           "type": "course",
@@ -1357,7 +1433,8 @@
                             "tag": "21.1",
                             "text": "Sedimentology And Stratigraphy With Laboratory"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
                         },
                         {
                           "type": "course",
@@ -1372,7 +1449,8 @@
                             "tag": "22",
                             "text": "Field Methods in Earth Science"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-3"
                         },
                         {
                           "type": "course",
@@ -1387,7 +1465,8 @@
                             "tag": "22.2",
                             "text": "Structural Geology And Environmental Applications w/Lab"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-4"
                         },
                         {
                           "type": "course",
@@ -1402,7 +1481,8 @@
                             "tag": "23",
                             "text": "Calculus I with Technology"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-5"
                         },
                         {
                           "type": "course",
@@ -1420,7 +1500,8 @@
                             "tag": "23.1",
                             "text": "Writing Intensive Course"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-6"
                         },
                         {
                           "type": "course",
@@ -1445,7 +1526,8 @@
                             "tag": "24",
                             "text": "Environmental Earth Science Electives"
                           },
-                          "minCredits": 6
+                          "minCredits": 6,
+                          "dw_rule_id": "2-1-7"
                         },
                         {
                           "type": "group",
@@ -1466,7 +1548,8 @@
                                     "tag": "25",
                                     "text": "General Physic I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-8-0"
                                 }
                               ],
                               "label": {
@@ -1489,7 +1572,8 @@
                                     "tag": "26",
                                     "text": "Physics With Calculus I & II With Laboratory"
                                   },
-                                  "minClasses": 2
+                                  "minClasses": 2,
+                                  "dw_rule_id": "2-1-8-1"
                                 }
                               ],
                               "label": {
@@ -1501,18 +1585,21 @@
                           "label": {
                             "tag": "27",
                             "text": "PHYSICS"
-                          }
+                          },
+                          "dw_rule_id": "2-1-8"
                         }
                       ],
                       "label": {
                         "tag": "40",
                         "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "EESC",
@@ -1548,6 +1635,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002439",
+          "dw_req_id": "RA002439",
           "rules": [
             {
               "type": "subset",
@@ -1571,7 +1659,8 @@
                             "tag": "1",
                             "text": "Dynamic Earth With Laboratory"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-0"
                         }
                       ],
                       "label": {
@@ -1594,7 +1683,8 @@
                             "tag": "2",
                             "text": "Geology of National Parks & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-1"
                         }
                       ],
                       "label": {
@@ -1617,7 +1707,8 @@
                             "tag": "3",
                             "text": "Introduction to Geology & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-2"
                         }
                       ],
                       "label": {
@@ -1640,7 +1731,8 @@
                             "tag": "5",
                             "text": "Environmental Geology & Earth Science Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-3"
                         }
                       ],
                       "label": {
@@ -1663,7 +1755,8 @@
                             "tag": "5.1",
                             "text": "Environmental Geology & Environmental Geology Lab"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "1-0-4"
                         }
                       ],
                       "label": {
@@ -1675,7 +1768,8 @@
                   "label": {
                     "tag": "6",
                     "text": "EARTH SCIENCE & LAB"
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1690,7 +1784,8 @@
                     "tag": "7",
                     "text": "Ancient Environments With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1705,7 +1800,8 @@
                     "tag": "8",
                     "text": "Landform Analysis With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1720,7 +1816,8 @@
                     "tag": "8.1",
                     "text": "Introduction to Geographic Information Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1735,7 +1832,8 @@
                     "tag": "8.2",
                     "text": "Introduction to Geographic Information Systems Lab"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1750,7 +1848,8 @@
                     "tag": "9",
                     "text": "Hydrology With Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1765,7 +1864,8 @@
                     "tag": "11",
                     "text": "EES Student Employability"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1780,7 +1880,8 @@
                     "tag": "12",
                     "text": "Climate and Weather"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -1795,7 +1896,8 @@
                     "tag": "13",
                     "text": "General Chemistry I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -1810,7 +1912,8 @@
                     "tag": "14",
                     "text": "General Chemistry II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -1825,7 +1928,8 @@
                     "tag": "15",
                     "text": "General Chemistry I Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -1840,7 +1944,8 @@
                     "tag": "16",
                     "text": "General Chemistry II Laboratory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 },
                 {
                   "type": "course",
@@ -1854,7 +1959,8 @@
                     "tag": "17",
                     "text": "Statistical Data Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-12"
                 },
                 {
                   "type": "course",
@@ -1869,13 +1975,15 @@
                     "tag": "18",
                     "text": "Physics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-13"
                 }
               ],
               "label": {
                 "tag": "19",
                 "text": "MAJOR CORE COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -1890,7 +1998,8 @@
                       "label": {
                         "tag": "20",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1914,7 +2023,8 @@
                             "tag": "1.1",
                             "text": "Mineralogy/Rock Analysis w/Lab"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-0"
                         },
                         {
                           "type": "course",
@@ -1929,7 +2039,8 @@
                             "tag": "2.1",
                             "text": "Sedimentology And Stratigraphy With Laboratory"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-1"
                         },
                         {
                           "type": "course",
@@ -1944,7 +2055,8 @@
                             "tag": "3.1",
                             "text": "Structural Geology And Environmental Applications w/Lab"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-2"
                         },
                         {
                           "type": "course",
@@ -1969,7 +2081,8 @@
                             "tag": "4",
                             "text": "Environmental Earth Science Electives"
                           },
-                          "minClasses": 2
+                          "minClasses": 2,
+                          "dw_rule_id": "2-1-3"
                         },
                         {
                           "type": "course",
@@ -1983,18 +2096,21 @@
                             "tag": "4.1",
                             "text": "Capstone:Sustainability Issues in Geosciences"
                           },
-                          "minClasses": 1
+                          "minClasses": 1,
+                          "dw_rule_id": "2-1-4"
                         }
                       ],
                       "label": {
                         "tag": "40",
                         "text": "Defaulted to Environmental Earth Science Concentration, No Concentration Declared"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "EESC",

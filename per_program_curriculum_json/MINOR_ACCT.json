@@ -5,9 +5,10 @@
       "programName": "Minor in Accounting",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "999999",
-          "requirementAuthority": "RA000075",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000253",
+          "dw_req_id": "RA000253",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Principles of Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Intermediate Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Intermediate Accounting II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "6",
                 "text": "Intermediate Accounting III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -83,7 +88,115 @@
                 "tag": "7",
                 "text": "Accounting Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000075",
+          "dw_req_id": "RA000075",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Principles of Accounting I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 301"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intermediate Accounting I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 302"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Intermediate Accounting II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 303"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Intermediate Accounting III"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ACC 310",
+                  "ACC 311",
+                  "ACC 416"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Accounting Elective"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

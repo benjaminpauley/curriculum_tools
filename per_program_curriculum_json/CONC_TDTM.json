@@ -6,8 +6,9 @@
       "versions": [
         {
           "startTerm": "201610",
-          "endTerm": "201710",
+          "endTerm": "201720",
           "requirementAuthority": "RA000066",
+          "dw_req_id": "RA000066",
           "rules": [
             {
               "type": "course",
@@ -34,7 +35,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -54,6 +56,7 @@
           "startTerm": "201740",
           "endTerm": "201950",
           "requirementAuthority": "RA000401",
+          "dw_req_id": "RA000401",
           "rules": [
             {
               "type": "course",
@@ -83,7 +86,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -103,6 +107,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001528",
+          "dw_req_id": "RA001528",
           "rules": [
             {
               "type": "course",
@@ -133,7 +138,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -153,6 +159,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002241",
+          "dw_req_id": "RA002241",
           "rules": [
             {
               "type": "course",
@@ -183,7 +190,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

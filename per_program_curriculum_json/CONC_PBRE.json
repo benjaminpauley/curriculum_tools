@@ -8,6 +8,7 @@
           "startTerm": "200510",
           "endTerm": "999999",
           "requirementAuthority": "RA001478",
+          "dw_req_id": "RA001478",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Introduction To Public Relations"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Public Relations Writing Methods"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Public Relations Crisis Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Integrated Marketing Communications"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -85,7 +90,8 @@
                 "tag": "5",
                 "text": "One Additional Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,

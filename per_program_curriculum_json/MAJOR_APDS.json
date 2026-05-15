@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "APDS": {
+      "programName": "Major in Applied Data Science",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002425",
+          "dw_req_id": "RA002425",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 216",
+                      "MAT 315",
+                      "ECO 215",
+                      "Proxy-Advice \"or another approved statistics course.\" Proxy-Advice \"You must show that you have successfully completed a college\" Proxy-Advice \"level statistics course prior to advancing in program.\" Proxy-Advice \"ADVISOR: Please waive prerequisite or:\"; EndSub BeginSub 21 Credits in DSC 501",
+                      "DSC 502",
+                      "DSC 503",
+                      "DSC 504",
+                      "DSC 505",
+                      "DSC 506",
+                      "DSC 507",
+                      "; EndSub BeginSub 9 CREDITS IN DSC 508",
+                      "DSC 509",
+                      "; EndSub"
+                    ],
+                    "hidden": [
+                      "MAT 216",
+                      "{HIDE MAT 315 (with DWTitle=\"@ MAT 315\"), {HIDE ECO 215 (with DWTitle=\"@ 215\")",
+                      "DSC 501",
+                      "DSC 502",
+                      "DSC 503",
+                      "DSC 504",
+                      "DSC 505",
+                      "DSC 506",
+                      "DSC 507",
+                      "DSC 508",
+                      "{HIDE DSC 509 (with DWTitle=\"@ DSC 509\")"
+                    ]
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "MASTERS IN APPLIED DATA SCIENCE: PRE-REQUISITE."
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-0"
+                }
+              ],
+              "label": {
+                "tag": null,
+                "text": "Requirements"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "declaredMajor": "APDS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

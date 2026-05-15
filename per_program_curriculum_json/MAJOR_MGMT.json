@@ -1,0 +1,307 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "MGMT": {
+      "programName": "Major in Management",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002392",
+          "dw_req_id": "RA002392",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HCMG",
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 501",
+                              "MGT 502",
+                              "MGT 503",
+                              "MGT 504",
+                              "MGT 505",
+                              "MGT 506",
+                              "MGT 507",
+                              "MGT 508",
+                              "MGT 509",
+                              "MGT 510"
+                            ],
+                            "hidden": [
+                              "MGT 501",
+                              "MGT 502",
+                              "MGT 503",
+                              "MGT 504",
+                              "MGT 505",
+                              "MGT 506",
+                              "MGT 507",
+                              "MGT 508",
+                              "MGT 509",
+                              "MGT 510"
+                            ]
+                          },
+                          "label": {
+                            "tag": "14",
+                            "text": "MASTERS IN MANAGEMENT: Required Courses. Choose 5 for the Healthcare concentration."
+                          },
+                          "minCredits": 15,
+                          "dw_rule_id": "1-0-0"
+                        }
+                      ],
+                      "label": {
+                        "tag": "15",
+                        "text": "Major Requirements"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "subset",
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 501"
+                            ],
+                            "hidden": [
+                              "MGT 501"
+                            ]
+                          },
+                          "label": {
+                            "tag": "2b",
+                            "text": "Evidence-Based Decisions"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-0"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 502"
+                            ],
+                            "hidden": [
+                              "MGT 502"
+                            ]
+                          },
+                          "label": {
+                            "tag": "3b",
+                            "text": "Talent Management"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-1"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 503"
+                            ],
+                            "hidden": [
+                              "MGT 503"
+                            ]
+                          },
+                          "label": {
+                            "tag": "4b",
+                            "text": "DEI Management"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-2"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 504"
+                            ],
+                            "hidden": [
+                              "MGT 504"
+                            ]
+                          },
+                          "label": {
+                            "tag": "5b",
+                            "text": "Leading Change"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-3"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 505"
+                            ],
+                            "hidden": [
+                              "MGT 505"
+                            ]
+                          },
+                          "label": {
+                            "tag": "6b",
+                            "text": "Conflict and Negotiations"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-4"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 506"
+                            ],
+                            "hidden": [
+                              "MGT 506"
+                            ]
+                          },
+                          "label": {
+                            "tag": "7b",
+                            "text": "Organizational Design"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-5"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 507"
+                            ],
+                            "hidden": [
+                              "MGT 507"
+                            ]
+                          },
+                          "label": {
+                            "tag": "8b",
+                            "text": "Global Management"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-6"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 508"
+                            ],
+                            "hidden": [
+                              "MGT 508"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9b",
+                            "text": "Design Thinking"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-7"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 509"
+                            ],
+                            "hidden": [
+                              "MGT 509"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10b",
+                            "text": "Strategic Communication"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-8"
+                        },
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "MGT 510"
+                            ],
+                            "hidden": [
+                              "MGT 510"
+                            ]
+                          },
+                          "label": {
+                            "tag": "11b",
+                            "text": "Strategic Management"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-1-9"
+                        }
+                      ],
+                      "label": {
+                        "tag": "12",
+                        "text": "MASTERS IN MANAGEMENT: Required Courses"
+                      },
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=HCMG",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "2",
+                        "text": "Healthcare Management Concentration"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "MGMT",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -5,9 +5,10 @@
       "programName": "Minor in Environmental Health Science",
       "versions": [
         {
-          "startTerm": "200810",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA000097",
+          "dw_req_id": "RA000097",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Environmental Health Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Environmental Toxicology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Epidemiology for Liberal Arts"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "group",
@@ -73,7 +77,8 @@
                         "tag": "6",
                         "text": "Intro to Geographic Info Syst. & Intro to GIS Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "label": {
@@ -96,7 +101,8 @@
                         "tag": "7",
                         "text": "Geographic Info Sys w/Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "4-1"
                     }
                   ],
                   "label": {
@@ -108,7 +114,8 @@
               "label": {
                 "tag": "8",
                 "text": "GEOGRAPHIC INFO SYST AND LAB"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -129,7 +136,8 @@
                 "tag": "9",
                 "text": "Environmental Health Science Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

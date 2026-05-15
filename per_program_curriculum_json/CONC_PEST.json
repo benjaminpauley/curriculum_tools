@@ -8,6 +8,7 @@
           "startTerm": "201240",
           "endTerm": "202250",
           "requirementAuthority": "RA000220",
+          "dw_req_id": "RA000220",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Physical Education Internship"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,
@@ -43,6 +45,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002156",
+          "dw_req_id": "RA002156",
           "rules": [
             {
               "type": "course",
@@ -59,7 +62,8 @@
                 "tag": "2.1",
                 "text": "Sports in American Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -74,7 +78,8 @@
                 "tag": "1",
                 "text": "Physical Education Internship"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -95,6 +100,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002757",
+          "dw_req_id": "RA002757",
           "rules": [
             {
               "type": "course",
@@ -109,7 +115,8 @@
                 "tag": "2.1",
                 "text": "Organization/Administration of Physical Education"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -124,7 +131,8 @@
                 "tag": "1",
                 "text": "Physical Education Internship"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

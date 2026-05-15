@@ -5,10 +5,27 @@
       "programName": "Minor in Theatre",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "202350",
-          "requirementAuthority": "RA000340",
+          "startTerm": "200810",
+          "endTerm": "200950",
+          "requirementAuthority": "RA000131",
+          "dw_req_id": "RA000131",
           "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 267"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "World Theatre:Ancient - 17th Century"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
             {
               "type": "course",
               "courses": {
@@ -22,7 +39,8 @@
                 "tag": "3",
                 "text": "World Theatre: 17th Century - Present"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -37,7 +55,8 @@
                 "tag": "4",
                 "text": "Directing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -52,7 +71,242 @@
                 "tag": "5",
                 "text": "Technical Theatre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 376"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Reader's Theatre"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 392"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Theatre Practicum"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201010",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000339",
+          "dw_req_id": "RA000339",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 267"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "World Theatre: Ancient - 17th Century"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 268"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "World Theatre: 17th Century - Present"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Directing I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 272"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Acting"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 275"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Technical Theatre"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 392"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Theatre Practicum"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "202350",
+          "requirementAuthority": "RA000340",
+          "dw_req_id": "RA000340",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 268"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "World Theatre: 17th Century - Present"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 270"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Directing I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 275"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Technical Theatre"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +321,8 @@
                 "tag": "6",
                 "text": "Theatre Practicum"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -83,7 +338,8 @@
                 "tag": "7",
                 "text": "Acting I for Majors or Introduction to Acting"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -100,7 +356,8 @@
                 "tag": "8",
                 "text": "Intro to Theatre Arts or World Theatre: Ancient-17th Century"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {
@@ -129,6 +386,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002407",
+          "dw_req_id": "RA002407",
           "rules": [
             {
               "type": "course",
@@ -143,7 +401,8 @@
                 "tag": "3",
                 "text": "World Performance and Culture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -159,7 +418,8 @@
                 "tag": "4",
                 "text": "Technical Theatre or Improvisation and Physical Theatre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -176,7 +436,8 @@
                 "tag": "5",
                 "text": "Theatre Practicum"
               },
-              "minCredits": 2
+              "minCredits": 2,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -190,7 +451,8 @@
                 "tag": "6",
                 "text": "Theatre Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -204,7 +466,8 @@
                 "tag": "7",
                 "text": "Upper-Level Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

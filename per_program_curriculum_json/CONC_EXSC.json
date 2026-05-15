@@ -1,0 +1,116 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "EXSC": {
+      "programName": "Concentration in Exercise Science",
+      "versions": [
+        {
+          "startTerm": "201040",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000419",
+          "dw_req_id": "RA000419",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 320"
+                ],
+                "hidden": [
+                  "HPE 320"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Sports Nutrition"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "The Physiological Basis of Movement"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 413"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Physiology of Exercise"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 324"
+                ],
+                "hidden": [
+                  "SLM 340"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Exercise Testing & Prescription"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HSC 352"
+                ],
+                "hidden": [
+                  "SLM 375"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Exercise Management for Disabilities"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

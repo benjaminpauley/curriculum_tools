@@ -1,0 +1,84 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ELAR": {
+      "programName": "Conc in English Language Arts",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000352",
+          "dw_req_id": "RA000352",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 665"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Inquiry-based Learning in the ELA Classroom"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 667"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Writing Instruction: Theory and Practice"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 668"
+                ],
+                "hidden": [
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Teaching Reading and Writing with Expository Texts"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 9
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

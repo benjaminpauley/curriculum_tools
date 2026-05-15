@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000083",
+          "dw_req_id": "RA000083",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Principles of Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Principles of Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -53,7 +56,7 @@
                           "@ (With ATTRIBUTE=BFIN)"
                         ],
                         "hidden": [
-                          "High-Priority BUS 245"
+                          "BUS 245"
                         ]
                       },
                       "label": {
@@ -63,7 +66,8 @@
                       "minClasses": 1,
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -81,7 +85,7 @@
                           "@ (With ATTRIBUTE=BMGT)"
                         ],
                         "hidden": [
-                          "High-Priority BUS 201",
+                          "BUS 201",
                           "BUS 230"
                         ]
                       },
@@ -92,7 +96,8 @@
                       "minClasses": 1,
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -110,7 +115,7 @@
                           "@ (With ATTRIBUTE=BMKT)"
                         ],
                         "hidden": [
-                          "High-Priority BUS 225"
+                          "BUS 225"
                         ]
                       },
                       "label": {
@@ -120,7 +125,8 @@
                       "minClasses": 1,
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -138,8 +144,8 @@
                           "@ (With ATTRIBUTE=BOPM)"
                         ],
                         "hidden": [
-                          "High-Priority BUS 260",
-                          "366",
+                          "BUS 260",
+                          "BUS 366",
                           "OSC 260"
                         ]
                       },
@@ -150,7 +156,8 @@
                       "minClasses": 1,
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "3-3"
                     }
                   ],
                   "label": {
@@ -172,7 +179,8 @@
                         "tag": "13",
                         "text": "Human Resource Management"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-4"
                     }
                   ],
                   "label": {
@@ -194,7 +202,8 @@
                         "tag": "14",
                         "text": "International Business"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-5"
                     }
                   ],
                   "label": {
@@ -206,7 +215,8 @@
               "label": {
                 "tag": "15",
                 "text": "Business Administration - 2 Areas"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -236,7 +246,8 @@
                 "tag": "16",
                 "text": "300/400 Level Business Administration Electives (Eastern Courses Only)"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -267,7 +278,8 @@
                 "tag": "17",
                 "text": "Additional 300/400 Level Business Administration Elective (Transfer Allowed)"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -295,6 +307,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001985",
+          "dw_req_id": "RA001985",
           "rules": [
             {
               "type": "course",
@@ -309,7 +322,8 @@
                 "tag": "3",
                 "text": "Principles of Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -324,7 +338,8 @@
                 "tag": "4",
                 "text": "Principles of Marketing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -346,7 +361,8 @@
                 "tag": "5",
                 "text": "General Business Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -365,7 +381,8 @@
                 "tag": "6",
                 "text": "Business Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

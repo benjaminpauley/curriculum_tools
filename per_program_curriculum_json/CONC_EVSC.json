@@ -5,9 +5,10 @@
       "programName": "Concentration in Environmental Science",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001776",
+          "dw_req_id": "RA001776",
           "rules": [
             {
               "type": "group",
@@ -28,7 +29,8 @@
                         "tag": "1",
                         "text": "Dynamic Earth With Laboratory"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -51,7 +53,8 @@
                         "tag": "3",
                         "text": "Introduction to Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -74,7 +77,8 @@
                         "tag": "5",
                         "text": "Environmental Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -97,7 +101,8 @@
                         "tag": "55.1",
                         "text": "Environmental Geology & Environmental Geology Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -109,7 +114,8 @@
               "label": {
                 "tag": "6.7",
                 "text": "EARTH SCIENCE & LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -124,7 +130,8 @@
                 "tag": "6",
                 "text": "Ecology and the Environment with Lab"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -139,7 +146,8 @@
                 "tag": "7",
                 "text": "Global Climate Change or Sustainable Energy"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -153,7 +161,8 @@
                 "tag": "8",
                 "text": "Environmental Health Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -168,7 +177,8 @@
                 "tag": "9",
                 "text": "Statistics or Calculus"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -183,7 +193,8 @@
                 "tag": "10",
                 "text": "Physics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -208,7 +219,8 @@
                 "tag": "11",
                 "text": "Choose 3 Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -232,7 +244,8 @@
                 "tag": "12",
                 "text": "EES Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -248,7 +261,8 @@
                 "tag": "13",
                 "text": "Capstone"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BS",

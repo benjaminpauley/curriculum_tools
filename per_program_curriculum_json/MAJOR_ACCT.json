@@ -5,9 +5,213 @@
       "programName": "Major in Accounting",
       "versions": [
         {
-          "startTerm": "200910",
-          "endTerm": "201550",
-          "requirementAuthority": "RA000363",
+          "startTerm": "000000",
+          "endTerm": "202450",
+          "requirementAuthority": "RA000347",
+          "dw_req_id": "RA000347",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 531"
+                    ],
+                    "hidden": [
+                      "BUS 531"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Organizational Behavior"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 545"
+                    ],
+                    "hidden": [
+                      "FIN 545"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Financial Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 510"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Managerial Economics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "GRADUATE COURSE CORE REQUIREMENTS"
+              },
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 515"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "AIS and Financial Reporting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 520"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Accounting for not-for-Profit"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 525"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Accounting for International Operations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 530"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Topical and Current Issues"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 531"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Accounting Theory and Prof. Development"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 535"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Advanced Studies in Taxation"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 549"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Assurance Services"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "GRADUATE RELATED COURSE REQUIREMENTS"
+              },
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "ACCT",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "200810",
+          "endTerm": "200850",
+          "requirementAuthority": "RA000362",
+          "dw_req_id": "RA000362",
           "rules": [
             {
               "type": "subset",
@@ -22,10 +226,11 @@
                     "hidden": []
                   },
                   "label": {
-                    "tag": "0",
+                    "tag": "1",
                     "text": "Principles Of Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -37,10 +242,11 @@
                     "hidden": []
                   },
                   "label": {
-                    "tag": "1",
+                    "tag": "2",
                     "text": "Principles Of Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -52,16 +258,18 @@
                     "hidden": []
                   },
                   "label": {
-                    "tag": "2",
+                    "tag": "3",
                     "text": "Statistics For Business And Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "RELATED COURSE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -79,22 +287,24 @@
                     "tag": "5",
                     "text": "Principles Of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
                   "courses": {
                     "connector": "or",
                     "courses": [
-                      "BUS 201"
+                      "BUS 230"
                     ],
                     "hidden": []
                   },
                   "label": {
                     "tag": "6",
-                    "text": "Principles of Management"
+                    "text": "Business and Society"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -109,7 +319,378 @@
                     "tag": "7",
                     "text": "Principles Of Marketing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "ACCTMAJ8",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 250"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Business Law I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 300"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Business Law II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "COMMON BUSINESS CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Intermediate Accounting I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 302"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Intermediate Accounting II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 303"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Intermediate Accounting III"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 310"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Cost Accounting Systems"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 311"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Advanced Managerial Accounting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 410"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Advanced Financial Accounting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 411"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Contemporary Issues Accounting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 412"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Auditing"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 416"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Federal Individual Taxation"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 420"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "20",
+                    "text": "Accounting Info Technology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-9"
+                }
+              ],
+              "label": {
+                "tag": "ACCTMAJ22",
+                "text": "ADVANCED ACCOUNTING REQUIREMENTS"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "ACCT",
+          "minimumCredits": {
+            "min": 57
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_BUAD": 30,
+            "MAJOR_BUIS": 27,
+            "MAJOR_ECED": 9,
+            "MAJOR_ECON": 9,
+            "MAJOR_ELED": 9,
+            "MAJOR_FNCE": 27,
+            "CONC_ECOB": 9,
+            "CONC_HAMS": 9,
+            "CONC_7_12": 9,
+            "CONC_SPMG": 9
+          }
+        },
+        {
+          "startTerm": "200910",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000363",
+          "dw_req_id": "RA000363",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "0",
+                    "text": "Principles Of Macroeconomics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles Of Microeconomics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Statistics For Business And Economics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                }
+              ],
+              "label": {
+                "tag": "4",
+                "text": "RELATED COURSE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Principles of Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 225"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Principles Of Marketing"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -124,7 +705,8 @@
                     "tag": "8",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -139,7 +721,8 @@
                     "tag": "9",
                     "text": "Business Law I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -154,13 +737,15 @@
                     "tag": "10",
                     "text": "Business Law II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "COMMON BUSINESS CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -178,7 +763,8 @@
                     "tag": "12",
                     "text": "Intermediate Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 },
                 {
                   "type": "course",
@@ -193,7 +779,8 @@
                     "tag": "13",
                     "text": "Intermediate Accounting II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
                 },
                 {
                   "type": "course",
@@ -208,7 +795,8 @@
                     "tag": "14",
                     "text": "Intermediate Accounting III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-2"
                 },
                 {
                   "type": "course",
@@ -223,7 +811,8 @@
                     "tag": "15",
                     "text": "Cost Accounting Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-3"
                 },
                 {
                   "type": "course",
@@ -238,7 +827,8 @@
                     "tag": "16",
                     "text": "Advanced Managerial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-4"
                 },
                 {
                   "type": "course",
@@ -253,7 +843,8 @@
                     "tag": "17",
                     "text": "Advanced Financial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-5"
                 },
                 {
                   "type": "course",
@@ -268,7 +859,8 @@
                     "tag": "18",
                     "text": "Contemporary Issues Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-6"
                 },
                 {
                   "type": "course",
@@ -283,7 +875,8 @@
                     "tag": "19",
                     "text": "Auditing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-7"
                 },
                 {
                   "type": "course",
@@ -298,7 +891,8 @@
                     "tag": "20",
                     "text": "Federal Individual Taxation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-8"
                 },
                 {
                   "type": "course",
@@ -313,13 +907,15 @@
                     "tag": "21",
                     "text": "Accounting Info Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-9"
                 }
               ],
               "label": {
                 "tag": "22",
                 "text": "ADVANCED ACCOUNTING REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "ACCT",
@@ -355,6 +951,7 @@
           "startTerm": "201610",
           "endTerm": "202450",
           "requirementAuthority": "RA000196",
+          "dw_req_id": "RA000196",
           "rules": [
             {
               "type": "subset",
@@ -372,7 +969,8 @@
                     "tag": "1",
                     "text": "Principles Of Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -387,7 +985,8 @@
                     "tag": "2",
                     "text": "Principles Of Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -402,13 +1001,15 @@
                     "tag": "3",
                     "text": "Statistics For Business And Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "RELATED COURSE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -426,7 +1027,8 @@
                     "tag": "5",
                     "text": "Principles Of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -441,7 +1043,8 @@
                     "tag": "6",
                     "text": "Principles of Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -456,7 +1059,8 @@
                     "tag": "7",
                     "text": "Principles Of Marketing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -473,7 +1077,8 @@
                     "tag": "8",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -488,7 +1093,8 @@
                     "tag": "9",
                     "text": "Business Law I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -505,7 +1111,8 @@
                     "tag": "10",
                     "text": "Operations Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 },
                 {
                   "type": "course",
@@ -520,13 +1127,15 @@
                     "tag": "11",
                     "text": "Business Law II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "COMMON BUSINESS CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -544,7 +1153,8 @@
                     "tag": "13",
                     "text": "Intermediate Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 },
                 {
                   "type": "course",
@@ -559,7 +1169,8 @@
                     "tag": "14",
                     "text": "Intermediate Accounting II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
                 },
                 {
                   "type": "course",
@@ -574,7 +1185,8 @@
                     "tag": "15",
                     "text": "Intermediate Accounting III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-2"
                 },
                 {
                   "type": "course",
@@ -589,7 +1201,8 @@
                     "tag": "16",
                     "text": "Cost Accounting Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-3"
                 },
                 {
                   "type": "course",
@@ -604,7 +1217,8 @@
                     "tag": "17",
                     "text": "Advanced Managerial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-4"
                 },
                 {
                   "type": "course",
@@ -619,7 +1233,8 @@
                     "tag": "18",
                     "text": "Advanced Financial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-5"
                 },
                 {
                   "type": "course",
@@ -634,7 +1249,8 @@
                     "tag": "19",
                     "text": "Contemporary Issues Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-6"
                 },
                 {
                   "type": "course",
@@ -649,7 +1265,8 @@
                     "tag": "20",
                     "text": "Auditing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-7"
                 },
                 {
                   "type": "course",
@@ -664,7 +1281,8 @@
                     "tag": "21",
                     "text": "Federal Individual Taxation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-8"
                 },
                 {
                   "type": "course",
@@ -679,13 +1297,15 @@
                     "tag": "22",
                     "text": "Accounting Info Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-9"
                 }
               ],
               "label": {
                 "tag": "23",
                 "text": "ADVANCED ACCOUNTING REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "ACCT",
@@ -721,6 +1341,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002496",
+          "dw_req_id": "RA002496",
           "rules": [
             {
               "type": "subset",
@@ -738,7 +1359,8 @@
                     "tag": "2",
                     "text": "Principles Of Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -753,7 +1375,8 @@
                     "tag": "1",
                     "text": "Statistical Data Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -768,13 +1391,15 @@
                     "tag": "3",
                     "text": "Business Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "RELATED COURSE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -792,7 +1417,8 @@
                     "tag": "5",
                     "text": "Principles Of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -807,7 +1433,8 @@
                     "tag": "6",
                     "text": "Principles of Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -822,7 +1449,8 @@
                     "tag": "7",
                     "text": "Principles Of Marketing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -839,7 +1467,8 @@
                     "tag": "8",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -854,7 +1483,8 @@
                     "tag": "9",
                     "text": "Business Law I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -871,7 +1501,8 @@
                     "tag": "10",
                     "text": "Operations Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 },
                 {
                   "type": "course",
@@ -886,13 +1517,15 @@
                     "tag": "11",
                     "text": "Internship"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "2-6"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "COMMON BUSINESS CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "subset",
@@ -910,7 +1543,8 @@
                     "tag": "13",
                     "text": "Intermediate Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
                 },
                 {
                   "type": "course",
@@ -925,7 +1559,8 @@
                     "tag": "14",
                     "text": "Intermediate Accounting II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
                 },
                 {
                   "type": "course",
@@ -940,7 +1575,8 @@
                     "tag": "15",
                     "text": "Intermediate Accounting III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-2"
                 },
                 {
                   "type": "course",
@@ -955,7 +1591,8 @@
                     "tag": "16",
                     "text": "Cost Accounting Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-3"
                 },
                 {
                   "type": "course",
@@ -970,7 +1607,8 @@
                     "tag": "17",
                     "text": "Advanced Managerial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-4"
                 },
                 {
                   "type": "course",
@@ -985,7 +1623,8 @@
                     "tag": "18",
                     "text": "Advanced Financial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-5"
                 },
                 {
                   "type": "course",
@@ -1000,7 +1639,8 @@
                     "tag": "19",
                     "text": "Contemporary Issues Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-6"
                 },
                 {
                   "type": "course",
@@ -1015,7 +1655,8 @@
                     "tag": "20",
                     "text": "Auditing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-7"
                 },
                 {
                   "type": "course",
@@ -1030,7 +1671,8 @@
                     "tag": "21",
                     "text": "Federal Individual Taxation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-8"
                 },
                 {
                   "type": "course",
@@ -1045,13 +1687,15 @@
                     "tag": "22",
                     "text": "Accounting Info Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "3-9"
                 }
               ],
               "label": {
                 "tag": "23",
                 "text": "ADVANCED ACCOUNTING REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "ACCT",
@@ -1082,6 +1726,209 @@
             "CONC_7_12": 9,
             "CONC_SPMG": 9
           }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002622",
+          "dw_req_id": "RA002622",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 531"
+                    ],
+                    "hidden": [
+                      "BUS 531"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Organizational Behavior"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 545"
+                    ],
+                    "hidden": [
+                      "FIN 545"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Financial Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 510"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Managerial Economics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "GRADUATE COURSE CORE REQUIREMENTS"
+              },
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 515"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "AIS and Financial Reporting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 520"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Accounting for not-for-Profit"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 525"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Accounting for International Operations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 530"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Topical and Current Issues"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 531"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Accounting Theory and Prof. Development"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 535"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Advanced Studies in Taxation"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 549"
+                    ]
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Assurance Services"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
+                }
+              ],
+              "label": {
+                "tag": "13",
+                "text": "GRADUATE RELATED COURSE REQUIREMENTS"
+              },
+              "qualifiers": {
+                "minGrade": 2
+              },
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "ACCT",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
         }
       ]
     }

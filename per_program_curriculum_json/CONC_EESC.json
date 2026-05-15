@@ -5,9 +5,210 @@
       "programName": "Concentration in Environmental Earth Science",
       "versions": [
         {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000145",
+          "dw_req_id": "RA000145",
+          "rules": [],
+          "degreeType": "AS",
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002939",
+          "dw_req_id": "RA002939",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "200510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000206",
+          "dw_req_id": "RA000206",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 330"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Mineralogy and Rock Analysis With Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 350"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Field Methods in Earth Science"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Calculus I with Technology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 320",
+                  "EES 326",
+                  "EES 336",
+                  "EES 342",
+                  "EES 402",
+                  "EES 405",
+                  "EES 422",
+                  "EES 424",
+                  "EES 428",
+                  "EES 436",
+                  "EES 440",
+                  "EES 441",
+                  "EES 444",
+                  "EES 460",
+                  "461 #462"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 9,
+              "maxCredits": 12,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 204",
+                          "PHY 205"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "General Physic I & II With Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "5-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "General Physic I & II With Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "PHY 208",
+                          "PHY 209"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Physics With Calculus I & II With Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Physics With Calculus I & II With Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "PHYSICS"
+              },
+              "dw_rule_id": "5"
+            }
+          ],
+          "degreeType": "BS",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 24,
+            "CONC_HAMS": 4,
+            "CONC_PPTH": 8
+          }
+        },
+        {
           "startTerm": "201710",
           "endTerm": "201720",
           "requirementAuthority": "RA001121",
+          "dw_req_id": "RA001121",
           "rules": [
             {
               "type": "course",
@@ -25,7 +226,8 @@
                 "tag": "1",
                 "text": "Mineralogy/Rock Analysis w/Lab/Struct Geol/Envron App w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -40,7 +242,8 @@
                 "tag": "2",
                 "text": "Field Methods in Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -55,7 +258,8 @@
                 "tag": "3",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -85,7 +289,8 @@
                 "text": "Environmental Earth Science Electives"
               },
               "minCredits": 9,
-              "maxCredits": 12
+              "maxCredits": 12,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -106,7 +311,8 @@
                         "tag": "5",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -129,7 +335,8 @@
                         "tag": "6",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -141,7 +348,8 @@
               "label": {
                 "tag": "7",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BS",
@@ -164,6 +372,7 @@
           "startTerm": "201740",
           "endTerm": "201920",
           "requirementAuthority": "RA000415",
+          "dw_req_id": "RA000415",
           "rules": [
             {
               "type": "course",
@@ -181,7 +390,8 @@
                 "tag": "1",
                 "text": "Mineralogy/Rock Analysis w/Lab/Struct Geol/Envron App w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -196,7 +406,8 @@
                 "tag": "2",
                 "text": "Field Methods in Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -211,7 +422,8 @@
                 "tag": "3",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -241,7 +453,8 @@
                 "text": "Environmental Earth Science Electives"
               },
               "minCredits": 9,
-              "maxCredits": 12
+              "maxCredits": 12,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -262,7 +475,8 @@
                         "tag": "5",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -285,7 +499,8 @@
                         "tag": "6",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -297,7 +512,8 @@
               "label": {
                 "tag": "7",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BS",
@@ -320,6 +536,7 @@
           "startTerm": "201940",
           "endTerm": "202050",
           "requirementAuthority": "RA000416",
+          "dw_req_id": "RA000416",
           "rules": [
             {
               "type": "course",
@@ -334,7 +551,8 @@
                 "tag": "21",
                 "text": "Mineralogy/Rock Analysis w/Lab AND Struct Geol/Envron App w/Lab"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -349,7 +567,8 @@
                 "tag": "2",
                 "text": "Field Methods in Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -364,7 +583,8 @@
                 "tag": "3",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -393,7 +613,8 @@
                 "text": "Environmental Earth Science Electives"
               },
               "minCredits": 9,
-              "maxCredits": 12
+              "maxCredits": 12,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -414,7 +635,8 @@
                         "tag": "5",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -437,7 +659,8 @@
                         "tag": "6",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -449,7 +672,8 @@
               "label": {
                 "tag": "7",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BS",
@@ -472,6 +696,7 @@
           "startTerm": "202110",
           "endTerm": "202450",
           "requirementAuthority": "RA001773",
+          "dw_req_id": "RA001773",
           "rules": [
             {
               "type": "group",
@@ -497,7 +722,8 @@
                       "combinationOperator": "and",
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -520,7 +746,8 @@
                         "tag": "1.1",
                         "text": "Dynamic Earth and Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -543,7 +770,8 @@
                         "tag": "2",
                         "text": "Geology of National Parks & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -566,7 +794,8 @@
                         "tag": "3",
                         "text": "Introduction to Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -589,7 +818,8 @@
                         "tag": "5",
                         "text": "Environmental Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
                     }
                   ],
                   "label": {
@@ -612,7 +842,8 @@
                         "tag": "5.1",
                         "text": "Environmental Geology & Environmental Geology Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-5"
                     }
                   ],
                   "label": {
@@ -624,7 +855,8 @@
               "label": {
                 "tag": "6",
                 "text": "EARTH SCIENCE & LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -639,7 +871,8 @@
                 "tag": "21",
                 "text": "Mineralogy/Rock Analysis w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -654,7 +887,8 @@
                 "tag": "21.1",
                 "text": "Sedimentology And Stratigraphy With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -669,7 +903,8 @@
                 "tag": "22",
                 "text": "Field Methods in Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -684,7 +919,8 @@
                 "tag": "22.2",
                 "text": "Structural Geology And Environmental Applications w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -699,7 +935,8 @@
                 "tag": "23",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -717,7 +954,8 @@
                 "tag": "23.1",
                 "text": "Writing Intensive Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -743,7 +981,8 @@
                 "text": "Environmental Earth Science Electives"
               },
               "minCredits": 6,
-              "maxCredits": 8
+              "maxCredits": 8,
+              "dw_rule_id": "8"
             },
             {
               "type": "group",
@@ -764,7 +1003,8 @@
                         "tag": "25",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "9-0"
                     }
                   ],
                   "label": {
@@ -787,7 +1027,8 @@
                         "tag": "26",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "9-1"
                     }
                   ],
                   "label": {
@@ -799,7 +1040,8 @@
               "label": {
                 "tag": "27",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "9"
             }
           ],
           "degreeType": "BS",
@@ -822,6 +1064,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002438",
+          "dw_req_id": "RA002438",
           "rules": [
             {
               "type": "course",
@@ -836,7 +1079,8 @@
                 "tag": "1",
                 "text": "Mineralogy/Rock Analysis w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -851,7 +1095,8 @@
                 "tag": "2",
                 "text": "Sedimentology And Stratigraphy With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -866,7 +1111,8 @@
                 "tag": "3",
                 "text": "Structural Geology And Environmental Applications w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -891,7 +1137,8 @@
                 "tag": "4",
                 "text": "Environmental Earth Science Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -905,7 +1152,8 @@
                 "tag": "5",
                 "text": "Capstone:Sustainability Issues in Geosciences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BS",

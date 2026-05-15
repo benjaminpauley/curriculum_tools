@@ -8,6 +8,7 @@
           "startTerm": "200510",
           "endTerm": "999999",
           "requirementAuthority": "RA001479",
+          "dw_req_id": "RA001479",
           "rules": [
             {
               "type": "course",
@@ -27,7 +28,8 @@
                 "tag": "1",
                 "text": "Concentration Requirements"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

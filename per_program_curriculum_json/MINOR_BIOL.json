@@ -8,6 +8,7 @@
           "startTerm": "201110",
           "endTerm": "201820",
           "requirementAuthority": "RA000274",
+          "dw_req_id": "RA000274",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Organismal Biology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Ecology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Cell Structure & Function with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "6",
                 "text": "Genetics with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -118,7 +123,8 @@
                         "tag": "7",
                         "text": "Advanced Biology Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -141,7 +147,8 @@
                         "tag": "8",
                         "text": "Tropical Biology and Tropical Ecosystems"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -164,7 +171,8 @@
                         "tag": "9",
                         "text": "Oceanic Island Ecology and Tropical Biology"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "label": {
@@ -176,7 +184,8 @@
               "label": {
                 "tag": "10",
                 "text": "Upper Level Electives"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -204,6 +213,7 @@
           "startTerm": "201840",
           "endTerm": "201850",
           "requirementAuthority": "RA000523",
+          "dw_req_id": "RA000523",
           "rules": [
             {
               "type": "course",
@@ -218,7 +228,8 @@
                 "tag": "3",
                 "text": "Organismal Biology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -233,7 +244,8 @@
                 "tag": "4",
                 "text": "Ecology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -248,7 +260,8 @@
                 "tag": "5",
                 "text": "Cell Structure & Function with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -263,7 +276,8 @@
                 "tag": "6",
                 "text": "Genetics with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -315,7 +329,8 @@
                         "tag": "7",
                         "text": "Advanced Biology Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -338,7 +353,8 @@
                         "tag": "8",
                         "text": "Tropical Biology and Tropical Ecosystems"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -361,7 +377,8 @@
                         "tag": "9",
                         "text": "Oceanic Island Ecology and Tropical Biology"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "label": {
@@ -373,7 +390,8 @@
               "label": {
                 "tag": "10",
                 "text": "Upper Level Electives"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -401,6 +419,7 @@
           "startTerm": "201910",
           "endTerm": "999999",
           "requirementAuthority": "RA000524",
+          "dw_req_id": "RA000524",
           "rules": [
             {
               "type": "course",
@@ -415,7 +434,8 @@
                 "tag": "3",
                 "text": "Organismal Biology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -432,7 +452,8 @@
                 "tag": "4",
                 "text": "Ecology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -449,7 +470,8 @@
                 "tag": "5",
                 "text": "Cell Structure & Function with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -464,7 +486,8 @@
                 "tag": "6",
                 "text": "Genetics with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -516,7 +539,8 @@
                         "tag": "7",
                         "text": "Advanced Biology Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -539,7 +563,8 @@
                         "tag": "8",
                         "text": "Tropical Biology and Tropical Ecosystems"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -562,7 +587,8 @@
                         "tag": "9",
                         "text": "Oceanic Island Ecology and Tropical Biology"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "label": {
@@ -574,7 +600,8 @@
               "label": {
                 "tag": "10",
                 "text": "Upper Level Electives"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

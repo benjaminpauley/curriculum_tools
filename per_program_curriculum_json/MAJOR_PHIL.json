@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201950",
           "requirementAuthority": "RA000053",
+          "dw_req_id": "RA000053",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Critical Thinking and Complex Reasoning"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,13 +90,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -124,7 +131,8 @@
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 8
+              "minClasses": 8,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",
@@ -157,6 +165,7 @@
           "startTerm": "202010",
           "endTerm": "202050",
           "requirementAuthority": "RA001461",
+          "dw_req_id": "RA001461",
           "rules": [
             {
               "type": "subset",
@@ -174,7 +183,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -189,7 +199,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -204,7 +215,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -219,7 +231,8 @@
                     "tag": "4",
                     "text": "Logical Inquiry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -234,13 +247,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -273,7 +288,8 @@
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 8
+              "minClasses": 8,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",
@@ -306,6 +322,7 @@
           "startTerm": "202110",
           "endTerm": "202150",
           "requirementAuthority": "RA001759",
+          "dw_req_id": "RA001759",
           "rules": [
             {
               "type": "subset",
@@ -323,7 +340,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -338,7 +356,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -353,7 +372,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -368,7 +388,8 @@
                     "tag": "4",
                     "text": "Logical Inquiry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -383,13 +404,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -429,7 +452,8 @@
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 6
+              "minClasses": 6,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",
@@ -462,6 +486,7 @@
           "startTerm": "202210",
           "endTerm": "202250",
           "requirementAuthority": "RA001940",
+          "dw_req_id": "RA001940",
           "rules": [
             {
               "type": "subset",
@@ -479,7 +504,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -494,7 +520,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -509,7 +536,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -524,7 +552,8 @@
                     "tag": "4",
                     "text": "Logical Inquiry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -539,13 +568,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -586,7 +617,8 @@
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 8
+              "minClasses": 8,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",
@@ -619,6 +651,7 @@
           "startTerm": "202310",
           "endTerm": "202350",
           "requirementAuthority": "RA002167",
+          "dw_req_id": "RA002167",
           "rules": [
             {
               "type": "subset",
@@ -636,7 +669,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -651,7 +685,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -666,7 +701,8 @@
                     "tag": "4",
                     "text": "Logical Inquiry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -681,7 +717,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -696,13 +733,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -747,7 +786,8 @@
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 8
+              "minClasses": 8,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",
@@ -781,6 +821,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002368",
+          "dw_req_id": "RA002368",
           "rules": [
             {
               "type": "subset",
@@ -798,7 +839,8 @@
                     "tag": "1",
                     "text": "Perspectives in Philosophy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -813,7 +855,8 @@
                     "tag": "2",
                     "text": "Asian Philosophies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -828,7 +871,8 @@
                     "tag": "4",
                     "text": "Logical Inquiry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -843,7 +887,8 @@
                     "tag": "3",
                     "text": "Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -858,13 +903,15 @@
                     "tag": "5",
                     "text": "Seminar in Philosophical Research and Reflection"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -875,10 +922,10 @@
                   "PHI 230",
                   "PHI 231",
                   "PHI 232",
+                  "PHI 255",
                   "PHI 265",
                   "PHI 310",
                   "PHI 311",
-                  "PHI 313",
                   "PHI 314",
                   "PHI 316",
                   "PHI 318",
@@ -886,7 +933,7 @@
                   "PHI 322",
                   "PHI 330",
                   "PHI 340",
-                  "PHI 341",
+                  "PHI 342",
                   "PHI 360",
                   "PHI 361",
                   "PHI 362",
@@ -901,14 +948,20 @@
                   "PSC 314",
                   "PSC 316",
                   "PSC 318",
+                  "PSC 342",
                   "WST 361"
+                ],
+                "hidden": [
+                  "PHI 313",
+                  "PHI 341"
                 ]
               },
               "label": {
                 "tag": "7",
                 "text": "Major Electives"
               },
-              "minClasses": 5
+              "minClasses": 5,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PHIL",

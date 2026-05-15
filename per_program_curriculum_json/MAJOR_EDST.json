@@ -1,0 +1,210 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "EDST": {
+      "programName": "Major in Educational Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000350",
+          "dw_req_id": "RA000350",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 608"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Principles of Educational Research "
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 617"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Contemporary Literacies in the Content Areas "
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 619"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Strategies for Modifying Content Instruction"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 680"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Issues and Trends in Special Education"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "REQUIRED CORE COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC = DUAL OR CONC = ECED OR CONC = ELAR OR CONC = ERLA OR CONC = STEM",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "7",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "8",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ADV_APPR @ Proxy-Advice \"Choose six credits of elective courses with\" Proxy-Advice \"advisor approval\""
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Advisor Approved Content/Discipline Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 693"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Collaborative Data Literacy Project"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 697"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Culminating Research Project"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "4-1"
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "REQUIRED CULMINATING PROJECT COURSES"
+              },
+              "dw_rule_id": "4"
+            }
+          ],
+          "declaredMajor": "EDST",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

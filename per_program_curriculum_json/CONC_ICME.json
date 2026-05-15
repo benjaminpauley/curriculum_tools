@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201750",
           "requirementAuthority": "RA000435",
+          "dw_req_id": "RA000435",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Communication Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Experimental Digital Media Production"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -60,7 +63,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",
@@ -81,6 +85,7 @@
           "startTerm": "201810",
           "endTerm": "201850",
           "requirementAuthority": "RA000436",
+          "dw_req_id": "RA000436",
           "rules": [
             {
               "type": "course",
@@ -95,7 +100,8 @@
                 "tag": "1",
                 "text": "Communication Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -110,7 +116,8 @@
                 "tag": "2",
                 "text": "Experimental Digital Media Production"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -135,7 +142,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",
@@ -156,6 +164,7 @@
           "startTerm": "201910",
           "endTerm": "999999",
           "requirementAuthority": "RA000437",
+          "dw_req_id": "RA000437",
           "rules": [
             {
               "type": "course",
@@ -170,7 +179,8 @@
                 "tag": "1",
                 "text": "Communication Writing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -185,7 +195,8 @@
                 "tag": "2",
                 "text": "Capstone Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -211,7 +222,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",

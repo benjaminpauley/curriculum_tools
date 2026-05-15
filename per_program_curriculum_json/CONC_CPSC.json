@@ -5,9 +5,50 @@
       "programName": "Concentration in Computer Science",
       "versions": [
         {
-          "startTerm": "201910",
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000143",
+          "dw_req_id": "RA000143",
+          "rules": [],
+          "degreeType": "AS",
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000166",
+          "dw_req_id": "RA000166",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001833",
+          "dw_req_id": "RA001833",
           "rules": [
             {
               "type": "course",
@@ -22,7 +63,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +79,8 @@
                 "tag": "2",
                 "text": "Data Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -60,7 +103,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BS",

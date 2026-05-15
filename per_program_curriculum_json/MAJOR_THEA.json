@@ -5,9 +5,210 @@
       "programName": "Major in Theatre",
       "versions": [
         {
-          "startTerm": "201610",
-          "endTerm": "202010",
-          "requirementAuthority": "RA000063",
+          "startTerm": "201010",
+          "endTerm": "201350",
+          "requirementAuthority": "RA000518",
+          "dw_req_id": "RA000518",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 172",
+                      "THE 272"
+                    ]
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Acting I For Majors or Introduction to Acting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 267"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "World Theatre: Ancient-17th Century"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 268"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "World Theatre:17th Century-Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Directing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 275"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Technical Theatre"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 373"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Dramatic Theory And Criticism"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 392"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Theatre Practicum"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 472",
+                      "THE 473",
+                      "THE 475",
+                      "THE 476",
+                      "THE 480",
+                      "THE 495"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Theatre Elective"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-7"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "THEATRE CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC= TACT OR CONC= THIS OR CONC= TTEC",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "10",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "11",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "THEA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must select a concentration from: Acting and Directing; History, Theory,",
+            "and Criticism; and Technology & Design.",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201410",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000519",
+          "dw_req_id": "RA000519",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +226,8 @@
                     "tag": "1",
                     "text": "Acting I for Majors"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +242,8 @@
                     "tag": "2",
                     "text": "Fundamentals of Theatre Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +258,8 @@
                     "tag": "3",
                     "text": "World Theatre: Ancient-17th Century"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +274,8 @@
                     "tag": "4",
                     "text": "World Theatre:17th Century-Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +290,8 @@
                     "tag": "5",
                     "text": "Directing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,22 +306,461 @@
                     "tag": "6",
                     "text": "Technical Theatre"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
                   "courses": {
                     "connector": "or",
                     "courses": [
-                      "THE 364"
+                      "THE 373"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Dramatic Theory And Criticism"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 392"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Theatre Practicum"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 472",
+                      "THE 473",
+                      "THE 474",
+                      "THE 475",
+                      "THE 476",
+                      "THE 480",
+                      "THE 481",
+                      "THE 495"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Theatre Elective"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-8"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "THEATRE CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=TACT OR CONC=THIS OR CONC=TTEC",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "11",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "12",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "THEA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must select a concentration from: Acting and Directing;",
+            "History, Theory & Criticism; and Technology and Design.",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201440",
+          "endTerm": "201520",
+          "requirementAuthority": "RA000713",
+          "dw_req_id": "RA000713",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 172"
                     ],
                     "hidden": []
                   },
                   "label": {
-                    "tag": "7",
-                    "text": "Performance in America"
+                    "tag": "1",
+                    "text": "Acting I for Majors"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 176"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Fundamentals of Theatre Design"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 267"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "World Theatre: Ancient-17th Century"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 268"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "World Theatre:17th Century-Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Directing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 275"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Technical Theatre"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 373",
+                      "THE 375"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Dramatic Theory And Criticism or Contemp World Theatre"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 392"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Theatre Practicum"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 472",
+                      "THE 473",
+                      "THE 474",
+                      "THE 475",
+                      "THE 476",
+                      "THE 480",
+                      "THE 481",
+                      "THE 495"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Theatre Elective"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-8"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "THEATRE CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=TACT OR CONC=THIS OR CONC=TTEC",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "11",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "12",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "THEA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must select a concentration from: Acting and Directing;",
+            "History, Theory & Criticism; and Technology and Design.",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201540",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000520",
+          "dw_req_id": "RA000520",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 172"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Acting I for Majors"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 176"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Fundamentals of Theatre Design"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 267"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "World Theatre: Ancient-17th Century"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 268"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "World Theatre:17th Century-Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Directing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 275"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Technical Theatre"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 373",
+                      "THE 375"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Dramatic Theory And Criticism or Contemp World Theatre/Perform"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -130,7 +775,8 @@
                     "tag": "8",
                     "text": "Design/Technical Practicum"
                   },
-                  "minCredits": 1
+                  "minCredits": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -146,7 +792,245 @@
                     "tag": "9",
                     "text": "Design/Technical, Performance or Theatre Practicum"
                   },
-                  "minCredits": 2
+                  "minCredits": 2,
+                  "dw_rule_id": "1-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 472",
+                      "THE 473",
+                      "THE 474",
+                      "THE 475",
+                      "THE 476",
+                      "THE 480",
+                      "THE 481",
+                      "THE 495"
+                    ]
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Theatre Elective"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "1-9"
+                }
+              ],
+              "label": {
+                "tag": "11",
+                "text": "THEATRE CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=TACT OR CONC=THIS OR CONC=TTEC",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "12",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "13",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "2"
+            }
+          ],
+          "declaredMajor": "THEA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must select a concentration from: Acting and Directing;",
+            "History, Theory and Criticism; and Design, Technology and Design.",
+            "A grade of C or better is required for all courses in the Theater",
+            "major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "202010",
+          "requirementAuthority": "RA000063",
+          "dw_req_id": "RA000063",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 172"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Acting I for Majors"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 176"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Fundamentals of Theatre Design"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 267"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "World Theatre: Ancient-17th Century"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 268"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "World Theatre:17th Century-Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 270"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Directing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 275"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Technical Theatre"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 364"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Performance in America"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 227"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Design/Technical Practicum"
+                  },
+                  "minCredits": 1,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "THE 227",
+                      "THE 228",
+                      "THE 392"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Design/Technical, Performance or Theatre Practicum"
+                  },
+                  "minCredits": 2,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -163,13 +1047,15 @@
                     "tag": "10",
                     "text": "Theatre Elective"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "1-9"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "THEATRE CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -184,7 +1070,8 @@
                       "label": {
                         "tag": "12",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -197,12 +1084,14 @@
                       "label": {
                         "tag": "THEAMAJ13",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "THEA",
@@ -224,8 +1113,9 @@
         },
         {
           "startTerm": "202020",
-          "endTerm": "202150",
+          "endTerm": "999999",
           "requirementAuthority": "RA001525",
+          "dw_req_id": "RA001525",
           "rules": [
             {
               "type": "subset",
@@ -243,7 +1133,8 @@
                     "tag": "1",
                     "text": "Acting I for Majors"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -258,7 +1149,8 @@
                     "tag": "2",
                     "text": "Fundamentals of Theatre Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -273,7 +1165,8 @@
                     "tag": "3",
                     "text": "World Performance History I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -288,7 +1181,8 @@
                     "tag": "4",
                     "text": "World Performance History II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -303,7 +1197,8 @@
                     "tag": "5",
                     "text": "Directing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -318,7 +1213,8 @@
                     "tag": "6",
                     "text": "Technical Theatre"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -333,7 +1229,8 @@
                     "tag": "7",
                     "text": "Performance in America"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -348,7 +1245,8 @@
                     "tag": "8",
                     "text": "Design/Technical Practicum"
                   },
-                  "minCredits": 1
+                  "minCredits": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -364,7 +1262,8 @@
                     "tag": "9",
                     "text": "Design/Technical, Performance or Theatre Practicum"
                   },
-                  "minCredits": 2
+                  "minCredits": 2,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -381,13 +1280,15 @@
                     "tag": "10",
                     "text": "Theatre Elective - Chosen with advice and approval of Advisor"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "1-9"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "THEATRE CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -402,7 +1303,8 @@
                       "label": {
                         "tag": "12",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -415,12 +1317,14 @@
                       "label": {
                         "tag": "THEAMAJ13",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "THEA",

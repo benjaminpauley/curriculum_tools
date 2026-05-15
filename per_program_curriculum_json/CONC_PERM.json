@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201750",
           "requirementAuthority": "RA000051",
+          "dw_req_id": "RA000051",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Adaptation/Media/Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Experimental Theatre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -55,7 +58,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -75,6 +79,7 @@
           "startTerm": "201810",
           "endTerm": "201850",
           "requirementAuthority": "RA000458",
+          "dw_req_id": "RA000458",
           "rules": [
             {
               "type": "course",
@@ -89,7 +94,8 @@
                 "tag": "1",
                 "text": "Adaptation/Media/Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -104,7 +110,8 @@
                 "tag": "2",
                 "text": "Experimental Theatre"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -123,7 +130,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -143,6 +151,7 @@
           "startTerm": "201910",
           "endTerm": "201920",
           "requirementAuthority": "RA000459",
+          "dw_req_id": "RA000459",
           "rules": [
             {
               "type": "course",
@@ -157,7 +166,8 @@
                 "tag": "1",
                 "text": "Adaptation/Media/Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -172,7 +182,8 @@
                 "tag": "2",
                 "text": "Fundamentals of Theatre Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -187,7 +198,8 @@
                 "tag": "3",
                 "text": "Capstone Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -206,7 +218,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -224,8 +237,9 @@
         },
         {
           "startTerm": "201940",
-          "endTerm": "202250",
+          "endTerm": "999999",
           "requirementAuthority": "RA000460",
+          "dw_req_id": "RA000460",
           "rules": [
             {
               "type": "course",
@@ -240,7 +254,8 @@
                 "tag": "1",
                 "text": "Adaptation/Media/Performance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -255,7 +270,8 @@
                 "tag": "2",
                 "text": "Fundamentals of Theatre Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -270,7 +286,8 @@
                 "tag": "3",
                 "text": "Capstone Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -289,7 +306,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -309,6 +327,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002235",
+          "dw_req_id": "RA002235",
           "rules": [
             {
               "type": "course",
@@ -332,7 +351,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

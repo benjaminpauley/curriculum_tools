@@ -5,9 +5,10 @@
       "programName": "Minor in Geographic Information Systems",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201420",
-          "requirementAuthority": "RA000300",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000101",
+          "dw_req_id": "RA000101",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Geographic Information Systems with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,110 @@
                 "tag": "6",
                 "text": "Advanced Geographic Information Systems With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 234",
+                  "BIO 308",
+                  "BIO 440",
+                  "BIO 442",
+                  "BIO 444",
+                  "BIO 446",
+                  "EES 224",
+                  "EES 320",
+                  "EES 322",
+                  "EES 326",
+                  "EES 340",
+                  "EES 422"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Geographic Information Systems Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 444",
+                  "EES 480"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 17
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 8
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000300",
+          "dw_req_id": "RA000300",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 340"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Geographic Information Systems with Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 342"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Advanced Geographic Information Systems With Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +157,8 @@
                 "tag": "8",
                 "text": "Geospatial Applications or Independent Study"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -84,6 +190,7 @@
           "startTerm": "201440",
           "endTerm": "999999",
           "requirementAuthority": "RA000301",
+          "dw_req_id": "RA000301",
           "rules": [
             {
               "type": "group",
@@ -104,7 +211,8 @@
                         "tag": "3",
                         "text": "Geographic Information Systems with Laboratory"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -127,7 +235,8 @@
                         "tag": "4",
                         "text": "Intro to Geographic Info Systems and Intro to GIS Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -139,7 +248,8 @@
               "label": {
                 "tag": "5",
                 "text": "GEOGRAPHIC INFORMATION SYSTEMS & LABORATORY"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -154,7 +264,8 @@
                 "tag": "6",
                 "text": "Advanced Geographic Information Systems With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -169,7 +280,8 @@
                 "tag": "8",
                 "text": "Geospatial Applications or Independent Study"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "if_else",
@@ -189,26 +301,29 @@
                         "tag": "9",
                         "text": "Independent Study - 3 Credits Required."
                       },
-                      "minCredits": 3
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "EES 300:499"
-                        ]
-                      },
-                      "label": {
-                        "tag": "10",
-                        "text": "Advisor Approved Electives"
-                      },
-                      "minClasses": 2
+                      "minCredits": 3,
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "conditionType": "unknown"
                 }
-              ]
+              ],
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 300:499"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Advisor Approved Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

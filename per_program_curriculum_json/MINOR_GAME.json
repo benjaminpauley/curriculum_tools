@@ -5,9 +5,10 @@
       "programName": "Minor in Game Design",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000298",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000100",
+          "dw_req_id": "RA000100",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Introduction to 3D Animation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Computer & Video Games Develop"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -57,7 +60,89 @@
                 "tag": "5",
                 "text": "Game Design Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000298",
+          "dw_req_id": "RA000298",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 343"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to 3D Animation"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 311"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Computer & Video Games Develop"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 403",
+                  "CSC 312",
+                  "CSC 337",
+                  "CSC 350",
+                  "MAT 350",
+                  "MUS 372",
+                  "SOC 320"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Game Design Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -85,6 +170,7 @@
           "startTerm": "201740",
           "endTerm": "202350",
           "requirementAuthority": "RA000299",
+          "dw_req_id": "RA000299",
           "rules": [
             {
               "type": "course",
@@ -98,7 +184,8 @@
                 "tag": "3",
                 "text": "Introduction to 3D Animation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -112,7 +199,8 @@
                 "tag": "4",
                 "text": "Computer & Video Games Develop"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -131,7 +219,8 @@
                 "tag": "5",
                 "text": "Game Design Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -159,6 +248,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002344",
+          "dw_req_id": "RA002344",
           "rules": [
             {
               "type": "course",
@@ -173,7 +263,8 @@
                 "tag": "3",
                 "text": "Intro to 3D Modeling/Intro to 3D Animation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -187,7 +278,8 @@
                 "tag": "4",
                 "text": "Computer & Video Games Develop"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -216,7 +308,8 @@
                         "tag": "5",
                         "text": "Group A"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -247,7 +340,8 @@
                         "tag": "6",
                         "text": "Group B"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -278,7 +372,8 @@
                         "tag": "7",
                         "text": "Group C"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -309,7 +404,8 @@
                         "tag": "8",
                         "text": "Group D"
                       },
-                      "minCredits": 9
+                      "minCredits": 9,
+                      "dw_rule_id": "3-3"
                     }
                   ],
                   "label": {
@@ -321,7 +417,8 @@
               "label": {
                 "tag": "9",
                 "text": "Concentration Electives"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

@@ -5,9 +5,10 @@
       "programName": "Concentration in Cultural Anthropology",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001764",
+          "dw_req_id": "RA001764",
           "rules": [
             {
               "type": "subset",
@@ -31,13 +32,15 @@
                     "tag": "1",
                     "text": "Choose 15 Credits of Concentration Electives"
                   },
-                  "minCredits": 15
+                  "minCredits": 15,
+                  "dw_rule_id": "1-0"
                 }
               ],
               "label": {
                 "tag": "2",
                 "text": "Concentration Electives"
-              }
+              },
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

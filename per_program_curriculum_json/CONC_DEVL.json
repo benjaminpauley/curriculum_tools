@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201750",
           "requirementAuthority": "RA000263",
+          "dw_req_id": "RA000263",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Learning & Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -39,7 +41,8 @@
                 "tag": "2",
                 "text": "Developmental Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -55,7 +58,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -71,7 +75,8 @@
                 "tag": "4",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -86,7 +91,8 @@
                 "tag": "5",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -107,7 +113,8 @@
                     "tag": "6",
                     "text": "Specialized Courses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -131,13 +138,15 @@
                     "tag": "DEVLConc7",
                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -164,7 +173,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -182,6 +192,7 @@
           "startTerm": "201810",
           "endTerm": "201950",
           "requirementAuthority": "RA000402",
+          "dw_req_id": "RA000402",
           "rules": [
             {
               "type": "course",
@@ -196,7 +207,8 @@
                 "tag": "1",
                 "text": "Learning & Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -214,7 +226,8 @@
                 "tag": "2",
                 "text": "Developmental Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -230,7 +243,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -246,7 +260,8 @@
                 "tag": "4",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -261,7 +276,8 @@
                 "tag": "5",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -283,7 +299,8 @@
                     "tag": "6",
                     "text": "Specialized Courses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -308,13 +325,15 @@
                     "tag": "7",
                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -347,7 +366,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -365,6 +385,7 @@
           "startTerm": "202010",
           "endTerm": "202450",
           "requirementAuthority": "RA001428",
+          "dw_req_id": "RA001428",
           "rules": [
             {
               "type": "course",
@@ -379,7 +400,8 @@
                 "tag": "1",
                 "text": "Learning & Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -399,7 +421,8 @@
                 "tag": "2",
                 "text": "Developmental Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -415,7 +438,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -434,7 +458,8 @@
                 "tag": "4",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -449,7 +474,8 @@
                 "tag": "5",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -474,7 +500,8 @@
                     "tag": "6",
                     "text": "Specialized Courses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -503,13 +530,15 @@
                     "tag": "7",
                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "6-1"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -542,7 +571,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -560,6 +590,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002579",
+          "dw_req_id": "RA002579",
           "rules": [
             {
               "type": "course",
@@ -574,7 +605,8 @@
                 "tag": "1",
                 "text": "Learning & Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -594,7 +626,8 @@
                 "tag": "2",
                 "text": "Developmental Courses"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -610,7 +643,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -631,7 +665,8 @@
                 "tag": "4",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -657,7 +692,8 @@
                     "tag": "6",
                     "text": "Specialized Courses"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 },
                 {
                   "type": "course",
@@ -687,13 +723,15 @@
                     "tag": "7",
                     "text": "Specialized Course or Indep Study/TA/RA/Intern/Rsrch"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "5-1"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "SPECIALIZED COURSES"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -726,7 +764,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,

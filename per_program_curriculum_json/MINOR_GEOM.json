@@ -5,9 +5,10 @@
       "programName": "Minor in Geomorphology",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201920",
-          "requirementAuthority": "RA000302",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000103",
+          "dw_req_id": "RA000103",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Glacial and Quaternary Geology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Process Geomorphology with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -58,7 +61,8 @@
                         "tag": "5",
                         "text": "Applied Hydrogeochemistry w/Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -81,7 +85,8 @@
                         "tag": "6",
                         "text": "Advanced GIS w/Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -104,7 +109,8 @@
                         "text": "Independent Study"
                       },
                       "minCredits": 3,
-                      "maxCredits": 4
+                      "maxCredits": 4,
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -116,7 +122,8 @@
               "label": {
                 "tag": "8",
                 "text": "HYDROGEOCHEMISTRY, GIS OR INDEPENDENT STUDY"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -148,7 +155,184 @@
                 "text": "Geomorphology Electives"
               },
               "minCredits": 5,
-              "maxCredits": 6
+              "maxCredits": 6,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 16
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 7
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000302",
+          "dw_req_id": "RA000302",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 424"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Glacial and Quaternary Geology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 440"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Process Geomorphology with Lab"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 336"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Applied Hydrogeochemistry w/Lab"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Applied Hydrogeochemistry w/Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 342"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Advanced GIS w/Lab"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Advanced GIS w/Lab"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 480"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Independent Study"
+                      },
+                      "minCredits": 3,
+                      "maxCredits": 4,
+                      "dw_rule_id": "3-2"
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Independent Study"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "HYDROGEOCHEMISTRY, GIS OR INDEPENDENT STUDY"
+              },
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 320",
+                  "CSC 210",
+                  "CHE 480",
+                  "CSC 249",
+                  "CSC 251",
+                  "EES 300:499",
+                  "MAT 216",
+                  "MAT 244",
+                  "MAT 315"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CHE 336",
+                  "PBH 222",
+                  "PHR 222",
+                  "EES 222",
+                  "PBH 323"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Geomorphology Electives"
+              },
+              "minCredits": 5,
+              "maxCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {
@@ -176,6 +360,7 @@
           "startTerm": "201940",
           "endTerm": "202450",
           "requirementAuthority": "RA000529",
+          "dw_req_id": "RA000529",
           "rules": [
             {
               "type": "course",
@@ -190,7 +375,8 @@
                 "tag": "3",
                 "text": "Glacial and Quaternary Geology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -205,7 +391,8 @@
                 "tag": "4",
                 "text": "Process Geomorphology with Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -226,7 +413,8 @@
                         "tag": "5",
                         "text": "Applied Hydrogeochemistry w/Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -249,7 +437,8 @@
                         "tag": "6",
                         "text": "Advanced GIS w/Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -272,7 +461,8 @@
                         "text": "Independent Study"
                       },
                       "minCredits": 3,
-                      "maxCredits": 4
+                      "maxCredits": 4,
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -284,7 +474,8 @@
               "label": {
                 "tag": "8",
                 "text": "HYDROGEOCHEMISTRY, GIS OR INDEPENDENT STUDY"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -317,7 +508,8 @@
                 "tag": "9",
                 "text": "Geomorphology Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {
@@ -345,6 +537,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002538",
+          "dw_req_id": "RA002538",
           "rules": [
             {
               "type": "course",
@@ -361,7 +554,8 @@
                 "tag": "3",
                 "text": "Required Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -394,7 +588,8 @@
                         "text": "Group A"
                       },
                       "minCredits": 9,
-                      "maxCredits": 10
+                      "maxCredits": 10,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -429,7 +624,8 @@
                         "text": "Group B"
                       },
                       "minCredits": 9,
-                      "maxCredits": 10
+                      "maxCredits": 10,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -441,7 +637,8 @@
               "label": {
                 "tag": "6",
                 "text": "Concentration Electives"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

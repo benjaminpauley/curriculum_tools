@@ -5,9 +5,10 @@
       "programName": "Concentration in Geographic Info Systems",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001854",
+          "dw_req_id": "RA001854",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "1",
                 "text": "Advanced Geographical Information Systems with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -35,7 +37,8 @@
                 "tag": "2",
                 "text": "Geospatial Applications Using Remote Sensing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -50,7 +53,8 @@
                 "tag": "3",
                 "text": "Independent Study/Internship in EES with GIS Applications"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -69,7 +73,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "degreeType": "BS",

@@ -1,11 +1,17 @@
 {
   "universityName": "Eastern Connecticut State University",
   "majors": {
+    "0000": {
+      "programName": "Undeclared Major"
+    },
     "ACCT": {
       "programName": "Major in Accounting"
     },
     "ANTH": {
       "programName": "Major in Anthropology"
+    },
+    "APDS": {
+      "programName": "Major in Applied Data Science"
     },
     "ART": {
       "programName": "Major in Art"
@@ -41,17 +47,16 @@
       "programName": "Computer Science"
     },
     "DATA": {
-      "programName": "Major in Data Science BS",
-      "degreeTypes": [
-        "BA",
-        "BS"
-      ]
+      "programName": "Major in Data Science"
     },
     "ECED": {
       "programName": "Major in Early Childhood Education"
     },
     "ECON": {
       "programName": "Major in Economics"
+    },
+    "EDST": {
+      "programName": "Major in Educational Studies"
     },
     "EESC": {
       "programName": "Major in Environmental Earth Science"
@@ -62,8 +67,39 @@
     "ENGL": {
       "programName": "Major in English"
     },
+    "ERLA": {
+      "programName": "Major in Reading and Language Arts"
+    },
+    "ETEC": {
+      "programName": "Major in Educational Technology"
+    },
+    "EXAH": {
+      "programName": "Exploratory Major: Arts & Humanities"
+    },
+    "EXED": {
+      "programName": "Exploratory Major: Education"
+    },
+    "EXPL": {
+      "programName": "Exploratory Major: Undecided"
+    },
+    "EXPS": {
+      "programName": "Exploratory Major: Professional Studies"
+    },
+    "EXSS": {
+      "programName": "Exploratory Major: Social Science"
+    },
+    "EXST": {
+      "programName": "Exploratory Major: STEM"
+    },
     "FNCE": {
       "programName": "Major in Finance"
+    },
+    "GENR": {
+      "programName": "Major in General Studies",
+      "degreeTypes": [
+        "AS",
+        "BGS"
+      ]
     },
     "HIST": {
       "programName": "Major in History"
@@ -73,6 +109,9 @@
     },
     "H_SS": {
       "programName": "Major in History & Social Science"
+    },
+    "INDV": {
+      "programName": "Individualized Major"
     },
     "LBHR": {
       "programName": "Major in Labor and Human Resources"
@@ -86,6 +125,9 @@
     "MATH": {
       "programName": "Major in Mathematics"
     },
+    "MGMT": {
+      "programName": "Major in Management"
+    },
     "MUSI": {
       "programName": "Major in Music"
     },
@@ -94,6 +136,9 @@
     },
     "NURS": {
       "programName": "Major in Nursing"
+    },
+    "OMGT": {
+      "programName": "Major in Organizational Management"
     },
     "PEAR": {
       "programName": "Major in Pre-Early Childhood Education"
@@ -119,8 +164,14 @@
     "PSYC": {
       "programName": "Major in Psychology"
     },
+    "SDED": {
+      "programName": "Major in Secondary Education"
+    },
     "SMGT": {
       "programName": "Major in Sports & Leisure Management"
+    },
+    "SOCI": {
+      "programName": "Major in Sociology and Applied Social Relations"
     },
     "SOCO": {
       "programName": "Major in Sociology"
@@ -130,6 +181,9 @@
     },
     "SPAN": {
       "programName": "Major in Spanish"
+    },
+    "SPEC": {
+      "programName": "Major in Special Education"
     },
     "THEA": {
       "programName": "Major in Theatre"
@@ -148,6 +202,12 @@
     "7_12": {
       "programName": "7 - 12 Certification, English"
     },
+    "ACCT": {
+      "programName": "Concentration in Accounting"
+    },
+    "ACTD": {
+      "programName": "Concentration in Acting and Directing"
+    },
     "ACTU": {
       "programName": "Concentration in Actuarial Science"
     },
@@ -156,6 +216,9 @@
     },
     "ALHL": {
       "programName": "Concentration in Allied Health"
+    },
+    "ANTH": {
+      "programName": "Concentration in Anthropology"
     },
     "APMP": {
       "programName": "Concentration in Applied Media Production"
@@ -166,14 +229,29 @@
     "ARHI": {
       "programName": "Concentration in Art History"
     },
+    "BIOC": {
+      "programName": "Concentration in Biochemistry"
+    },
+    "BIOL": {
+      "programName": "Concentration in Biology"
+    },
+    "BISM": {
+      "programName": "Concentration in Business Information Systems Mgmt"
+    },
     "BKRL": {
       "programName": "Concentration in Banking and Real Estate"
     },
     "BSMG": {
       "programName": "Concentration in Sport Management - BUS"
     },
+    "BUAD": {
+      "programName": "Concentration in Business Administration"
+    },
     "BUAL": {
       "programName": "Concentration in Business Analytics"
+    },
+    "BUIS": {
+      "programName": "Concentration in Business Information Systems"
     },
     "CANT": {
       "programName": "Concentration in Cultural Anthropology"
@@ -181,8 +259,14 @@
     "CNSC": {
       "programName": "Concentration in Cognitive Neuroscience"
     },
+    "COMM": {
+      "programName": "Concentration in Communication"
+    },
     "CPSC": {
       "programName": "Concentration in Computer Science"
+    },
+    "CRIM": {
+      "programName": "Concentration in Criminology"
     },
     "DATA": {
       "programName": "Concentration in Data Science"
@@ -208,6 +292,12 @@
     "DTPM": {
       "programName": "Conc in Design, Technology and Performance Media"
     },
+    "DUAL": {
+      "programName": "Concentration in Dual Language Learners"
+    },
+    "ECED": {
+      "programName": "Conc in Early Childhood Education"
+    },
     "ECOA": {
       "programName": "Concentration in Economic Policy and Analysis"
     },
@@ -217,11 +307,20 @@
     "ECOG": {
       "programName": "Concentration in General Economics"
     },
+    "ECON": {
+      "programName": "Concentration in Economics"
+    },
     "ECRW": {
       "programName": "Concentration in Creative Writing"
     },
     "ECUL": {
       "programName": "Concentration in Cultural Studies"
+    },
+    "EDST": {
+      "programName": "Concentration in Educational Studies"
+    },
+    "EDUC": {
+      "programName": "Concentration in Education"
     },
     "EEED": {
       "programName": "Concentration in English EarlyElementary Education"
@@ -235,6 +334,12 @@
     "EESG": {
       "programName": "Concentration in General Earth Science"
     },
+    "EEST": {
+      "programName": "Concentration in Environmental Earth Studies"
+    },
+    "ELAR": {
+      "programName": "Conc in English Language Arts"
+    },
     "ELIT": {
       "programName": "Concentration in Literary Studies"
     },
@@ -244,17 +349,29 @@
     "ENGL": {
       "programName": "Concentration in English"
     },
+    "ERLA": {
+      "programName": "Conc in Reading and Language Arts"
+    },
     "ERTC": {
       "programName": "Concentration in Rhetoric and Composition"
     },
     "ESAS": {
       "programName": "Environmental Science and Sustainability"
     },
+    "ESDC": {
+      "programName": "Concentration in Student-Designed"
+    },
     "ESED": {
       "programName": "Concentration in English Secondary Education"
     },
     "EVSC": {
       "programName": "Concentration in Environmental Science"
+    },
+    "EXSC": {
+      "programName": "Concentration in Exercise Science"
+    },
+    "FIAR": {
+      "programName": "Concentration in Fine Arts"
     },
     "FLMV": {
       "programName": "Concentration in Film and Video Production"
@@ -277,11 +394,26 @@
     "HCMG": {
       "programName": "Concentration in Healthcare Management"
     },
+    "HEAL": {
+      "programName": "Concentration in Health"
+    },
     "HEXS": {
       "programName": "Concentration in Exercise and Sport Science"
     },
+    "HIST": {
+      "programName": "Concentration in History"
+    },
     "HRMG": {
       "programName": "Concentration in Human Resource Management"
+    },
+    "HSCI": {
+      "programName": "Concentration in Health Sciences"
+    },
+    "HUMN": {
+      "programName": "Concentration in Humanities"
+    },
+    "HUMS": {
+      "programName": "Concentration in Human Service"
     },
     "H_SS": {
       "programName": "Concentration in History Social Science"
@@ -292,6 +424,9 @@
     "ILLU": {
       "programName": "Concentration in Ilustration"
     },
+    "INDV": {
+      "programName": "Concentration in Individualized"
+    },
     "INTL": {
       "programName": "Concentration in International Business"
     },
@@ -299,10 +434,13 @@
       "programName": "Concentration in Investment"
     },
     "JNRL": {
-      "programName": "Conc in Multimedia Journalism  News and Sports"
+      "programName": "Conc in Multimedia Journalism: News and Sports"
     },
     "LDSP": {
       "programName": "Concentration in Leadership Communication"
+    },
+    "LHRM": {
+      "programName": "Concentration Labor Relations & HumanResource Mgmt"
     },
     "MATH": {
       "programName": "Concentration in Mathematics"
@@ -325,17 +463,26 @@
     "MNGT": {
       "programName": "Concentration in Management"
     },
+    "MUSG": {
+      "programName": "Concentration in Global Perspectives"
+    },
     "MUSM": {
       "programName": "Concentration in Musicology"
     },
     "MUSP": {
       "programName": "Concentration in Performance"
     },
+    "MUST": {
+      "programName": "Concentration in Music Theory"
+    },
     "MWFA": {
       "programName": "Concentration in Multimedia Writing,Form&Analysis"
     },
     "MWRJ": {
       "programName": "Concentration in Media Writing & Journalism"
+    },
+    "NMST": {
+      "programName": "Concentration in New Media Studies"
     },
     "NSCI": {
       "programName": "Concentration in Natural Science"
@@ -347,7 +494,10 @@
       "programName": "Concentration in Operations Management"
     },
     "PACP": {
-      "programName": "Conc in Performance  Acting, Choreography &Playwrt"
+      "programName": "Conc in Performance: Acting, Choreography &Playwrt"
+    },
+    "PART": {
+      "programName": "Concentration in Performing Arts"
     },
     "PBHV": {
       "programName": "Concentration in Behavior Analysis"
@@ -355,14 +505,35 @@
     "PBRE": {
       "programName": "Concentration in Public Relations"
     },
+    "PERF": {
+      "programName": "Concentration in Sport Performance"
+    },
     "PERM": {
       "programName": "Concentration in Performance Media"
     },
     "PEST": {
       "programName": "Concentration in Physical Education Studies"
     },
+    "PGOV": {
+      "programName": "Concentration in Public Policy & Government"
+    },
+    "PHED": {
+      "programName": "Concentration in Physical Education"
+    },
+    "PHIL": {
+      "programName": "Concentration in Philosophy"
+    },
+    "PLAW": {
+      "programName": "Concentration in Pre-Law"
+    },
+    "PMUS": {
+      "programName": "Major Concentration in Performing Arts: Music"
+    },
     "PNUR": {
       "programName": "Concentration in Pre-Nursing"
+    },
+    "POLI": {
+      "programName": "Concentration in Political Science"
     },
     "PPTH": {
       "programName": "Concentration in Pre-Physical Therapy"
@@ -370,14 +541,23 @@
     "PRNT": {
       "programName": "Concentration in Printmaking"
     },
+    "PRST": {
+      "programName": "Concentration in Professional Studies"
+    },
     "PSIO": {
       "programName": "Concentration in Industrial-Organizational Psych"
     },
     "PSTD": {
       "programName": "Concentration in Standard Psychology"
     },
+    "PSYC": {
+      "programName": "Concentration in Psychology"
+    },
     "PSYW": {
       "programName": "Concentration in Psychology of Work"
+    },
+    "PTHE": {
+      "programName": "Concentration in Performing Arts: Theatre"
     },
     "PUBH": {
       "programName": "Concentration in Public Health"
@@ -394,11 +574,41 @@
     "SART": {
       "programName": "Concentration in Studio Art"
     },
+    "SCIN": {
+      "programName": "Concentration in Science"
+    },
+    "SCIS": {
+      "programName": "Concentration in Sciences"
+    },
     "SCUL": {
       "programName": "Concentration in Sculpture"
     },
+    "SENG": {
+      "programName": "Concentration in Sustainable Energy"
+    },
+    "SMGT": {
+      "programName": "Concentration in Sport & Leisure Management"
+    },
+    "SOCI": {
+      "programName": "Concentration in Sociology"
+    },
     "SOCM": {
       "programName": "Concentration in Social Media"
+    },
+    "SOCO": {
+      "programName": "Concentration in Sociology"
+    },
+    "SOSC": {
+      "programName": "Concentration in Social Science"
+    },
+    "SOWK": {
+      "programName": "Concentration in Social Work"
+    },
+    "SPAN": {
+      "programName": "Concentration in Spanish"
+    },
+    "SPEC": {
+      "programName": "Conc in Special Education"
     },
     "SPMG": {
       "programName": "Concentration in Sport Management"
@@ -406,8 +616,14 @@
     "SSPE": {
       "programName": "Concentration in Sport Science and Performance"
     },
+    "STEM": {
+      "programName": "Conc in Science, Technology, Engineering & Math"
+    },
     "SUST": {
       "programName": "Concentration in Sustainable Energy Science"
+    },
+    "TACT": {
+      "programName": "Concentration in Acting Directing"
     },
     "TDAN": {
       "programName": "Concentration in Dance and World Performance"
@@ -416,6 +632,9 @@
       "programName": "Concentration in Directing"
     },
     "TDTM": {
+      "programName": "Concentration in Design, Technology and Management"
+    },
+    "TDTP": {
       "programName": "Concentration in Design, Technology and Management"
     },
     "TEAC": {
@@ -427,11 +646,23 @@
     "THAC": {
       "programName": "Concentration in Acting"
     },
+    "THIS": {
+      "programName": "Concentration in History,Theory and Crticism"
+    },
     "TPER": {
       "programName": "Concentration in Performance"
     },
+    "TTEC": {
+      "programName": "Concentration in Theatre Technology and Design"
+    },
     "VART": {
       "programName": "Concentration in Visual Arts"
+    },
+    "WGST": {
+      "programName": "Concentration in Women's & Gender Studies"
+    },
+    "WOST": {
+      "programName": "Minor Concentration in Women's Studies"
     }
   },
   "minors": {
@@ -651,6 +882,9 @@
     "THEA": {
       "programName": "Minor in Theatre"
     },
+    "WGST": {
+      "programName": "Minor in Women's and Gender Studies"
+    },
     "WOST": {
       "programName": "Minor in Women's Studies"
     },
@@ -658,11 +892,64 @@
       "programName": "Minor in Writing"
     }
   },
+  "generalEducation": {
+    "7_12": {
+      "programName": "Secondary Foundations"
+    },
+    "ELAC-300_400": {
+      "programName": "Disciplinary Perspectives 300 400 Verification"
+    },
+    "ELAC-ASCORE": {
+      "programName": "Liberal Arts Core & Foundational Concepts"
+    },
+    "ELAC-ASDP": {
+      "programName": "Disciplinary Perspectives: Discipline Categories"
+    },
+    "ELAC-CORE": {
+      "programName": "Liberal Arts Core & Foundational Concepts"
+    },
+    "ELAC-DISC": {
+      "programName": "Disciplinary Perspectives: Learning Outcomes"
+    },
+    "ELAC-DISCDC": {
+      "programName": "Disciplinary Perspectives: Discipline Categories"
+    },
+    "GER": {
+      "programName": "General Education Requirements"
+    },
+    "LAC-ANSL": {
+      "programName": "Tier I & II: Natural Sciences Laboratory"
+    },
+    "LAC-AT1": {
+      "programName": "Tier I: Methods and Concepts"
+    },
+    "LAC-AT2": {
+      "programName": "Tier II: Synthesis and Application"
+    },
+    "LAC-BNSL": {
+      "programName": "Natural Sciences Laboratory Verification"
+    },
+    "LAC-BT1": {
+      "programName": "Tier I Methods and Concepts"
+    },
+    "LAC-BT2": {
+      "programName": "Tier II Synthesis and Application"
+    },
+    "LAC-BT3": {
+      "programName": "Tier III Independent Inquiry"
+    },
+    "LAC-FL": {
+      "programName": "Foreign Language Requirement"
+    },
+    "WRIT": {
+      "programName": "University Writing Requirements"
+    }
+  },
   "relationships": [
     {
       "majorCode": "ANTH",
       "concentrationCode": "CANT",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -670,7 +957,7 @@
     {
       "majorCode": "ANTH",
       "concentrationCode": "ARCH",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -966,7 +1253,39 @@
     {
       "majorCode": "CMFT",
       "concentrationCode": "DTPM",
-      "startTerm": "202510",
+      "startTerm": "000000",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "CMFT",
+      "concentrationCode": "FLMV",
+      "startTerm": "000000",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "CMFT",
+      "concentrationCode": "JNRL",
+      "startTerm": "000000",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "CMFT",
+      "concentrationCode": "PACP",
+      "startTerm": "000000",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "CMFT",
+      "concentrationCode": "DTPM",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -974,7 +1293,7 @@
     {
       "majorCode": "CMFT",
       "concentrationCode": "FLMV",
-      "startTerm": "202510",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -982,15 +1301,15 @@
     {
       "majorCode": "CMFT",
       "concentrationCode": "JNRL",
-      "startTerm": "202510",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
     {
       "majorCode": "CMFT",
-      "concentrationCode": "PACP",
-      "startTerm": "202510",
+      "concentrationCode": "ACTD",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -998,7 +1317,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "ADVZ",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1006,7 +1325,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "SOCM",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1014,7 +1333,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "APMP",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1022,7 +1341,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "LDSP",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1030,7 +1349,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "MWRJ",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1038,7 +1357,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "PBRE",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1046,7 +1365,7 @@
     {
       "majorCode": "COMM",
       "concentrationCode": "GNLT",
-      "startTerm": "202040",
+      "startTerm": "202010",
       "endTerm": "202150",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1110,7 +1429,7 @@
     {
       "majorCode": "DATA",
       "concentrationCode": "MATH",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202450",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1118,7 +1437,7 @@
     {
       "majorCode": "DATA",
       "concentrationCode": "CPSC",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202450",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1126,7 +1445,7 @@
     {
       "majorCode": "DATA",
       "concentrationCode": "BUAL",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202450",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1134,7 +1453,7 @@
     {
       "majorCode": "DATA",
       "concentrationCode": "GEIS",
-      "startTerm": "202110",
+      "startTerm": "000000",
       "endTerm": "202450",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1200,6 +1519,22 @@
       "concentrationCode": "GEIS",
       "startTerm": "202610",
       "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ECON",
+      "concentrationCode": "ECOB",
+      "startTerm": "201210",
+      "endTerm": "201450",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ECON",
+      "concentrationCode": "ECOG",
+      "startTerm": "201210",
+      "endTerm": "201450",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1575,7 +1910,7 @@
       "majorCode": "FNCE",
       "concentrationCode": "BKRL",
       "startTerm": "202410",
-      "endTerm": "999999",
+      "endTerm": "202650",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1583,6 +1918,22 @@
       "majorCode": "FNCE",
       "concentrationCode": "INVS",
       "startTerm": "202410",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "FNCE",
+      "concentrationCode": "BKRL",
+      "startTerm": "202710",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "FNCE",
+      "concentrationCode": "INVS",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1710,6 +2061,46 @@
     {
       "majorCode": "LBST",
       "concentrationCode": "ENGL",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "MATH",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "NSCI",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
       "startTerm": "201540",
       "endTerm": "201750",
       "relationshipType": "conditional_reference",
@@ -1871,7 +2262,7 @@
       "majorCode": "LBST",
       "concentrationCode": "ENGL",
       "startTerm": "202510",
-      "endTerm": "999999",
+      "endTerm": "202550",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1879,7 +2270,7 @@
       "majorCode": "LBST",
       "concentrationCode": "EES",
       "startTerm": "202510",
-      "endTerm": "999999",
+      "endTerm": "202550",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1887,7 +2278,7 @@
       "majorCode": "LBST",
       "concentrationCode": "H",
       "startTerm": "202510",
-      "endTerm": "999999",
+      "endTerm": "202550",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1895,7 +2286,7 @@
       "majorCode": "LBST",
       "concentrationCode": "MATH",
       "startTerm": "202510",
-      "endTerm": "999999",
+      "endTerm": "202550",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -1903,6 +2294,86 @@
       "majorCode": "LBST",
       "concentrationCode": "NSCI",
       "startTerm": "202510",
+      "endTerm": "202550",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "202610",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "202610",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H",
+      "startTerm": "202610",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "MATH",
+      "startTerm": "202610",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "NSCI",
+      "startTerm": "202610",
+      "endTerm": "202650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "202710",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "202710",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H",
+      "startTerm": "202710",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "MATH",
+      "startTerm": "202710",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "NSCI",
+      "startTerm": "202710",
       "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -1984,6 +2455,38 @@
       "concentrationCode": "DATA",
       "startTerm": "202210",
       "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MGMT",
+      "concentrationCode": "HCMG",
+      "startTerm": "000000",
+      "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MUSI",
+      "concentrationCode": "MUSG",
+      "startTerm": "201240",
+      "endTerm": "201450",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MUSI",
+      "concentrationCode": "MUST",
+      "startTerm": "201240",
+      "endTerm": "201450",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MUSI",
+      "concentrationCode": "MUSP",
+      "startTerm": "201240",
+      "endTerm": "201450",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -2110,6 +2613,70 @@
     {
       "majorCode": "NMST",
       "concentrationCode": "DMDE",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "ICME",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "MEDC",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "MWFA",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "PERM",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "COMM",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "ENGL",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "VART",
+      "startTerm": "000000",
+      "endTerm": "201650",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "DMDE",
       "startTerm": "201710",
       "endTerm": "201720",
       "relationshipType": "conditional_reference",
@@ -2358,7 +2925,7 @@
     {
       "majorCode": "NURS",
       "concentrationCode": "NTRA",
-      "startTerm": "202410",
+      "startTerm": "000000",
       "endTerm": "202450",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -2382,7 +2949,7 @@
     {
       "majorCode": "PHED",
       "concentrationCode": "PEST",
-      "startTerm": "201310",
+      "startTerm": "201240",
       "endTerm": "202250",
       "relationshipType": "conditional_reference",
       "isRequired": true
@@ -2392,6 +2959,22 @@
       "concentrationCode": "PEST",
       "startTerm": "202310",
       "endTerm": "999999",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "POLI",
+      "concentrationCode": "7_12",
+      "startTerm": "201310",
+      "endTerm": "201550",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "POLI",
+      "concentrationCode": "7_12",
+      "startTerm": "201610",
+      "endTerm": "201650",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -2629,6 +3212,70 @@
     },
     {
       "majorCode": "SMGT",
+      "concentrationCode": "EXSC",
+      "startTerm": "201040",
+      "endTerm": "201050",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "HEAL",
+      "startTerm": "201040",
+      "endTerm": "201050",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "SPMG",
+      "startTerm": "201040",
+      "endTerm": "201050",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "PERF",
+      "startTerm": "201040",
+      "endTerm": "201050",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "EXSC",
+      "startTerm": "201110",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "HEAL",
+      "startTerm": "201110",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "SPMG",
+      "startTerm": "201110",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
+      "concentrationCode": "PERF",
+      "startTerm": "201110",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "SMGT",
       "concentrationCode": "SPMG",
       "startTerm": "201440",
       "endTerm": "202050",
@@ -2685,6 +3332,78 @@
     },
     {
       "majorCode": "THEA",
+      "concentrationCode": "TACT",
+      "startTerm": "201410",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "THIS",
+      "startTerm": "201410",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "TTEC",
+      "startTerm": "201410",
+      "endTerm": "201420",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "TACT",
+      "startTerm": "201440",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "THIS",
+      "startTerm": "201440",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "TTEC",
+      "startTerm": "201440",
+      "endTerm": "201520",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "TACT",
+      "startTerm": "201540",
+      "endTerm": "201550",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "THIS",
+      "startTerm": "201540",
+      "endTerm": "201550",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
+      "concentrationCode": "TTEC",
+      "startTerm": "201540",
+      "endTerm": "201550",
+      "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "THEA",
       "concentrationCode": "TDAN",
       "startTerm": "201610",
       "endTerm": "202010",
@@ -2719,7 +3438,7 @@
       "majorCode": "THEA",
       "concentrationCode": "TDAN",
       "startTerm": "202020",
-      "endTerm": "202150",
+      "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -2727,7 +3446,7 @@
       "majorCode": "THEA",
       "concentrationCode": "TDIR",
       "startTerm": "202020",
-      "endTerm": "202150",
+      "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -2735,7 +3454,7 @@
       "majorCode": "THEA",
       "concentrationCode": "TDTM",
       "startTerm": "202020",
-      "endTerm": "202150",
+      "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
@@ -2743,45 +3462,13 @@
       "majorCode": "THEA",
       "concentrationCode": "THAC",
       "startTerm": "202020",
-      "endTerm": "202150",
+      "endTerm": "999999",
       "relationshipType": "conditional_reference",
       "isRequired": true
     },
     {
       "majorCode": "THPM",
       "concentrationCode": "PERM",
-      "startTerm": "202310",
-      "endTerm": "202350",
-      "relationshipType": "conditional_reference",
-      "isRequired": true
-    },
-    {
-      "majorCode": "THPM",
-      "concentrationCode": "TDAN",
-      "startTerm": "202310",
-      "endTerm": "202350",
-      "relationshipType": "conditional_reference",
-      "isRequired": true
-    },
-    {
-      "majorCode": "THPM",
-      "concentrationCode": "TDIR",
-      "startTerm": "202310",
-      "endTerm": "202350",
-      "relationshipType": "conditional_reference",
-      "isRequired": true
-    },
-    {
-      "majorCode": "THPM",
-      "concentrationCode": "TDTM",
-      "startTerm": "202310",
-      "endTerm": "202350",
-      "relationshipType": "conditional_reference",
-      "isRequired": true
-    },
-    {
-      "majorCode": "THPM",
-      "concentrationCode": "THAC",
       "startTerm": "202310",
       "endTerm": "202350",
       "relationshipType": "conditional_reference",
@@ -2857,6 +3544,342 @@
       "startTerm": "201310",
       "endTerm": "201850",
       "relationshipType": "conditional_reference",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ENGL",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "HIST",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "H/SS",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "POLI",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "BIOL",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "EESC",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MA",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "TH",
+      "concentrationCode": "7_12",
+      "startTerm": "000000",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ENGL",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "H/SS",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "BIOL",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "EESC",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "HIST",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "MA",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "TH",
+      "concentrationCode": "7_12",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "DATA",
+      "concentrationCode": "BUAL",
+      "startTerm": "000000",
+      "endTerm": "202550",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "DATA",
+      "concentrationCode": "CPSC",
+      "startTerm": "000000",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "000000",
+      "endTerm": "201850",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "201910",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "EES",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "201540",
+      "endTerm": "201550",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "201610",
+      "endTerm": "201720",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "ENGL",
+      "startTerm": "201710",
+      "endTerm": "201750",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "201740",
+      "endTerm": "201850",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "ENGL",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "DATA",
+      "concentrationCode": "GEIS",
+      "startTerm": "000000",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "201540",
+      "endTerm": "201550",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "201610",
+      "endTerm": "201850",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "201910",
+      "endTerm": "202050",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "202110",
+      "endTerm": "202450",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LBST",
+      "concentrationCode": "H_SS",
+      "startTerm": "202510",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LB",
+      "concentrationCode": "MATH",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ST",
+      "concentrationCode": "MATH",
+      "startTerm": "000000",
+      "endTerm": "201520",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "DA",
+      "concentrationCode": "MATH",
+      "startTerm": "000000",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "TA",
+      "concentrationCode": "MATH",
+      "startTerm": "000000",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LB",
+      "concentrationCode": "MATH",
+      "startTerm": "201540",
+      "endTerm": "201850",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ST",
+      "concentrationCode": "MATH",
+      "startTerm": "201540",
+      "endTerm": "201850",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "LB",
+      "concentrationCode": "MATH",
+      "startTerm": "201910",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "ST",
+      "concentrationCode": "MATH",
+      "startTerm": "201910",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "MWFA",
+      "startTerm": "000000",
+      "endTerm": "201750",
+      "relationshipType": "header_declaration",
+      "isRequired": true
+    },
+    {
+      "majorCode": "NMST",
+      "concentrationCode": "MWFA",
+      "startTerm": "201910",
+      "endTerm": "999999",
+      "relationshipType": "header_declaration",
       "isRequired": true
     }
   ]

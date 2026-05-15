@@ -1,0 +1,110 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "minors": {
+    "WGST": {
+      "programName": "Minor in Women's and Gender Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002956",
+          "dw_req_id": "RA002956",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 260"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to Women's and Gender Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "GEO 306",
+                  "GEO 336",
+                  "GEO 338",
+                  "ENG 373",
+                  "ENG 393",
+                  "PSC 326",
+                  "PSC 336",
+                  "PSC 338",
+                  "PSY 319",
+                  "SOC 373",
+                  "WST 208",
+                  "WST 212",
+                  "WST 227",
+                  "WST 228",
+                  "WST 231",
+                  "WST 240",
+                  "WST 244",
+                  "WST 306",
+                  "WST 307",
+                  "WST 310",
+                  "WST 315",
+                  "WST 316",
+                  "WST 317",
+                  "WST 326",
+                  "WST 331",
+                  "WST 336",
+                  "WST 338",
+                  "WST 347",
+                  "WST 351",
+                  "WST 352",
+                  "WST 355",
+                  "WST 356",
+                  "WST 357",
+                  "WST 361",
+                  "WST 363",
+                  "WST 370",
+                  "WST 490",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Women's Studies Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        }
+      ]
+    }
+  }
+}

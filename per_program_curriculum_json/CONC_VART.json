@@ -5,9 +5,30 @@
       "programName": "Concentration in Visual Arts",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201750",
-          "requirementAuthority": "RA000052",
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000194",
+          "dw_req_id": "RA000194",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000475",
+          "dw_req_id": "RA000475",
           "rules": [
             {
               "type": "course",
@@ -22,7 +43,8 @@
                 "tag": "1",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +59,8 @@
                 "tag": "2",
                 "text": "Issues in Contemporary Art"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +75,112 @@
                 "tag": "3",
                 "text": "Art Exhibitions or Graphic Design III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 325",
+                  "ART 332",
+                  "ART 403",
+                  "412 #450"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 432",
+                  "ART 436"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Capstone Course"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "degreeType": "BA",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201750",
+          "requirementAuthority": "RA000052",
+          "dw_req_id": "RA000052",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Graphic Design II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 402"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Issues in Contemporary Art"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 334",
+                  "ART 335"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Art Exhibitions or Graphic Design III"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -72,7 +200,8 @@
                 "tag": "4",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -88,7 +217,8 @@
                 "tag": "5",
                 "text": "Capstone Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BA",

@@ -5,9 +5,10 @@
       "programName": "Minor in History",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA000107",
+          "dw_req_id": "RA000107",
           "rules": [
             {
               "type": "course",
@@ -39,7 +40,8 @@
                 "tag": "3",
                 "text": "300/400 Level History Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -82,7 +84,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

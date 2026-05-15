@@ -8,6 +8,7 @@
           "startTerm": "201210",
           "endTerm": "202150",
           "requirementAuthority": "RA000022",
+          "dw_req_id": "RA000022",
           "rules": [
             {
               "type": "if_else",
@@ -20,7 +21,8 @@
                       "label": {
                         "tag": "7",
                         "text": "International Perspectives: Complete With Semester Abroad"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     },
                     {
                       "type": "if_else",
@@ -33,7 +35,8 @@
                               "label": {
                                 "tag": "8",
                                 "text": "International Perspectives: Complete With International Minor"
-                              }
+                              },
+                              "dw_rule_id": "1-1-0"
                             },
                             {
                               "type": "if_else",
@@ -46,7 +49,8 @@
                                       "label": {
                                         "tag": "9",
                                         "text": "International Perspectives: Complete/Waived"
-                                      }
+                                      },
+                                      "dw_rule_id": "1-1-1-0"
                                     },
                                     {
                                       "type": "if_else",
@@ -59,7 +63,8 @@
                                               "label": {
                                                 "tag": "10",
                                                 "text": "International Perspectives: 4 Years Foreign Language in High School"
-                                              }
+                                              },
+                                              "dw_rule_id": "1-1-1-1-0"
                                             },
                                             {
                                               "type": "if_else",
@@ -92,7 +97,8 @@
                                                       "minClasses": 1,
                                                       "qualifiers": {
                                                         "priority": "high"
-                                                      }
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-0"
                                                     }
                                                   ],
                                                   "conditionType": "ethos"
@@ -131,7 +137,8 @@
                                                                 "tag": "12",
                                                                 "text": "International Business Courses"
                                                               },
-                                                              "minCredits": 6
+                                                              "minCredits": 6,
+                                                              "dw_rule_id": "1-1-1-1-1-1-0"
                                                             }
                                                           ],
                                                           "label": {
@@ -146,7 +153,8 @@
                                                               "label": {
                                                                 "tag": null,
                                                                 "text": "Rule Incomplete"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-1"
                                                             }
                                                           ],
                                                           "label": {
@@ -161,7 +169,8 @@
                                                               "label": {
                                                                 "tag": null,
                                                                 "text": "Rule Incomplete"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-2"
                                                             }
                                                           ],
                                                           "label": {
@@ -176,7 +185,8 @@
                                                               "label": {
                                                                 "tag": null,
                                                                 "text": "Rule Incomplete"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-3"
                                                             }
                                                           ],
                                                           "label": {
@@ -191,7 +201,8 @@
                                                               "label": {
                                                                 "tag": null,
                                                                 "text": "Rule Incomplete"
-                                                              }
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-4"
                                                             }
                                                           ],
                                                           "label": {
@@ -203,7 +214,8 @@
                                                       "label": {
                                                         "tag": "17",
                                                         "text": "INTERNATIONAL PERSPECTIVES"
-                                                      }
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-1"
                                                     },
                                                     {
                                                       "type": "subset",
@@ -221,7 +233,8 @@
                                                             "tag": "18",
                                                             "text": "Principles of Macroeconomics"
                                                           },
-                                                          "minClasses": 1
+                                                          "minClasses": 1,
+                                                          "dw_rule_id": "1-1-1-1-1-2-0"
                                                         },
                                                         {
                                                           "type": "course",
@@ -236,7 +249,8 @@
                                                             "tag": "19",
                                                             "text": "Principles of Microeconomics"
                                                           },
-                                                          "minClasses": 1
+                                                          "minClasses": 1,
+                                                          "dw_rule_id": "1-1-1-1-1-2-1"
                                                         },
                                                         {
                                                           "type": "course",
@@ -253,7 +267,8 @@
                                                             "tag": "20",
                                                             "text": "Information Management"
                                                           },
-                                                          "minClasses": 1
+                                                          "minClasses": 1,
+                                                          "dw_rule_id": "1-1-1-1-1-2-2"
                                                         },
                                                         {
                                                           "type": "course",
@@ -268,317 +283,341 @@
                                                             "tag": "21",
                                                             "text": "Statistics"
                                                           },
-                                                          "minClasses": 1
+                                                          "minClasses": 1,
+                                                          "dw_rule_id": "1-1-1-1-1-2-3"
                                                         }
                                                       ],
                                                       "label": {
                                                         "tag": "22",
                                                         "text": "RELATED BUSINESS COURSE REQUIREMENTS"
-                                                      }
-                                                    },
-                                                    {
-                                                      "type": "subset",
-                                                      "rules": [
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "ACC 201"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "23",
-                                                            "text": "Principles of Accounting I"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "ACC 202"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "24",
-                                                            "text": "Principles Managerial Accounting"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 201"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "25",
-                                                            "text": "Principles of Management"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 225"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "26",
-                                                            "text": "Principles of Marketing"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "FIN 245"
-                                                            ],
-                                                            "hidden": [
-                                                              "BUS 245"
-                                                            ]
-                                                          },
-                                                          "label": {
-                                                            "tag": "27",
-                                                            "text": "Business Finance"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 250"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "28",
-                                                            "text": "Business Law I"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "OSC 260"
-                                                            ],
-                                                            "hidden": [
-                                                              "BUS 260"
-                                                            ]
-                                                          },
-                                                          "label": {
-                                                            "tag": "29",
-                                                            "text": "Operations Management"
-                                                          },
-                                                          "minClasses": 1
-                                                        }
-                                                      ],
-                                                      "label": {
-                                                        "tag": "30",
-                                                        "text": "COMMON BUSINESS CORE REQUIREMENTS"
-                                                      }
-                                                    },
-                                                    {
-                                                      "type": "subset",
-                                                      "rules": [
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 301"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "31",
-                                                            "text": "Business Ethics"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 351"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "32",
-                                                            "text": "Advanced Business Concepts and Entrepreneurship"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 431"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "33",
-                                                            "text": "Management Policy and Strategy"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 490"
-                                                            ],
-                                                            "hidden": []
-                                                          },
-                                                          "label": {
-                                                            "tag": "34",
-                                                            "text": "Internship in Business Admin"
-                                                          },
-                                                          "minClasses": 1
-                                                        },
-                                                        {
-                                                          "type": "course",
-                                                          "courses": {
-                                                            "connector": "or",
-                                                            "courses": [
-                                                              "BUS 300:499",
-                                                              "OSC 300:499"
-                                                            ],
-                                                            "hidden": [
-                                                              "BUS 3@",
-                                                              "4@",
-                                                              "BIS 361",
-                                                              "BIS 442",
-                                                              "CAS 370",
-                                                              "FIN 346",
-                                                              "FIN 347",
-                                                              "FIN 348",
-                                                              "FIN 349",
-                                                              "FIN 437",
-                                                              "FIN 438",
-                                                              "FIN 445",
-                                                              "FIN 446",
-                                                              "FIN 462",
-                                                              "FIN 490"
-                                                            ]
-                                                          },
-                                                          "label": {
-                                                            "tag": "35",
-                                                            "text": "Upper-Level Business Elective"
-                                                          },
-                                                          "minClasses": 1
-                                                        }
-                                                      ],
-                                                      "label": {
-                                                        "tag": "36",
-                                                        "text": "ADVANCED BUSINESS COURSE REQUIREMENTS"
-                                                      }
-                                                    },
-                                                    {
-                                                      "type": "if_else",
-                                                      "branches": [
-                                                        {
-                                                          "condition": "CONC=FNCE OR CONC=HRMG OR CONC=INTL OR CONC=MNGT OR CONC=MKTG OR CONC=HCMG OR CONC=OPMG",
-                                                          "rules": [
-                                                            {
-                                                              "type": "blocktype_ref",
-                                                              "blockType": "CONC",
-                                                              "count": 1,
-                                                              "label": {
-                                                                "tag": "39",
-                                                                "text": "Concentration Requirements"
-                                                              }
-                                                            }
-                                                          ],
-                                                          "conditionType": "static"
-                                                        },
-                                                        {
-                                                          "condition": null,
-                                                          "rules": [
-                                                            {
-                                                              "type": "course",
-                                                              "courses": {
-                                                                "connector": "or",
-                                                                "courses": [
-                                                                  "BUS 300:499",
-                                                                  "OSC 300:499",
-                                                                  "MinCredits 6 in BUS @",
-                                                                  "OSC @ (With DWResident=Y)"
-                                                                ],
-                                                                "hidden": [
-                                                                  "BUS 3@",
-                                                                  "4@",
-                                                                  "BIS 361",
-                                                                  "BIS 442",
-                                                                  "CAS 370",
-                                                                  "FIN 346",
-                                                                  "FIN 347",
-                                                                  "FIN 348",
-                                                                  "FIN 349",
-                                                                  "FIN 437",
-                                                                  "FIN 438",
-                                                                  "FIN 445",
-                                                                  "FIN 446",
-                                                                  "FIN 462",
-                                                                  "FIN 490"
-                                                                ]
-                                                              },
-                                                              "label": {
-                                                                "tag": "40",
-                                                                "text": "General Business, No Concentration Selected"
-                                                              },
-                                                              "minCredits": 9
-                                                            }
-                                                          ],
-                                                          "conditionType": "static"
-                                                        }
-                                                      ]
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-2"
                                                     }
                                                   ],
                                                   "conditionType": "static"
                                                 }
-                                              ]
+                                              ],
+                                              "dw_rule_id": "1-1-1-1-1"
+                                            },
+                                            {
+                                              "type": "subset",
+                                              "rules": [
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "ACC 201"
+                                                    ],
+                                                    "hidden": []
+                                                  },
+                                                  "label": {
+                                                    "tag": "23",
+                                                    "text": "Principles of Accounting I"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-0"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "ACC 202"
+                                                    ],
+                                                    "hidden": []
+                                                  },
+                                                  "label": {
+                                                    "tag": "24",
+                                                    "text": "Principles Managerial Accounting"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-1"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "BUS 201"
+                                                    ],
+                                                    "hidden": []
+                                                  },
+                                                  "label": {
+                                                    "tag": "25",
+                                                    "text": "Principles of Management"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-2"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "BUS 225"
+                                                    ],
+                                                    "hidden": []
+                                                  },
+                                                  "label": {
+                                                    "tag": "26",
+                                                    "text": "Principles of Marketing"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-3"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "FIN 245"
+                                                    ],
+                                                    "hidden": [
+                                                      "BUS 245"
+                                                    ]
+                                                  },
+                                                  "label": {
+                                                    "tag": "27",
+                                                    "text": "Business Finance"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-4"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "BUS 250"
+                                                    ],
+                                                    "hidden": []
+                                                  },
+                                                  "label": {
+                                                    "tag": "28",
+                                                    "text": "Business Law I"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-5"
+                                                },
+                                                {
+                                                  "type": "course",
+                                                  "courses": {
+                                                    "connector": "or",
+                                                    "courses": [
+                                                      "OSC 260"
+                                                    ],
+                                                    "hidden": [
+                                                      "BUS 260"
+                                                    ]
+                                                  },
+                                                  "label": {
+                                                    "tag": "29",
+                                                    "text": "Operations Management"
+                                                  },
+                                                  "minClasses": 1,
+                                                  "dw_rule_id": "1-1-1-1-2-6"
+                                                }
+                                              ],
+                                              "label": {
+                                                "tag": "30",
+                                                "text": "COMMON BUSINESS CORE REQUIREMENTS"
+                                              },
+                                              "dw_rule_id": "1-1-1-1-2"
                                             }
                                           ],
                                           "conditionType": "ethos"
                                         }
-                                      ]
+                                      ],
+                                      "dw_rule_id": "1-1-1-1"
+                                    },
+                                    {
+                                      "type": "subset",
+                                      "rules": [
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "BUS 301"
+                                            ],
+                                            "hidden": []
+                                          },
+                                          "label": {
+                                            "tag": "31",
+                                            "text": "Business Ethics"
+                                          },
+                                          "minClasses": 1,
+                                          "dw_rule_id": "1-1-1-2-0"
+                                        },
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "BUS 351"
+                                            ],
+                                            "hidden": []
+                                          },
+                                          "label": {
+                                            "tag": "32",
+                                            "text": "Advanced Business Concepts and Entrepreneurship"
+                                          },
+                                          "minClasses": 1,
+                                          "dw_rule_id": "1-1-1-2-1"
+                                        },
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "BUS 431"
+                                            ],
+                                            "hidden": []
+                                          },
+                                          "label": {
+                                            "tag": "33",
+                                            "text": "Management Policy and Strategy"
+                                          },
+                                          "minClasses": 1,
+                                          "dw_rule_id": "1-1-1-2-2"
+                                        },
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "BUS 490"
+                                            ],
+                                            "hidden": []
+                                          },
+                                          "label": {
+                                            "tag": "34",
+                                            "text": "Internship in Business Admin"
+                                          },
+                                          "minClasses": 1,
+                                          "dw_rule_id": "1-1-1-2-3"
+                                        },
+                                        {
+                                          "type": "course",
+                                          "courses": {
+                                            "connector": "or",
+                                            "courses": [
+                                              "BUS 300:499",
+                                              "OSC 300:499"
+                                            ],
+                                            "hidden": [
+                                              "BUS 3@",
+                                              "4@",
+                                              "BIS 361",
+                                              "BIS 442",
+                                              "CAS 370",
+                                              "FIN 346",
+                                              "FIN 347",
+                                              "FIN 348",
+                                              "FIN 349",
+                                              "FIN 437",
+                                              "FIN 438",
+                                              "FIN 445",
+                                              "FIN 446",
+                                              "FIN 462",
+                                              "FIN 490"
+                                            ]
+                                          },
+                                          "label": {
+                                            "tag": "35",
+                                            "text": "Upper-Level Business Elective"
+                                          },
+                                          "minClasses": 1,
+                                          "dw_rule_id": "1-1-1-2-4"
+                                        }
+                                      ],
+                                      "label": {
+                                        "tag": "36",
+                                        "text": "ADVANCED BUSINESS COURSE REQUIREMENTS"
+                                      },
+                                      "dw_rule_id": "1-1-1-2"
                                     }
                                   ],
                                   "conditionType": "ethos"
                                 }
-                              ]
+                              ],
+                              "dw_rule_id": "1-1-1"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "CONC=FNCE OR CONC=HRMG OR CONC=INTL OR CONC=MNGT OR CONC=MKTG OR CONC=HCMG OR CONC=OPMG",
+                                  "rules": [
+                                    {
+                                      "type": "blocktype_ref",
+                                      "blockType": "CONC",
+                                      "count": 1,
+                                      "label": {
+                                        "tag": "39",
+                                        "text": "Concentration Requirements"
+                                      },
+                                      "dw_rule_id": "1-1-2-0"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                },
+                                {
+                                  "condition": null,
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "BUS 300:499",
+                                          "OSC 300:499",
+                                          "MinCredits 6 in BUS @",
+                                          "OSC @ (With DWResident=Y)"
+                                        ],
+                                        "hidden": [
+                                          "BUS 3@",
+                                          "4@",
+                                          "BIS 361",
+                                          "BIS 442",
+                                          "CAS 370",
+                                          "FIN 346",
+                                          "FIN 347",
+                                          "FIN 348",
+                                          "FIN 349",
+                                          "FIN 437",
+                                          "FIN 438",
+                                          "FIN 445",
+                                          "FIN 446",
+                                          "FIN 462",
+                                          "FIN 490"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "40",
+                                        "text": "General Business, No Concentration Selected"
+                                      },
+                                      "minCredits": 9,
+                                      "dw_rule_id": "1-1-2-1"
+                                    }
+                                  ],
+                                  "conditionType": "static"
+                                }
+                              ],
+                              "dw_rule_id": "1-1-2"
                             }
                           ],
                           "conditionType": "unknown"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "declaredMajor": "BUAD",
@@ -621,6 +660,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001977",
+          "dw_req_id": "RA001977",
           "rules": [
             {
               "type": "subset",
@@ -638,7 +678,8 @@
                     "tag": "4",
                     "text": "Introductory Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -653,7 +694,8 @@
                     "tag": "5",
                     "text": "Introductory Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -670,7 +712,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -685,7 +728,8 @@
                     "tag": "7",
                     "text": "Principles of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -702,7 +746,8 @@
                     "tag": "8",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -719,7 +764,8 @@
                     "tag": "9",
                     "text": "Operations Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -734,13 +780,15 @@
                     "tag": "10",
                     "text": "Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "REQUIRED FOUNDATIONAL COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -758,7 +806,8 @@
                     "tag": "12",
                     "text": "Principles of Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -773,7 +822,8 @@
                     "tag": "13",
                     "text": "Principles of Marketing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -788,7 +838,8 @@
                     "tag": "14",
                     "text": "Business Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -803,7 +854,8 @@
                     "tag": "15",
                     "text": "Advanced Business Concepts and Entrepreneurship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -818,7 +870,8 @@
                     "tag": "16",
                     "text": "Management Policy and Strategy"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -833,13 +886,15 @@
                     "tag": "17",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "REQUIRED ADVANCED COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "if_else",
@@ -854,7 +909,8 @@
                       "label": {
                         "tag": "39",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "conditionType": "static"
@@ -867,12 +923,14 @@
                       "label": {
                         "tag": "40",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "BUAD",
@@ -914,6 +972,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002489",
+          "dw_req_id": "RA002489",
           "rules": [
             {
               "type": "subset",
@@ -931,7 +990,8 @@
                     "tag": "4",
                     "text": "Introductory Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -946,7 +1006,8 @@
                     "tag": "5",
                     "text": "Introductory Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -963,7 +1024,8 @@
                     "tag": "6",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -978,7 +1040,8 @@
                     "tag": "7",
                     "text": "Principles of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -995,7 +1058,8 @@
                     "tag": "8",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1012,7 +1076,8 @@
                     "tag": "9",
                     "text": "Operations Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1026,13 +1091,15 @@
                     "tag": "10",
                     "text": "Statistical Data Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "REQUIRED FOUNDATIONAL COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1050,7 +1117,8 @@
                     "tag": "12",
                     "text": "Principles of Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -1065,7 +1133,8 @@
                     "tag": "13",
                     "text": "Principles of Marketing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -1080,7 +1149,8 @@
                     "tag": "14",
                     "text": "Business Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -1095,7 +1165,8 @@
                     "tag": "15",
                     "text": "Entrepreneurship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -1110,7 +1181,8 @@
                     "tag": "16",
                     "text": "Strategic Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -1125,13 +1197,15 @@
                     "tag": "17",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 }
               ],
               "label": {
                 "tag": "18",
                 "text": "REQUIRED ADVANCED COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "if_else",
@@ -1146,7 +1220,8 @@
                       "label": {
                         "tag": "39",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1159,12 +1234,14 @@
                       "label": {
                         "tag": "40",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "BUAD",
@@ -1194,6 +1271,7 @@
             "MAJOR_FNCE": 39,
             "MAJOR_H/SS": 9,
             "MAJOR_LHRM": 3,
+            "MAJOR_HSCI": 3,
             "CONC_7_12": 9,
             "CONC_ECOB": 9,
             "CONC_HAMS": 3,

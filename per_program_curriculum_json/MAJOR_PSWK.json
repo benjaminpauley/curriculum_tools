@@ -5,20 +5,23 @@
       "programName": "Major in Pre-Social Work",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "201850",
           "requirementAuthority": "RA000058",
+          "dw_req_id": "RA000058",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "PSWKMAJ1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "copy_rules_from",
-              "requirementAuthority": "RA000057"
+              "requirementAuthority": "RA000057",
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSWK",
@@ -45,16 +48,18 @@
           "sharingCredits": {}
         },
         {
-          "startTerm": "201940",
+          "startTerm": "201910",
           "endTerm": "202450",
           "requirementAuthority": "RA001240",
+          "dw_req_id": "RA001240",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "PSWKMAJ1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -75,7 +80,8 @@
                     "tag": "4.1",
                     "text": "American Government"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -97,7 +103,8 @@
                     "tag": "5.1",
                     "text": "Anthropological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -112,7 +119,8 @@
                     "tag": "6.1",
                     "text": "Human Biology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -127,7 +135,8 @@
                     "tag": "7.1",
                     "text": "Psychological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -143,7 +152,8 @@
                     "tag": "8.1",
                     "text": "Sociological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -160,13 +170,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "2-5"
                 }
               ],
               "label": {
                 "tag": "9.1",
                 "text": "FOUNDATION COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSWK",
@@ -196,13 +208,15 @@
           "startTerm": "202510",
           "endTerm": "202550",
           "requirementAuthority": "RA002635",
+          "dw_req_id": "RA002635",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "PSWKMAJ1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -223,7 +237,8 @@
                     "tag": "4.1",
                     "text": "American Government"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -245,7 +260,8 @@
                     "tag": "5.1",
                     "text": "Anthropological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -260,7 +276,8 @@
                     "tag": "6.1",
                     "text": "Human Biology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -275,7 +292,8 @@
                     "tag": "7.1",
                     "text": "Psychological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -291,7 +309,8 @@
                     "tag": "8.1",
                     "text": "Sociological Foundation"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -308,13 +327,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "2-5"
                 }
               ],
               "label": {
                 "tag": "9.1",
                 "text": "FOUNDATION COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSWK",
@@ -344,13 +365,15 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002817",
+          "dw_req_id": "RA002817",
           "rules": [
             {
               "type": "rule_incomplete",
               "label": {
                 "tag": "PSWKMAJ1",
                 "text": "Program Prerequisites"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -367,7 +390,8 @@
               "minClasses": 1,
               "qualifiers": {
                 "minGrade": 2
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "PSWK",

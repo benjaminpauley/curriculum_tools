@@ -1,0 +1,351 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "LAC-AT1": {
+      "programName": "Tier I: Methods and Concepts",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000135",
+          "dw_req_id": "RA000135",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TR15 OR ATTRIBUTE=TR30 OR ATTRIBUTE=TR60 OR ATTRIBUTE=TR75",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "1",
+                        "text": "First Year Introduction: Complete"
+                      },
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1FY)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "2",
+                        "text": "First Year Introduction"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (With ATTRIBUTE=T1W)"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "College Writing"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "4",
+                        "text": "Arts in Context: Complete"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1A)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Arts in Context"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "6",
+                        "text": "Literature and Thought: Complete"
+                      },
+                      "dw_rule_id": "4-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1LT)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Literature and Thought"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "4-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TR60 OR ATTRIBUTE=TR75",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "8",
+                        "text": "Health and Wellness: Complete"
+                      },
+                      "dw_rule_id": "5-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1HW)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "9",
+                        "text": "Health and Wellness"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "5-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "10",
+                        "text": "Historical Perspectives: Complete"
+                      },
+                      "dw_rule_id": "6-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1H)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Historical Perspectives"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "6-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (With ATTRIBUTE=T1M)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Mathematics"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "13",
+                        "text": "Tier I: Natural Sciences: Complete"
+                      },
+                      "dw_rule_id": "8-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1NS)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "14",
+                        "text": "Tier I: Natural Sciences"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "8-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "15",
+                        "text": "Social Sciences: Complete"
+                      },
+                      "dw_rule_id": "9-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "@ (With ATTRIBUTE=T1SS)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "16",
+                        "text": "Social Sciences"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "9-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "9"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Up to 2 courses in Tier I of the LAC may be taken on a credit/no",
+            "credit basis. Reminder: Either Tier I or Tier II science course",
+            "must include a one-credit laboratory or field component."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_ANY": null
+          }
+        }
+      ]
+    }
+  }
+}

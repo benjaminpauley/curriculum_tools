@@ -1,0 +1,81 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "ELAC-ASDP": {
+      "programName": "Disciplinary Perspectives: Discipline Categories",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002556",
+          "dw_req_id": "RA002556",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (with attribute = LAAH)"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Arts & Humanities"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (with attribute= LASS)"
+                ],
+                "hidden": [
+                  "@ (with attribute = TRSS)"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Social Sciences"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "@ (with attribute=LASM)"
+                ],
+                "hidden": [
+                  "@ (with attribute = TRSM)"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Science & Math"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 3,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Students must complete one course from each category."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

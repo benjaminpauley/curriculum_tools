@@ -5,9 +5,10 @@
       "programName": "Minor in Cinema Studies",
       "versions": [
         {
-          "startTerm": "202510",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002659",
+          "dw_req_id": "RA002659",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Introduction to Cinema Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -50,7 +52,8 @@
                 "tag": "4",
                 "text": "Cinema Studies Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

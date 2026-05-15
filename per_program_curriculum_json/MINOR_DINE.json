@@ -5,9 +5,10 @@
       "programName": "Minor in Data and Information Engineering",
       "versions": [
         {
-          "startTerm": "202510",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002668",
+          "dw_req_id": "RA002668",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Intro to Programming & Machine Intelligence"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -35,7 +37,8 @@
                 "tag": "4",
                 "text": "Advanced Programming for Data Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -51,7 +54,8 @@
                 "tag": "5",
                 "text": "BIS Required Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -65,7 +69,8 @@
                 "tag": "6",
                 "text": "Database and Info Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -86,7 +91,8 @@
                 "tag": "7",
                 "text": "Minor Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

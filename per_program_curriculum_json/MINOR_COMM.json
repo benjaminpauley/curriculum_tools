@@ -5,9 +5,10 @@
       "programName": "Minor in Communication",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "202050",
-          "requirementAuthority": "RA000279",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000088",
+          "dw_req_id": "RA000088",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Intro Mass Communications"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -47,7 +49,8 @@
                         "tag": "4",
                         "text": "Mass Communications"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -75,7 +78,8 @@
                         "tag": "5",
                         "text": "Public Relations"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -103,7 +107,8 @@
                         "tag": "6",
                         "text": "Radio"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-2"
                     }
                   ],
                   "label": {
@@ -131,7 +136,8 @@
                         "tag": "7",
                         "text": "Television"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-3"
                     }
                   ],
                   "label": {
@@ -159,7 +165,8 @@
                         "tag": "8",
                         "text": "Writing for Media"
                       },
-                      "minCredits": 6
+                      "minCredits": 6,
+                      "dw_rule_id": "2-4"
                     }
                   ],
                   "label": {
@@ -171,7 +178,8 @@
               "label": {
                 "tag": "9",
                 "text": "COMMUNICATION AREA ELECTIVES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -193,7 +201,230 @@
                 "tag": "10",
                 "text": "Communication Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "202050",
+          "requirementAuthority": "RA000279",
+          "dw_req_id": "RA000279",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 100"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Intro Mass Communications"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CMAS)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Mass Communications"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Mass Communications"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CCPR)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Public Relations"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Public Relations"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CRAD)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Radio"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-2"
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Radio"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CTEL)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Television"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-3"
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Television"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "COM 101:499 (With ATTRIBUTE = CWRM)"
+                        ],
+                        "hidden": [
+                          "COM 1@",
+                          "2@",
+                          "3@",
+                          "4@"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Writing for Media"
+                      },
+                      "minCredits": 6,
+                      "dw_rule_id": "2-4"
+                    }
+                  ],
+                  "label": {
+                    "tag": "8",
+                    "text": "Writing for Media"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "COMMUNICATION AREA ELECTIVES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 100:499"
+                ],
+                "hidden": [
+                  "1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "HSC 255",
+                  "SWK 310"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Communication Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -221,6 +452,7 @@
           "startTerm": "202110",
           "endTerm": "999999",
           "requirementAuthority": "RA001741",
+          "dw_req_id": "RA001741",
           "rules": [
             {
               "type": "course",
@@ -246,7 +478,8 @@
                 "tag": "10",
                 "text": "200+ Level Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -276,7 +509,8 @@
                 "tag": "15",
                 "text": "Minor Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

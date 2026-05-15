@@ -8,6 +8,7 @@
           "startTerm": "200810",
           "endTerm": "201320",
           "requirementAuthority": "RA000094",
+          "dw_req_id": "RA000094",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Principles Of Macroeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Principles Of Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -64,7 +67,8 @@
                 "tag": "5",
                 "text": "Economics Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -94,6 +98,7 @@
           "startTerm": "201340",
           "endTerm": "999999",
           "requirementAuthority": "RA000293",
+          "dw_req_id": "RA000293",
           "rules": [
             {
               "type": "course",
@@ -108,7 +113,8 @@
                 "tag": "3",
                 "text": "Introductory Macroeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -123,7 +129,8 @@
                 "tag": "4",
                 "text": "Introductory Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -147,7 +154,8 @@
                 "tag": "5",
                 "text": "Economics Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

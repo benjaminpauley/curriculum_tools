@@ -1,0 +1,73 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TDTP": {
+      "programName": "Concentration in Design, Technology and Management",
+      "versions": [
+        {
+          "startTerm": "202410",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002405",
+          "dw_req_id": "RA002405",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 283",
+                  "THE 285",
+                  "THE 288",
+                  "THE 325",
+                  "THE 345",
+                  "THE 355",
+                  "THE 366",
+                  "THE 368",
+                  "THE 378",
+                  "THE 379",
+                  "THE 380",
+                  "THE 385",
+                  "THE 475",
+                  "THE 476",
+                  "THE 480",
+                  "CSC 220",
+                  "COM 220",
+                  "COM 380",
+                  "FLM 220",
+                  "FLM 355",
+                  "FLM 380",
+                  "MUS 301"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Design, Technology & Performance Media Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

@@ -5,9 +5,10 @@
       "programName": "Concentration in Industrial-Organizational Psych",
       "versions": [
         {
-          "startTerm": "202510",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002574",
+          "dw_req_id": "RA002574",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Industrial and Organizational Psychology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -44,7 +46,8 @@
                     "tag": "4",
                     "text": "Advanced Course"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -69,13 +72,15 @@
                     "tag": "5",
                     "text": "Advanced Course or Indep Study/Internship/TA/Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "ADVANCED COURSES"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -91,7 +96,8 @@
                 "tag": "7",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -112,7 +118,8 @@
                 "tag": "8",
                 "text": "Biological Basis of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -127,7 +134,8 @@
                 "tag": "9",
                 "text": "Learning and Cognition"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -146,7 +154,8 @@
                 "tag": "10",
                 "text": "Specialized Courses"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -162,7 +171,8 @@
                 "tag": "11",
                 "text": "Developmental Courses"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,

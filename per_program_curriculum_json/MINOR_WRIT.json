@@ -5,9 +5,41 @@
       "programName": "Minor in Writing",
       "versions": [
         {
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000132",
+          "dw_req_id": "RA000132",
+          "rules": [],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "For English majors, 9 of the 18 credits must be earned in addition",
+            "to the 42 needed to fulfill the English major. Approval of a course",
+            "of study by the Department Chair is required.  A minimum of nine (9)",
+            "unique credits is required to complete a minor.",
+            "A grade of C or better is required for each course in the minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
           "startTerm": "201110",
           "endTerm": "201650",
           "requirementAuthority": "RA000344",
+          "dw_req_id": "RA000344",
           "rules": [],
           "minimumCredits": {
             "min": 18
@@ -38,6 +70,7 @@
           "startTerm": "201710",
           "endTerm": "999999",
           "requirementAuthority": "RA002362",
+          "dw_req_id": "RA002362",
           "rules": [],
           "minimumCredits": {
             "min": 18

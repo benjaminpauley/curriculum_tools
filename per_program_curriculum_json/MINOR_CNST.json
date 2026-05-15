@@ -8,6 +8,7 @@
           "startTerm": "200810",
           "endTerm": "201050",
           "requirementAuthority": "RA000085",
+          "dw_req_id": "RA000085",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Canadian Culture and Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -52,7 +54,8 @@
                 "tag": "4",
                 "text": "Canadian Studies Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {
@@ -80,6 +83,7 @@
           "startTerm": "201110",
           "endTerm": "999999",
           "requirementAuthority": "RA000277",
+          "dw_req_id": "RA000277",
           "rules": [
             {
               "type": "course",
@@ -94,7 +98,8 @@
                 "tag": "3",
                 "text": "Canadian Culture and Society"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -124,7 +129,8 @@
                 "tag": "4",
                 "text": "Canadian Studies Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

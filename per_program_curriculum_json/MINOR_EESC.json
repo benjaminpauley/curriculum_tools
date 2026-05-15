@@ -5,9 +5,10 @@
       "programName": "Minor in Environmental Earth Science",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201920",
-          "requirementAuthority": "RA000296",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000096",
+          "dw_req_id": "RA000096",
           "rules": [
             {
               "type": "group",
@@ -28,7 +29,8 @@
                         "tag": "3",
                         "text": "Dynamic Earth with Laboratory"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -51,7 +53,8 @@
                         "tag": "4",
                         "text": "Geology of National Parks and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -74,7 +77,8 @@
                         "tag": "5",
                         "text": "Introduction to Geology and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -97,7 +101,8 @@
                         "tag": "6",
                         "text": "Geology of Natural Resources and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -120,7 +125,8 @@
                         "tag": "7",
                         "text": "Geological Setting-Connecticut and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
                     }
                   ],
                   "label": {
@@ -132,7 +138,8 @@
               "label": {
                 "tag": "8",
                 "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -147,7 +154,8 @@
                 "tag": "9",
                 "text": "Ancient Environments w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -162,7 +170,223 @@
                 "tag": "10",
                 "text": "Landform Analysis w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "CHE 336",
+                  "PBH 222",
+                  "PBH 323",
+                  "PHR 222",
+                  "EES 222"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Environmental Earth Science Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000296",
+          "dw_req_id": "RA000296",
+          "rules": [
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EES 104"
+                        ],
+                        "hidden": []
+                      },
+                      "label": {
+                        "tag": "3",
+                        "text": "Dynamic Earth with Laboratory"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "1-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "3",
+                    "text": "Dynamic Earth with Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 106",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "4",
+                        "text": "Geology of National Parks and Earth Science Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "4",
+                    "text": "Geology of National Parks and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 110",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "5",
+                        "text": "Introduction to Geology and Earth Science Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
+                    }
+                  ],
+                  "label": {
+                    "tag": "5",
+                    "text": "Introduction to Geology and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 125",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "6",
+                        "text": "Geology of Natural Resources and Earth Science Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
+                    }
+                  ],
+                  "label": {
+                    "tag": "6",
+                    "text": "Geology of Natural Resources and Earth Science Laboratory"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "EES 202",
+                          "EES 112"
+                        ]
+                      },
+                      "label": {
+                        "tag": "7",
+                        "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
+                    }
+                  ],
+                  "label": {
+                    "tag": "7",
+                    "text": "Geological Setting-Connecticut and Earth Science Laboratory"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "8",
+                "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 130"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Ancient Environments w/Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 224"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Landform Analysis w/Laboratory"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -185,7 +409,8 @@
                 "tag": "11",
                 "text": "Environmental Earth Science Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {
@@ -213,6 +438,7 @@
           "startTerm": "201940",
           "endTerm": "202450",
           "requirementAuthority": "RA000527",
+          "dw_req_id": "RA000527",
           "rules": [
             {
               "type": "group",
@@ -233,7 +459,8 @@
                         "tag": "3",
                         "text": "Dynamic Earth with Laboratory"
                       },
-                      "minCredits": 4
+                      "minCredits": 4,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -256,7 +483,8 @@
                         "tag": "4",
                         "text": "Geology of National Parks and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -279,7 +507,8 @@
                         "tag": "5",
                         "text": "Introduction to Geology and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -302,7 +531,8 @@
                         "tag": "6",
                         "text": "Geology of Natural Resources and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -325,7 +555,8 @@
                         "tag": "7",
                         "text": "Geological Setting-Connecticut and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
                     }
                   ],
                   "label": {
@@ -337,7 +568,8 @@
               "label": {
                 "tag": "8",
                 "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -352,7 +584,8 @@
                 "tag": "9",
                 "text": "Ancient Environments w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -367,7 +600,8 @@
                 "tag": "10",
                 "text": "Landform Analysis w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -391,7 +625,8 @@
                 "tag": "11",
                 "text": "Environmental Earth Science Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {
@@ -419,6 +654,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002583",
+          "dw_req_id": "RA002583",
           "rules": [
             {
               "type": "group",
@@ -439,7 +675,8 @@
                         "tag": "3",
                         "text": "Dynamic Earth and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -462,7 +699,8 @@
                         "tag": "4",
                         "text": "Geology of National Parks and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -485,7 +723,8 @@
                         "tag": "5",
                         "text": "Introduction to Geology and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -508,7 +747,8 @@
                         "tag": "6",
                         "text": "Environmental Geology and Earth Science Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -531,7 +771,8 @@
                         "tag": "7",
                         "text": "Environmental Geology and Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
                     }
                   ],
                   "label": {
@@ -543,7 +784,8 @@
               "label": {
                 "tag": "8",
                 "text": "ENVIRONMENTAL EARTH SCIENCE ELECTIVE WITH LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -558,7 +800,8 @@
                 "tag": "9",
                 "text": "Ancient Environments w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -573,7 +816,8 @@
                 "tag": "10",
                 "text": "Landform Analysis w/Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -597,7 +841,8 @@
                 "tag": "11",
                 "text": "Environmental Earth Science Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

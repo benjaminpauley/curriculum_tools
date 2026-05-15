@@ -5,9 +5,10 @@
       "programName": "Minor in Cannabis Cultivation & Chemistry",
       "versions": [
         {
-          "startTerm": "202240",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA002131",
+          "dw_req_id": "RA002131",
           "rules": [
             {
               "type": "course",
@@ -24,7 +25,8 @@
                 "tag": "3",
                 "text": "Cannabis Cultivation Practicum"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +40,8 @@
                 "tag": "4",
                 "text": "Chemical Analysis of Cannabis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -66,7 +69,8 @@
                         "tag": "5",
                         "text": "Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -89,7 +93,8 @@
                         "tag": "6",
                         "text": "Sustainable Energy"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -120,7 +125,8 @@
                         "tag": "8",
                         "text": "Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -143,7 +149,8 @@
                         "tag": "9",
                         "text": "Biochemistry I"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-3"
                     }
                   ],
                   "label": {
@@ -155,7 +162,8 @@
               "label": {
                 "tag": "10",
                 "text": "Choose One"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -183,6 +191,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002547",
+          "dw_req_id": "RA002547",
           "rules": [
             {
               "type": "course",
@@ -199,7 +208,8 @@
                 "tag": "3",
                 "text": "Sustainable Cannabis Cultivation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -213,7 +223,8 @@
                 "tag": "4",
                 "text": "Chemical Analysis of Cannabis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -240,7 +251,8 @@
                         "tag": "5",
                         "text": "Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -263,7 +275,8 @@
                         "tag": "6",
                         "text": "Sustainable Energy"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -294,7 +307,8 @@
                         "tag": "8",
                         "text": "Elective"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "3-2"
                     }
                   ],
                   "label": {
@@ -317,7 +331,8 @@
                         "tag": "9",
                         "text": "Biochemistry I"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-3"
                     }
                   ],
                   "label": {
@@ -329,7 +344,8 @@
               "label": {
                 "tag": "10",
                 "text": "Choose One"
-              }
+              },
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

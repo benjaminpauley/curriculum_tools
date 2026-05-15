@@ -5,9 +5,10 @@
       "programName": "Major in Anthropology",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA001695",
+          "dw_req_id": "RA001695",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Introduction to Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Cultural Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Biological Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Introduction to Archaeology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "5",
                     "text": "Anthropological Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "6",
                     "text": "Anthropological Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,13 +122,15 @@
                     "tag": "7",
                     "text": "Anthropology Seminar"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -139,7 +148,8 @@
                 "tag": "9",
                 "text": "Field School or Internship"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -164,7 +174,8 @@
                 "tag": "10",
                 "text": "World Areas"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "if_else",
@@ -179,7 +190,8 @@
                       "label": {
                         "tag": "100",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "conditionType": "static"
@@ -192,12 +204,14 @@
                       "label": {
                         "tag": "110",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "4-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {
@@ -227,6 +241,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001907",
+          "dw_req_id": "RA001907",
           "rules": [
             {
               "type": "subset",
@@ -244,7 +259,8 @@
                     "tag": "1",
                     "text": "Introduction to Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -259,7 +275,8 @@
                     "tag": "2",
                     "text": "Cultural Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -274,7 +291,8 @@
                     "tag": "3",
                     "text": "Biological Anthropology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -289,7 +307,8 @@
                     "tag": "4",
                     "text": "Introduction to Archaeology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -304,7 +323,8 @@
                     "tag": "5",
                     "text": "Anthropological Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -319,7 +339,8 @@
                     "tag": "6",
                     "text": "Anthropological Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -334,13 +355,15 @@
                     "tag": "7",
                     "text": "Anthropology Seminar"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -358,7 +381,8 @@
                 "tag": "9",
                 "text": "Field School or Internship"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -383,7 +407,8 @@
                 "tag": "10",
                 "text": "World Areas"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "if_else",
@@ -398,7 +423,8 @@
                       "label": {
                         "tag": "100",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "4-0"
                     }
                   ],
                   "conditionType": "static"
@@ -411,12 +437,14 @@
                       "label": {
                         "tag": "110",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "4-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

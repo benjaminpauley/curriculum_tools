@@ -5,9 +5,289 @@
       "programName": "Concentration in Digital Art & Design",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000070",
+          "startTerm": "201310",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000379",
+          "dw_req_id": "RA000379",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two Dimensional Design"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 111",
+                      "ART 207",
+                      "ART 208"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "3D Foundation Course"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 112"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Color Theory"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Digital Imaging & Online Media"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Relief Printmaking I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Art History I: Pre-History-1600"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Art History II: 1600 - Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 122"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Digital Illustration & Page Layout"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Graphic Design I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 334",
+                      "ART 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Graphic Design III or Art Exhibitions"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 432",
+                      "ART 436"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Eastern Design Group or Graphic Design IV"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-12"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 214",
+                  "ART 216",
+                  "ART 226",
+                  "ART 228",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 334",
+                  "ART 338",
+                  "ART 343",
+                  "ART 350",
+                  "ART 390",
+                  "ART 403",
+                  "ART 410",
+                  "ART 412",
+                  "ART 421",
+                  "ART 436",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "COM 310"
+                ]
+              },
+              "label": {
+                "tag": "15",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000403",
+          "dw_req_id": "RA000403",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +305,24 @@
                     "tag": "1",
                     "text": "Two-Dimensionl Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 112"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Color Theory"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -37,10 +334,11 @@
                     "hidden": []
                   },
                   "label": {
-                    "tag": "2",
-                    "text": "Digital Illustration & Page Layout"
+                    "tag": "2.1",
+                    "text": "Digital Illustration and Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -55,7 +353,8 @@
                     "tag": "3",
                     "text": "Digital Imaging & Web Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -70,7 +369,8 @@
                     "tag": "4",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -85,7 +385,8 @@
                     "tag": "5",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -100,7 +401,8 @@
                     "tag": "6",
                     "text": "Art Hist: Pre-History to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -115,7 +417,8 @@
                     "tag": "7",
                     "text": "Art Hist: 1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -130,7 +433,8 @@
                     "tag": "8",
                     "text": "Graphic Design I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -145,22 +449,25 @@
                     "tag": "9",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
                   "courses": {
                     "connector": "or",
                     "courses": [
+                      "ART 334",
                       "ART 335"
                     ],
                     "hidden": []
                   },
                   "label": {
                     "tag": "10",
-                    "text": "Graphic Design III"
+                    "text": "Graphic Design III or Art Exhibitions"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -176,13 +483,15 @@
                     "tag": "11",
                     "text": "Eastern Design Group or Graphic Design IV"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -199,7 +508,273 @@
                 "tag": "13",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 213",
+                  "ART 214",
+                  "ART 216",
+                  "ART 226",
+                  "ART 228",
+                  "ART 325",
+                  "ART 326",
+                  "ART 327",
+                  "ART 330",
+                  "ART 332",
+                  "ART 334",
+                  "ART 338",
+                  "ART 343",
+                  "ART 350",
+                  "ART 351",
+                  "ART 390",
+                  "ART 403",
+                  "ART 410",
+                  "ART 412",
+                  "ART 421",
+                  "ART 436",
+                  "ART 470",
+                  "ART 480",
+                  "ART 490",
+                  "COM 310"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000070",
+          "dw_req_id": "RA000070",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 110"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Two-Dimensionl Design Elements"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 122"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Digital Illustration & Page Layout"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 124"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Digital Imaging & Web Design"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Relief Printmaking I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Drawing I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 211"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Art Hist: Pre-History to 1400"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 212"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Art Hist: 1400 to the Present"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 203"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Graphic Design I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 329"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Graphic Design II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Graphic Design III"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ART 432",
+                      "ART 436"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "Eastern Design Group or Graphic Design IV"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "REQUIRED CONCENTRATION COURSES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 208"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -235,7 +810,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -256,6 +832,7 @@
           "startTerm": "201740",
           "endTerm": "201850",
           "requirementAuthority": "RA000408",
+          "dw_req_id": "RA000408",
           "rules": [
             {
               "type": "subset",
@@ -273,7 +850,8 @@
                     "tag": "1",
                     "text": "Two-Dimensionl Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -288,7 +866,8 @@
                     "tag": "2",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -303,7 +882,8 @@
                     "tag": "3",
                     "text": "Digital Imaging & Web Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -318,7 +898,8 @@
                     "tag": "4",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -333,7 +914,8 @@
                     "tag": "5",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -348,7 +930,8 @@
                     "tag": "6",
                     "text": "Art Hist: Pre-History to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -363,7 +946,8 @@
                     "tag": "7",
                     "text": "Art Hist: 1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -378,7 +962,8 @@
                     "tag": "8",
                     "text": "Graphic Design I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -393,7 +978,8 @@
                     "tag": "9",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -408,7 +994,8 @@
                     "tag": "10",
                     "text": "Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -424,13 +1011,15 @@
                     "tag": "11",
                     "text": "Eastern Design Group or Graphic Design IV"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -447,7 +1036,8 @@
                 "tag": "13",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -483,7 +1073,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -504,6 +1095,7 @@
           "startTerm": "201910",
           "endTerm": "201920",
           "requirementAuthority": "RA000404",
+          "dw_req_id": "RA000404",
           "rules": [
             {
               "type": "subset",
@@ -521,7 +1113,8 @@
                     "tag": "1",
                     "text": "Two-Dimensionl Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -536,7 +1129,8 @@
                     "tag": "2",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -551,7 +1145,8 @@
                     "tag": "3",
                     "text": "Digital Imaging & Web Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -566,7 +1161,8 @@
                     "tag": "4",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -581,7 +1177,8 @@
                     "tag": "5",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -596,7 +1193,8 @@
                     "tag": "6",
                     "text": "Art Hist: Pre-History to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -611,7 +1209,8 @@
                     "tag": "7",
                     "text": "Art Hist: 1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -626,7 +1225,8 @@
                     "tag": "8",
                     "text": "Graphic Design I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -641,7 +1241,8 @@
                     "tag": "9",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -656,7 +1257,8 @@
                     "tag": "10",
                     "text": "Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -672,13 +1274,15 @@
                     "tag": "11",
                     "text": "Eastern Design Group or Graphic Design IV"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -695,7 +1299,8 @@
                 "tag": "13",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -728,7 +1333,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -751,6 +1357,7 @@
           "startTerm": "201940",
           "endTerm": "202250",
           "requirementAuthority": "RA001266",
+          "dw_req_id": "RA001266",
           "rules": [
             {
               "type": "subset",
@@ -768,7 +1375,8 @@
                     "tag": "1",
                     "text": "Two-Dimensionl Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -783,7 +1391,8 @@
                     "tag": "2",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -798,7 +1407,8 @@
                     "tag": "3",
                     "text": "Digital Imaging & Web Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -813,7 +1423,8 @@
                     "tag": "4",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -828,7 +1439,8 @@
                     "tag": "5",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -843,7 +1455,8 @@
                     "tag": "6",
                     "text": "Art Hist: Pre-History to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -858,7 +1471,8 @@
                     "tag": "7",
                     "text": "Art Hist: 1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -873,7 +1487,8 @@
                     "tag": "8",
                     "text": "Graphic Design I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -888,7 +1503,8 @@
                     "tag": "9",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -903,7 +1519,8 @@
                     "tag": "10",
                     "text": "Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -919,13 +1536,15 @@
                     "tag": "11",
                     "text": "Eastern Design Group or Graphic Design IV"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -942,7 +1561,8 @@
                 "tag": "13",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -973,7 +1593,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,

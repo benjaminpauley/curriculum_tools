@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201950",
           "requirementAuthority": "RA000210",
+          "dw_req_id": "RA000210",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Principles Of Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Principles of Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Principles Of Marketing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Business Law I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -84,7 +89,8 @@
                 "tag": "5",
                 "text": "Operations Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -99,7 +105,8 @@
                 "tag": "6",
                 "text": "Principles Of Macroeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -114,7 +121,8 @@
                 "tag": "7",
                 "text": "Principles Of Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -129,7 +137,8 @@
                 "tag": "8",
                 "text": "Statistics For Business And Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -146,7 +155,8 @@
                 "tag": "9",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -161,7 +171,8 @@
                 "tag": "10",
                 "text": "Principles Managerial Accounting"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -176,7 +187,8 @@
                 "tag": "11",
                 "text": "Business Ethics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -191,7 +203,8 @@
                 "tag": "12",
                 "text": "Money And Banking"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -206,7 +219,8 @@
                 "tag": "13",
                 "text": "Business Finance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -221,7 +235,8 @@
                 "tag": "14",
                 "text": "Investment Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -236,7 +251,8 @@
                 "tag": "15",
                 "text": "Financial Institutions and Markets"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             },
             {
               "type": "course",
@@ -251,7 +267,8 @@
                 "tag": "16",
                 "text": "International Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "16"
             },
             {
               "type": "course",
@@ -266,7 +283,8 @@
                 "tag": "17",
                 "text": "Case Studies Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "17"
             },
             {
               "type": "course",
@@ -280,7 +298,8 @@
                 "tag": "18",
                 "text": "Internship in Finance"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "18"
             },
             {
               "type": "course",
@@ -299,7 +318,8 @@
                 "tag": "19",
                 "text": "Finance Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "19"
             }
           ],
           "declaredMajor": "FNCE",
@@ -333,6 +353,7 @@
           "startTerm": "202010",
           "endTerm": "202050",
           "requirementAuthority": "RA001439",
+          "dw_req_id": "RA001439",
           "rules": [
             {
               "type": "course",
@@ -347,7 +368,8 @@
                 "tag": "1",
                 "text": "Principles Of Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -362,7 +384,8 @@
                 "tag": "2",
                 "text": "Principles of Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -377,7 +400,8 @@
                 "tag": "3",
                 "text": "Principles Of Marketing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -392,7 +416,8 @@
                 "tag": "4",
                 "text": "Business Law I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -409,7 +434,8 @@
                 "tag": "5",
                 "text": "Operations Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -424,7 +450,8 @@
                 "tag": "6",
                 "text": "Principles Of Macroeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -439,7 +466,8 @@
                 "tag": "7",
                 "text": "Principles Of Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -454,7 +482,8 @@
                 "tag": "8",
                 "text": "Statistics For Business And Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -471,7 +500,8 @@
                 "tag": "9",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -486,7 +516,8 @@
                 "tag": "10",
                 "text": "Principles Managerial Accounting"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -501,7 +532,8 @@
                 "tag": "11",
                 "text": "Business Ethics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -516,7 +548,8 @@
                 "tag": "12",
                 "text": "Money And Banking"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -531,7 +564,8 @@
                 "tag": "13",
                 "text": "Business Finance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -546,7 +580,8 @@
                 "tag": "13.a",
                 "text": "Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -561,7 +596,8 @@
                 "tag": "14",
                 "text": "Investment Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             },
             {
               "type": "course",
@@ -576,7 +612,8 @@
                 "tag": "15",
                 "text": "Financial Institutions and Markets"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "16"
             },
             {
               "type": "course",
@@ -591,7 +628,8 @@
                 "tag": "16",
                 "text": "International Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "17"
             },
             {
               "type": "course",
@@ -606,7 +644,8 @@
                 "tag": "17",
                 "text": "Case Studies Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "18"
             },
             {
               "type": "course",
@@ -621,7 +660,8 @@
                 "tag": "17.a",
                 "text": "Wealth Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "19"
             },
             {
               "type": "course",
@@ -635,7 +675,8 @@
                 "tag": "18",
                 "text": "Internship in Finance"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "20"
             },
             {
               "type": "course",
@@ -656,7 +697,8 @@
                 "tag": "19",
                 "text": "Finance Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "21"
             }
           ],
           "declaredMajor": "FNCE",
@@ -690,6 +732,7 @@
           "startTerm": "202110",
           "endTerm": "202150",
           "requirementAuthority": "RA001639",
+          "dw_req_id": "RA001639",
           "rules": [
             {
               "type": "course",
@@ -704,7 +747,8 @@
                 "tag": "1",
                 "text": "Principles Of Accounting I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -719,7 +763,8 @@
                 "tag": "2",
                 "text": "Principles of Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -734,7 +779,8 @@
                 "tag": "3",
                 "text": "Principles Of Marketing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -749,7 +795,8 @@
                 "tag": "4",
                 "text": "Business Law I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -766,7 +813,8 @@
                 "tag": "5",
                 "text": "Operations Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -781,7 +829,8 @@
                 "tag": "6",
                 "text": "Principles Of Macroeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -796,7 +845,8 @@
                 "tag": "7",
                 "text": "Principles Of Microeconomics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -811,7 +861,8 @@
                 "tag": "8",
                 "text": "Statistics For Business And Economics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -828,7 +879,8 @@
                 "tag": "9",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -843,7 +895,8 @@
                 "tag": "10",
                 "text": "Principles Managerial Accounting"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -858,7 +911,8 @@
                 "tag": "11",
                 "text": "Business Ethics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -873,7 +927,8 @@
                 "tag": "12",
                 "text": "Money And Banking"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -888,7 +943,8 @@
                 "tag": "13",
                 "text": "Business Finance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -903,7 +959,8 @@
                 "tag": "13.a",
                 "text": "Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -918,7 +975,8 @@
                 "tag": "14",
                 "text": "Investment Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             },
             {
               "type": "course",
@@ -933,7 +991,8 @@
                 "tag": "15",
                 "text": "Financial Institutions and Markets"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "16"
             },
             {
               "type": "course",
@@ -948,7 +1007,8 @@
                 "tag": "16",
                 "text": "International Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "17"
             },
             {
               "type": "course",
@@ -963,7 +1023,8 @@
                 "tag": "17",
                 "text": "Case Studies Financial Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "18"
             },
             {
               "type": "course",
@@ -978,7 +1039,8 @@
                 "tag": "17.a",
                 "text": "Wealth Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "19"
             },
             {
               "type": "course",
@@ -992,7 +1054,8 @@
                 "tag": "18",
                 "text": "Internship in Finance"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "20"
             },
             {
               "type": "course",
@@ -1015,7 +1078,8 @@
                 "tag": "19",
                 "text": "Finance Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "21"
             }
           ],
           "declaredMajor": "FNCE",
@@ -1049,6 +1113,7 @@
           "startTerm": "202210",
           "endTerm": "202350",
           "requirementAuthority": "RA002006",
+          "dw_req_id": "RA002006",
           "rules": [
             {
               "type": "subset",
@@ -1066,7 +1131,8 @@
                     "tag": "1",
                     "text": "Principles Of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1083,7 +1149,8 @@
                     "tag": "9",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1098,7 +1165,8 @@
                     "tag": "6",
                     "text": "Principles Of Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1113,7 +1181,8 @@
                     "tag": "7",
                     "text": "Principles Of Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1128,13 +1197,15 @@
                     "tag": "8",
                     "text": "Statistics For Business And Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "2",
                 "text": "Related Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1152,7 +1223,8 @@
                     "tag": "10",
                     "text": "Principles Managerial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -1167,7 +1239,8 @@
                     "tag": "3",
                     "text": "Business Law I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -1182,7 +1255,8 @@
                     "tag": "12",
                     "text": "Money And Banking"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -1197,7 +1271,8 @@
                     "tag": "13",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -1212,7 +1287,8 @@
                     "tag": "14",
                     "text": "Investment Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -1227,7 +1303,8 @@
                     "tag": "15",
                     "text": "Financial Institutions and Markets"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 },
                 {
                   "type": "course",
@@ -1242,7 +1319,8 @@
                     "tag": "16",
                     "text": "International Financial Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
                 },
                 {
                   "type": "course",
@@ -1257,7 +1335,8 @@
                     "tag": "17",
                     "text": "Case Studies Financial Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-7"
                 },
                 {
                   "type": "course",
@@ -1272,7 +1351,8 @@
                     "tag": "4",
                     "text": "Seminar in Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-8"
                 },
                 {
                   "type": "course",
@@ -1286,13 +1366,15 @@
                     "tag": "18",
                     "text": "Internship in Finance"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "2-9"
                 }
               ],
               "label": {
                 "tag": "5",
                 "text": "Required Core"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "if_else",
@@ -1307,7 +1389,8 @@
                       "label": {
                         "tag": "39",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1320,12 +1403,14 @@
                       "label": {
                         "tag": "40",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "FNCE",
@@ -1357,8 +1442,9 @@
         },
         {
           "startTerm": "202410",
-          "endTerm": "999999",
+          "endTerm": "202650",
           "requirementAuthority": "RA002411",
+          "dw_req_id": "RA002411",
           "rules": [
             {
               "type": "subset",
@@ -1376,7 +1462,8 @@
                     "tag": "1",
                     "text": "Principles Of Accounting I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1393,7 +1480,8 @@
                     "tag": "9",
                     "text": "Information Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1408,7 +1496,8 @@
                     "tag": "6",
                     "text": "Introductory Macroeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1423,7 +1512,8 @@
                     "tag": "7",
                     "text": "Introductory Microeconomics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1438,13 +1528,15 @@
                     "tag": "8",
                     "text": "Statistics For Business And Economics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "2",
                 "text": "Related Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1462,7 +1554,8 @@
                     "tag": "10",
                     "text": "Principles Managerial Accounting"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -1477,7 +1570,8 @@
                     "tag": "3",
                     "text": "Business Law I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -1492,7 +1586,8 @@
                     "tag": "3.1",
                     "text": "Research Methods"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -1507,7 +1602,8 @@
                     "tag": "12",
                     "text": "Money And Banking"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -1522,7 +1618,8 @@
                     "tag": "13",
                     "text": "Business Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 },
                 {
                   "type": "course",
@@ -1537,7 +1634,8 @@
                     "tag": "14",
                     "text": "Investment Analysis"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
                 },
                 {
                   "type": "course",
@@ -1552,7 +1650,8 @@
                     "tag": "16",
                     "text": "International Financial Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
                 },
                 {
                   "type": "course",
@@ -1567,7 +1666,8 @@
                     "tag": "17",
                     "text": "Case Studies Financial Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-7"
                 },
                 {
                   "type": "course",
@@ -1584,7 +1684,8 @@
                     "tag": "4",
                     "text": "Seminar in Finance"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-8"
                 },
                 {
                   "type": "course",
@@ -1601,13 +1702,15 @@
                     "tag": "18",
                     "text": "Internship in Finance"
                   },
-                  "minCredits": 3
+                  "minCredits": 3,
+                  "dw_rule_id": "2-9"
                 }
               ],
               "label": {
                 "tag": "5",
                 "text": "Required Core"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "if_else",
@@ -1622,7 +1725,8 @@
                       "label": {
                         "tag": "39",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1635,12 +1739,350 @@
                       "label": {
                         "tag": "40",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "FNCE",
+          "minimumCredits": {
+            "min": 54
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 24,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Students must take 24 credits of the Finance major at Eastern CT",
+            "State University."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ELED": 9,
+            "MAJOR_ECED": 9,
+            "MAJOR_H/SS": 12,
+            "CONC_7_12": 9,
+            "CONC_HAMS": 6
+          }
+        },
+        {
+          "startTerm": "202710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002951",
+          "dw_req_id": "RA002951",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "1",
+                    "text": "Principles Of Accounting I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BIS 205"
+                    ],
+                    "hidden": [
+                      "BUS 205"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Information Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 200"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Introductory Macroeconomics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 201"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Introductory Microeconomics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 215"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Statistics For Business And Economics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                }
+              ],
+              "label": {
+                "tag": "2",
+                "text": "Related Courses"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ACC 202"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "10",
+                    "text": "Principles Managerial Accounting"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 301"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Business Ethics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "3.1",
+                    "text": "Research Methods"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ECO 325"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "12",
+                    "text": "Money And Banking"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 245"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Business Finance"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 335"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "16",
+                    "text": "Financial Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 346"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "14",
+                    "text": "Investment Analysis"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 445"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "17",
+                    "text": "Case Studies Financial Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-7"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 462"
+                    ],
+                    "hidden": [
+                      "ECO 479"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Seminar in Finance"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-8"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "FIN 490"
+                    ],
+                    "hidden": [
+                      "ECO 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "18",
+                    "text": "Internship in Finance"
+                  },
+                  "minCredits": 3,
+                  "dw_rule_id": "2-9"
+                }
+              ],
+              "label": {
+                "tag": "5",
+                "text": "Required Core"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "CONC=BKRL OR CONC=INVS",
+                  "rules": [
+                    {
+                      "type": "blocktype_ref",
+                      "blockType": "CONC",
+                      "count": 1,
+                      "label": {
+                        "tag": "39",
+                        "text": "Concentration Requirements"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "conditionType": "static"
+                },
+                {
+                  "condition": null,
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "40",
+                        "text": "A Concentration is Required"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "conditionType": "static"
+                }
+              ],
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "FNCE",

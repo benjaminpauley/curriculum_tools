@@ -8,6 +8,7 @@
           "startTerm": "200810",
           "endTerm": "999999",
           "requirementAuthority": "RA000086",
+          "dw_req_id": "RA000086",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "6",
                 "text": "Organic Chemistry I with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "7",
                 "text": "Organic Chemistry II with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -60,7 +63,8 @@
                 "tag": "8",
                 "text": "Chemistry Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

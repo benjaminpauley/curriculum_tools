@@ -1,0 +1,423 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "LAC-ANSL": {
+      "programName": "Tier I & II: Natural Sciences Laboratory",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000134",
+          "dw_req_id": "RA000134",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "ATTRIBUTE=TRLA",
+                  "rules": [
+                    {
+                      "type": "rule_complete",
+                      "label": {
+                        "tag": "NSL27+",
+                        "text": "Natural Sciences with Laboratory Met by 27+ Liberal Arts Transfer Credits"
+                      },
+                      "dw_rule_id": "1-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "@ @ (WITH ATTRIBUTE=LABW) was PASSED",
+                          "rules": [
+                            {
+                              "type": "course",
+                              "courses": {
+                                "connector": "or",
+                                "courses": [
+                                  "@ @ (WITH ATTRIBUTE=LABW)"
+                                ]
+                              },
+                              "label": {
+                                "tag": "LABWmet",
+                                "text": "Laboratory Requirement Met"
+                              },
+                              "minClasses": 1,
+                              "dw_rule_id": "1-1-0"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        },
+                        {
+                          "condition": null,
+                          "rules": [
+                            {
+                              "type": "group",
+                              "minGroups": 1,
+                              "options": [
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "or",
+                                        "courses": [
+                                          "AST 214",
+                                          "BIO 205",
+                                          "BIO 207",
+                                          "CHE 200",
+                                          "CHE 205",
+                                          "EES 104"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "140",
+                                        "text": "Natural Science Course with Laboratory Included"
+                                      },
+                                      "minCredits": 4,
+                                      "minClasses": 1,
+                                      "combinationOperator": "and",
+                                      "qualifiers": {
+                                        "priority": "high"
+                                      },
+                                      "dw_rule_id": "1-1-1-0"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "140",
+                                    "text": "Natural Science Course with Laboratory Included"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 104",
+                                          "EES 112"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "140.1",
+                                        "text": "Dynamic Earth and Earth Science Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-1"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "140.1",
+                                    "text": "Dynamic Earth and Earth Science Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "BIO 200",
+                                          "BIO 201"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "141",
+                                        "text": "Ecology & Environment & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-2"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "141",
+                                    "text": "Ecology & Environment & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "BIO 202",
+                                          "BIO 203"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "142",
+                                        "text": "Human Biology Lecture & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-3"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "142",
+                                    "text": "Human Biology Lecture & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "BIO 301",
+                                          "BIO 302"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "143",
+                                        "text": "Microbes and Your Health & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-4"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "143",
+                                    "text": "Microbes and Your Health & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "BIO 304",
+                                          "BIO 314"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "144",
+                                        "text": "Genetics and Society Lecture & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-5"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "144",
+                                    "text": "Genetics and Society Lecture & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 106",
+                                          "EES 112"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "145",
+                                        "text": "Geology of National Parks & Earth Science Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-6"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "145",
+                                    "text": "Geology of National Parks & Earth Science Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 110",
+                                          "EES 112"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "146",
+                                        "text": "Introduction to Geology & Earth Science Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-7"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "146",
+                                    "text": "Introduction to Geology & Earth Science Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 112",
+                                          "EES 125"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "147",
+                                        "text": "Earth Science Laboratory & Earth Science"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-8"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "147",
+                                    "text": "Earth Science Laboratory & Earth Science"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 112",
+                                          "EES 202"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "148",
+                                        "text": "Earth Science Laboratory &  Geologic Setting of CT"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-9"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "148",
+                                    "text": "Earth Science Laboratory &  Geologic Setting of CT"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 205",
+                                          "EES 207"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "149",
+                                        "text": "Sustainable Energy & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-10"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "149",
+                                    "text": "Sustainable Energy & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "EES 220",
+                                          "EES 221"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "150",
+                                        "text": "Environmental Geology & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-11"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "150",
+                                    "text": "Environmental Geology & Laboratory"
+                                  }
+                                },
+                                {
+                                  "rules": [
+                                    {
+                                      "type": "course",
+                                      "courses": {
+                                        "connector": "and",
+                                        "courses": [
+                                          "PBH 301",
+                                          "PBH 302"
+                                        ]
+                                      },
+                                      "label": {
+                                        "tag": "151",
+                                        "text": "Microbes and Your Health & Laboratory"
+                                      },
+                                      "minClasses": 2,
+                                      "dw_rule_id": "1-1-1-12"
+                                    }
+                                  ],
+                                  "label": {
+                                    "tag": "151",
+                                    "text": "Microbes and Your Health & Laboratory"
+                                  }
+                                }
+                              ],
+                              "label": {
+                                "tag": "NSwLab4",
+                                "text": "NATURAL SCIENCES WITH LABORATORY"
+                              },
+                              "dw_rule_id": "1-1-1"
+                            }
+                          ],
+                          "conditionType": "static"
+                        }
+                      ],
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Either Tier I or Tier II Science Course must include a one-credit",
+            "laboratory or field component.  Seven total credits are required",
+            "in Natural Sciences are required.  This section checks that a natural",
+            "sciences course that includes a laboratory component has been taken"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MINOR_ANY": null,
+            "MAJOR_ANY": null,
+            "OTHER_LAC-AT1": null,
+            "OTHER_LAC-AT2": null
+          }
+        }
+      ]
+    }
+  }
+}

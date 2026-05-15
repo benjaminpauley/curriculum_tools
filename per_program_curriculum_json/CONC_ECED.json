@@ -1,0 +1,104 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "ECED": {
+      "programName": "Conc in Early Childhood Education",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000351",
+          "dw_req_id": "RA000351",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 600"
+                ],
+                "hidden": [
+                  "ECE 696"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Play-Based Foundations for Learning"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 603"
+                ],
+                "hidden": [
+                  "ECE 696"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Early Literacy Development, Pedagogy and Assessment"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 610"
+                ],
+                "hidden": [
+                  "ECE 696"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Data-based Approaches"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 9
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000478",
+          "dw_req_id": "RA000478",
+          "rules": [],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

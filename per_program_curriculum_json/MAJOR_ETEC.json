@@ -1,0 +1,211 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ETEC": {
+      "programName": "Major in Educational Technology",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000358",
+          "dw_req_id": "RA000358",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 512"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Educational Technology Theory & Practice"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 612"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Assistive Technology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 657"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Global Connections in Education"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 608"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Principles of Educational Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "GRADUATE COURSE EDUCATIONAL TECHNOLOGY CORE REQUIREMENTS"
+              },
+              "qualifiers": {
+                "priority": "high"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 617",
+                  "EDU 619",
+                  "EDU 662",
+                  "EDU 665",
+                  "EDU 656",
+                  "EDU 660",
+                  "DLL 616",
+                  "DLL 617",
+                  "DLL 618",
+                  "DLL 620",
+                  "DLL 621",
+                  "ECE 512"
+                ],
+                "hidden": [
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696",
+                  "EDU 696"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Graduate Course Educational Technology Related Requirements"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Research & Readings"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 677"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Emerging Educational Technologies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-1"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "CULMINATING EXPERIENCES"
+              },
+              "qualifiers": {
+                "priority": "lowest"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "ETEC",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Within the Graduate Course Education Technology related requirements,",
+            "other courses may be selected through advising.",
+            "Within the Culminating Experiences, a Comprehensive Educational",
+            "Technology Portfolio is included based on National Educational",
+            "Technology Standards."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

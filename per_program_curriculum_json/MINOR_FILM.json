@@ -5,9 +5,10 @@
       "programName": "Minor in Film Studies",
       "versions": [
         {
-          "startTerm": "201710",
+          "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000098",
+          "dw_req_id": "RA000098",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Introduction to Film"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -51,8 +53,9 @@
         },
         {
           "startTerm": "202210",
-          "endTerm": "202450",
+          "endTerm": "999999",
           "requirementAuthority": "RA002002",
+          "dw_req_id": "RA002002",
           "rules": [
             {
               "type": "course",
@@ -66,7 +69,8 @@
                 "tag": "3",
                 "text": "Introduction to Film"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {

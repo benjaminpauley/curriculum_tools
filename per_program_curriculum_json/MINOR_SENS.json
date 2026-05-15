@@ -5,9 +5,10 @@
       "programName": "Minor in Sustainable Energy Studies",
       "versions": [
         {
-          "startTerm": "201310",
-          "endTerm": "202550",
-          "requirementAuthority": "RA000338",
+          "startTerm": "200810",
+          "endTerm": "201250",
+          "requirementAuthority": "RA000130",
+          "dw_req_id": "RA000130",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "6",
                 "text": "Sustainable Energy"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,117 @@
                 "tag": "7",
                 "text": "Energy Resources"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 360"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7.5",
+                "text": "Impact of the Ice Age"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIO 200",
+                  "BIO 308",
+                  "ECO 201",
+                  "ECO 210",
+                  "ECO 322",
+                  "EES 204",
+                  "EES 222",
+                  "EES 307",
+                  "EES 405",
+                  "EES 480",
+                  "EES 491",
+                  "GEO 331",
+                  "PSC 351",
+                  "PSC 352",
+                  "PSC 353"
+                ],
+                "hidden": [
+                  "PHR 222",
+                  "PBH 222"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sustainable Energy Studies Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": 2,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 9,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201310",
+          "endTerm": "202550",
+          "requirementAuthority": "RA000338",
+          "dw_req_id": "RA000338",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Sustainable Energy"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 305"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Energy Resources"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -67,7 +179,8 @@
                 "tag": "8",
                 "text": "Sustainable Energy Studies Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -95,6 +208,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002789",
+          "dw_req_id": "RA002789",
           "rules": [
             {
               "type": "course",
@@ -109,7 +223,8 @@
                 "tag": "6",
                 "text": "Sustainable Energy"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -124,7 +239,8 @@
                 "tag": "7",
                 "text": "Energy Resources"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -152,7 +268,8 @@
                 "tag": "8",
                 "text": "Sustainable Energy Studies Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

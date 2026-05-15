@@ -1,0 +1,416 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "OMGT": {
+      "programName": "Major in Organizational Management",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "202150",
+          "requirementAuthority": "RA000359",
+          "dw_req_id": "RA000359",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 508"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2b",
+                    "text": "Introduction to Organizational Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 536"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3b",
+                    "text": "Critical Thinking, Problem Solving & Mgmt. Processes in Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 537"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4b",
+                    "text": "Small Group Dynamics in Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "BUS 532"
+                    ],
+                    "hidden": [
+                      "ORG 533"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5b",
+                    "text": "Management of Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 570"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6b",
+                    "text": "Organizational Management Capstone Seminar"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "GRADUATE COURSE ORGANIZATIONAL MANAGEMENT CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 531",
+                  "BUS 533",
+                  "COM 512",
+                  "COM 530",
+                  "ORG 512",
+                  "ORG 531",
+                  "ORG 671",
+                  "ORG 672",
+                  "ORG 675",
+                  "ORG 696",
+                  "PSY 507",
+                  "PSY 508"
+                ],
+                "hidden": [
+                  "COM 596",
+                  "COM 596",
+                  "ORG 696",
+                  "ORG 696",
+                  "ORG 696",
+                  "PSY 580",
+                  "PSY 580"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Graduate Related Organizational Management Course Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Thesis I"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Comprehensive Examination"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "CULMINATING EXPERIENCE"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "OMGT",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202210",
+          "endTerm": "999999",
+          "requirementAuthority": "RA001984",
+          "dw_req_id": "RA001984",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 508"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2b",
+                    "text": "Introduction to Organizational Research"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 536"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3b",
+                    "text": "Critical Thinking, Problem Solving & Mgmt. Processes in Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 537"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4b",
+                    "text": "Small Group Dynamics in Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 533"
+                    ],
+                    "hidden": [
+                      "BUS 532"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5b",
+                    "text": "Management of Organizations"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "ORG 570"
+                    ],
+                    "hidden": [
+                      "ORG 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6b",
+                    "text": "Organizational Management Capstone Seminar"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "GRADUATE COURSE ORGANIZATIONAL MANAGEMENT CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "COM 512",
+                  "COM 530",
+                  "ORG 512",
+                  "ORG 531",
+                  "ORG 671",
+                  "ORG 672",
+                  "ORG 675",
+                  "ORG 696",
+                  "PSY 507",
+                  "PSY 508"
+                ],
+                "hidden": [
+                  "COM 596",
+                  "COM 596",
+                  "ORG 696",
+                  "ORG 696",
+                  "ORG 696",
+                  "PSY 580",
+                  "PSY 580",
+                  "BUS 531",
+                  "BUS 533"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Graduate Related Organizational Management Course Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "9",
+                    "text": "Thesis I"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 2,
+                      "options": [],
+                      "label": {
+                        "tag": null,
+                        "text": "Group Requirement"
+                      },
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "12",
+                    "text": "Comprehensive Examination"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "15",
+                "text": "CULMINATING EXPERIENCE"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "OMGT",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

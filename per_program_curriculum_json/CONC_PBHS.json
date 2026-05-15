@@ -1,0 +1,91 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "PBHS": {
+      "programName": "Minor Concentration in Public Health Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000996",
+          "dw_req_id": "RA000996",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 337"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Urban Anthropology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 364"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Medical Anthropology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PBH 200:299"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Public Health Studies Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SWK 344"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Substance Abuse"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            }
+          ],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

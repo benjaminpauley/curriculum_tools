@@ -8,6 +8,7 @@
           "startTerm": "202410",
           "endTerm": "999999",
           "requirementAuthority": "RA002406",
+          "dw_req_id": "RA002406",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Video & Film Production"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Scriptwriting"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +56,8 @@
                 "tag": "3",
                 "text": "Directing I/Dramatic Video & Film Production"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -80,7 +84,8 @@
                 "tag": "4",
                 "text": "Filmmaking and Directing Elective"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

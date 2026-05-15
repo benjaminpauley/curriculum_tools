@@ -8,6 +8,7 @@
           "startTerm": "201210",
           "endTerm": "201850",
           "requirementAuthority": "RA000105",
+          "dw_req_id": "RA000105",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1-0"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Calculus I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -85,7 +90,8 @@
                     "tag": "5",
                     "text": "Applied Linear Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "6",
                     "text": "Applied Probability and Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-1"
                 },
                 {
                   "type": "course",
@@ -115,7 +122,8 @@
                     "tag": "7",
                     "text": "Calculus III with Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-2"
                 },
                 {
                   "type": "course",
@@ -130,7 +138,8 @@
                     "tag": "8",
                     "text": "Geometry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-3"
                 },
                 {
                   "type": "course",
@@ -145,7 +154,8 @@
                     "tag": "9",
                     "text": "Abstract Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-4"
                 },
                 {
                   "type": "course",
@@ -160,7 +170,8 @@
                     "tag": "10",
                     "text": "Real Analysis I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-5"
                 },
                 {
                   "type": "course",
@@ -175,7 +186,8 @@
                     "tag": "11",
                     "text": "Real Analysis II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-6"
                 },
                 {
                   "type": "course",
@@ -201,13 +213,15 @@
                     "tag": "12",
                     "text": "300/400 Level Mathematics Electives"
                   },
-                  "minClasses": 2
+                  "minClasses": 2,
+                  "dw_rule_id": "5-7"
                 }
               ],
               "label": {
                 "tag": "13",
                 "text": "300/400 LEVEL MATH"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -220,7 +234,8 @@
                       "label": {
                         "tag": "14",
                         "text": "A MAT 300/400 level GPA of 2.3 must be verified."
-                      }
+                      },
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "dw_internal"
@@ -241,215 +256,231 @@
                         "tag": "15",
                         "text": "Computer Science and Programming I"
                       },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "MAT 230"
-                        ],
-                        "hidden": []
-                      },
-                      "label": {
-                        "tag": "16",
-                        "text": "Discrete Structures"
-                      },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "MAT 243"
-                        ],
-                        "hidden": []
-                      },
-                      "label": {
-                        "tag": "17",
-                        "text": "Calculus I"
-                      },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "course",
-                      "courses": {
-                        "connector": "or",
-                        "courses": [
-                          "MAT 244"
-                        ],
-                        "hidden": []
-                      },
-                      "label": {
-                        "tag": "18",
-                        "text": "Calculus II"
-                      },
-                      "minClasses": 1
-                    },
-                    {
-                      "type": "subset",
-                      "rules": [
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 310"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "19",
-                            "text": "Applied Linear Algebra"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 315"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "20",
-                            "text": "Applied Probability and Statistics"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 340"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "21",
-                            "text": "Calculus III with Technology"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 380"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "22",
-                            "text": "Geometry"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 400"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "23",
-                            "text": "Abstract Algebra"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 420"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "24",
-                            "text": "Real Analysis I"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 421"
-                            ],
-                            "hidden": []
-                          },
-                          "label": {
-                            "tag": "25",
-                            "text": "Real Analysis II"
-                          },
-                          "minClasses": 1
-                        },
-                        {
-                          "type": "course",
-                          "courses": {
-                            "connector": "or",
-                            "courses": [
-                              "MAT 300:499"
-                            ],
-                            "hidden": [
-                              "MAT 3@",
-                              "4@",
-                              "CSC 350",
-                              "CSC 353",
-                              "AST 375",
-                              "EDU 491"
-                            ],
-                            "except": [
-                              "MAT 303",
-                              "MAT 490"
-                            ]
-                          },
-                          "label": {
-                            "tag": "26",
-                            "text": "300/400 Level Mathematics Electives"
-                          },
-                          "minClasses": 2
-                        }
-                      ],
-                      "label": {
-                        "tag": "27",
-                        "text": "300/400 LEVEL MATH"
-                      }
-                    },
-                    {
-                      "type": "if_else",
-                      "branches": [
-                        {
-                          "condition": "MAT 300:499 (with DWGrade<2.0) is PASSED and MAT 300:499 isnt INPROGRESS",
-                          "rules": [
-                            {
-                              "type": "rule_incomplete",
-                              "label": {
-                                "tag": "28",
-                                "text": "A MAT 300/400 level GPA of 2.3 must be verified."
-                              }
-                            }
-                          ],
-                          "conditionType": "dw_internal"
-                        }
-                      ]
+                      "minClasses": 1,
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "16",
+                "text": "Discrete Structures"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "17",
+                "text": "Calculus I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "18",
+                "text": "Calculus II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 310"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "19",
+                    "text": "Applied Linear Algebra"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 315"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "20",
+                    "text": "Applied Probability and Statistics"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 340"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "21",
+                    "text": "Calculus III with Technology"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 380"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "22",
+                    "text": "Geometry"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 400"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "23",
+                    "text": "Abstract Algebra"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 420"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "24",
+                    "text": "Real Analysis I"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 421"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "25",
+                    "text": "Real Analysis II"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "10-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "MAT 300:499"
+                    ],
+                    "hidden": [
+                      "MAT 3@",
+                      "4@",
+                      "CSC 350",
+                      "CSC 353",
+                      "AST 375",
+                      "EDU 491"
+                    ],
+                    "except": [
+                      "MAT 303",
+                      "MAT 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "26",
+                    "text": "300/400 Level Mathematics Electives"
+                  },
+                  "minClasses": 2,
+                  "dw_rule_id": "10-7"
+                }
+              ],
+              "label": {
+                "tag": "27",
+                "text": "300/400 LEVEL MATH"
+              },
+              "dw_rule_id": "10"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "MAT 300:499 (with DWGrade<2.0) is PASSED and MAT 300:499 isnt INPROGRESS",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": "28",
+                        "text": "A MAT 300/400 level GPA of 2.3 must be verified."
+                      },
+                      "dw_rule_id": "11-0"
+                    }
+                  ],
+                  "conditionType": "dw_internal"
+                }
+              ],
+              "dw_rule_id": "11"
             }
           ],
           "declaredMajor": "MATH",
@@ -507,6 +538,7 @@
           "startTerm": "201910",
           "endTerm": "202150",
           "requirementAuthority": "RA000504",
+          "dw_req_id": "RA000504",
           "rules": [
             {
               "type": "course",
@@ -521,7 +553,8 @@
                 "tag": "1",
                 "text": "Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -536,7 +569,8 @@
                 "tag": "2",
                 "text": "Calculus I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -551,7 +585,8 @@
                 "tag": "3",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -569,7 +604,8 @@
                     "tag": "4",
                     "text": "Applied Linear Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 },
                 {
                   "type": "course",
@@ -584,7 +620,8 @@
                     "tag": "5",
                     "text": "Applied Probability and Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-1"
                 },
                 {
                   "type": "course",
@@ -599,7 +636,8 @@
                     "tag": "6",
                     "text": "Calculus III with Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-2"
                 },
                 {
                   "type": "course",
@@ -614,13 +652,15 @@
                     "tag": "7",
                     "text": "Real Analysis I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-3"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "300/400 LEVEL MATH"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "if_else",
@@ -633,7 +673,8 @@
                       "label": {
                         "tag": "9",
                         "text": "A MAT 300/400 level GPA of 2.3 must be verified."
-                      }
+                      },
+                      "dw_rule_id": "5-0"
                     },
                     {
                       "type": "if_else",
@@ -648,7 +689,8 @@
                               "label": {
                                 "tag": "10",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "5-1-0"
                             }
                           ],
                           "conditionType": "static"
@@ -661,17 +703,20 @@
                               "label": {
                                 "tag": "11",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "5-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "5"
             }
           ],
           "declaredMajor": "MATH",
@@ -726,6 +771,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001995",
+          "dw_req_id": "RA001995",
           "rules": [
             {
               "type": "course",
@@ -740,7 +786,8 @@
                 "tag": "1",
                 "text": "Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -755,7 +802,8 @@
                 "tag": "2",
                 "text": "Calculus I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -770,7 +818,8 @@
                 "tag": "3",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "subset",
@@ -788,7 +837,8 @@
                     "tag": "4",
                     "text": "Applied Linear Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-0"
                 },
                 {
                   "type": "course",
@@ -803,7 +853,8 @@
                     "tag": "5",
                     "text": "Applied Probability and Statistics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-1"
                 },
                 {
                   "type": "course",
@@ -818,7 +869,8 @@
                     "tag": "6",
                     "text": "Calculus III with Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-2"
                 },
                 {
                   "type": "course",
@@ -833,13 +885,15 @@
                     "tag": "7",
                     "text": "Real Analysis I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "4-3"
                 }
               ],
               "label": {
                 "tag": "8",
                 "text": "300/400 LEVEL MATH"
-              }
+              },
+              "dw_rule_id": "4"
             },
             {
               "type": "if_else",
@@ -852,7 +906,8 @@
                       "label": {
                         "tag": "9",
                         "text": "A MAT 300/400 level GPA of 2.3 must be verified."
-                      }
+                      },
+                      "dw_rule_id": "5-0"
                     },
                     {
                       "type": "if_else",
@@ -867,7 +922,8 @@
                               "label": {
                                 "tag": "10",
                                 "text": "Concentration Requirements"
-                              }
+                              },
+                              "dw_rule_id": "5-1-0"
                             }
                           ],
                           "conditionType": "static"
@@ -880,17 +936,20 @@
                               "label": {
                                 "tag": "11",
                                 "text": "A Concentration is Required"
-                              }
+                              },
+                              "dw_rule_id": "5-1-1"
                             }
                           ],
                           "conditionType": "static"
                         }
-                      ]
+                      ],
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "conditionType": "dw_internal"
                 }
-              ]
+              ],
+              "dw_rule_id": "5"
             }
           ],
           "declaredMajor": "MATH",

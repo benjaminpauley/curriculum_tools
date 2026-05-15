@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "201750",
           "requirementAuthority": "RA000405",
+          "dw_req_id": "RA000405",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Issues in Contemporary Art"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,13 +58,15 @@
                     "tag": "3",
                     "text": "Art Exhibitions or Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "Required Concentration Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -81,7 +86,8 @@
                 "tag": "5",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -97,7 +103,8 @@
                 "tag": "6",
                 "text": "Capstone Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",
@@ -118,6 +125,7 @@
           "startTerm": "201810",
           "endTerm": "201850",
           "requirementAuthority": "RA000406",
+          "dw_req_id": "RA000406",
           "rules": [
             {
               "type": "subset",
@@ -135,7 +143,8 @@
                     "tag": "1",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -150,7 +159,8 @@
                     "tag": "2",
                     "text": "Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -165,13 +175,15 @@
                     "tag": "3",
                     "text": "Issues in Contemporary Art"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "Required Concentration Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -191,7 +203,8 @@
                 "tag": "5",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -207,7 +220,8 @@
                 "tag": "6",
                 "text": "Capstone Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",
@@ -226,8 +240,9 @@
         },
         {
           "startTerm": "201910",
-          "endTerm": "202250",
+          "endTerm": "999999",
           "requirementAuthority": "RA000407",
+          "dw_req_id": "RA000407",
           "rules": [
             {
               "type": "subset",
@@ -244,7 +259,8 @@
                     "tag": "1",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -258,7 +274,8 @@
                     "tag": "2",
                     "text": "Graphic Design III"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -272,13 +289,15 @@
                     "tag": "3",
                     "text": "Issues in Contemporary Art"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 }
               ],
               "label": {
                 "tag": "4",
                 "text": "Required Concentration Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -299,7 +318,8 @@
                 "tag": "5",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -316,7 +336,8 @@
                 "tag": "6",
                 "text": "Capstone Experience"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "degreeType": "BA",

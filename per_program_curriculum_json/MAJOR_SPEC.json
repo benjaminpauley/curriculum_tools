@@ -1,0 +1,529 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "SPEC": {
+      "programName": "Major in Special Education",
+      "versions": [
+        {
+          "startTerm": "202050",
+          "endTerm": "202250",
+          "requirementAuthority": "RA001973",
+          "dw_req_id": "RA001973",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 610"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Special Education Assessment"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 611"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Special Education Methods of Instruction"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 613"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Evidence-Based Practices for Behavior Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 630"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Applying Foundational Knowledge and Applications"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 632"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Special Education in the Arts"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 634"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Interagency Collaboration"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 690"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Practicum in Local Agencies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "group",
+                  "minGroups": 1,
+                  "options": [
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 692"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "9",
+                            "text": "Practicum in Elementary in Elementary Special Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-7-0"
+                        }
+                      ],
+                      "label": {
+                        "tag": "9",
+                        "text": "Practicum in Elementary in Elementary Special Education"
+                      }
+                    },
+                    {
+                      "rules": [
+                        {
+                          "type": "course",
+                          "courses": {
+                            "connector": "or",
+                            "courses": [
+                              "EDU 694"
+                            ],
+                            "hidden": [
+                              "EDU 696"
+                            ]
+                          },
+                          "label": {
+                            "tag": "10",
+                            "text": "Practicum in Elementary in Secondary Special Education"
+                          },
+                          "minClasses": 1,
+                          "dw_rule_id": "1-7-1"
+                        }
+                      ],
+                      "label": {
+                        "tag": "10",
+                        "text": "Practicum in Elementary in Secondary Special Education"
+                      }
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "PRACTICA EXPERIENCES"
+                  },
+                  "dw_rule_id": "1-7"
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "CORE REQUIREMENTS AND PRACTICA EXPERIENCES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 612",
+                      "EDU 614",
+                      "EDU 680",
+                      "ECE 620"
+                    ],
+                    "hidden": [
+                      "EDU 696",
+                      "EDU 696",
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "3 Credits of Graduate Electives"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "ELECTIVES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 697"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "15",
+                    "text": "Graduate Research Project"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
+                }
+              ],
+              "label": {
+                "tag": "16",
+                "text": "CULMINATING RESEARCH EXPERIENCE"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "SPEC",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "202310",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002206",
+          "dw_req_id": "RA002206",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 610"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Special Education Assessment"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 611"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Special Education Methods of Instruction"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 613"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Evidence-Based Practices for Behavior Management"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 630"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Applying Foundational Knowledge and Applications"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 632"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Special Education in the Arts"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 634"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Interagency Collaboration"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 690"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Practicum in Local Agencies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 692",
+                      "EDU 694"
+                    ],
+                    "hidden": [
+                      "EDU 696",
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "9",
+                    "text": "Practicum in Elementary or Secondary Special Education"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
+                }
+              ],
+              "label": {
+                "tag": "10",
+                "text": "CORE REQUIREMENTS AND PRACTICA EXPERIENCES"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 612",
+                      "EDU 614",
+                      "EDU 680",
+                      "ECE 620"
+                    ],
+                    "hidden": [
+                      "EDU 696",
+                      "EDU 696",
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "11",
+                    "text": "3 Credits of Graduate Electives"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "ELECTIVES"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 697"
+                    ],
+                    "hidden": [
+                      "EDU 696"
+                    ]
+                  },
+                  "label": {
+                    "tag": "13",
+                    "text": "Graduate Research Project"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "3-0"
+                }
+              ],
+              "label": {
+                "tag": "14",
+                "text": "CULMINATING RESEARCH EXPERIENCE"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "SPEC",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": 3,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

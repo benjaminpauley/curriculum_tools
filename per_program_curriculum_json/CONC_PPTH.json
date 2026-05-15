@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA000213",
+          "dw_req_id": "RA000213",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Anatomy & Physiology I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Anatomy & Physiology II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -55,7 +58,8 @@
                 "tag": "3",
                 "text": "General Microbiology With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -70,7 +74,8 @@
                 "tag": "4",
                 "text": "General Chemistry I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -85,7 +90,8 @@
                 "tag": "5",
                 "text": "General Chemistry II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -100,7 +106,8 @@
                 "tag": "6",
                 "text": "General Chemistry I Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -115,7 +122,8 @@
                 "tag": "7",
                 "text": "General Chemistry II Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -130,7 +138,8 @@
                 "tag": "8",
                 "text": "Organic Chemistry I With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -145,7 +154,8 @@
                 "tag": "9",
                 "text": "General Physic I With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -160,7 +170,8 @@
                 "tag": "10",
                 "text": "Physics II With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -177,7 +188,8 @@
                 "tag": "11",
                 "text": "Exercise for Persons with Chronic Diseases and Disabilities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             }
           ],
           "minimumCredits": null,

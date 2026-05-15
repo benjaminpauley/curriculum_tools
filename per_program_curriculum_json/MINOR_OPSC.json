@@ -5,9 +5,10 @@
       "programName": "Minor in Operations & Supply Chain Management",
       "versions": [
         {
-          "startTerm": "202310",
+          "startTerm": "000000",
           "endTerm": "202550",
           "requirementAuthority": "RA002209",
+          "dw_req_id": "RA002209",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Operations Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "6",
                 "text": "Supply Chain Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -94,7 +99,8 @@
                 "tag": "7",
                 "text": "Minor Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -120,6 +126,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002736",
+          "dw_req_id": "RA002736",
           "rules": [
             {
               "type": "course",
@@ -134,7 +141,8 @@
                 "tag": "3",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -149,7 +157,8 @@
                 "tag": "4",
                 "text": "Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -164,7 +173,8 @@
                 "tag": "5",
                 "text": "Operations Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -179,7 +189,8 @@
                 "tag": "6",
                 "text": "Supply Chain Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -205,7 +216,8 @@
                 "tag": "7",
                 "text": "Minor Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

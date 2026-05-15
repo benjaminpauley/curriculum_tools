@@ -5,9 +5,10 @@
       "programName": "Concentration in Performance",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201750",
-          "requirementAuthority": "RA000046",
+          "startTerm": "201010",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000453",
+          "dw_req_id": "RA000453",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,306 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 214",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 256",
+                  "MUS 317",
+                  "MUS 320",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 227",
+                  "MUS 230",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 309",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 330",
+                  "MUS 350",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000454",
+          "dw_req_id": "RA000454",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 214",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 256",
+                  "MUS 317",
+                  "MUS 320",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 227",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 309",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 330",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000455",
+          "dw_req_id": "RA000455",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 317",
+                  "MUS 320",
+                  "MUS 356"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Performance Electives"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 227",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 309",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 330",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000046",
+          "dw_req_id": "RA000046",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Advanced Private Lesson Instruction"
+              },
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -42,7 +342,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -62,7 +363,8 @@
                 "tag": "3",
                 "text": "Musicology Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -79,9 +381,10 @@
           }
         },
         {
-          "startTerm": "201810",
+          "startTerm": "201740",
           "endTerm": "201850",
           "requirementAuthority": "RA000456",
+          "dw_req_id": "RA000456",
           "rules": [
             {
               "type": "course",
@@ -95,7 +398,8 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -117,7 +421,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -138,7 +443,8 @@
                 "tag": "3",
                 "text": "Musicology Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -156,8 +462,9 @@
         },
         {
           "startTerm": "201910",
-          "endTerm": "201950",
+          "endTerm": "201920",
           "requirementAuthority": "RA000457",
+          "dw_req_id": "RA000457",
           "rules": [
             {
               "type": "course",
@@ -171,7 +478,8 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -190,7 +498,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -211,7 +520,8 @@
                 "tag": "3",
                 "text": "Musicology Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -228,9 +538,10 @@
           }
         },
         {
-          "startTerm": "202010",
+          "startTerm": "201940",
           "endTerm": "202050",
           "requirementAuthority": "RA001244",
+          "dw_req_id": "RA001244",
           "rules": [
             {
               "type": "course",
@@ -244,7 +555,8 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -263,7 +575,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -285,7 +598,8 @@
                 "tag": "3",
                 "text": "Electives from Another Concentration"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -305,6 +619,7 @@
           "startTerm": "202110",
           "endTerm": "202150",
           "requirementAuthority": "RA001771",
+          "dw_req_id": "RA001771",
           "rules": [
             {
               "type": "course",
@@ -318,7 +633,8 @@
                 "tag": "4",
                 "text": "Practicum in Music"
               },
-              "minCredits": 1
+              "minCredits": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -332,7 +648,8 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -351,7 +668,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 5
+              "minCredits": 5,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -373,7 +691,8 @@
                 "tag": "3",
                 "text": "Electives from Another Concentration"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -393,6 +712,7 @@
           "startTerm": "202210",
           "endTerm": "202550",
           "requirementAuthority": "RA001992",
+          "dw_req_id": "RA001992",
           "rules": [
             {
               "type": "course",
@@ -406,7 +726,8 @@
                 "tag": "4",
                 "text": "Practicum in Music"
               },
-              "minCredits": 1
+              "minCredits": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -420,7 +741,8 @@
                 "tag": "1",
                 "text": "Advanced Private Lesson Instruction"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -438,7 +760,8 @@
                 "tag": "2",
                 "text": "Performance Electives"
               },
-              "minCredits": 5
+              "minCredits": 5,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -458,6 +781,7 @@
           "startTerm": "202610",
           "endTerm": "999999",
           "requirementAuthority": "RA002781",
+          "dw_req_id": "RA002781",
           "rules": [
             {
               "type": "course",
@@ -471,7 +795,8 @@
                 "tag": "4",
                 "text": "Individual Music Instruction"
               },
-              "minCredits": 1
+              "minCredits": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -485,7 +810,8 @@
                 "tag": "5",
                 "text": "Individual Music Instruction: Adanced"
               },
-              "minCredits": 2
+              "minCredits": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -499,7 +825,8 @@
                 "tag": "6",
                 "text": "Practicum in Music"
               },
-              "minCredits": 1
+              "minCredits": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -524,7 +851,8 @@
               "minCredits": 8,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

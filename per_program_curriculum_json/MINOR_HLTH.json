@@ -5,9 +5,10 @@
       "programName": "Minor in Health",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "999999",
-          "requirementAuthority": "RA000303",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000108",
+          "dw_req_id": "RA000108",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,81 @@
                 "tag": "3",
                 "text": "Personal Health"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 102",
+                  "HPE 207",
+                  "HPE 310",
+                  "HPE 312",
+                  "HPE 325",
+                  "HPE 326",
+                  "HPE 340",
+                  "HPE 448",
+                  "HSC 209",
+                  "HSC 320"
+                ],
+                "hidden": [
+                  "HPE 209",
+                  "HPE 320"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Health Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "A minimum grade of C is required for each course applied to this minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000303",
+          "dw_req_id": "RA000303",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 210"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Personal Health"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -50,7 +125,8 @@
                 "tag": "4",
                 "text": "Health Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

@@ -5,9 +5,10 @@
       "programName": "Major in Women's and Gender Studies",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201950",
-          "requirementAuthority": "RA000522",
+          "startTerm": "201310",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000521",
+          "dw_req_id": "RA000521",
           "rules": [
             {
               "type": "subset",
@@ -29,7 +30,8 @@
                     "tag": "3",
                     "text": "Introduction to Women's Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -44,23 +46,25 @@
                     "tag": "4",
                     "text": "Feminist Theories"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
                   "courses": {
                     "connector": "or",
                     "courses": [
-                      "WST 481"
+                      "WST 480"
                     ]
                   },
                   "label": {
                     "tag": "5",
-                    "text": "Writing Intensive Capstone in WGS"
+                    "text": "Independent Study"
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -76,13 +80,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -95,7 +101,7 @@
                   "WST 352"
                 ],
                 "hidden": [
-                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 365 (With ATTRIBUTE=WGSX)",
                   "@ 373 (With ATTRIBUTE=WGSX)"
                 ]
               },
@@ -103,7 +109,8 @@
                 "tag": "8",
                 "text": "Sexualities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -122,7 +129,8 @@
                 "tag": "9",
                 "text": "Race, Culture and Gender - US"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -144,7 +152,8 @@
                 "tag": "10",
                 "text": "Race, Culture, Gender - Global"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -156,8 +165,7 @@
                   "WST 317",
                   "WST 355",
                   "WST 356",
-                  "WST 363",
-                  "WST 370"
+                  "WST 363"
                 ],
                 "hidden": [
                   "@ 365 (With ATTRIBUTE=WGHP)",
@@ -168,7 +176,8 @@
                 "tag": "11",
                 "text": "Historical Perspective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -183,7 +192,6 @@
                   "ENG 324",
                   "ENG 356",
                   "ENG 357",
-                  "ENG 373",
                   "FRE 231",
                   "FRE 331",
                   "GEO 307",
@@ -198,9 +206,7 @@
                   "SOC 212",
                   "SOC 240",
                   "SOC 310",
-                  "SOC 347",
-                  "SOC 370",
-                  "WST 491"
+                  "SOC 347"
                 ],
                 "hidden": [
                   "@ 365 (With ATTRIBUTE=WGST)"
@@ -210,7 +216,8 @@
                 "tag": "12",
                 "text": "Major Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "WGST",
@@ -247,9 +254,10 @@
           }
         },
         {
-          "startTerm": "202010",
-          "endTerm": "202050",
-          "requirementAuthority": "RA001249",
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000074",
+          "dw_req_id": "RA000074",
           "rules": [
             {
               "type": "subset",
@@ -271,7 +279,8 @@
                     "tag": "3",
                     "text": "Introduction to Women's Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -286,7 +295,8 @@
                     "tag": "4",
                     "text": "Feminist Theories"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -302,7 +312,8 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -318,13 +329,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -337,7 +350,7 @@
                   "WST 352"
                 ],
                 "hidden": [
-                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 365 (With ATTRIBUTE=WGSX)",
                   "@ 373 (With ATTRIBUTE=WGSX)"
                 ]
               },
@@ -345,7 +358,8 @@
                 "tag": "8",
                 "text": "Sexualities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -353,8 +367,7 @@
                 "connector": "or",
                 "courses": [
                   "WST 326",
-                  "WST 347",
-                  "ENG 393"
+                  "WST 347"
                 ],
                 "hidden": [
                   "@ 365 (With ATTRIBUTE=WGUS)",
@@ -365,7 +378,8 @@
                 "tag": "9",
                 "text": "Race, Culture and Gender - US"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -387,7 +401,257 @@
                 "tag": "10",
                 "text": "Race, Culture, Gender - Global"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "ENG 228",
+                  "ENG 266",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "6"
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201920",
+          "requirementAuthority": "RA000522",
+          "dw_req_id": "RA000522",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 347"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 324",
+                  "WST 331",
+                  "WST 306",
+                  "ANT 300"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -411,7 +675,8 @@
                 "tag": "11",
                 "text": "Historical Perspective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -453,7 +718,262 @@
                 "tag": "12",
                 "text": "Major Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "6"
+            }
+          ],
+          "declaredMajor": "WGST",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A grade of C or better is required for each course in the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "MAJOR_ECED": 6,
+            "MAJOR_ELED": 6,
+            "CONC_ECUL": 9,
+            "CONC_ELIT": 6,
+            "CONC_EEED": 3,
+            "CONC_ENGL": 3,
+            "CONC_HAMS": 9,
+            "CONC_PSTD": 6,
+            "CONC_PBHV": 6,
+            "CONC_PC&Y": 6,
+            "CONC_ARHI": 3,
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201940",
+          "endTerm": "202050",
+          "requirementAuthority": "RA001249",
+          "dw_req_id": "RA001249",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 260"
+                    ],
+                    "hidden": [
+                      "GEO 260",
+                      "ENG 260",
+                      "SOC 260"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Introduction to Women's Studies"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 351"
+                    ],
+                    "hidden": []
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Feminist Theories"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 481"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Writing Intensive Capstone in WGS"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "WST 490"
+                    ]
+                  },
+                  "label": {
+                    "tag": "6",
+                    "text": "Internship in Women's Studies"
+                  },
+                  "minCredits": 3,
+                  "minClasses": 1,
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "7",
+                "text": "CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 319",
+                  "WST 208",
+                  "WST 315",
+                  "WST 352"
+                ],
+                "hidden": [
+                  "@ @ (With ATTRIBUTE=WGSX)",
+                  "@ 373 (With ATTRIBUTE=WGSX)"
+                ]
+              },
+              "label": {
+                "tag": "8",
+                "text": "Sexualities"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 326",
+                  "WST 347",
+                  "ENG 393"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGUS)",
+                  "@ 373 (With ATTRIBUTE=WGUS)"
+                ]
+              },
+              "label": {
+                "tag": "9",
+                "text": "Race, Culture and Gender - US"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 231",
+                  "WST 324",
+                  "WST 331",
+                  "WST 306",
+                  "ANT 300"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGGL)",
+                  "@ 373 (With ATTRIBUTE=WGGL)"
+                ]
+              },
+              "label": {
+                "tag": "10",
+                "text": "Race, Culture, Gender - Global"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "WST 244",
+                  "WST 307",
+                  "WST 317",
+                  "WST 355",
+                  "WST 356",
+                  "WST 363",
+                  "WST 370"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGHP)",
+                  "@ 373 (With ATTRIBUTE=WGHP)"
+                ]
+              },
+              "label": {
+                "tag": "11",
+                "text": "Historical Perspective"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ANT 300",
+                  "ART 355",
+                  "ENG 228",
+                  "ENG 266",
+                  "ENG 307",
+                  "ENG 324",
+                  "ENG 356",
+                  "ENG 357",
+                  "ENG 373",
+                  "FRE 231",
+                  "FRE 331",
+                  "GEO 307",
+                  "HIS 244",
+                  "HIS 317",
+                  "HIS 363",
+                  "PSC 227",
+                  "PSC 326",
+                  "PSY 315",
+                  "PSY 319",
+                  "SOC 208",
+                  "SOC 212",
+                  "SOC 240",
+                  "SOC 310",
+                  "SOC 347",
+                  "SOC 370",
+                  "WST 491"
+                ],
+                "hidden": [
+                  "@ 365 (With ATTRIBUTE=WGST)"
+                ]
+              },
+              "label": {
+                "tag": "12",
+                "text": "Major Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "WGST",
@@ -493,6 +1013,7 @@
           "startTerm": "202110",
           "endTerm": "202120",
           "requirementAuthority": "RA001755",
+          "dw_req_id": "RA001755",
           "rules": [
             {
               "type": "subset",
@@ -514,7 +1035,8 @@
                     "tag": "3",
                     "text": "Introduction to Women's Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -529,7 +1051,8 @@
                     "tag": "4",
                     "text": "Feminist Theories"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -545,7 +1068,8 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -561,13 +1085,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -588,7 +1114,8 @@
                 "tag": "8",
                 "text": "Sexualities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -608,7 +1135,8 @@
                 "tag": "9",
                 "text": "Race, Culture and Gender - US"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -629,7 +1157,8 @@
                 "tag": "10",
                 "text": "Race, Culture, Gender - Global"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -653,7 +1182,8 @@
                 "tag": "11",
                 "text": "Historical Perspective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -694,7 +1224,8 @@
                 "tag": "12",
                 "text": "Major Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "WGST",
@@ -734,6 +1265,7 @@
           "startTerm": "202140",
           "endTerm": "202250",
           "requirementAuthority": "RA001910",
+          "dw_req_id": "RA001910",
           "rules": [
             {
               "type": "subset",
@@ -755,7 +1287,8 @@
                     "tag": "3",
                     "text": "Introduction to Women's Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -770,7 +1303,8 @@
                     "tag": "4",
                     "text": "Feminist Theories"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -786,7 +1320,8 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -802,13 +1337,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -829,7 +1366,8 @@
                 "tag": "8",
                 "text": "Sexualities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -852,7 +1390,8 @@
                 "tag": "9",
                 "text": "Race, Culture and Gender - US"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -877,7 +1416,8 @@
                 "tag": "10",
                 "text": "Race, Culture, Gender - Global"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -901,7 +1441,8 @@
                 "tag": "11",
                 "text": "Historical Perspective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -946,7 +1487,8 @@
                 "tag": "12",
                 "text": "Major Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "WGST",
@@ -986,6 +1528,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002166",
+          "dw_req_id": "RA002166",
           "rules": [
             {
               "type": "subset",
@@ -1005,9 +1548,10 @@
                   },
                   "label": {
                     "tag": "3",
-                    "text": "Introduction to Women's Studies"
+                    "text": "Introduction to Women's and Gender Studies"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1022,7 +1566,8 @@
                     "tag": "4",
                     "text": "Feminist Theories"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1038,7 +1583,8 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1054,13 +1600,15 @@
                   },
                   "minCredits": 3,
                   "minClasses": 1,
-                  "combinationOperator": "and"
+                  "combinationOperator": "and",
+                  "dw_rule_id": "1-3"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1083,7 +1631,8 @@
                 "tag": "8",
                 "text": "Sexualities"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1111,7 +1660,8 @@
                 "tag": "9",
                 "text": "Race, Culture and Gender - US"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1138,7 +1688,8 @@
                 "tag": "10",
                 "text": "Race, Culture, Gender - Global"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -1171,7 +1722,8 @@
                 "tag": "11",
                 "text": "Historical Perspective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -1220,7 +1772,8 @@
                 "tag": "12",
                 "text": "Major Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "6"
             }
           ],
           "declaredMajor": "WGST",

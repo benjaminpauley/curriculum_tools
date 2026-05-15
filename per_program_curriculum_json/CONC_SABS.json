@@ -8,6 +8,7 @@
           "startTerm": "201910",
           "endTerm": "202050",
           "requirementAuthority": "RA000440",
+          "dw_req_id": "RA000440",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Number Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Geometry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Abstract Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Real Analysis II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,13 +90,15 @@
                     "tag": "5",
                     "text": "Computer Science and Programming I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "Required",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -112,7 +119,8 @@
                 "tag": "6",
                 "text": "Elective - Catgory A"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -136,7 +144,8 @@
                 "tag": "7",
                 "text": "Elective - Catgory B"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -165,7 +174,8 @@
                 "tag": "8",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -183,6 +193,7 @@
           "startTerm": "202110",
           "endTerm": "202150",
           "requirementAuthority": "RA001821",
+          "dw_req_id": "RA001821",
           "rules": [
             {
               "type": "subset",
@@ -200,7 +211,8 @@
                     "tag": "1",
                     "text": "Number Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -215,7 +227,8 @@
                     "tag": "2",
                     "text": "Geometry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -230,7 +243,8 @@
                     "tag": "3",
                     "text": "Abstract Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -245,7 +259,8 @@
                     "tag": "4",
                     "text": "Real Analysis II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -260,13 +275,15 @@
                     "tag": "5",
                     "text": "Computer Science and Programming I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "Required",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -287,7 +304,8 @@
                 "tag": "6",
                 "text": "Elective - Catgory A"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -311,7 +329,8 @@
                 "tag": "7",
                 "text": "Elective - Catgory B"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -341,7 +360,8 @@
                 "tag": "8",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -359,6 +379,7 @@
           "startTerm": "202210",
           "endTerm": "999999",
           "requirementAuthority": "RA001996",
+          "dw_req_id": "RA001996",
           "rules": [
             {
               "type": "subset",
@@ -376,7 +397,8 @@
                     "tag": "1",
                     "text": "Number Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -391,7 +413,8 @@
                     "tag": "2",
                     "text": "Geometry"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -406,7 +429,8 @@
                     "tag": "3",
                     "text": "Abstract Algebra"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -421,7 +445,8 @@
                     "tag": "4",
                     "text": "Real Analysis II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -437,13 +462,15 @@
                     "tag": "5",
                     "text": "CSC Programming"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 }
               ],
               "label": {
                 "tag": "Required",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -464,7 +491,8 @@
                 "tag": "6",
                 "text": "Elective - Catgory A"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -489,7 +517,8 @@
                 "tag": "7",
                 "text": "Elective - Catgory B"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -519,7 +548,8 @@
                 "tag": "8",
                 "text": "Concentration Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,

@@ -5,9 +5,10 @@
       "programName": "Concentration in Digital Art & Media Design",
       "versions": [
         {
-          "startTerm": "202310",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA002220",
+          "dw_req_id": "RA002220",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Two-Dimensional Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "3",
                     "text": "Digital Imaging & Web Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "4",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "5",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "6",
                     "text": "Art Hist: Pre-History to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,7 +122,8 @@
                     "tag": "7",
                     "text": "Art Hist: 1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -130,7 +138,8 @@
                     "tag": "8",
                     "text": "Graphic Design I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -145,13 +154,15 @@
                     "tag": "9",
                     "text": "Graphic Design II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 }
               ],
               "label": {
                 "tag": "12",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -168,7 +179,8 @@
                 "tag": "13",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -207,7 +219,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 5
+              "minClasses": 5,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -222,7 +235,8 @@
                 "tag": "15",
                 "text": "Major Capstone"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": null,
@@ -247,6 +261,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002597",
+          "dw_req_id": "RA002597",
           "rules": [
             {
               "type": "subset",
@@ -264,7 +279,8 @@
                     "tag": "1",
                     "text": "Two-Dimensional Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -278,7 +294,8 @@
                     "tag": "2",
                     "text": "Three-Dimensional Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -293,7 +310,8 @@
                     "tag": "3",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -307,7 +325,8 @@
                     "tag": "4",
                     "text": "Digital Imaging and Online Media"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -321,7 +340,8 @@
                     "tag": "5",
                     "text": "Intro to Art History:Prehistory to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -335,13 +355,15 @@
                     "tag": "6",
                     "text": "Intro to Art History:1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "Required Foundation Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -359,7 +381,8 @@
                     "tag": "8",
                     "text": "Writing About Art Stage 2"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -374,13 +397,15 @@
                     "tag": "9",
                     "text": "Writing About Art Stage 3"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "9.1.",
                 "text": "Required Writing Courses"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -395,7 +420,8 @@
                 "tag": "10",
                 "text": "Graphic Design I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -410,7 +436,8 @@
                 "tag": "11",
                 "text": "Graphic Design II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -425,7 +452,8 @@
                 "tag": "12",
                 "text": "Major Capstone"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -465,7 +493,8 @@
                 "tag": "13",
                 "text": "Concentration Electives"
               },
-              "minClasses": 5
+              "minClasses": 5,
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,

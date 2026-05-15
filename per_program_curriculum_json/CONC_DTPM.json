@@ -5,9 +5,10 @@
       "programName": "Conc in Design, Technology and Performance Media",
       "versions": [
         {
-          "startTerm": "202510",
-          "endTerm": "999999",
+          "startTerm": "000000",
+          "endTerm": "202650",
           "requirementAuthority": "RA002661",
+          "dw_req_id": "RA002661",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "2",
                 "text": "Fundamentals of Theatre Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -36,7 +38,8 @@
                 "tag": "3",
                 "text": "Disciplinary Pathway"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +56,8 @@
                 "tag": "4",
                 "text": "Practica"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -68,7 +72,8 @@
                 "tag": "5",
                 "text": "Adaptation/Media/Performance or Performance in America"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -99,7 +104,8 @@
                 "tag": "6",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": null,
@@ -114,7 +120,143 @@
           "sharingCredits": {
             "CONC_7_12": 3,
             "CONC_ESED": 3,
-            "MINOR_ANY": 3
+            "MINOR_ANY": 3,
+            "CONC_PACP": 3
+          }
+        },
+        {
+          "startTerm": "202710",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002987",
+          "dw_req_id": "RA002987",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 176"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Fundamentals of Theatre Design"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 265"
+                ]
+              },
+              "label": {
+                "tag": "2.2",
+                "text": "World Performance & Culture"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 275",
+                  "THE 278"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Disciplinary Pathway"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 225",
+                  "THE 226",
+                  "THE 227",
+                  "THE 392"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Practica"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 351",
+                  "THE 364"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Adaptation/Media/Performance or Performance in America"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 276",
+                  "THE 277",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 283",
+                  "THE 285",
+                  "THE 288",
+                  "THE 345",
+                  "THE 355",
+                  "THE 366",
+                  "THE 368",
+                  "THE 378",
+                  "THE 379",
+                  "THE 385",
+                  "THE 476",
+                  "FLM 355"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 4,
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3,
+            "CONC_ESED": 3,
+            "MINOR_ANY": 3,
+            "CONC_PACP": 3
           }
         }
       ]

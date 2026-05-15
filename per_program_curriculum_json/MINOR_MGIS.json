@@ -5,9 +5,116 @@
       "programName": "Minor in Management Information Systems",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "202550",
-          "requirementAuthority": "RA000311",
+          "startTerm": "200810",
+          "endTerm": "200820",
+          "requirementAuthority": "RA000112",
+          "dw_req_id": "RA000112",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Business and Society"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Bus Information Systems & Web Technology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 110"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Computing and Problem Solving"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370",
+                  "BUS 461:469",
+                  "CSC 200",
+                  "CSC 210",
+                  "CSC 231",
+                  "CSC 249",
+                  "CSC 251",
+                  "CSC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Management Information Systems Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "Within the Management Information Systems Electives, you are limited",
+            "to 9 credits in BUS 461-469"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "200840",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000310",
+          "dw_req_id": "RA000310",
           "rules": [
             {
               "type": "course",
@@ -23,7 +130,8 @@
                 "tag": "3",
                 "text": "Info Tech Project Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +146,8 @@
                 "tag": "4",
                 "text": "Bus Information Systems & Web Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -53,7 +162,115 @@
                 "tag": "5",
                 "text": "Introduction to Computing and Problem Solving"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 370",
+                  "BUS 461:469",
+                  "CSC 200",
+                  "CSC 210",
+                  "CSC 231",
+                  "CSC 249",
+                  "CSC 251",
+                  "CSC 300:499"
+                ],
+                "hidden": [
+                  "3@",
+                  "4@",
+                  "MAT 350",
+                  "MAT 353"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Management Information Systems Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "Within the Management Information Systems Electives, you are limited",
+            "to 9 credits in BUS 461-469"
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "202550",
+          "requirementAuthority": "RA000311",
+          "dw_req_id": "RA000311",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 442",
+                  "BUS 442"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Info Tech Project Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BIS 361"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Bus Information Systems & Web Technology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 110"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Computing and Problem Solving"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -84,7 +301,8 @@
                 "tag": "6",
                 "text": "Management Information Systems Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

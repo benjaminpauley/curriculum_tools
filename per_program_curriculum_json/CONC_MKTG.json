@@ -8,6 +8,7 @@
           "startTerm": "000000",
           "endTerm": "202150",
           "requirementAuthority": "RA000027",
+          "dw_req_id": "RA000027",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Marketing Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -46,7 +48,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 6
+              "minCredits": 6,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -66,6 +69,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001979",
+          "dw_req_id": "RA001979",
           "rules": [
             {
               "type": "course",
@@ -80,7 +84,8 @@
                 "tag": "1",
                 "text": "Marketing Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -107,7 +112,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -127,6 +133,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002592",
+          "dw_req_id": "RA002592",
           "rules": [
             {
               "type": "course",
@@ -141,7 +148,8 @@
                 "tag": "1",
                 "text": "Marketing Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -167,7 +175,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

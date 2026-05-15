@@ -5,9 +5,10 @@
       "programName": "Concentration in Archaeology",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA001696",
+          "dw_req_id": "RA001696",
           "rules": [
             {
               "type": "subset",
@@ -25,13 +26,15 @@
                     "tag": "1",
                     "text": "Archaeological Research Methods"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 }
               ],
               "label": {
                 "tag": "2",
                 "text": "Required Course"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -54,13 +57,15 @@
                     "tag": "3",
                     "text": "Choose 4 Concentration Electives"
                   },
-                  "minClasses": 4
+                  "minClasses": 4,
+                  "dw_rule_id": "2-0"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "Concentration Electives"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

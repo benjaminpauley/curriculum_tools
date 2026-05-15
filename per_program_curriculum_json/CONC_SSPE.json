@@ -7,7 +7,8 @@
         {
           "startTerm": "201510",
           "endTerm": "202050",
-          "requirementAuthority": "RA001661",
+          "requirementAuthority": "RA000228",
+          "dw_req_id": "RA000228",
           "rules": [
             {
               "type": "subset",
@@ -30,7 +31,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -48,7 +50,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -66,7 +69,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -86,7 +90,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -106,7 +111,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -126,7 +132,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -146,36 +153,80 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
-              "type": "course",
-              "courses": {
-                "connector": "or",
-                "courses": [
-                  "HSC 332",
-                  "HSC 352"
-                ],
-                "hidden": [
-                  "SLM 375",
-                  "HPE 403",
-                  "@ (With ATTRIBUTE=SMEL)"
-                ]
-              },
-              "label": {
-                "tag": "12",
-                "text": "Elective Courses"
-              },
-              "minClasses": 2,
-              "qualifiers": {
-                "minGrade": 2
-              }
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "BannerGPA >= 2.7",
+                  "rules": [
+                    {
+                      "type": "group",
+                      "minGroups": 1,
+                      "options": [
+                        {
+                          "rules": [
+                            {
+                              "type": "group",
+                              "minGroups": 2,
+                              "options": [],
+                              "label": {
+                                "tag": null,
+                                "text": "Group Requirement"
+                              },
+                              "dw_rule_id": "2-0-0"
+                            }
+                          ],
+                          "label": {
+                            "tag": "8",
+                            "text": "SLM Seminar"
+                          }
+                        }
+                      ],
+                      "label": {
+                        "tag": "11",
+                        "text": "ELECTIVE COURSES ONLY OR SEMINAR AND INTERNSHIP"
+                      },
+                      "dw_rule_id": "2-0"
+                    },
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "HSC 332",
+                          "HSC 352"
+                        ],
+                        "hidden": [
+                          "SLM 375",
+                          "HPE 403",
+                          "@ (With ATTRIBUTE=SMEL)"
+                        ]
+                      },
+                      "label": {
+                        "tag": "12",
+                        "text": "Elective Courses"
+                      },
+                      "minClasses": 2,
+                      "qualifiers": {
+                        "minGrade": 2
+                      },
+                      "dw_rule_id": "2-1"
+                    }
+                  ],
+                  "conditionType": "ethos"
+                }
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,
@@ -200,6 +251,7 @@
           "startTerm": "202110",
           "endTerm": "999999",
           "requirementAuthority": "RA001737",
+          "dw_req_id": "RA001737",
           "rules": [
             {
               "type": "subset",
@@ -222,7 +274,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -240,7 +293,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -258,7 +312,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -278,7 +333,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -298,7 +354,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -318,7 +375,8 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -338,13 +396,15 @@
                   "minClasses": 1,
                   "qualifiers": {
                     "minGrade": 2
-                  }
+                  },
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "6",
                 "text": "REQUIRED COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -365,7 +425,8 @@
                         "tag": "9",
                         "text": "Internship"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "ethos"
@@ -394,12 +455,14 @@
                       "minClasses": 2,
                       "qualifiers": {
                         "minGrade": 2
-                      }
+                      },
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": null,

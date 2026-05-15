@@ -1,0 +1,213 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "ERLA": {
+      "programName": "Major in Reading and Language Arts",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000357",
+          "dw_req_id": "RA000357",
+          "rules": [
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "EDU 508"
+                    ]
+                  },
+                  "label": {
+                    "tag": "2",
+                    "text": "Research in Education"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 510"
+                    ]
+                  },
+                  "label": {
+                    "tag": "3",
+                    "text": "Language and Literacy Development"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 511"
+                    ]
+                  },
+                  "label": {
+                    "tag": "4",
+                    "text": "Reading Development"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 514"
+                    ]
+                  },
+                  "label": {
+                    "tag": "5",
+                    "text": "Process, Development and Teaching of the Writing Process"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
+                }
+              ],
+              "label": {
+                "tag": "6",
+                "text": "GRADUATE COURSE READING & LANGUAGE ARTS CORE REQUIREMENTS"
+              },
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "subset",
+              "rules": [
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 516",
+                      "RLA 517",
+                      "RLA 518",
+                      "RLA 524",
+                      "RLA 526",
+                      "RLA 527",
+                      "RLA 528"
+                    ]
+                  },
+                  "label": {
+                    "tag": "7",
+                    "text": "Group A: Literature"
+                  },
+                  "minClasses": 3,
+                  "maxClasses": 4,
+                  "dw_rule_id": "2-0"
+                },
+                {
+                  "type": "course",
+                  "courses": {
+                    "connector": "or",
+                    "courses": [
+                      "RLA 516",
+                      "RLA 517",
+                      "RLA 518"
+                    ]
+                  },
+                  "label": {
+                    "tag": "8",
+                    "text": "Group B: Assessment"
+                  },
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
+                }
+              ],
+              "label": {
+                "tag": "9",
+                "text": "GRADUATE RELATED READING & LANGUAGE ARTS COURSE REQUIREMENTS"
+              },
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "group",
+              "minGroups": 1,
+              "options": [
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "EDU 570"
+                        ]
+                      },
+                      "label": {
+                        "tag": "10",
+                        "text": "Capstone Seminar & Comprehensive Portfolio Assessment"
+                      },
+                      "minClasses": 1,
+                      "dw_rule_id": "3-0"
+                    }
+                  ],
+                  "label": {
+                    "tag": "10",
+                    "text": "Capstone Seminar & Comprehensive Portfolio Assessment"
+                  }
+                },
+                {
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "and",
+                        "courses": [
+                          "RLA 698",
+                          "RLA 699"
+                        ]
+                      },
+                      "label": {
+                        "tag": "11",
+                        "text": "Thesis I and Thesis II"
+                      },
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
+                    }
+                  ],
+                  "label": {
+                    "tag": "11",
+                    "text": "Thesis I and Thesis II"
+                  }
+                }
+              ],
+              "label": {
+                "tag": "12",
+                "text": "CULMINATING EXPERIENCES"
+              },
+              "dw_rule_id": "3"
+            }
+          ],
+          "declaredMajor": "ERLA",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "This program is designed for students who wish to become more",
+            "informed about children's literature and its use in the classroom",
+            "and who wish to receive a Master's of Science in Reading and",
+            "Language Arts."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

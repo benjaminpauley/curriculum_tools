@@ -5,9 +5,10 @@
       "programName": "Concentration in Generalist",
       "versions": [
         {
-          "startTerm": "202410",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002396",
+          "dw_req_id": "RA002396",
           "rules": [
             {
               "type": "course",
@@ -56,7 +57,8 @@
                 "tag": "11",
                 "text": "Sociology Generalist Concentration Requirements"
               },
-              "minCredits": 18
+              "minCredits": 18,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

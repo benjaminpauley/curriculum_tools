@@ -8,6 +8,7 @@
           "startTerm": "201310",
           "endTerm": "201850",
           "requirementAuthority": "RA000068",
+          "dw_req_id": "RA000068",
           "rules": [
             {
               "type": "if_else",
@@ -22,7 +23,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "conditionType": "static"
@@ -35,12 +37,14 @@
                       "label": {
                         "tag": "9",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "declaredMajor": "VART",

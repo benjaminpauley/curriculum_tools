@@ -1,0 +1,106 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "EDUC": {
+      "programName": "Concentration in Education",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002876",
+          "dw_req_id": "RA002876",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECE 2XX"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Science & Math for Children"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 1XX"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Child Study Early Child/Elem"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 2XX"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Elementary Ed"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 3XX"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Supporting SEL in Schools"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EDU 222"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Creative Expressions"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

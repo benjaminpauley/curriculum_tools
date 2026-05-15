@@ -5,9 +5,10 @@
       "programName": "Minor in Med. Interpreting in Spanish",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "202450",
           "requirementAuthority": "RA001813",
+          "dw_req_id": "RA001813",
           "rules": [
             {
               "type": "course",
@@ -23,7 +24,8 @@
                 "tag": "10",
                 "text": "Medical Interpreting and Translation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "11",
                 "text": "Medical Terminology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "12",
                 "text": "Conversation & Composition I or II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -66,7 +70,8 @@
                 "tag": "13",
                 "text": "Spanish Translation and Interpretation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -89,7 +94,8 @@
                 "tag": null,
                 "text": "Minor Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -115,6 +121,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002653",
+          "dw_req_id": "RA002653",
           "rules": [
             {
               "type": "course",
@@ -129,7 +136,8 @@
                 "tag": "10",
                 "text": "Medical Interpreting and Translation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -143,7 +151,8 @@
                 "tag": "11",
                 "text": "Medical Terminology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -157,7 +166,8 @@
                 "tag": "12",
                 "text": "Latino/a Conversations"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -171,7 +181,8 @@
                 "tag": "13",
                 "text": "Spanish Translation and Interpretation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -194,7 +205,8 @@
                 "tag": null,
                 "text": "Minor Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

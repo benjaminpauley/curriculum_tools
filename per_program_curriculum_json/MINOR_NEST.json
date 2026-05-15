@@ -5,9 +5,10 @@
       "programName": "Minor in New England Studies",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "999999",
-          "requirementAuthority": "RA000320",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000115",
+          "dw_req_id": "RA000115",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Introduction to New England Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -35,7 +37,8 @@
                 "tag": "4",
                 "text": "Seminar in New England Studies"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -57,7 +60,96 @@
                 "tag": "5",
                 "text": "New England Studies Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "Within the New England Studies Electives, HIS 250/NES 250,",
+            "ENG 342/NES 342 and ENG 343/NES 343 are cross-listed courses.",
+            "Only one course from each combination may be taken."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000320",
+          "dw_req_id": "RA000320",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "NES 200"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introduction to New England Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "NES 400"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "Seminar in New England Studies"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 305",
+                  "ENG 342",
+                  "ENG 343",
+                  "HIS 319",
+                  "HIS 320",
+                  "HIS 325",
+                  "NES 315",
+                  "NES 319",
+                  "NES 343"
+                ],
+                "hidden": [
+                  "NES 250",
+                  "HIS 250"
+                ]
+              },
+              "label": {
+                "tag": "5",
+                "text": "New England Studies Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {

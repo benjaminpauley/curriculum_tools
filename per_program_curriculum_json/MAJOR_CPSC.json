@@ -8,6 +8,7 @@
           "startTerm": "201410",
           "endTerm": "201450",
           "requirementAuthority": "RA000496",
+          "dw_req_id": "RA000496",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Net-centric Computing/Networking Fundamentals"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Computer Organization and Architecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -82,7 +87,8 @@
                 "tag": "5",
                 "text": "Data Structures and Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -97,7 +103,8 @@
                 "tag": "6",
                 "text": "Computer Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -112,7 +119,8 @@
                 "tag": "7",
                 "text": "Program Language and Translations"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -127,7 +135,8 @@
                 "tag": "8",
                 "text": "Database and Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -142,7 +151,8 @@
                 "tag": "9",
                 "text": "Software Engineering and Professional Practice"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -157,7 +167,8 @@
                 "tag": "10",
                 "text": "Operating Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -172,7 +183,8 @@
                 "tag": "11",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "group",
@@ -197,7 +209,8 @@
                         "tag": "12",
                         "text": "Hardware Architecture"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "12-0"
                     }
                   ],
                   "label": {
@@ -223,7 +236,8 @@
                         "tag": "13",
                         "text": "Net-Centric Computing"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "12-1"
                     }
                   ],
                   "label": {
@@ -249,7 +263,8 @@
                         "tag": "14",
                         "text": "Software Development"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "12-2"
                     }
                   ],
                   "label": {
@@ -276,7 +291,8 @@
                         "tag": "15",
                         "text": "Computational Science"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "12-3"
                     }
                   ],
                   "label": {
@@ -304,7 +320,8 @@
                         "tag": "16",
                         "text": "Computer Science Electives"
                       },
-                      "minCredits": 12
+                      "minCredits": 12,
+                      "dw_rule_id": "12-4"
                     }
                   ],
                   "label": {
@@ -316,7 +333,8 @@
               "label": {
                 "tag": "17",
                 "text": "Computer Science Elective Areas"
-              }
+              },
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -331,7 +349,8 @@
                 "tag": "18",
                 "text": "Discrete Math for Computer Science or Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -346,7 +365,8 @@
                 "tag": "19",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -361,7 +381,8 @@
                 "tag": "20",
                 "text": "Calculus II with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             }
           ],
           "declaredMajor": "CPSC",
@@ -396,6 +417,7 @@
           "startTerm": "201510",
           "endTerm": "201750",
           "requirementAuthority": "RA000202",
+          "dw_req_id": "RA000202",
           "rules": [
             {
               "type": "course",
@@ -410,7 +432,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -425,7 +448,8 @@
                 "tag": "2",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -440,7 +464,8 @@
                 "tag": "3",
                 "text": "Net-centric Computing/Networking Fundamentals"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -455,7 +480,8 @@
                 "tag": "4",
                 "text": "Computer Organization and Architecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -470,7 +496,8 @@
                 "tag": "5",
                 "text": "Data Structures and Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -485,7 +512,8 @@
                 "tag": "6",
                 "text": "Programming Languages and Translation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -500,7 +528,8 @@
                 "tag": "7",
                 "text": "Database and Info Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -515,7 +544,8 @@
                 "tag": "8",
                 "text": "Software Engineering and Professional Practice"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -530,7 +560,8 @@
                 "tag": "9",
                 "text": "Operating Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -545,7 +576,8 @@
                 "tag": "10",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -560,7 +592,8 @@
                 "tag": "11",
                 "text": "Discrete Math for Computer Science or Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -575,7 +608,8 @@
                 "tag": "12",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -601,7 +635,8 @@
                 "tag": "13",
                 "text": "300/400 Level Computer Science Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -625,7 +660,8 @@
                 "tag": "14",
                 "text": "Computer Science Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "14"
             }
           ],
           "declaredMajor": "CPSC",
@@ -662,6 +698,7 @@
           "startTerm": "201810",
           "endTerm": "201950",
           "requirementAuthority": "RA000497",
+          "dw_req_id": "RA000497",
           "rules": [
             {
               "type": "course",
@@ -676,7 +713,8 @@
                 "tag": "1",
                 "text": "Fundamentals of Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -691,7 +729,8 @@
                 "tag": "2",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -706,7 +745,8 @@
                 "tag": "3",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -721,7 +761,8 @@
                 "tag": "4",
                 "text": "Data Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -736,7 +777,8 @@
                 "tag": "5",
                 "text": "Computer Organization and Architecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -751,7 +793,8 @@
                 "tag": "6",
                 "text": "Computer Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -766,7 +809,8 @@
                 "tag": "7",
                 "text": "Database and Info Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -781,7 +825,8 @@
                 "tag": "8",
                 "text": "Networking & Distributed Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -796,7 +841,8 @@
                 "tag": "9",
                 "text": "Operating Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -811,7 +857,8 @@
                 "tag": "10",
                 "text": "Software Engineering"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -826,7 +873,8 @@
                 "tag": "11",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -841,7 +889,8 @@
                 "tag": "12",
                 "text": "Discrete Math for Computer Science or Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -856,7 +905,8 @@
                 "tag": "13",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -882,7 +932,8 @@
                 "tag": "14",
                 "text": "300/400 Level Computer Science Electives"
               },
-              "minCredits": 8
+              "minCredits": 8,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -906,7 +957,8 @@
                 "tag": "15",
                 "text": "Computer Science Electives"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "15"
             }
           ],
           "declaredMajor": "CPSC",
@@ -941,6 +993,7 @@
           "startTerm": "202010",
           "endTerm": "202150",
           "requirementAuthority": "RA001305",
+          "dw_req_id": "RA001305",
           "rules": [
             {
               "type": "course",
@@ -955,7 +1008,8 @@
                 "tag": "1",
                 "text": "Fundamentals of Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -970,7 +1024,8 @@
                 "tag": "2",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -985,7 +1040,8 @@
                 "tag": "3",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1000,7 +1056,8 @@
                 "tag": "4",
                 "text": "Data Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -1015,7 +1072,8 @@
                 "tag": "5",
                 "text": "Computer Organization and Architecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -1030,7 +1088,8 @@
                 "tag": "6",
                 "text": "Computer Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -1045,7 +1104,8 @@
                 "tag": "7",
                 "text": "Database and Info Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -1060,7 +1120,8 @@
                 "tag": "8",
                 "text": "Networking & Distributed Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -1075,7 +1136,8 @@
                 "tag": "9",
                 "text": "Operating Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -1090,7 +1152,8 @@
                 "tag": "10",
                 "text": "Software Engineering"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -1105,7 +1168,8 @@
                 "tag": "11",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -1120,7 +1184,8 @@
                 "tag": "12",
                 "text": "Discrete Math for Computer Science or Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -1135,7 +1200,8 @@
                 "tag": "13",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -1161,7 +1227,8 @@
                 "tag": "14",
                 "text": "300/400 Level Computer Science Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -1185,7 +1252,8 @@
                 "tag": "15",
                 "text": "Computer Science Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             }
           ],
           "declaredMajor": "CPSC",
@@ -1233,6 +1301,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001942",
+          "dw_req_id": "RA001942",
           "rules": [
             {
               "type": "course",
@@ -1247,7 +1316,8 @@
                 "tag": "1",
                 "text": "Fundamentals of Computing"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -1262,7 +1332,8 @@
                 "tag": "2",
                 "text": "Computer Science and Programming I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1277,7 +1348,8 @@
                 "tag": "3",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -1292,7 +1364,8 @@
                 "tag": "3.5",
                 "text": "Computer Networking Fundamentals and Practice"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -1307,7 +1380,8 @@
                 "tag": "4",
                 "text": "Data Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -1322,7 +1396,8 @@
                 "tag": "5",
                 "text": "Computer Organization and Architecture"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -1337,7 +1412,8 @@
                 "tag": "6",
                 "text": "Computer Algorithms"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -1352,7 +1428,8 @@
                 "tag": "7",
                 "text": "Database and Info Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -1367,7 +1444,8 @@
                 "tag": "9",
                 "text": "Operating Systems"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -1382,7 +1460,8 @@
                 "tag": "10",
                 "text": "Software Engineering"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -1397,7 +1476,8 @@
                 "tag": "11",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -1412,7 +1492,8 @@
                 "tag": "12",
                 "text": "Discrete Math for Computer Science or Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -1427,7 +1508,8 @@
                 "tag": "13",
                 "text": "Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -1453,7 +1535,8 @@
                 "tag": "14",
                 "text": "300/400 Level Computer Science Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "14"
             },
             {
               "type": "course",
@@ -1477,7 +1560,8 @@
                 "tag": "15",
                 "text": "Computer Science Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "15"
             }
           ],
           "declaredMajor": "CPSC",
@@ -1528,6 +1612,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002674",
+          "dw_req_id": "RA002674",
           "rules": [
             {
               "type": "subset",
@@ -1545,7 +1630,8 @@
                     "tag": "1",
                     "text": "Fundamentals of Computing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1560,7 +1646,8 @@
                     "tag": "2",
                     "text": "Discrete Math for Computer Science or Discrete Structures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1574,7 +1661,8 @@
                     "tag": "3",
                     "text": "Calculus I with Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1588,7 +1676,8 @@
                     "tag": "4",
                     "text": "Calculus II with Technology"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1603,7 +1692,8 @@
                     "tag": "5",
                     "text": "Computer Science & Programming I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1618,7 +1708,8 @@
                     "tag": "6",
                     "text": "Computer Science & Programming II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1633,7 +1724,8 @@
                     "tag": "7",
                     "text": "Data Structures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1648,7 +1740,8 @@
                     "tag": "8",
                     "text": "Software Engineering"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -1663,7 +1756,8 @@
                     "tag": "9",
                     "text": "Database and Info Management"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -1678,13 +1772,15 @@
                     "tag": "10",
                     "text": "Senior Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 }
               ],
               "label": {
                 "tag": "11",
                 "text": "Required Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -1702,7 +1798,8 @@
                     "tag": "12",
                     "text": "Computer Networking Fundamentals and Practice"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -1717,7 +1814,8 @@
                     "tag": "13",
                     "text": "Computer Organization and Architecture"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 },
                 {
                   "type": "course",
@@ -1732,7 +1830,8 @@
                     "tag": "14",
                     "text": "Computer Algorithms"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-2"
                 },
                 {
                   "type": "course",
@@ -1747,7 +1846,8 @@
                     "tag": "15",
                     "text": "Programming Languages"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-3"
                 },
                 {
                   "type": "course",
@@ -1762,13 +1862,15 @@
                     "tag": "16",
                     "text": "Operating Systems"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-4"
                 }
               ],
               "label": {
                 "tag": "17",
                 "text": "Computer Science Principles"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -1797,7 +1899,8 @@
                 "tag": "18",
                 "text": "Computer Science Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "3"
             }
           ],
           "declaredMajor": "CPSC",

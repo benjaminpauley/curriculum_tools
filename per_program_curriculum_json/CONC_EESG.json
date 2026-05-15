@@ -8,6 +8,7 @@
           "startTerm": "200510",
           "endTerm": "202050",
           "requirementAuthority": "RA000207",
+          "dw_req_id": "RA000207",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "2",
                 "text": "Field Methods In Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "21",
                 "text": "Mineralogy/Rock Analysis w/Lab AND Struct Geol/Envron App w/Lab"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "2"
             },
             {
               "type": "group",
@@ -58,7 +61,8 @@
                         "tag": "3",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-0"
                     }
                   ],
                   "label": {
@@ -81,7 +85,8 @@
                         "tag": "4",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "3-1"
                     }
                   ],
                   "label": {
@@ -93,7 +98,8 @@
               "label": {
                 "tag": "5",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -108,7 +114,8 @@
                 "tag": "7",
                 "text": "Statistical Data Analysis or Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -128,7 +135,8 @@
                 "tag": "8",
                 "text": "General Earth Science Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "group",
@@ -150,7 +158,8 @@
                         "tag": "9",
                         "text": "General Earth Science Electives"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "label": {
@@ -174,7 +183,8 @@
                         "tag": "9.1",
                         "text": "General Earth Science Electives"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "label": {
@@ -186,7 +196,8 @@
               "label": {
                 "tag": "100",
                 "text": "ELECTIVES"
-              }
+              },
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,
@@ -209,6 +220,7 @@
           "startTerm": "202110",
           "endTerm": "999999",
           "requirementAuthority": "RA001774",
+          "dw_req_id": "RA001774",
           "rules": [
             {
               "type": "group",
@@ -234,7 +246,8 @@
                       "combinationOperator": "and",
                       "qualifiers": {
                         "priority": "high"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "label": {
@@ -257,7 +270,8 @@
                         "tag": "1.1",
                         "text": "Earth Science Laboratory & Dynamic Earth"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "label": {
@@ -280,7 +294,8 @@
                         "tag": "2",
                         "text": "Geology of National Parks & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-2"
                     }
                   ],
                   "label": {
@@ -303,7 +318,8 @@
                         "tag": "3",
                         "text": "Introduction to Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-3"
                     }
                   ],
                   "label": {
@@ -326,7 +342,8 @@
                         "tag": "5",
                         "text": "Environmental Geology & Earth Science Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-4"
                     }
                   ],
                   "label": {
@@ -349,7 +366,8 @@
                         "tag": "5.1",
                         "text": "Environmental Geology & Environmental Geology Lab"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "1-5"
                     }
                   ],
                   "label": {
@@ -361,7 +379,8 @@
               "label": {
                 "tag": "6",
                 "text": "EARTH SCIENCE & LAB"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -376,7 +395,8 @@
                 "tag": "2.1",
                 "text": "Minerology/Rock Analysis"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -391,7 +411,8 @@
                 "tag": "23.2",
                 "text": "Sedimentology And Stratigraphy With Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -406,7 +427,8 @@
                 "tag": "24.1",
                 "text": "Field Methods In Earth Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -421,7 +443,8 @@
                 "tag": "22.2",
                 "text": "Structural Geology And Environmental Applications w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "group",
@@ -442,7 +465,8 @@
                         "tag": "3.1",
                         "text": "General Physic I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "label": {
@@ -465,7 +489,8 @@
                         "tag": "4.2",
                         "text": "Physics With Calculus I & II With Laboratory"
                       },
-                      "minClasses": 2
+                      "minClasses": 2,
+                      "dw_rule_id": "6-1"
                     }
                   ],
                   "label": {
@@ -477,7 +502,8 @@
               "label": {
                 "tag": "5.3",
                 "text": "PHYSICS"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -492,7 +518,8 @@
                 "tag": "7",
                 "text": "Statistical Data Analysis or Calculus I with Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -510,7 +537,8 @@
                 "tag": "8",
                 "text": "Writing Intensive"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -526,7 +554,8 @@
                 "tag": "9.1",
                 "text": "Natural Sciences"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "9"
             }
           ],
           "minimumCredits": null,

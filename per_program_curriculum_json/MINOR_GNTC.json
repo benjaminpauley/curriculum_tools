@@ -5,9 +5,10 @@
       "programName": "Minor in Genetic Counseling",
       "versions": [
         {
-          "startTerm": "201810",
+          "startTerm": "000000",
           "endTerm": "202250",
           "requirementAuthority": "RA000528",
+          "dw_req_id": "RA000528",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "1",
                 "text": "Ethics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -42,7 +44,8 @@
                         "tag": "2",
                         "text": "Genetics and Society with Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -64,7 +67,8 @@
                         "tag": "3",
                         "text": "Genetics with Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -76,7 +80,8 @@
               "label": {
                 "tag": "4",
                 "text": "Genetics"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -94,7 +99,8 @@
                 "tag": "5",
                 "text": "Psychology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -112,7 +118,8 @@
                 "tag": "6",
                 "text": "Bioinformatics/Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "group",
@@ -132,7 +139,8 @@
                         "tag": "7",
                         "text": "Human Biology"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-0"
                     }
                   ],
                   "label": {
@@ -155,7 +163,8 @@
                         "tag": "8",
                         "text": "Intro Chemistry"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-1"
                     }
                   ],
                   "label": {
@@ -178,7 +187,8 @@
                         "tag": "9",
                         "text": "General Chemistry with Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-2"
                     }
                   ],
                   "label": {
@@ -200,7 +210,8 @@
                         "tag": "10",
                         "text": "Biochemistry I"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-3"
                     }
                   ],
                   "label": {
@@ -227,7 +238,8 @@
                         "tag": "11",
                         "text": "Psychology"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "5-4"
                     }
                   ],
                   "label": {
@@ -239,7 +251,8 @@
               "label": {
                 "tag": "12",
                 "text": "Minor Elective"
-              }
+              },
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -265,6 +278,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002185",
+          "dw_req_id": "RA002185",
           "rules": [
             {
               "type": "course",
@@ -278,7 +292,8 @@
                 "tag": "1",
                 "text": "Genetic Counseling"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "group",
@@ -299,7 +314,8 @@
                         "tag": "2",
                         "text": "Genetics and Society with Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "label": {
@@ -321,7 +337,8 @@
                         "tag": "3",
                         "text": "Genetics with Lab"
                       },
-                      "minClasses": 1
+                      "minClasses": 1,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "label": {
@@ -333,7 +350,8 @@
               "label": {
                 "tag": "4",
                 "text": "Genetics"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -348,7 +366,8 @@
                 "tag": "4.1",
                 "text": "Ethics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -367,7 +386,8 @@
                 "tag": "5",
                 "text": "Psychology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -385,7 +405,8 @@
                 "tag": "6",
                 "text": "Bioinformatics/Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

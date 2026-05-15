@@ -5,9 +5,10 @@
       "programName": "Concentration in Economic Policy and Analysis",
       "versions": [
         {
-          "startTerm": "202410",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002400",
+          "dw_req_id": "RA002400",
           "rules": [
             {
               "type": "course",
@@ -28,7 +29,8 @@
                 "tag": "2",
                 "text": "Concentration Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

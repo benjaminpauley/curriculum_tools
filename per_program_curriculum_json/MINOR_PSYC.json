@@ -5,9 +5,105 @@
       "programName": "Minor in Psychology",
       "versions": [
         {
+          "startTerm": "200810",
+          "endTerm": "200850",
+          "requirementAuthority": "RA000123",
+          "dw_req_id": "RA000123",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 202",
+                  "PSY 204",
+                  "PSY 205",
+                  "PSY 206",
+                  "PSY 208",
+                  "PSY 210",
+                  "PSY 301",
+                  "PSY 302",
+                  "PSY 303",
+                  "PSY 306",
+                  "PSY 318",
+                  "PSY 320",
+                  "PSY 407",
+                  "PSY 410",
+                  "PSY 418",
+                  "PSY 430",
+                  "PSY 460",
+                  "PSY 496",
+                  "PSY 497"
+                ]
+              },
+              "label": {
+                "tag": "4",
+                "text": "General Psychology Curriculum"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "PSY 101:499"
+                ],
+                "hidden": [
+                  "PSY 1@",
+                  "2@",
+                  "3@",
+                  "4@",
+                  "WST 315",
+                  "PBH 325",
+                  "ORG 671"
+                ],
+                "except": [
+                  "PSY 100 Low-Priority"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Psychology Electives"
+              },
+              "minCredits": 6,
+              "qualifiers": {
+                "priority": "low"
+              },
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 12,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "Psychology Minors must have a minimum of 12 credits of psychology",
+            "courses completed in residence at Eastern CT State University.",
+            "PSY 100 does not count toward the minor. ",
+            "A minimum of nine (9) unique credits is required",
+            "to complete a minor. "
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
           "startTerm": "200910",
           "endTerm": "999999",
           "requirementAuthority": "RA000328",
+          "dw_req_id": "RA000328",
           "rules": [
             {
               "type": "course",
@@ -28,7 +124,8 @@
                 "tag": "4",
                 "text": "300/400 Level Psychology Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -57,7 +154,8 @@
               "minCredits": 9,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

@@ -5,9 +5,10 @@
       "programName": "Concentration in Media Computation",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201720",
-          "requirementAuthority": "RA000050",
+          "startTerm": "000000",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000443",
+          "dw_req_id": "RA000443",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,80 @@
                 "tag": "2",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 230",
+                  "CSC 251",
+                  "CSC 311",
+                  "CSC 330",
+                  "CSC 335",
+                  "CSC 341"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201720",
+          "requirementAuthority": "RA000050",
+          "dw_req_id": "RA000050",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 231"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Computer Science and Programming II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CSC 450"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Senior Research"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -57,7 +132,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,
@@ -74,9 +150,10 @@
           }
         },
         {
-          "startTerm": "201840",
+          "startTerm": "201740",
           "endTerm": "999999",
           "requirementAuthority": "RA000444",
+          "dw_req_id": "RA000444",
           "rules": [
             {
               "type": "course",
@@ -91,7 +168,8 @@
                 "tag": "1",
                 "text": "Computer Science and Programming II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -109,7 +187,8 @@
                 "tag": "2",
                 "text": "Senior Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -128,7 +207,8 @@
                 "tag": "3",
                 "text": "Concentration Electives"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,

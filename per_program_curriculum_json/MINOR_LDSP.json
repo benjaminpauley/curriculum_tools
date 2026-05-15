@@ -5,9 +5,10 @@
       "programName": "Leadership Communication Minor",
       "versions": [
         {
-          "startTerm": "202110",
+          "startTerm": "000000",
           "endTerm": "202250",
           "requirementAuthority": "RA001744",
+          "dw_req_id": "RA001744",
           "rules": [
             {
               "type": "course",
@@ -27,7 +28,8 @@
                 "tag": "10",
                 "text": "Communication Skills for Leadership"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -49,7 +51,8 @@
                 "tag": "20",
                 "text": "Leadership in Context"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {
@@ -76,6 +79,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002139",
+          "dw_req_id": "RA002139",
           "rules": [
             {
               "type": "course",
@@ -95,7 +99,8 @@
                 "tag": "10",
                 "text": "Communication Skills for Leadership"
               },
-              "minClasses": 4
+              "minClasses": 4,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -117,7 +122,8 @@
                 "tag": "20",
                 "text": "Leadership in Context"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

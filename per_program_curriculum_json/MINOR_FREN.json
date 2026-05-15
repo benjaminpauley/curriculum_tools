@@ -5,9 +5,59 @@
       "programName": "Minor in French",
       "versions": [
         {
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000099",
+          "dw_req_id": "RA000099",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FRE 112:499"
+                ],
+                "hidden": [
+                  "FRE 1@",
+                  "2@",
+                  "3@",
+                  "4@"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "French Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
           "startTerm": "201110",
           "endTerm": "202020",
           "requirementAuthority": "RA000297",
+          "dw_req_id": "RA000297",
           "rules": [
             {
               "type": "course",
@@ -27,7 +77,8 @@
                 "tag": "3",
                 "text": "French Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -55,6 +106,7 @@
           "startTerm": "202040",
           "endTerm": "999999",
           "requirementAuthority": "RA001692",
+          "dw_req_id": "RA001692",
           "rules": [
             {
               "type": "course",
@@ -74,7 +126,8 @@
                 "tag": "3",
                 "text": "French Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {

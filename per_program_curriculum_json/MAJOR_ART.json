@@ -8,6 +8,7 @@
           "startTerm": "201310",
           "endTerm": "201850",
           "requirementAuthority": "RA000483",
+          "dw_req_id": "RA000483",
           "rules": [
             {
               "type": "if_else",
@@ -22,7 +23,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "conditionType": "static"
@@ -35,12 +37,14 @@
                       "label": {
                         "tag": "9",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -72,6 +76,7 @@
           "startTerm": "201910",
           "endTerm": "202250",
           "requirementAuthority": "RA000484",
+          "dw_req_id": "RA000484",
           "rules": [
             {
               "type": "if_else",
@@ -86,7 +91,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "conditionType": "static"
@@ -99,12 +105,14 @@
                       "label": {
                         "tag": "9",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -136,6 +144,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002224",
+          "dw_req_id": "RA002224",
           "rules": [
             {
               "type": "if_else",
@@ -150,7 +159,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "conditionType": "static"
@@ -163,12 +173,14 @@
                       "label": {
                         "tag": "9",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {
@@ -200,6 +212,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002625",
+          "dw_req_id": "RA002625",
           "rules": [
             {
               "type": "if_else",
@@ -214,7 +227,8 @@
                       "label": {
                         "tag": "8",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "1-0"
                     }
                   ],
                   "conditionType": "static"
@@ -227,12 +241,14 @@
                       "label": {
                         "tag": "9",
                         "text": "A Concentration is Required"
-                      }
+                      },
+                      "dw_rule_id": "1-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": {

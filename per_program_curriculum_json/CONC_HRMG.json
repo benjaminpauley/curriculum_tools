@@ -5,9 +5,91 @@
       "programName": "Concentration in Human Resource Management",
       "versions": [
         {
+          "startTerm": "201210",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000024",
+          "dw_req_id": "RA000024",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 433"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000431",
+          "dw_req_id": "RA000431",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 310",
+                  "BUS 330",
+                  "BUS 331",
+                  "BUS 333",
+                  "BUS 433",
+                  "BUS 436"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 9,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "Only 3 credits of transfer courses can be used in this concentration."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
           "startTerm": "201710",
           "endTerm": "202150",
           "requirementAuthority": "RA000432",
+          "dw_req_id": "RA000432",
           "rules": [
             {
               "type": "course",
@@ -26,7 +108,8 @@
                 "tag": "1",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "1"
             }
           ],
           "minimumCredits": null,

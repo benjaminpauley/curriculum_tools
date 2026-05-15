@@ -5,9 +5,10 @@
       "programName": "Minor in Sport and Exercise Science",
       "versions": [
         {
-          "startTerm": "202310",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002211",
+          "dw_req_id": "RA002211",
           "rules": [
             {
               "type": "course",
@@ -21,7 +22,8 @@
                 "tag": "3",
                 "text": "Introduction to Kinesiology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -51,7 +53,8 @@
                 "tag": "4",
                 "text": "Minor Electives"
               },
-              "minCredits": 12
+              "minCredits": 12,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

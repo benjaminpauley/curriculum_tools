@@ -1,0 +1,145 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "TACT": {
+      "programName": "Concentration in Acting Directing",
+      "versions": [
+        {
+          "startTerm": "201010",
+          "endTerm": "201350",
+          "requirementAuthority": "RA000388",
+          "dw_req_id": "RA000388",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 171",
+                  "THE 174",
+                  "THE 175",
+                  "THE 271",
+                  "THE 273",
+                  "THE 360",
+                  "THE 361",
+                  "THE 372",
+                  "THE 374",
+                  "THE 376",
+                  "THE 470",
+                  "THE 471",
+                  "THE 499",
+                  "DNC 232",
+                  "DNC 236",
+                  "DNC 242"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FLM 321",
+                  "THE 269",
+                  "THE 276",
+                  "THE 277",
+                  "THE 278",
+                  "THE 279",
+                  "THE 280",
+                  "THE 281",
+                  "THE 282",
+                  "THE 308",
+                  "THE 325",
+                  "THE 366",
+                  "THE 369",
+                  "THE 375",
+                  "THE 378",
+                  "THE 379",
+                  "THE 474"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Elective in Other Concentration"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "2"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        },
+        {
+          "startTerm": "201410",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000389",
+          "dw_req_id": "RA000389",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 171",
+                  "THE 173",
+                  "THE 174",
+                  "THE 175",
+                  "THE 271",
+                  "THE 273",
+                  "THE 360",
+                  "THE 361",
+                  "THE 372",
+                  "THE 374",
+                  "THE 376",
+                  "THE 470",
+                  "THE 471",
+                  "THE 499",
+                  "DNC 232",
+                  "DNC 236",
+                  "DNC 242"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 15,
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 3
+          }
+        }
+      ]
+    }
+  }
+}

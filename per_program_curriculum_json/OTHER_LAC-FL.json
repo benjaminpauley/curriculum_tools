@@ -1,0 +1,371 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "generalEducation": {
+    "LAC-FL": {
+      "programName": "Foreign Language Requirement",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000104",
+          "dw_req_id": "RA000104",
+          "rules": [
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "AuditAction=Transfer",
+                  "rules": [
+                    {
+                      "type": "rule_incomplete",
+                      "label": {
+                        "tag": null,
+                        "text": "High School Foreign Language"
+                      },
+                      "dw_rule_id": "1-0"
+                    },
+                    {
+                      "type": "if_else",
+                      "branches": [
+                        {
+                          "condition": "ATTRIBUTE=INTL",
+                          "rules": [
+                            {
+                              "type": "rule_complete",
+                              "label": {
+                                "tag": "1",
+                                "text": "Foreign Language Requirement Met By International Student Status"
+                              },
+                              "dw_rule_id": "1-1-0"
+                            },
+                            {
+                              "type": "if_else",
+                              "branches": [
+                                {
+                                  "condition": "MCL >=2 AND MCL <=5",
+                                  "rules": [
+                                    {
+                                      "type": "rule_complete",
+                                      "label": {
+                                        "tag": "2",
+                                        "text": "Foreign Language Requirement Met"
+                                      },
+                                      "dw_rule_id": "1-1-1-0"
+                                    },
+                                    {
+                                      "type": "if_else",
+                                      "branches": [
+                                        {
+                                          "condition": "MCLF >=2 AND MCLF <=5",
+                                          "rules": [
+                                            {
+                                              "type": "rule_complete",
+                                              "label": {
+                                                "tag": "3",
+                                                "text": "Foreign Language Requirement Met By 2 Years of H.S. French"
+                                              },
+                                              "dw_rule_id": "1-1-1-1-0"
+                                            },
+                                            {
+                                              "type": "if_else",
+                                              "branches": [
+                                                {
+                                                  "condition": "MCLS >=2 AND MCLS <=5",
+                                                  "rules": [
+                                                    {
+                                                      "type": "rule_complete",
+                                                      "label": {
+                                                        "tag": "4",
+                                                        "text": "Foreign Language Requirement Met By 2 Years of H.S. Spanish"
+                                                      },
+                                                      "dw_rule_id": "1-1-1-1-1-0"
+                                                    },
+                                                    {
+                                                      "type": "if_else",
+                                                      "branches": [
+                                                        {
+                                                          "condition": "MCLI >=2 AND MCLI <=5",
+                                                          "rules": [
+                                                            {
+                                                              "type": "rule_complete",
+                                                              "label": {
+                                                                "tag": "5",
+                                                                "text": "Foreign Language Requirement Met By 2 Years of H.S. Italian"
+                                                              },
+                                                              "dw_rule_id": "1-1-1-1-1-1-0"
+                                                            },
+                                                            {
+                                                              "type": "if_else",
+                                                              "branches": [
+                                                                {
+                                                                  "condition": "MCLW >=1",
+                                                                  "rules": [
+                                                                    {
+                                                                      "type": "rule_complete",
+                                                                      "label": {
+                                                                        "tag": "6",
+                                                                        "text": "Foreign Language Requirement Waived"
+                                                                      },
+                                                                      "dw_rule_id": "1-1-1-1-1-1-1-0"
+                                                                    },
+                                                                    {
+                                                                      "type": "if_else",
+                                                                      "branches": [
+                                                                        {
+                                                                          "condition": "ATTribute=MCLA",
+                                                                          "rules": [
+                                                                            {
+                                                                              "type": "course",
+                                                                              "courses": {
+                                                                                "connector": "or",
+                                                                                "courses": [
+                                                                                  "SPA 219",
+                                                                                  "SPA 365",
+                                                                                  "FRE 116",
+                                                                                  "FRE 223",
+                                                                                  "FRE 231",
+                                                                                  "FRE 331",
+                                                                                  "JPN 216",
+                                                                                  "CHI 216"
+                                                                                ],
+                                                                                "hidden": [
+                                                                                  "ARA 219",
+                                                                                  "CHI 216",
+                                                                                  "ITL 216",
+                                                                                  "ITL 219",
+                                                                                  "JPN 216",
+                                                                                  "SPA 319"
+                                                                                ]
+                                                                              },
+                                                                              "label": {
+                                                                                "tag": "6OAS",
+                                                                                "text": "Foreign Language Requirement - OAS Waiver On File"
+                                                                              },
+                                                                              "minClasses": 2,
+                                                                              "dw_rule_id": "1-1-1-1-1-1-1-1-0"
+                                                                            }
+                                                                          ],
+                                                                          "conditionType": "dw_internal"
+                                                                        },
+                                                                        {
+                                                                          "condition": null,
+                                                                          "rules": [
+                                                                            {
+                                                                              "type": "group",
+                                                                              "minGroups": 1,
+                                                                              "options": [
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "CHI @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "7",
+                                                                                        "text": "Chinese"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-0"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "7",
+                                                                                    "text": "Chinese"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "FRE @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "8",
+                                                                                        "text": "French"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-1"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "8",
+                                                                                    "text": "French"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "ITL @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "9",
+                                                                                        "text": "Italian"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-2"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "9",
+                                                                                    "text": "Italian"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "JPN @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "10",
+                                                                                        "text": "Japanese"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-3"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "10",
+                                                                                    "text": "Japanese"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "SPA @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "11",
+                                                                                        "text": "Spanish"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-4"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "11",
+                                                                                    "text": "Spanish"
+                                                                                  }
+                                                                                },
+                                                                                {
+                                                                                  "rules": [
+                                                                                    {
+                                                                                      "type": "course",
+                                                                                      "courses": {
+                                                                                        "connector": "or",
+                                                                                        "courses": [
+                                                                                          "@ @ (With ATTRIBUTE=LANG)"
+                                                                                        ]
+                                                                                      },
+                                                                                      "label": {
+                                                                                        "tag": "12",
+                                                                                        "text": "Foreign Language"
+                                                                                      },
+                                                                                      "minCredits": 6,
+                                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1-1-5"
+                                                                                    }
+                                                                                  ],
+                                                                                  "label": {
+                                                                                    "tag": "12",
+                                                                                    "text": "Foreign Language"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "label": {
+                                                                                "tag": "13",
+                                                                                "text": "FOREIGN LANGUAGE REQUIREMENT"
+                                                                              },
+                                                                              "dw_rule_id": "1-1-1-1-1-1-1-1-1"
+                                                                            }
+                                                                          ],
+                                                                          "conditionType": "static"
+                                                                        }
+                                                                      ],
+                                                                      "dw_rule_id": "1-1-1-1-1-1-1-1"
+                                                                    }
+                                                                  ],
+                                                                  "conditionType": "ethos"
+                                                                }
+                                                              ],
+                                                              "dw_rule_id": "1-1-1-1-1-1-1"
+                                                            }
+                                                          ],
+                                                          "conditionType": "ethos"
+                                                        }
+                                                      ],
+                                                      "dw_rule_id": "1-1-1-1-1-1"
+                                                    }
+                                                  ],
+                                                  "conditionType": "ethos"
+                                                }
+                                              ],
+                                              "dw_rule_id": "1-1-1-1-1"
+                                            }
+                                          ],
+                                          "conditionType": "ethos"
+                                        }
+                                      ],
+                                      "dw_rule_id": "1-1-1-1"
+                                    }
+                                  ],
+                                  "conditionType": "ethos"
+                                }
+                              ],
+                              "dw_rule_id": "1-1-1"
+                            }
+                          ],
+                          "conditionType": "dw_internal"
+                        }
+                      ],
+                      "dw_rule_id": "1-1"
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ],
+              "dw_rule_id": "1"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "2 years in High School or 2 semesters in college of same language."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

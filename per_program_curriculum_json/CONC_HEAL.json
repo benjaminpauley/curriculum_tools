@@ -1,0 +1,210 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "HEAL": {
+      "programName": "Concentration in Health",
+      "versions": [
+        {
+          "startTerm": "201040",
+          "endTerm": "201220",
+          "requirementAuthority": "RA000425",
+          "dw_req_id": "RA000425",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 207"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Nutition Across The Lifespan"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 325"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Holistic Health"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 326"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Stress Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Physiological Basis of Movement"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SLM 365"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Worksite Health Promotion"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201240",
+          "endTerm": "201420",
+          "requirementAuthority": "RA000426",
+          "dw_req_id": "RA000426",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 209"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Nutition and Public Health"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 311"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "2",
+                "text": "Community Health & Wellness"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 326"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Stress Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "HPE 329"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Physiological Basis of Movement"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "SLM 365"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Worksite Health Promotion"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

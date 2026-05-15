@@ -8,6 +8,7 @@
           "startTerm": "201410",
           "endTerm": "201950",
           "requirementAuthority": "RA000264",
+          "dw_req_id": "RA000264",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -39,7 +41,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -54,7 +57,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -69,7 +73,8 @@
                 "tag": "4",
                 "text": "Learning & Congition"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -84,7 +89,8 @@
                 "tag": "5",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -102,7 +108,8 @@
                     "tag": "6",
                     "text": "Clinical/Counseling"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -116,7 +123,8 @@
                     "tag": "7",
                     "text": "Test & Measures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-1"
                 },
                 {
                   "type": "course",
@@ -131,13 +139,15 @@
                     "tag": "8",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-2"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "Clinical/Internship"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -168,7 +178,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -186,6 +197,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001429",
+          "dw_req_id": "RA001429",
           "rules": [
             {
               "type": "course",
@@ -200,7 +212,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -217,7 +230,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -232,7 +246,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -247,7 +262,8 @@
                 "tag": "4",
                 "text": "Learning & Congition"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -262,7 +278,8 @@
                 "tag": "5",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -280,7 +297,8 @@
                     "tag": "6",
                     "text": "Clinical/Counseling"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -294,7 +312,8 @@
                     "tag": "7",
                     "text": "Test & Measures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-1"
                 },
                 {
                   "type": "course",
@@ -309,13 +328,15 @@
                     "tag": "8",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-2"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "Clinical/Internship"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -349,7 +370,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -367,6 +389,7 @@
           "startTerm": "202310",
           "endTerm": "202450",
           "requirementAuthority": "RA002165",
+          "dw_req_id": "RA002165",
           "rules": [
             {
               "type": "course",
@@ -381,7 +404,8 @@
                 "tag": "1",
                 "text": "Research"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -398,7 +422,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -413,7 +438,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -428,7 +454,8 @@
                 "tag": "4",
                 "text": "Learning & Congition"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -446,7 +473,8 @@
                 "tag": "5",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "subset",
@@ -464,7 +492,8 @@
                     "tag": "6",
                     "text": "Clinical/Counseling"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-0"
                 },
                 {
                   "type": "course",
@@ -478,7 +507,8 @@
                     "tag": "7",
                     "text": "Test & Measures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-1"
                 },
                 {
                   "type": "course",
@@ -493,13 +523,15 @@
                     "tag": "8",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "6-2"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "Clinical/Internship"
-              }
+              },
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -534,7 +566,8 @@
               },
               "minCredits": 3,
               "minClasses": 1,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "7"
             }
           ],
           "minimumCredits": null,
@@ -552,6 +585,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002580",
+          "dw_req_id": "RA002580",
           "rules": [
             {
               "type": "course",
@@ -568,7 +602,8 @@
                 "tag": "2",
                 "text": "Developmental"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -583,7 +618,8 @@
                 "tag": "3",
                 "text": "Individual Differences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -598,7 +634,8 @@
                 "tag": "4",
                 "text": "Learning & Congition"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -618,7 +655,8 @@
                 "tag": "5",
                 "text": "Biological Bases of Behavior"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "subset",
@@ -636,7 +674,8 @@
                     "tag": "6",
                     "text": "Clinical/Counseling"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-0"
                 },
                 {
                   "type": "course",
@@ -650,7 +689,8 @@
                     "tag": "7",
                     "text": "Test & Measures"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-1"
                 },
                 {
                   "type": "course",
@@ -665,13 +705,15 @@
                     "tag": "8",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "5-2"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "Clinical/Internship"
-              }
+              },
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -706,7 +748,8 @@
               },
               "minCredits": 6,
               "minClasses": 2,
-              "combinationOperator": "and"
+              "combinationOperator": "and",
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": null,

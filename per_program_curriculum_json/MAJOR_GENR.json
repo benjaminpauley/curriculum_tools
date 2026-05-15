@@ -1,0 +1,91 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "GENR": {
+      "programName": "Major in General Studies",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000138",
+          "dw_req_id": "RA000138",
+          "rules": [
+            {
+              "type": "blocktype_ref",
+              "blockType": "CONC",
+              "count": 1,
+              "label": {
+                "tag": "2",
+                "text": "Concentration Requirements"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "degreeType": "AS",
+          "declaredMajor": "GENR",
+          "minimumCredits": {
+            "min": 15
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "An approved plan must be entered on your student record to be",
+            "reflected on this unofficial degree evaluation."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        },
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000159",
+          "dw_req_id": "RA000159",
+          "rules": [
+            {
+              "type": "blocktype_ref",
+              "blockType": "CONC",
+              "count": 2,
+              "label": {
+                "tag": "4",
+                "text": "Major and Minor Concentrations are required"
+              },
+              "dw_rule_id": "1"
+            }
+          ],
+          "degreeType": "BGS",
+          "declaredMajor": "GENR",
+          "minimumCredits": {
+            "min": 45
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "An approved BGS plan of study must be entered on your",
+            "student record to be reflected on this unofficial degree evaluation.",
+            "A minimum of 15-credits of the major concentration must be taken",
+            "at Eastern CT State University. A minimum of 15-credits of the major",
+            "concentration must be 300/400 level."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

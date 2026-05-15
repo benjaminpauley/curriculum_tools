@@ -5,9 +5,10 @@
       "programName": "Minor in Geography",
       "versions": [
         {
-          "startTerm": "200710",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA000102",
+          "dw_req_id": "RA000102",
           "rules": [
             {
               "type": "course",
@@ -27,7 +28,8 @@
                 "tag": "3",
                 "text": "300/400 Level Geography Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -54,7 +56,8 @@
               "minClasses": 3,
               "qualifiers": {
                 "priority": "low"
-              }
+              },
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

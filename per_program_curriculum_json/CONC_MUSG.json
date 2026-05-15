@@ -1,0 +1,258 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "MUSG": {
+      "programName": "Concentration in Global Perspectives",
+      "versions": [
+        {
+          "startTerm": "201010",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000422",
+          "dw_req_id": "RA000422",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 227",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 330",
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Global Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 214",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 230",
+                  "MUS 256",
+                  "MUS 309",
+                  "MUS 317",
+                  "MUS 350",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201550",
+          "requirementAuthority": "RA000423",
+          "dw_req_id": "RA000423",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 227",
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 330",
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Global Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 214",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 256",
+                  "MUS 309",
+                  "MUS 317",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        },
+        {
+          "startTerm": "201610",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000424",
+          "dw_req_id": "RA000424",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "1",
+                "text": "Senior Project"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 304",
+                  "MUS 308",
+                  "MUS 310",
+                  "MUS 314",
+                  "MUS 490"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Global Electives"
+              },
+              "minCredits": 12,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MUS 113",
+                  "MUS 212",
+                  "MUS 217",
+                  "MUS 218",
+                  "MUS 220",
+                  "MUS 309",
+                  "MUS 317",
+                  "MUS 350",
+                  "MUS 355",
+                  "MUS 356",
+                  "MUS 372",
+                  "MUS 456"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Concentration Electives"
+              },
+              "minCredits": 3,
+              "dw_rule_id": "3"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 6
+          }
+        }
+      ]
+    }
+  }
+}

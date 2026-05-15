@@ -1,0 +1,34 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "majors": {
+    "INDV": {
+      "programName": "Individualized Major",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000252",
+          "dw_req_id": "RA000252",
+          "rules": [],
+          "declaredMajor": "INDV",
+          "minimumCredits": {
+            "min": 36
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "At least 18 of the 36 shall come from one discipline and consist of courses",
+            "designed for departmental majors. Students may apply no more than six credits",
+            "of independent study/internships/field placement coursework toward the major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

@@ -8,6 +8,7 @@
           "startTerm": "201310",
           "endTerm": "201850",
           "requirementAuthority": "RA000433",
+          "dw_req_id": "RA000433",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "1",
                 "text": "Two Dimensional Design Elements"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "2",
                 "text": "Three Dimensional Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -82,7 +87,8 @@
                 "tag": "5",
                 "text": "Relief Printmaking I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -97,7 +103,8 @@
                 "tag": "6",
                 "text": "Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -112,7 +119,8 @@
                 "tag": "7",
                 "text": "Art History I: Pre-History-1600"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -127,7 +135,8 @@
                 "tag": "8",
                 "text": "Art History II: 1600-Present"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -142,7 +151,8 @@
                 "tag": "9",
                 "text": "Figure Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -157,7 +167,8 @@
                 "tag": "10",
                 "text": "Illustration I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -172,7 +183,8 @@
                 "tag": "11",
                 "text": "Illustration II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -187,7 +199,8 @@
                 "tag": "12",
                 "text": "Illustration III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -202,7 +215,8 @@
                 "tag": "13",
                 "text": "Senior Project in Studio Art"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -232,7 +246,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "14"
             }
           ],
           "minimumCredits": null,
@@ -253,6 +268,7 @@
           "startTerm": "201910",
           "endTerm": "202050",
           "requirementAuthority": "RA000434",
+          "dw_req_id": "RA000434",
           "rules": [
             {
               "type": "course",
@@ -267,7 +283,8 @@
                 "tag": "1",
                 "text": "Two Dimensional Design Elements"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -283,7 +300,8 @@
                 "tag": "2",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -298,7 +316,8 @@
                 "tag": "3",
                 "text": "Digital Illustration & Page Layout"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -313,7 +332,8 @@
                 "tag": "4",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -328,7 +348,8 @@
                 "tag": "5",
                 "text": "Relief Printmaking I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -343,7 +364,8 @@
                 "tag": "6",
                 "text": "Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -358,7 +380,8 @@
                 "tag": "7",
                 "text": "Art History I: Pre-History-1400"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -373,7 +396,8 @@
                 "tag": "8",
                 "text": "Art History II: 1400-Present"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "8"
             },
             {
               "type": "course",
@@ -388,7 +412,8 @@
                 "tag": "9",
                 "text": "Figure Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "9"
             },
             {
               "type": "course",
@@ -403,7 +428,8 @@
                 "tag": "10",
                 "text": "Illustration I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "10"
             },
             {
               "type": "course",
@@ -418,7 +444,8 @@
                 "tag": "11",
                 "text": "Illustration II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "11"
             },
             {
               "type": "course",
@@ -433,7 +460,8 @@
                 "tag": "12",
                 "text": "Illustration III"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "12"
             },
             {
               "type": "course",
@@ -448,7 +476,8 @@
                 "tag": "13",
                 "text": "Senior Project in Studio Art"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "13"
             },
             {
               "type": "course",
@@ -474,7 +503,8 @@
                 "tag": "14",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "14"
             }
           ],
           "minimumCredits": null,
@@ -492,9 +522,269 @@
           }
         },
         {
+          "startTerm": "202110",
+          "endTerm": "202450",
+          "requirementAuthority": "RA001685",
+          "dw_req_id": "RA001685",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 110"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "1",
+                "text": "Two Dimensional Design Elements"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 111",
+                  "ART 207",
+                  "ART 217"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "3-D Foundation Course"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 122"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Digital Illustration & Page Layout"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 124"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Digital Imaging & Online Media"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 201"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Relief Printmaking I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 202"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Drawing I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "6"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 211"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "7",
+                "text": "Art History I: Pre-History-1400"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "7"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 212"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Art History II: 1400-Present"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "8"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 309"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "9",
+                "text": "Figure Drawing I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "9"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 322"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "10",
+                "text": "Illustration I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "10"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 342"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "11",
+                "text": "Illustration II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "11"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 422"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "12",
+                "text": "Illustration III"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "12"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 485"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "13",
+                "text": "Senior Project in Studio Art"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "13"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 209",
+                  "ART 215",
+                  "ART 230",
+                  "ART 308",
+                  "ART 315",
+                  "ART 317",
+                  "ART 331",
+                  "ART 332",
+                  "ART 343",
+                  "ART 346",
+                  "ART 352",
+                  "ART 403",
+                  "ART 421",
+                  "ART 470"
+                ]
+              },
+              "label": {
+                "tag": "14",
+                "text": "Concentration Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "14"
+            }
+          ],
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "CONC_7_12": 12,
+            "MINOR_ARHI": 6,
+            "CONC_SART": 9
+          }
+        },
+        {
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002598",
+          "dw_req_id": "RA002598",
           "rules": [
             {
               "type": "subset",
@@ -512,7 +802,8 @@
                     "tag": "1",
                     "text": "Two Dimensional Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -526,7 +817,8 @@
                     "tag": "2",
                     "text": "Three-Dimensional Design"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -541,7 +833,8 @@
                     "tag": "3",
                     "text": "Digital Illustration & Page Layout"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -555,7 +848,8 @@
                     "tag": "4",
                     "text": "Digital Imaging and Online Media"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -569,7 +863,8 @@
                     "tag": "5",
                     "text": "Intro to Art History:Prehistory to 1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -583,13 +878,15 @@
                     "tag": "6",
                     "text": "Intro to Art History:1400 to the Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 }
               ],
               "label": {
                 "tag": "7",
                 "text": "Required Foundation Courses"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "subset",
@@ -607,7 +904,8 @@
                     "tag": "8",
                     "text": "Writing About Art Stage 2"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-0"
                 },
                 {
                   "type": "course",
@@ -622,13 +920,15 @@
                     "tag": "9",
                     "text": "Writing About Art Stage 3"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "2-1"
                 }
               ],
               "label": {
                 "tag": "9.1",
                 "text": "Required Writing Courses"
-              }
+              },
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -643,7 +943,8 @@
                 "tag": "10",
                 "text": "Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -658,7 +959,8 @@
                 "tag": "11",
                 "text": "Figure Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -673,7 +975,8 @@
                 "tag": "12",
                 "text": "Traditional Illustration"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -688,7 +991,8 @@
                 "tag": "13",
                 "text": "Digital Illustration"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "6"
             },
             {
               "type": "course",
@@ -702,7 +1006,8 @@
                 "tag": "14",
                 "text": "Capstone"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "7"
             },
             {
               "type": "course",
@@ -730,7 +1035,8 @@
                 "tag": "15",
                 "text": "Concentration Electives"
               },
-              "minCredits": 9
+              "minCredits": 9,
+              "dw_rule_id": "8"
             }
           ],
           "minimumCredits": null,

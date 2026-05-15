@@ -5,9 +5,10 @@
       "programName": "Minor in Insurance",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201950",
-          "requirementAuthority": "RA000307",
+          "startTerm": "200810",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000110",
+          "dw_req_id": "RA000110",
           "rules": [
             {
               "type": "course",
@@ -23,7 +24,8 @@
                 "tag": "3",
                 "text": "Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -39,7 +41,8 @@
                 "tag": "4",
                 "text": "Business Finance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -54,7 +57,8 @@
                 "tag": "5",
                 "text": "Risk Management and Insurance"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -69,7 +73,8 @@
                 "tag": "6",
                 "text": "Information Management"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -93,7 +98,8 @@
                 "tag": "7",
                 "text": "Business/Finance Insurance Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             },
             {
               "type": "course",
@@ -111,7 +117,146 @@
                 "tag": "8",
                 "text": "Finance Insurance Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": {
+            "min": 24
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 6
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000307",
+          "dw_req_id": "RA000307",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ECO 215",
+                  "MAT 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Statistics"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 245",
+                  "FIN 245"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Business Finance"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 300"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Risk Management and Insurance"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 205"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Information Management"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "BUS 250",
+                  "BUS 346",
+                  "BUS 347",
+                  "BUS 348",
+                  "FIN 346",
+                  "FIN 347",
+                  "FIN 348",
+                  "OSC 260"
+                ],
+                "hidden": [
+                  "BUS 260"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Business/Finance Insurance Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FIN 400",
+                  "FIN 401",
+                  "FIN 402",
+                  "FIN 403"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "8",
+                "text": "Finance Insurance Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {
@@ -139,6 +284,7 @@
           "startTerm": "202010",
           "endTerm": "202250",
           "requirementAuthority": "RA001440",
+          "dw_req_id": "RA001440",
           "rules": [
             {
               "type": "course",
@@ -154,7 +300,8 @@
                 "tag": "3",
                 "text": "Statistics"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -173,7 +320,8 @@
                 "tag": "8",
                 "text": "Core Courses Finance - Insurance"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -197,7 +345,8 @@
                 "tag": "7",
                 "text": "Business/Finance Insurance Electives"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": {
@@ -225,6 +374,7 @@
           "startTerm": "202310",
           "endTerm": "999999",
           "requirementAuthority": "RA002218",
+          "dw_req_id": "RA002218",
           "rules": [
             {
               "type": "course",
@@ -243,7 +393,8 @@
                 "tag": "8",
                 "text": "Core Courses Finance - Insurance"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -267,7 +418,8 @@
                 "tag": "7",
                 "text": "Business/Finance Insurance Electives"
               },
-              "minClasses": 1
+              "minClasses": 2,
+              "dw_rule_id": "2"
             }
           ],
           "minimumCredits": {

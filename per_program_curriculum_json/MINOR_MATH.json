@@ -5,9 +5,10 @@
       "programName": "Minor in Mathematics",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "999999",
-          "requirementAuthority": "RA000312",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000113",
+          "dw_req_id": "RA000113",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Discrete Structures"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Calculus I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -74,7 +78,107 @@
                 "tag": "6",
                 "text": "Mathematics Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "4"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "999999",
+          "requirementAuthority": "RA000312",
+          "dw_req_id": "RA000312",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 230"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Discrete Structures"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 243"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Calculus I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Calculus II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 300:499"
+                ],
+                "hidden": [
+                  "MAT 3@",
+                  "4@",
+                  "CSC 350",
+                  "CSC 353",
+                  "AST 375",
+                  "EDU 491"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Mathematics Electives"
+              },
+              "minClasses": 3,
+              "dw_rule_id": "4"
             }
           ],
           "minimumCredits": {

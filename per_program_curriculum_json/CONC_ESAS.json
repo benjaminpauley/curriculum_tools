@@ -5,9 +5,10 @@
       "programName": "Environmental Science and Sustainability",
       "versions": [
         {
-          "startTerm": "202510",
+          "startTerm": "000000",
           "endTerm": "999999",
           "requirementAuthority": "RA002443",
+          "dw_req_id": "RA002443",
           "rules": [
             {
               "type": "course",
@@ -24,7 +25,8 @@
                 "tag": "2",
                 "text": "Ecology with Laboratory"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -38,7 +40,8 @@
                 "tag": "4",
                 "text": "Energy Resources and Conservation"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -64,7 +67,8 @@
                 "tag": "5",
                 "text": "Environmental Science and Sustainability Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -82,7 +86,8 @@
                 "tag": "6",
                 "text": "Concentration Elective"
               },
-              "minCredits": 3
+              "minCredits": 3,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -96,7 +101,8 @@
                 "tag": "7",
                 "text": "Capstone:Sustainability Issues in Geosciences"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "degreeType": "BS",

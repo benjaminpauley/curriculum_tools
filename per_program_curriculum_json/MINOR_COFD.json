@@ -5,9 +5,10 @@
       "programName": "Minor in Costume & Fashion Design",
       "versions": [
         {
-          "startTerm": "201710",
-          "endTerm": "201850",
-          "requirementAuthority": "RA000284",
+          "startTerm": "200810",
+          "endTerm": "201450",
+          "requirementAuthority": "RA000091",
+          "dw_req_id": "RA000091",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Fashion Design & Illustration"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Textile Design"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Introduction to Costuming and Make Up"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,16 +71,17 @@
                 "tag": "6",
                 "text": "Costume History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
               "courses": {
                 "connector": "or",
                 "courses": [
+                  "ART 328",
                   "ART 418",
                   "ART 480",
-                  "ART 328",
                   "THE 267",
                   "THE 379",
                   "THE 480"
@@ -86,7 +91,8 @@
                 "tag": "7",
                 "text": "Costume & Fashion Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -106,12 +112,296 @@
                         "tag": "8",
                         "text": "Independent Study in Theatre"
                       },
-                      "minCredits": 3
+                      "minCredits": 3,
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "unknown"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "If THE 480 is taken, you must take this course for a minimim of",
+            "three credits."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201510",
+          "endTerm": "201650",
+          "requirementAuthority": "RA000283",
+          "dw_req_id": "RA000283",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 214"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Fashion Design & Illustration"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Textile Design"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 278"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Costuming and Make Up"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 279"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Costume History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 418",
+                  "ART 480",
+                  "ART 328",
+                  "THE 267",
+                  "THE 379",
+                  "THE 480"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Costume & Fashion Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "THE 480 IS PASSED",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 480"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Independent Study in Theatre"
+                      },
+                      "minCredits": 3,
+                      "dw_rule_id": "6-0"
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ],
+              "dw_rule_id": "6"
+            }
+          ],
+          "minimumCredits": {
+            "min": 18
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 1,
+          "residencyCredits": 6,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor.",
+            "If THE 480 is taken, you must take this course for a minimim of",
+            "three credits."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 9
+          }
+        },
+        {
+          "startTerm": "201710",
+          "endTerm": "201950",
+          "requirementAuthority": "RA000284",
+          "dw_req_id": "RA000284",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 214"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Fashion Design & Illustration"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 216"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Textile Design"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 278"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Introduction to Costuming and Make Up"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "THE 279"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Costume History"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "ART 418",
+                  "ART 480",
+                  "ART 328",
+                  "THE 267",
+                  "THE 379",
+                  "THE 480"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Costume & Fashion Design Electives"
+              },
+              "minClasses": 2,
+              "dw_rule_id": "5"
+            },
+            {
+              "type": "if_else",
+              "branches": [
+                {
+                  "condition": "THE 480 IS PASSED",
+                  "rules": [
+                    {
+                      "type": "course",
+                      "courses": {
+                        "connector": "or",
+                        "courses": [
+                          "THE 480"
+                        ]
+                      },
+                      "label": {
+                        "tag": "8",
+                        "text": "Independent Study in Theatre"
+                      },
+                      "minCredits": 3,
+                      "dw_rule_id": "6-0"
+                    }
+                  ],
+                  "conditionType": "unknown"
+                }
+              ],
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {
@@ -141,6 +431,7 @@
           "startTerm": "202010",
           "endTerm": "202450",
           "requirementAuthority": "RA000526",
+          "dw_req_id": "RA000526",
           "rules": [
             {
               "type": "course",
@@ -155,7 +446,8 @@
                 "tag": "3",
                 "text": "Digital Imaging & Online Media"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -170,7 +462,8 @@
                 "tag": "4",
                 "text": "Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -185,7 +478,8 @@
                 "tag": "5",
                 "text": "Intro to Costume Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -200,7 +494,8 @@
                 "tag": "6",
                 "text": "Costume History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -220,7 +515,8 @@
                 "tag": "7",
                 "text": "Costume & Fashion Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -240,12 +536,14 @@
                         "tag": "8",
                         "text": "Independent Study in Theatre"
                       },
-                      "minCredits": 3
+                      "minCredits": 3,
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "unknown"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {
@@ -275,6 +573,7 @@
           "startTerm": "202510",
           "endTerm": "999999",
           "requirementAuthority": "RA002657",
+          "dw_req_id": "RA002657",
           "rules": [
             {
               "type": "course",
@@ -289,7 +588,8 @@
                 "tag": "4",
                 "text": "Drawing I"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -304,7 +604,8 @@
                 "tag": "3",
                 "text": "Fashion Design & Illustration"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -319,7 +620,8 @@
                 "tag": "5",
                 "text": "Intro to Costume Technology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -334,7 +636,8 @@
                 "tag": "6",
                 "text": "Costume History"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -356,7 +659,8 @@
                 "tag": "7",
                 "text": "Costume & Fashion Design Electives"
               },
-              "minClasses": 2
+              "minClasses": 2,
+              "dw_rule_id": "5"
             },
             {
               "type": "if_else",
@@ -376,12 +680,14 @@
                         "tag": "8",
                         "text": "Independent Study in Theatre"
                       },
-                      "minCredits": 3
+                      "minCredits": 3,
+                      "dw_rule_id": "6-0"
                     }
                   ],
                   "conditionType": "unknown"
                 }
-              ]
+              ],
+              "dw_rule_id": "6"
             }
           ],
           "minimumCredits": {

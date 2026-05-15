@@ -5,9 +5,10 @@
       "programName": "Minor in Hydrogeology",
       "versions": [
         {
-          "startTerm": "201110",
-          "endTerm": "201550",
-          "requirementAuthority": "RA000305",
+          "startTerm": "200810",
+          "endTerm": "201050",
+          "requirementAuthority": "RA000109",
+          "dw_req_id": "RA000109",
           "rules": [
             {
               "type": "course",
@@ -22,7 +23,8 @@
                 "tag": "3",
                 "text": "Applied Hydrogeochemisty w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -37,7 +39,8 @@
                 "tag": "4",
                 "text": "Groundwater Hydrology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -52,7 +55,8 @@
                 "tag": "5",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -67,7 +71,8 @@
                 "tag": "6",
                 "text": "Organic Chemistry I with Lab or Physical Chemistry for Life Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -85,7 +90,120 @@
                 "tag": "7",
                 "text": "Hydrogeology Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "minimumCredits": {
+            "min": 16
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": 2,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [
+            "202040",
+            "202110",
+            "202140"
+          ],
+          "notes": [
+            "A minimum of nine (9) unique credits is required to complete a minor. ",
+            "A minimum grade of C is required for each course applied to this minor."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {
+            "ALLBLOCKS_ANY": 7
+          }
+        },
+        {
+          "startTerm": "201110",
+          "endTerm": "201540",
+          "requirementAuthority": "RA000305",
+          "dw_req_id": "RA000305",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 336"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "3",
+                "text": "Applied Hydrogeochemisty w/Lab"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 422"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Groundwater Hydrology"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "MAT 244"
+                ],
+                "hidden": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Calculus II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "CHE 216",
+                  "CHE 322"
+                ]
+              },
+              "label": {
+                "tag": "6",
+                "text": "Organic Chemistry I with Lab or Physical Chemistry for Life Science"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "EES 436",
+                  "EES 457",
+                  "EES 460",
+                  "EES 480",
+                  "EES 491"
+                ]
+              },
+              "label": {
+                "tag": "7",
+                "text": "Hydrogeology Elective"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {
@@ -114,6 +232,7 @@
           "startTerm": "201610",
           "endTerm": "999999",
           "requirementAuthority": "RA000306",
+          "dw_req_id": "RA000306",
           "rules": [
             {
               "type": "course",
@@ -128,7 +247,8 @@
                 "tag": "3",
                 "text": "Applied Hydrogeochemisty w/Lab"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -143,7 +263,8 @@
                 "tag": "4",
                 "text": "Groundwater Hydrology"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -158,7 +279,8 @@
                 "tag": "5",
                 "text": "Calculus II"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "3"
             },
             {
               "type": "course",
@@ -173,7 +295,8 @@
                 "tag": "6",
                 "text": "Organic Chemistry I with Lab or Physical Chemistry for Life Science"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "4"
             },
             {
               "type": "course",
@@ -191,7 +314,8 @@
                 "tag": "7",
                 "text": "Hydrogeology Elective"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "5"
             }
           ],
           "minimumCredits": {

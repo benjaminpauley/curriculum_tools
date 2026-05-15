@@ -1,0 +1,100 @@
+{
+  "universityName": "Eastern Connecticut State University",
+  "concentrations": {
+    "WOLC": {
+      "programName": "Minor Concentration in World Languages & Culture",
+      "versions": [
+        {
+          "startTerm": "000000",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002868",
+          "dw_req_id": "RA002868",
+          "rules": [
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FRE 110"
+                ]
+              },
+              "label": {
+                "tag": "2",
+                "text": "Introductory French I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "1"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": [
+                  "FRE 111"
+                ]
+              },
+              "label": {
+                "tag": "3",
+                "text": "Introductory French II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "2"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": []
+              },
+              "label": {
+                "tag": "4",
+                "text": "Intermediate French I"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "3"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": []
+              },
+              "label": {
+                "tag": "5",
+                "text": "Intermediate French II"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "4"
+            },
+            {
+              "type": "course",
+              "courses": {
+                "connector": "or",
+                "courses": []
+              },
+              "label": {
+                "tag": "6",
+                "text": "Study"
+              },
+              "minClasses": 1,
+              "dw_rule_id": "5"
+            }
+          ],
+          "degreeType": "BGS",
+          "minimumCredits": {
+            "min": 30
+          },
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": 15,
+          "maximumFailingCreditsAllowed": 0,
+          "crGradesNotAllowedTerms": [],
+          "notes": [],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
+        }
+      ]
+    }
+  }
+}

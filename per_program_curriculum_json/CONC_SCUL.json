@@ -8,6 +8,7 @@
           "startTerm": "201310",
           "endTerm": "999999",
           "requirementAuthority": "RA000073",
+          "dw_req_id": "RA000073",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "1",
                     "text": "Two Dimensional Design Elements"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "2",
                     "text": "Color Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "2.1",
                     "text": "Digital Imaging and Online Media"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "3",
                     "text": "Relief Printmaking I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "3.1",
                     "text": "Drawing I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "4",
                     "text": "Sculpture I"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,7 +122,8 @@
                     "tag": "4.1",
                     "text": "Art History I:Pre-History-1400"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -130,7 +138,8 @@
                     "tag": "4.2",
                     "text": "Art History II:1400-Present"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 },
                 {
                   "type": "course",
@@ -146,7 +155,8 @@
                     "tag": "5",
                     "text": "Wood Sculpture or Figure Modeling"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-8"
                 },
                 {
                   "type": "course",
@@ -161,7 +171,8 @@
                     "tag": "6",
                     "text": "Metal Construction"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-9"
                 },
                 {
                   "type": "course",
@@ -177,7 +188,8 @@
                     "tag": "7",
                     "text": "Sculpture II"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-10"
                 },
                 {
                   "type": "course",
@@ -192,13 +204,15 @@
                     "tag": "8",
                     "text": "Senior Project in Studio Art"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-11"
                 }
               ],
               "label": {
                 "tag": "9",
                 "text": "REQUIRED CONCENTRATION COURSES"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -215,7 +229,8 @@
                 "tag": "10",
                 "text": "3-D Foundation Course"
               },
-              "minClasses": 1
+              "minClasses": 1,
+              "dw_rule_id": "2"
             },
             {
               "type": "course",
@@ -243,7 +258,8 @@
                 "tag": "11",
                 "text": "Concentration Electives"
               },
-              "minClasses": 3
+              "minClasses": 3,
+              "dw_rule_id": "3"
             }
           ],
           "minimumCredits": null,

@@ -8,6 +8,7 @@
           "startTerm": "200840",
           "endTerm": "201450",
           "requirementAuthority": "RA000494",
+          "dw_req_id": "RA000494",
           "rules": [
             {
               "type": "subset",
@@ -25,7 +26,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -40,7 +42,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -55,7 +58,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -70,7 +74,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -85,7 +90,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -100,7 +106,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -115,13 +122,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -177,7 +186,8 @@
                 "tag": "15",
                 "text": "Major Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -209,6 +219,7 @@
           "startTerm": "201510",
           "endTerm": "201820",
           "requirementAuthority": "RA001683",
+          "dw_req_id": "RA001683",
           "rules": [
             {
               "type": "subset",
@@ -226,7 +237,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -241,7 +253,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -256,7 +269,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -271,7 +285,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -286,7 +301,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -301,7 +317,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -316,13 +333,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -378,7 +397,8 @@
                 "tag": "15",
                 "text": "Major Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -408,6 +428,7 @@
           "startTerm": "201840",
           "endTerm": "201850",
           "requirementAuthority": "RA000201",
+          "dw_req_id": "RA000201",
           "rules": [
             {
               "type": "subset",
@@ -425,7 +446,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -440,7 +462,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -455,7 +478,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -470,7 +494,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -485,7 +510,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -500,7 +526,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -515,13 +542,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -577,7 +606,8 @@
                 "tag": "15",
                 "text": "Major Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -607,6 +637,7 @@
           "startTerm": "201910",
           "endTerm": "201950",
           "requirementAuthority": "RA000495",
+          "dw_req_id": "RA000495",
           "rules": [
             {
               "type": "subset",
@@ -624,7 +655,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -639,7 +671,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -654,7 +687,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -669,7 +703,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -684,7 +719,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -699,7 +735,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -714,13 +751,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "course",
@@ -776,7 +815,8 @@
                 "tag": "15",
                 "text": "Major Electives"
               },
-              "minCredits": 15
+              "minCredits": 15,
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -801,9 +841,10 @@
           }
         },
         {
-          "startTerm": "202040",
+          "startTerm": "202010",
           "endTerm": "202150",
           "requirementAuthority": "RA001473",
+          "dw_req_id": "RA001473",
           "rules": [
             {
               "type": "subset",
@@ -821,7 +862,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -836,7 +878,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -851,7 +894,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -866,7 +910,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -881,7 +926,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -896,7 +942,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -911,13 +958,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -932,7 +981,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -958,12 +1008,14 @@
                         "tag": "16",
                         "text": "Communication Generalist Concentration Requirements"
                       },
-                      "minCredits": 15
+                      "minCredits": 15,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -995,6 +1047,7 @@
           "startTerm": "202210",
           "endTerm": "202450",
           "requirementAuthority": "RA001911",
+          "dw_req_id": "RA001911",
           "rules": [
             {
               "type": "subset",
@@ -1012,7 +1065,8 @@
                     "tag": "7",
                     "text": "Introduction To Mass Communications"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-0"
                 },
                 {
                   "type": "course",
@@ -1027,7 +1081,8 @@
                     "tag": "8",
                     "text": "Interpersonal Communication"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-1"
                 },
                 {
                   "type": "course",
@@ -1042,7 +1097,8 @@
                     "tag": "8.1",
                     "text": "Public Speaking"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-2"
                 },
                 {
                   "type": "course",
@@ -1057,7 +1113,8 @@
                     "tag": "9",
                     "text": "Communication Law and Ethics"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-3"
                 },
                 {
                   "type": "course",
@@ -1072,7 +1129,8 @@
                     "tag": "10",
                     "text": "Communication Writing"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-4"
                 },
                 {
                   "type": "course",
@@ -1087,7 +1145,8 @@
                     "tag": "11",
                     "text": "Communications Research"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-5"
                 },
                 {
                   "type": "course",
@@ -1102,7 +1161,8 @@
                     "tag": "12",
                     "text": "Mass Communication Theory"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-6"
                 },
                 {
                   "type": "course",
@@ -1117,13 +1177,15 @@
                     "tag": "13",
                     "text": "Internship"
                   },
-                  "minClasses": 1
+                  "minClasses": 1,
+                  "dw_rule_id": "1-7"
                 }
               ],
               "label": {
                 "tag": "14",
                 "text": "CORE REQUIREMENTS"
-              }
+              },
+              "dw_rule_id": "1"
             },
             {
               "type": "if_else",
@@ -1138,7 +1200,8 @@
                       "label": {
                         "tag": "15",
                         "text": "Concentration Requirements"
-                      }
+                      },
+                      "dw_rule_id": "2-0"
                     }
                   ],
                   "conditionType": "static"
@@ -1164,12 +1227,14 @@
                         "tag": "16",
                         "text": "Communication Generalist Concentration Requirements"
                       },
-                      "minCredits": 15
+                      "minCredits": 15,
+                      "dw_rule_id": "2-1"
                     }
                   ],
                   "conditionType": "static"
                 }
-              ]
+              ],
+              "dw_rule_id": "2"
             }
           ],
           "declaredMajor": "COMM",
@@ -1196,6 +1261,27 @@
             "CONC_SPMG": 12,
             "CONC_PUBH": 3
           }
+        },
+        {
+          "startTerm": "202510",
+          "endTerm": "999999",
+          "requirementAuthority": "RA002691",
+          "dw_req_id": "RA002691",
+          "rules": [],
+          "declaredMajor": "COMM",
+          "minimumCredits": null,
+          "minimumGPA": null,
+          "minimumGradePerCourse": null,
+          "residencyCredits": null,
+          "maximumFailingCreditsAllowed": null,
+          "crGradesNotAllowedTerms": [],
+          "notes": [
+            "The major in Communication is no longer offered.",
+            "Please contact your advisor to discuss the Communication, Film and Theatre major."
+          ],
+          "maxClassesPerCourse": [],
+          "maxCreditsPerCourse": [],
+          "sharingCredits": {}
         }
       ]
     }
